@@ -1,0 +1,2522 @@
+# <!=Copyright (C) 2020
+# This file is distributed under the same license as the  package.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://www.buddyboss.com/contact/\n"
+"POT-Creation-Date: 2022-10-07 11:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: BuddyBoss <support@buddyboss.com>\n"
+"Language-Team: BuddyBoss <support@buddyboss.com>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: loop\n"
+"X-Poedit-SearchPathExcluded-2: js\n"
+"X-Poedit-SearchPathExcluded-3: buddyboss-inc/buddyboss-"
+"framework/admin/sample\n"
+"X-Poedit-SearchPathExcluded-4: *.js\n"
+
+#: single-events-manager.php:49
+msgid " @ "
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:105
+msgid "\">Appearance > Customize</a> in the Site Identity section."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:463
+msgid "\"My Profile\" Menu"
+msgstr ""
+
+#: buddypress/members/single/groups/invites.php:16
+#, php-format
+msgid "%s members"
+msgstr ""
+
+#: comments.php:49 docs/single/comments.php:65
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: image.php:43
+msgid "&larr; Previous"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-widgets/buddyboss-profile-widget-loader.php:18
+msgid "(BuddyBoss) Profile Login Widget"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-widgets/buddyboss-profile-widget-loader.php:123
+msgid "(BuddyBoss) Recent Posts"
+msgstr ""
+
+#: buddypress/members/single/member-header.php:43
+msgid ", "
+msgstr ""
+
+#. no option picked in select box
+#: buddypress/forums/index.php:93
+msgid "----"
+msgstr ""
+
+#: 404.php:18
+msgid "404"
+msgstr ""
+
+#. 1: user profile link, 2: user name, 3: activity permalink, 4: activity timestamp
+#: buddypress/activity/comment.php:27
+#, php-format
+msgid ""
+"<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-"
+"since\"><span class=\"time-since\">%4$s</span></a>"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1395
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but "
+"more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1393
+#, php-format
+msgid ""
+"<p>To access any of your saved options from within your code you can use "
+"your global variable: <strong>$%1$s</strong></p>"
+msgstr ""
+
+#: buddypress-global-search/loop/group.php:23
+#, php-format
+msgid "<span class=\"count\">%s</span> <span>member</span>"
+msgid_plural "<span class=\"count\">%s</span> <span>members</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: image.php:27
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span "
+"class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time>"
+"</span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">"
+"%8$s</a>."
+msgstr ""
+
+#: tree/tree-loop.php:69 buddypress/groups/groups-loop.php:67
+#, php-format
+msgid ""
+"<span class=\"meta-wrap\"><span class=\"count\">%1s</span> <span>"
+"member</span></span>"
+msgid_plural ""
+"<span class=\"meta-wrap\"><span class=\"count\">%1s</span> <span>"
+"members</span></span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bpge/front/extras_fields_list.php:8
+msgid "<u>not</u> displayed"
+msgstr ""
+
+#: bpge/front/extras_fields_list.php:9
+msgid "<u>not</u> required"
+msgstr ""
+
+#: author.php:40
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: buddypress/members/single/groups/invites.php:30
+msgid "Accept"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:122
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:135
+msgid "Accordion"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:319
+msgid "Action"
+msgstr ""
+
+#: buddyboss-inbox/drafts.php:37
+#: buddyboss-inbox/members/single/messages/messages-loop.php:23
+#: buddypress/members/single/notifications/notifications-loop.php:10
+#: buddypress/members/single/notifications/notifications-loop.php:45
+#: buddypress/members/single/messages/messages-loop.php:33
+msgid "Actions"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:357
+msgid "Activate"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:327
+msgid "Active"
+msgstr ""
+
+#: tree/tree-loop.php:55 buddypress-global-search/loop/group.php:9
+#: buddypress/groups/groups-loop.php:53
+#: buddypress/groups/single/group-header.php:37
+#, php-format
+msgid "active %s"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:565
+msgid "Active link color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:160
+msgid "Activity Infinite Scrolling"
+msgstr ""
+
+#: buddypress/activity/index.php:64
+msgid "Activity that I have been mentioned in."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:425
+msgid ""
+"Add a different slider without editing code. Many of the popular slider "
+"plugins provide shortcodes to display their slides, which you can add here."
+msgstr ""
+
+#: buddyboss-inbox/members/single/messages.php:47
+msgid "Add Label"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1016
+msgid "Admin Login"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:560
+msgid "Admin Screen"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:561
+msgid "Admin Screen Background Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:563
+msgid "Admin Screen Links and Button Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:562
+msgid "Admin Screen Text Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:445
+msgid "Adminbar"
+msgstr ""
+
+#: buddyboss-media/global-media-albums.php:26
+msgid "All Albums"
+msgstr ""
+
+#: buddypress/groups/create.php:119
+msgid "All group members"
+msgstr ""
+
+#: buddypress/groups/index.php:52
+#, php-format
+msgid "All Groups <span>%s</span>"
+msgstr ""
+
+#: buddypress/activity/index.php:24 buddypress/members/index.php:40
+#, php-format
+msgid "All Members <span>%s</span>"
+msgstr ""
+
+#: buddyboss-media/global-media-albums.php:25
+msgid "All Photos"
+msgstr ""
+
+#: buddypress/blogs/index.php:33
+#, php-format
+msgid "All Sites <span>%s</span>"
+msgstr ""
+
+#: buddypress/forums/index.php:22
+#, php-format
+msgid "All Topics <span>%s</span>"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:161
+msgid ""
+"Allow content in all Activity Streams to automatically load more as you "
+"scroll down the page."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:478
+msgid "Allow users to display their social media links in their profiles."
+msgstr ""
+
+#: tree/index-compat.php:21 buddypress/blogs/index.php:14
+#: buddypress/groups/index.php:20 buddypress/members/index.php:19
+msgid "Alphabetical"
+msgstr ""
+
+#: buddypress-global-search/loop/message.php:14
+msgid "and you."
+msgstr ""
+
+#: buddypress/groups/create.php:56
+msgid "Any site member can join this group."
+msgstr ""
+
+#: content-none.php:17 index.php:88
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: docs/docs-loop.php:56
+msgid "Author"
+msgstr ""
+
+#: author.php:26
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: buddypress/groups/create.php:326
+msgid "Back to Previous Step"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:376
+msgid "Blog Cover Photo"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:371
+msgid "Blog Posts"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:535
+msgid "Body"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:536
+msgid "Body Background Color"
+msgstr ""
+
+#. Name of the theme
+msgid "Bokiy"
+msgstr ""
+
+#. Description of the theme
+msgid "Bokiy provides a whole new way of visualizing BuddyPress."
+msgstr ""
+
+#: buddypress/groups/single/frontpage.php:27
+msgid "Books"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:404
+msgid "Boss"
+msgstr ""
+
+#: template-parts/header-dashboard-links.php:15
+#: template-parts/header-dashboard-links.php:40
+msgid "Boss Options"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:410
+msgid "Boss Slider"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1303
+#: buddyboss-inc/buddyboss-framework/options-init.php:1304
+msgid "Boss Theme"
+msgstr ""
+
+#. Name of the template
+msgid "Boxed Template"
+msgstr ""
+
+#: functions.php:12
+msgid ""
+"BuddyBoss cannot find the starter file, should be located at: *wp root*/wp-"
+"content/themes/buddyboss/buddyboss-inc/init.php"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:243
+#: buddyboss-inc/buddyboss-framework/options-init.php:553
+msgid "BuddyPanel"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:554
+msgid "BuddyPanel Background Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:266
+msgid "BuddyPanel can default to open or closed on first page load."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:556
+msgid "BuddyPanel Icons Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:557
+msgid "BuddyPanel Open Icons Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:555
+msgid "BuddyPanel Title Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:334
+msgid "BuddyPress Field"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:342
+msgid "BuddyPress Groups"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:304
+msgid "BuddyPress Profiles"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:123
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:261
+msgid "Button"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:336
+msgid "Button bottom margin"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:306
+msgid "Button FontAwesome icon"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:265
+msgid "Button label"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:276
+msgid "Button link"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:291
+msgid "Button size"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:318
+msgid "Button type"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:534
+msgid "Buttons Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:124
+msgid "Buttons Group"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:371
+msgid "Buy Now"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1129
+msgid ""
+"By default the theme loads scripts that are not minified. Set this to YES to "
+"instead load minified and combined JS files."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1120
+msgid ""
+"By default the theme loads stylesheets that are not minified. Set this to "
+"YES to instead load minified and combined stylesheets."
+msgstr ""
+
+#: buddypress/activity/entry.php:121 buddypress/forums/index.php:111
+#: buddyboss-wall/bp-legacy/activity/entry.php:125
+msgid "Cancel"
+msgstr ""
+
+#: bpge/front/extras_fields_list.php:13
+msgid "Change its title, description etc"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:1
+msgid "Change Profile Photo"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:928
+msgid "Change section colors based on these presets."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:115
+msgid "Choose a shortcode from the list."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:319
+msgid "Choose button type."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:195
+msgid "Choose size."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:176
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:209
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:408
+msgid "Choose style."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:292
+msgid "Choose the size of your button here."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:21
+msgid ""
+"Click below to select a JPG, GIF or PNG format photo from your computer and "
+"then click 'Upload Image' to proceed."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:268
+msgid "Closed"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:244
+msgid "Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:927
+msgid "Color Presets"
+msgstr ""
+
+#: comments.php:70 docs/single/comments.php:86
+msgid "Comment"
+msgstr ""
+
+#: comments.php:48 docs/single/comments.php:64
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:38
+msgid "Comments"
+msgstr ""
+
+#: comments.php:59 docs/single/comments.php:75
+msgid "Comments are closed."
+msgstr ""
+
+#: buddypress/forums/index.php:84
+msgid "Content:"
+msgstr ""
+
+#. %s: Name of current post
+#: single.php:47
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:72
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: buddypress-global-search/loop/message.php:5
+msgid "Conversation between"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:978
+msgid "Copyright Text"
+msgstr ""
+
+#. Name of the template
+msgid "course"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:559
+msgid "Cover Photo Background"
+msgstr ""
+
+#: buddyboss-inc/cover-photo.php:595
+msgid "Cover photo is removed."
+msgstr ""
+
+#: buddyboss-inc/cover-photo.php:476 buddyboss-inc/cover-photo.php:575
+msgid "Cover photo is successfully updated."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:317
+#: buddyboss-inc/buddyboss-framework/options-init.php:355
+#: buddyboss-inc/buddyboss-framework/options-init.php:385
+msgid "Cover Photo Size"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:296
+#: buddyboss-inc/buddyboss-framework/options-init.php:558
+msgid "Cover Photos"
+msgstr ""
+
+#: buddypress/groups/create.php:340
+msgid "Create Group and Continue"
+msgstr ""
+
+#: bpge/front/extras_pages_add_edit.php:51
+msgid "Create New"
+msgstr ""
+
+#: buddypress/forums/index.php:77
+msgid "Create New Topic:"
+msgstr ""
+
+#: docs/docs-loop.php:61
+msgid "Created"
+msgstr ""
+
+#: buddypress/groups/create.php:183
+msgid "Crop Group Profile Photo"
+msgstr ""
+
+#: buddypress/groups/create.php:191
+#: buddypress/members/single/profile/change-avatar.php:46
+msgid "Crop Image"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:38
+msgid "Crop Your New Profile Photo"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1073
+msgid "CSS"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1050
+msgid "Custom Codes"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1042
+msgid "Custom Colors"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1024
+msgid "Custom Login Screen"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1035
+msgid "Custom Logo"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:327
+msgid "Danger"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:414
+msgid "Dark"
+msgstr ""
+
+#: template-parts/header-dashboard-links.php:14
+#: template-parts/header-dashboard-links.php:39
+#: template-parts/header-dashboard-links.php:60
+#: template-parts/header-dashboard-links.php:68
+msgid "Dashboard"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:454
+msgid "Dashboard Links"
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:9
+#: buddypress/members/single/notifications/notifications-loop.php:44
+msgid "Date Received"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:352
+msgid "Deactivate"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:181
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:200
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:214
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:250
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:297
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:324
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:369
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:413
+msgid "Default"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:245
+msgid "Default is the main site color."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:150
+msgid "Default opened element"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:325
+#: buddyboss-inc/buddyboss-framework/options-init.php:363
+msgid "Default Photo"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:265
+msgid "Default State"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:999
+msgid ""
+"Define and reorder your social icons in the footer. Keep the input field "
+"empty for any social icon you do not wish to display."
+msgstr ""
+
+#: buddyboss-inbox/drafts.php:99 buddyboss-inbox/drafts.php:170
+#: buddypress/activity/comment.php:45
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:361
+#: buddyboss-inbox/members/single/messages/messages-loop.php:66
+#: buddypress/members/single/messages/notices-loop.php:30
+#: buddypress/members/single/messages/messages-loop.php:86
+msgid "Delete"
+msgstr ""
+
+#: buddypress/members/single/messages/notices-loop.php:30
+msgid "Delete Message"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:31
+msgid "Delete My Profile Photo"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:31
+msgid "Delete Profile Photo"
+msgstr ""
+
+#: bpge/front/extras_fields_list.php:14
+msgid "Delete this item and all its content"
+msgstr ""
+
+#: buddypress/groups/single/frontpage.php:22
+msgid "Description"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:174
+msgid "Desktop"
+msgstr ""
+
+#: docs/single/comments.php:53
+#, php-format
+msgid "Discussion (%d)"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:208
+#: buddyboss-inc/buddyboss-framework/options-init.php:222
+#: buddyboss-inc/buddyboss-framework/options-init.php:258
+msgid "Display"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:232
+msgid "Display (above other links)"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:233
+msgid "Display (below other links)"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:335
+msgid "Display an xProfile field in the cover photo."
+msgstr ""
+
+#: bpge/front/extras_pages_add_edit.php:37
+msgid "Display it"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:257
+msgid "Display or hide the BuddyPanel for logged out users."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:207
+msgid "Display or hide the layout switch button in your site footer."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-widgets/buddyboss-profile-widget-loader.php:268
+msgid "Display post date?"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:446
+msgid "Display the adminbar for logged in admin users."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:377
+msgid "Display the blog post&apos;s featured image as a cover photo."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:464
+msgid ""
+"Display the WordPress menu titled \"My Profile\" in the user profile "
+"dropdown menu."
+msgstr ""
+
+#: bpge/front/extras_fields_list.php:8
+msgid "displayed"
+msgstr ""
+
+#: bpge/front/extras_pages_add_edit.php:41
+msgid "Do NOT display it"
+msgstr ""
+
+#: bpge/front/extras_general.php:35
+#, php-format
+msgid ""
+"Do you want to make <strong>\"%s\"</strong> page public (extra group pages "
+"will be displayed there)?"
+msgstr ""
+
+#: bpge/front/extras_general.php:9
+#, php-format
+msgid ""
+"Do you want to make <strong>\"%s\"</strong> page public? Everyone will see "
+"this page."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1187
+#: buddyboss-inc/buddyboss-framework/options-init.php:1219
+msgid "Documentation"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:234
+msgid "Don't enter \"%\", just the number e.g. \"30\"."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:337
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:380
+msgid "Don't enter \"px\", just the number e.g. \"30\"."
+msgstr ""
+
+#: buddyboss-inbox/drafts.php:61 buddyboss-inbox/drafts.php:79
+#: buddyboss-inbox/drafts.php:90 buddyboss-inbox/drafts.php:135
+#: buddyboss-inbox/drafts.php:150 buddyboss-inbox/drafts.php:161
+msgid "Draft"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:125
+msgid "Dropdown"
+msgstr ""
+
+#: bbpress.php:40 content-page.php:23 page-events.php:53
+#: content-buddypress.php:16 image.php:39 single-events-manager.php:79
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:320
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:399
+msgid "Edit"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-widgets/buddyboss-profile-widget-loader.php:65
+msgid "Edit Profile"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1043
+msgid ""
+"Edit the admin login screen colors in the <a href=\"javascript:void(0);\" "
+"class=\"redux-group-tab-link-a\" data-key=\"7\" data-rel=\"7\">Styling "
+"section</a>, under the \"Admin Screen\"."
+msgstr ""
+
+#: archive-course.php:29 buddypress/groups/single/frontpage.php:24
+msgid "Education centers"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:308
+msgid ""
+"Enter class <a href=\"http://fontawesome.io/icons/\" target=\"_blank\">http:"
+"//fontawesome.io/icons/</a>"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1147
+msgid ""
+"Enter CSS selector, describing inputs to be excluded from Form Inputs "
+"JavaScript"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:151
+msgid ""
+"Enter the number (1, 2, 3, etc.) of the accordion element to open first. If "
+"you want them all closed leave this blank."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:140
+msgid "Enter the number of accordion elements."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:353
+msgid "Enter the number of buttons."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:167
+msgid "Enter the number of tabs."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:979
+msgid "Enter your custom copyright text."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1233
+msgid "Entry Content"
+msgstr ""
+
+#: 404.php:18
+msgid "error"
+msgstr ""
+
+#: buddyboss-inc/cover-photo.php:346
+msgid "Error refreshing cover photo."
+msgstr ""
+
+#: buddyboss-inc/cover-photo.php:345
+msgid "Error uploading cover photo."
+msgstr ""
+
+#: buddyboss-inc/cover-photo.php:481
+msgid "Error while uploading the cover photo, try later again."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:280
+#, php-format
+msgid "ERROR: Error fetching plugin information: %s"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:239
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:255
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:297
+#, php-format
+msgid "ERROR: Failed to install plugin: %s"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:266
+msgid "ERROR: No slug was passed to the AJAX callback."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:272
+msgid "ERROR: You lack permissions to install and/or activate plugins."
+msgstr ""
+
+#. Author of the theme
+msgid "eson.uz"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:427
+msgid ""
+"Ex:<br /><br />&lt;span title=\"Tooltip text\"&gt;This becomes a tooltip&lt;"
+"/span&gt;"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:396
+msgid ""
+"Example:<br /><br />&lt;ul&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;List "
+"item one&lt;/li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;List item with "
+"dropdowns:&lt;/li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br />&nbsp;"
+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Subitem 1&lt;/li&gt;<br "
+"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Subitem 2&lt;"
+"/li&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br />&nbsp;&nbsp;&nbsp;"
+"&nbsp;&lt;li&gt;Final list item&lt;/li&gt;<br />&lt;/ul&gt;"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1146
+msgid "Excluded Inputs"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:104
+msgid "Favicon"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1382
+msgid "Find us on LinkedIn"
+msgstr ""
+
+#: buddypress/groups/create.php:347
+msgid "Finish"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:149
+msgid "Fluid vs Boxed"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1377
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: buddypress/members/members-loop.php:77
+#: buddypress/members/single/member-header.php:155
+#: buddypress/members/single/friends/requests.php:58
+msgid "Followers"
+msgstr ""
+
+#: buddypress/members/single/member-header.php:151
+msgid "Following"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:537
+#: buddyboss-inc/buddyboss-framework/options-init.php:971
+msgid "Footer"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:540
+msgid "Footer Bottom Background Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:539
+msgid "Footer Bottom Text Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:538
+msgid "Footer Widgets Background Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:455
+msgid ""
+"For admin users, display links to the WordPress dashboard in their profile "
+"dropdown menu."
+msgstr ""
+
+#: buddypress/members/members-loop.php:72
+#: buddypress/members/single/friends/requests.php:53
+msgid "Friend"
+msgstr ""
+
+#: buddypress/members/members-loop.php:70
+#: buddypress/members/single/member-header.php:162
+#: buddypress/members/single/friends/requests.php:51
+msgid "Friends"
+msgstr ""
+
+#: buddyboss-inbox/drafts.php:22
+#: buddyboss-inbox/members/single/messages/messages-loop.php:18
+#: buddypress/members/single/messages/messages-loop.php:18
+msgid "From"
+msgstr ""
+
+#: buddyboss-inbox/members/single/messages/messages-loop.php:43
+#: buddypress/members/single/messages/messages-loop.php:51
+msgid "From:"
+msgstr ""
+
+#. Name of the template
+msgid "Front Page Template"
+msgstr ""
+
+#. Name of the template
+msgid "Full Calendar Template"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Content"
+msgstr ""
+
+#: buddyboss-inc/cover-photo.php:307 buddyboss-inc/cover-photo.php:348
+msgid "Get a random cover photo"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:417
+msgid "Give us a link!"
+msgstr ""
+
+#: buddyboss-inbox/members/single/messages/single.php:9
+msgid "Go to Inbox"
+msgstr ""
+
+#: docs/docs-loop.php:86
+msgid "Go up one folder"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:252
+msgid "Green"
+msgstr ""
+
+#: buddypress/groups/single/group-header.php:70
+msgid "Group"
+msgstr ""
+
+#: sidebar-buddypress.php:65 docs/single/history.php:86
+#: docs/single/index.php:87 docs/single/edit.php:86
+#: buddypress/groups/single/group-header.php:141
+msgid "Group Admins"
+msgstr ""
+
+#: buddypress/groups/create.php:124
+msgid "Group admins and mods only"
+msgstr ""
+
+#: buddypress/groups/create.php:129
+msgid "Group admins only"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:379
+msgid "Group bottom margin"
+msgstr ""
+
+#: buddypress/groups/create.php:58
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: buddypress/groups/create.php:69 buddypress/groups/create.php:80
+msgid ""
+"Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:347
+msgid "Group Cover Photo"
+msgstr ""
+
+#: buddypress/groups/create.php:34
+msgid "Group Description (required)"
+msgstr ""
+
+#: sidebar-buddypress.php:57 docs/single/history.php:77
+#: docs/single/index.php:78 docs/single/edit.php:77
+msgid "Group Info"
+msgstr ""
+
+#: buddypress/groups/create.php:112
+msgid "Group Invitations"
+msgstr ""
+
+#: sidebar-buddypress.php:74 docs/single/history.php:95
+#: docs/single/index.php:96 docs/single/edit.php:95
+#: buddypress/groups/single/group-header.php:152
+msgid "Group Mods"
+msgstr ""
+
+#: buddypress/groups/create.php:29
+msgid "Group Name (required)"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:363
+msgid "Group type"
+msgstr ""
+
+#: sidebar-buddypress.php:89
+msgid "Group Types"
+msgstr ""
+
+#: buddypress-sidewide.php:35
+msgid "Groups"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:112
+msgid "Header"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:530
+msgid "Headings Color"
+msgstr ""
+
+#: buddypress/groups/single/group-header.php:60
+msgid "Hidden"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:209
+#: buddyboss-inc/buddyboss-framework/options-init.php:223
+#: buddyboss-inc/buddyboss-framework/options-init.php:234
+#: buddyboss-inc/buddyboss-framework/options-init.php:259
+msgid "Hide"
+msgstr ""
+
+#: docs/docs-loop.php:36
+msgid "Hide Folders"
+msgstr ""
+
+#: bpge/front/extras_general.php:13 bpge/front/extras_general.php:39
+msgid "Hide it"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:394
+msgid "Homepage Slides"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.eson.uz"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.eson.uz/"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:30
+msgid ""
+"If you'd like to delete your current profile photo but not upload a new one, "
+"please use the delete profile photo button."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1202
+msgid "Import / Export"
+msgstr ""
+
+#: bbpress/loop-single-reply.php:21
+msgid "in reply to: "
+msgstr ""
+
+#: bbpress/loop-single-topic.php:72
+#, php-format
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:330
+msgid "Inactive"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:439
+msgid "Insert shortcode"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:367
+msgid "Install"
+msgstr ""
+
+#: buddyboss-inc/cover-photo.php:409 buddyboss-inc/cover-photo.php:417
+#: buddyboss-inc/cover-photo.php:508 buddyboss-inc/cover-photo.php:516
+msgid "Invalid request try again later."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:328
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:370
+msgid "Inverse"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Go Back or Maybe try a "
+"search?"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1091
+msgid "JavaScript"
+msgstr ""
+
+#: buddyboss-inbox/members/single/messages/messages-loop.php:21
+msgid "Label"
+msgstr ""
+
+#: buddyboss-inbox/members/single/messages.php:32
+msgid "Labels"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:299
+msgid "Large"
+msgstr ""
+
+#: tree/index-compat.php:18 buddypress/blogs/index.php:12
+#: buddypress/groups/index.php:17 buddypress/members/index.php:15
+#: buddypress/forums/index.php:38
+msgid "Last Active"
+msgstr ""
+
+#: docs/docs-loop.php:65
+msgid "Last Edited"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:140
+msgid "Layout"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1372
+msgid "Like us on Facebook"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:533
+msgid "Link Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:532
+msgid "Links and Buttons"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:311
+msgid "List of supported plugins."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-widgets/buddyboss-profile-widget-loader.php:92
+msgid "Log In"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:256
+msgid "Logged Out Users"
+msgstr ""
+
+#: template-parts/header-profile.php:157 template-parts/left-panel.php:38
+msgid "Login"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:66
+msgid "Logo"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:542
+msgid "Logo Area Background"
+msgstr ""
+
+#: template-parts/header-profile.php:131 template-parts/left-panel.php:43
+msgid "Logout"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:182
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:298
+msgid "Long"
+msgstr ""
+
+#: docs/docs-loop.php:31
+msgid "Manage Folders"
+msgstr ""
+
+#: buddypress/activity/entry.php:75
+#: buddyboss-wall/bp-legacy/activity/entry.php:79
+msgid "Mark as Favorite"
+msgstr ""
+
+#: buddypress/groups/single/group-header.php:84
+msgid "Member"
+msgid_plural "Members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: buddypress/activity/index.php:64
+msgid "Mentions"
+msgstr ""
+
+#: template-parts/header-fluid-layout-column.php:16
+#: buddyboss-inc/buddyboss-framework/options-init.php:440
+msgid "Menu"
+msgstr ""
+
+#: buddyboss-inbox/members/single/messages/compose.php:36
+#: buddypress/members/single/messages/compose.php:20
+msgid "Message"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:88
+msgid "Mini Logo"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1119
+msgid "Minify CSS"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1128
+msgid "Minify JavaScript"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1227
+msgid "Miscellaneous"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:215
+msgid "Mobile options"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:551
+msgid "Mobile Titlebar Background Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:552
+msgid "Mobile Titlebar Text Color"
+msgstr ""
+
+#: buddyboss-inc/init.php:276
+msgid "Module does not have the proper info array"
+msgstr ""
+
+#: tree/index-compat.php:19 buddypress/groups/index.php:18
+msgid "Most Members"
+msgstr ""
+
+#: buddypress/forums/index.php:39
+msgid "Most Posts"
+msgstr ""
+
+#: buddypress/activity/index.php:56
+#, php-format
+msgid "My Favorites <span>%s</span>"
+msgstr ""
+
+#: buddypress/activity/index.php:34 buddypress/members/index.php:43
+#, php-format
+msgid "My Friends <span>%s</span>"
+msgstr ""
+
+#: buddypress/groups/index.php:55 buddypress/activity/index.php:46
+#, php-format
+msgid "My Groups <span>%s</span>"
+msgstr ""
+
+#: buddypress/activity/post-form.php:43
+msgid "My Profile"
+msgstr ""
+
+#: template-parts/header-dashboard-links.php:6
+msgid "My Sites"
+msgstr ""
+
+#: buddypress/blogs/index.php:37
+#, php-format
+msgid "My Sites <span>%s</span>"
+msgstr ""
+
+#: buddypress/forums/index.php:26
+#, php-format
+msgid "My Topics <span>%s</span>"
+msgstr ""
+
+#: template-parts/header-dashboard-links.php:10
+msgid "Network Admin"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:283
+msgid "New window"
+msgstr ""
+
+#: comments.php:50 docs/single/comments.php:66
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: buddypress/blogs/index.php:13
+msgid "Newest"
+msgstr ""
+
+#: buddypress/members/index.php:16
+msgid "Newest Registered"
+msgstr ""
+
+#: tree/index-compat.php:20 buddypress/groups/index.php:19
+msgid "Newly Created"
+msgstr ""
+
+#: image.php:44
+msgid "Next &rarr;"
+msgstr ""
+
+#: buddypress/groups/create.php:333
+msgid "Next Step"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1123
+#: buddyboss-inc/buddyboss-framework/options-init.php:1132
+#: buddyboss-inc/buddyboss-framework/options-init.php:1140
+msgid "No"
+msgstr ""
+
+#. Name of the template
+msgid "No BuddyPanel"
+msgstr ""
+
+#: template-parts/header-profile.php:85
+msgid "No new notifications"
+msgstr ""
+
+#: index.php:73
+msgid "No posts to display"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:333
+msgid "Not Installed"
+msgstr ""
+
+#: content-none.php:13 index.php:84 search.php:40
+msgid "Nothing Found"
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:8
+#: buddypress/members/single/notifications/notifications-loop.php:43
+msgid "Notification"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:139
+msgid "Number of accordion elements"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:352
+msgid "Number of buttons"
+msgstr ""
+
+#: buddypress/activity/index.php:64
+#, php-format
+msgctxt "Number of new activity mentions"
+msgid "%s new"
+msgid_plural "%s new"
+msgstr[0] ""
+msgstr[1] ""
+
+#: buddyboss-inc/buddyboss-widgets/buddyboss-profile-widget-loader.php:264
+msgid "Number of posts to show:"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:166
+msgid "Number of tabs"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:77
+#: buddyboss-inc/buddyboss-framework/options-init.php:92
+#: buddyboss-inc/buddyboss-framework/options-init.php:164
+#: buddyboss-inc/buddyboss-framework/options-init.php:312
+#: buddyboss-inc/buddyboss-framework/options-init.php:350
+#: buddyboss-inc/buddyboss-framework/options-init.php:380
+#: buddyboss-inc/buddyboss-framework/options-init.php:448
+#: buddyboss-inc/buddyboss-framework/options-init.php:457
+#: buddyboss-inc/buddyboss-framework/options-init.php:466
+#: buddyboss-inc/buddyboss-framework/options-init.php:481
+#: buddyboss-inc/buddyboss-framework/options-init.php:982
+#: buddyboss-inc/buddyboss-framework/options-init.php:1002
+#: buddyboss-inc/buddyboss-framework/options-init.php:1028
+#: buddyboss-inc/buddyboss-framework/options-init.php:1061
+#: buddyboss-inc/buddyboss-framework/options-init.php:1077
+#: buddyboss-inc/buddyboss-framework/options-init.php:1095
+msgid "Off"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:76
+#: buddyboss-inc/buddyboss-framework/options-init.php:91
+#: buddyboss-inc/buddyboss-framework/options-init.php:163
+#: buddyboss-inc/buddyboss-framework/options-init.php:311
+#: buddyboss-inc/buddyboss-framework/options-init.php:349
+#: buddyboss-inc/buddyboss-framework/options-init.php:379
+#: buddyboss-inc/buddyboss-framework/options-init.php:447
+#: buddyboss-inc/buddyboss-framework/options-init.php:456
+#: buddyboss-inc/buddyboss-framework/options-init.php:465
+#: buddyboss-inc/buddyboss-framework/options-init.php:480
+#: buddyboss-inc/buddyboss-framework/options-init.php:981
+#: buddyboss-inc/buddyboss-framework/options-init.php:1001
+#: buddyboss-inc/buddyboss-framework/options-init.php:1027
+#: buddyboss-inc/buddyboss-framework/options-init.php:1060
+#: buddyboss-inc/buddyboss-framework/options-init.php:1076
+#: buddyboss-inc/buddyboss-framework/options-init.php:1094
+msgid "On"
+msgstr ""
+
+#: buddypress/groups/create.php:304
+#: buddypress/groups/single/send-invites.php:75
+msgid ""
+"Once you have built up friend connections you will be able to invite others "
+"to your group."
+msgstr ""
+
+#: buddypress/groups/create.php:78
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: buddypress/groups/create.php:67
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:267
+msgid "Opened"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1111
+msgid "Optimizations"
+msgstr ""
+
+#: tree/index-compat.php:15 buddypress/blogs/index.php:10
+#: buddypress/groups/index.php:14 buddypress/members/index.php:13
+#: buddypress/forums/index.php:36
+msgid "Order By:"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1137
+msgid "Output JavaScript on ALL form inputs"
+msgstr ""
+
+#: bpge/front/extras_pages_add_edit.php:15
+msgid "Page Content"
+msgstr ""
+
+#: bpge/front/extras_pages_add_edit.php:9
+msgid "Page Slug"
+msgstr ""
+
+#: bpge/front/extras_pages_add_edit.php:3
+#: buddyboss-inc/buddyboss-framework/options-init.php:505
+msgid "Page Title"
+msgstr ""
+
+#: bbpress.php:36 content-page.php:19 page-events.php:49 content.php:73
+#: single.php:54 image.php:94
+msgid "Pages:"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:229
+msgid "Panel Links"
+msgstr ""
+
+#: buddypress/groups/single/frontpage.php:217
+msgid "Pass the test"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-widgets/buddyboss-profile-widget-loader.php:85
+msgid "Password"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1058
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added before the closing of body tag."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:233
+msgid "Percent"
+msgstr ""
+
+#: content.php:44 buddypress-global-search/loop/post.php:4
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:196
+msgid "Phone"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:197
+msgid "Phones can only display mobile layout."
+msgstr ""
+
+#: bpge/front/extras_general.php:20
+msgid "Plain (field title and its data below)"
+msgstr ""
+
+#: bpge/front/extras_general.php:18
+#, php-format
+msgid "Please choose the layout for <strong>\"%s\"</strong> page"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:250
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:291
+msgid "Please ensure the file system is writable"
+msgstr ""
+
+#: bpge/front/extras_general.php:29
+msgid "Please specify the page name, where all custom pages will be displayed"
+msgstr ""
+
+#: bpge/front/extras_general.php:3
+msgid "Please specify the page name, where all fields will be displayed"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:317
+msgid "Plugin"
+msgstr ""
+
+#: template-parts/header-dashboard-links.php:19
+#: template-parts/header-dashboard-links.php:43
+#: buddyboss-inc/buddyboss-framework/options-init.php:1155
+msgid "Plugins"
+msgstr ""
+
+#: buddypress/members/single/member-header.php:144
+msgid "Point"
+msgid_plural "Points"
+msgstr[0] ""
+msgstr[1] ""
+
+#: buddypress/activity/entry.php:121
+#: buddyboss-wall/bp-legacy/activity/entry.php:125
+msgid "Post"
+msgstr ""
+
+#: buddypress/forums/index.php:90
+msgid "Post In Group Forum:"
+msgstr ""
+
+#: buddypress/forums/index.php:110
+msgid "Post Topic"
+msgstr ""
+
+#: buddypress/activity/post-form.php:68
+msgid "Post Update"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:73
+msgid "Primary Logo"
+msgstr ""
+
+#: buddypress/groups/create.php:51
+msgid "Privacy Options"
+msgstr ""
+
+#: buddypress/groups/single/group-header.php:62
+msgid "Private"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:309
+msgid "Profile Cover Photo"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:43
+msgid "Profile Photo preview"
+msgstr ""
+
+#: buddypress/groups/create.php:188
+msgid "Profile photo preview"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:40
+msgid "Profile Photo to crop"
+msgstr ""
+
+#: buddypress/groups/create.php:185
+msgid "Profile photo to crop"
+msgstr ""
+
+#: bpge/front/extras_general.php:22
+msgid "Profile style (in a table)"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:433
+msgid "Profiles"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:126
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:190
+msgid "Progress Bar"
+msgstr ""
+
+#: buddypress/groups/single/group-header.php:58
+msgid "Public"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:326
+#: buddyboss-inc/buddyboss-framework/options-init.php:364
+msgid "px ."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1074
+msgid ""
+"Quickly add some CSS here to make design adjustments. It is a much better "
+"solution then manually editing the theme. You may also consider using a "
+"child theme."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1092
+msgid ""
+"Quickly add some JavaScript code here. It is a much better solution then "
+"manually editing the theme. You may also consider using a child theme."
+msgstr ""
+
+#: buddyboss-inbox/members/single/messages/messages-loop.php:61
+#: buddypress/members/single/messages/messages-loop.php:81
+msgid "Read"
+msgstr ""
+
+#: content-blog.php:33
+msgid "Read more"
+msgstr ""
+
+#: index.php:77
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-widgets/buddyboss-profile-widget-loader.php:152
+msgid "Recent Posts"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:251
+msgid "Red"
+msgstr ""
+
+#: template-parts/header-profile.php:154 template-parts/left-panel.php:35
+#: buddyboss-inc/buddyboss-widgets/buddyboss-profile-widget-loader.php:95
+msgid "Register"
+msgstr ""
+
+#: buddypress/members/single/groups/invites.php:31
+msgid "Reject"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-widgets/buddyboss-profile-widget-loader.php:88
+msgid "Remember Me"
+msgstr ""
+
+#: buddyboss-inc/cover-photo.php:248
+msgid "Remove cover photo"
+msgstr ""
+
+#: buddyboss-inc/cover-photo.php:347
+msgid "Remove cover photo."
+msgstr ""
+
+#: buddypress/activity/entry.php:84
+#: buddyboss-wall/bp-legacy/activity/entry.php:88
+msgid "Remove Favorite"
+msgstr ""
+
+#: buddypress/groups/create.php:287
+#: buddypress/groups/single/send-invites.php:44
+msgid "Remove Invite"
+msgstr ""
+
+#: bpge/front/extras_general.php:51
+msgid "Rename the Home group page - Activity (for example) is far better."
+msgstr ""
+
+#: buddypress/groups/single/frontpage.php:25
+msgid "Repetitors"
+msgstr ""
+
+#: buddypress/activity/comment.php:37
+msgid "Reply"
+msgstr ""
+
+#: bpge/front/extras_fields_list.php:9
+msgid "required"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:169
+msgid ""
+"Responsive: We use device detection to determine the correct layout, with "
+"media queries as a fallback."
+msgstr ""
+
+#. Name of the template
+msgid "Right Sidebar"
+msgstr ""
+
+#: buddypress/activity/index.php:72
+msgid "RSS"
+msgstr ""
+
+#: buddypress/activity/index.php:72
+msgid "RSS Feed"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:284
+msgid "Same window"
+msgstr ""
+
+#: bpge/front/extras_pages_add_edit.php:56 bpge/front/extras_general.php:60
+msgid "Save Changes"
+msgstr ""
+
+#: searchform-header.php:12 search.php:24 template-parts/header-mobile.php:38
+#: template-parts/header-middle-column.php:53 bbpress/form-search.php:15
+msgid "Search"
+msgstr ""
+
+#: searchform-header.php:10 searchform.php:10
+msgid "Search for:"
+msgstr ""
+
+#: bbpress/form-search.php:12
+msgid "Search Forums..."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:220
+msgid "Search Input"
+msgstr ""
+
+#: buddyboss-inc/cover-photo.php:424 buddyboss-inc/cover-photo.php:523
+msgid "Security error try later again."
+msgstr ""
+
+#: buddyboss-inc/learner-functions.php:81
+msgid "See All"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:114
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:121
+msgid "Select a shortcode"
+msgstr ""
+
+#: buddyboss-inbox/members/single/messages/messages-loop.php:17
+#: buddypress/members/single/messages/messages-loop.php:17
+msgid "Select all"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:402
+msgid ""
+"Select if you want to use the Boss slider, or shortcodes from a 3rd party "
+"plugin."
+msgstr ""
+
+#: buddypress/groups/create.php:269
+#: buddypress/groups/single/send-invites.php:22
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:175
+msgid "Select the default desktop layout."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:186
+msgid "Select the default tablet layout."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:561
+msgid "Select your background color for admin screen."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:554
+msgid "Select your background color for BuddyPanel."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:559
+msgid "Select your background color for cover photo."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:538
+msgid "Select your background color for footer widget area."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:551
+msgid "Select your background color for mobile Titlebar."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:544
+#: buddyboss-inc/buddyboss-framework/options-init.php:547
+msgid "Select your background color for Titlebar."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:533
+msgid "Select your color for anchor elements (links)."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:536
+msgid "Select your color for body background."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:534
+msgid "Select your color for button elements."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:540
+msgid "Select your color for footer bottom background."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:539
+msgid "Select your color for footer bottom."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:556
+#: buddyboss-inc/buddyboss-framework/options-init.php:557
+msgid "Select your color for icons in BuddyPanel."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:548
+msgid "Select your color for links in Titlebar."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:543
+msgid "Select your color for site title."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:549
+msgid "Select your hover color for links in Titlebar."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:563
+msgid "Select your links hover color and buttons color for admin screen."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:562
+msgid "Select your text color for admin screen."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:552
+msgid "Select your text color for mobile Titlebar."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:545
+msgid "Select your text color for Titlebar."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:555
+msgid "Select your title color for BuddyPanel."
+msgstr ""
+
+#: buddypress/groups/single/send-invites.php:62
+msgid "Send Invites"
+msgstr ""
+
+#: buddyboss-inbox/members/single/messages/compose.php:61
+#: buddypress/members/single/messages/compose.php:28
+msgid "Send Message"
+msgstr ""
+
+#: buddyboss-inbox/members/single/messages/compose.php:5
+#: buddypress/members/single/messages/compose.php:5
+msgid "Send To (Username or Friend's Name)"
+msgstr ""
+
+#: buddypress/members/single/messages/notices-loop.php:23
+msgid "Sent:"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:542
+msgid "Set background color for logo area."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:565
+msgid "Set the color for active links."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:530
+msgid "Set the color for h1, h2, h3, h4, h5, h6 elements."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:566
+msgid "Set the color for sidebar."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:531
+msgid "Set the color for slideshow content."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:529
+msgid "Set the text color for body."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:329
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:371
+msgid "Shadow"
+msgstr ""
+
+#: content.php:77 woocommerce/content-single-product.php:80
+msgid "Share with friends"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:405
+msgid "Shortcode"
+msgstr ""
+
+#: bpge/front/extras_pages_add_edit.php:34
+msgid "Should this page be displayed for public in group navigation?"
+msgstr ""
+
+#: docs/docs-loop.php:37
+msgid "Show Folders"
+msgstr ""
+
+#: bpge/front/extras_general.php:11 bpge/front/extras_general.php:37
+msgid "Show it"
+msgstr ""
+
+#: buddypress/activity/index.php:79
+msgid "Show:"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:566
+msgid "Sidebar Background"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:489
+msgid "Site Name"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:543
+msgid "Site Title Color"
+msgstr ""
+
+#: template-parts/header-dashboard-links.php:16
+msgid "Sites"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:486
+msgid "Sites to Allow"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:194
+msgid "Size"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:415
+msgid "Slide Description"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:414
+msgid "Slide Title"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:401
+msgid "Slider Options"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:424
+msgid "Slider Shortcode"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:531
+msgid "Slideshow Text Color"
+msgstr ""
+
+#: buddyboss-inc/users-options.php:124 buddyboss-inc/users-options.php:165
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:372
+msgid "Social"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:564
+msgid "Social Learner Options"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:998
+msgid "Social Links"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:472
+#: buddyboss-inc/buddyboss-framework/options-init.php:477
+msgid "Social Media Links"
+msgstr ""
+
+#: search.php:44
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: buddypress/members/members-loop.php:138
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: buddyboss-inbox/drafts.php:186
+#: buddyboss-inbox/members/single/messages/messages-loop.php:112
+#: buddypress/members/single/messages/messages-loop.php:132
+msgid "Sorry, no messages were found."
+msgstr ""
+
+#: buddypress/members/single/messages/notices-loop.php:57
+msgid "Sorry, no notices were found."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:506
+msgid "Specify the page title font properties."
+msgstr ""
+
+#: bbpress/loop-single-topic.php:63
+#, php-format
+msgid "Started by: %1$s"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/plugin-support.php:318
+msgid "Status"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:215
+msgid "Striped"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:175
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:208
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:407
+msgid "Style"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:940
+msgid "Styling"
+msgstr ""
+
+#: buddyboss-inbox/drafts.php:23
+#: buddyboss-inbox/members/single/messages/messages-loop.php:19
+#: buddyboss-inbox/members/single/messages/compose.php:33
+#: buddypress/members/single/messages/messages-loop.php:19
+#: buddypress/members/single/messages/compose.php:17
+msgid "Subject"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:325
+msgid "Success"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1171
+msgid "Support"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:185
+msgid "Tablet"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:127
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:162
+msgid "Tabs"
+msgstr ""
+
+#: tag.php:21
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: buddypress/forums/index.php:87
+msgid "Tags (comma separated):"
+msgstr ""
+
+#: buddypress/groups/single/frontpage.php:26
+msgid "Tests"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:528
+msgid "Text"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:529
+msgid "Text Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:251
+msgid "The \"BuddyPanel\" is the left panel in the desktop view of the theme."
+msgstr ""
+
+#: buddypress/activity/index.php:56
+msgid "The activity I've marked as a favorite."
+msgstr ""
+
+#: buddypress/activity/index.php:46
+msgid "The activity of groups I am a member of."
+msgstr ""
+
+#: buddypress/activity/index.php:34
+msgid "The activity of my friends only."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:221
+msgid ""
+"The mobile titlebar can optionally display a search input in place of your "
+"site logo/title."
+msgstr ""
+
+#: buddypress/activity/index.php:24
+msgid "The public activity for everyone on this site."
+msgstr ""
+
+#: buddyboss-inc/cover-photo.php:439 buddyboss-inc/cover-photo.php:555
+msgid "The section you uploading cover does not exists."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:223
+msgid "The text that appears above the progress bar."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:266
+msgid "The text that appears on your button."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:230
+msgid ""
+"The WordPress menu \"Titlebar\" can optionally be displayed in the left "
+"mobile panel."
+msgstr ""
+
+#: template-parts/header-dashboard-links.php:18
+#: template-parts/header-dashboard-links.php:42
+msgid "Themes"
+msgstr ""
+
+#: docs/docs-loop.php:178
+msgid "There are no docs for this view."
+msgstr ""
+
+#: docs/docs-loop.php:176
+#, php-format
+msgid "There are no docs for this view. Why not <a href=\"%s\">create one</a>?"
+msgstr ""
+
+#: buddyboss-media/global-media-albums.php:84
+msgid "There were no albums found."
+msgstr ""
+
+#: tree/tree-loop.php:118 buddypress/groups/groups-loop.php:116
+msgid "There were no groups found."
+msgstr ""
+
+#: buddypress/groups/single/members.php:104
+msgid "This group has no members."
+msgstr ""
+
+#: buddypress/groups/create.php:57 buddypress/groups/create.php:68
+msgid ""
+"This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: buddypress/groups/create.php:79
+msgid ""
+"This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: buddypress/groups/create.php:75
+msgid "This is a hidden group"
+msgstr ""
+
+#: buddyboss-inbox/members/single/messages/compose.php:29
+#: buddypress/members/single/messages/compose.php:14
+msgid "This is a notice to all users."
+msgstr ""
+
+#: buddypress/groups/create.php:64
+msgid "This is a private group"
+msgstr ""
+
+#: buddypress/groups/create.php:54
+msgid "This is a public group"
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:48
+msgid "This is not enough to order goods."
+msgstr ""
+
+#: docs/docs-loop.php:51 buddyboss-inc/buddyboss-shortcodes/shortcodes.php:222
+msgid "Title"
+msgstr ""
+
+#: buddypress/forums/index.php:81
+#: buddyboss-inc/buddyboss-widgets/buddyboss-profile-widget-loader.php:261
+msgid "Title:"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:546
+msgid "Titlebar (Desktop without BuddyPanel)"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:541
+msgid "Titlebar (Desktop)"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:550
+msgid "Titlebar (Mobile)"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:544
+#: buddyboss-inc/buddyboss-framework/options-init.php:547
+msgid "Titlebar Background Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:548
+msgid "Titlebar Links Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:549
+msgid "Titlebar Links Hover Color"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:545
+msgid "Titlebar Text Color"
+msgstr ""
+
+#: buddypress/groups/create.php:168
+msgid ""
+"To skip the group profile photo upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: buddyboss-inbox/drafts.php:55 buddyboss-inbox/drafts.php:129
+#: buddyboss-inbox/members/single/messages/messages-loop.php:45
+#: buddypress/members/single/messages/messages-loop.php:53
+msgid "To:"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1025
+msgid "Toggle the custom login screen design on or off."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:128
+msgid "Tooltip"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:426
+msgid "Tooltip text goes in title attribute"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1057
+msgid "Tracking Code"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:364
+msgid "Type of buttons."
+msgstr ""
+
+#: template-parts/header-middle-column.php:61
+msgid "Type to search..."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:497
+msgid "Typography"
+msgstr ""
+
+#: archive-university.php:28 buddypress/groups/single/frontpage.php:23
+msgid "Universities"
+msgstr ""
+
+#. Name of the template
+msgid "University"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:395
+msgid "Unordered List"
+msgstr ""
+
+#: buddyboss-inbox/members/single/messages/messages-loop.php:63
+#: buddypress/members/single/messages/messages-loop.php:83
+msgid "Unread"
+msgstr ""
+
+#: buddypress/forums/index.php:40
+msgid "Unreplied"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/boss-redux-validation-css.php:40
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: docs/docs-loop.php:86
+msgctxt "up one folder"
+msgid ".."
+msgstr ""
+
+#: buddyboss-inc/cover-photo.php:239 buddyboss-inc/cover-photo.php:306
+msgid "Update Cover Photo"
+msgstr ""
+
+#: buddypress/groups/create.php:160
+msgid ""
+"Upload an image to use as a profile photo for this group. The image will be "
+"shown on the main group page, and in search results."
+msgstr ""
+
+#: buddypress/groups/create.php:164
+#: buddypress/members/single/profile/change-avatar.php:25
+msgid "Upload Image"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:74
+msgid "Upload your custom site logo (280px by 80px)."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:89
+msgid "Upload your mini logo, used in collapsed BuddyPanel (80px by 80px)."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:150
+msgid "Use full width \"fluid\" layout, or a fixed with \"boxed\" layout."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:411
+msgid ""
+"Use our internal slider code. Drag and drop to re-order. Ideal image size is "
+"1040px by 400px."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-widgets/buddyboss-profile-widget-loader.php:76
+msgid "Username"
+msgstr ""
+
+#: template-parts/header-dashboard-links.php:17
+#: template-parts/header-dashboard-links.php:41
+msgid "Users"
+msgstr ""
+
+#: buddypress-global-search/loop/message.php:19
+#: buddypress/activity/entry.php:59
+#: buddyboss-wall/bp-legacy/activity/entry.php:57
+msgid "View Conversation"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:206
+msgid "View Desktop/Mobile button"
+msgstr ""
+
+#: buddyboss-inbox/members/single/messages/messages-loop.php:53
+msgid "View Message"
+msgstr ""
+
+#: docs/docs-loop.php:167
+#, php-format
+msgid "Viewing %1$s-%2$s of %3$s docs"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:326
+msgid "Warning"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1036
+msgid "We display a custom logo in place of the default WordPress logo."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1138
+msgid ""
+"We style form inputs (dropdowns, checkboxes, and radios) using JavaScript. "
+"Set this to NO to disable this on inputs outside of BuddyPress and bbPress, "
+"to improve compatibility with certain plugins."
+msgstr ""
+
+#: buddypress/activity/post-form.php:23
+#, php-format
+msgid "What's new in %s, %s?"
+msgstr ""
+
+#: buddypress/activity/post-form.php:25
+#, php-format
+msgid "What's new, %s?"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:277
+msgid "Where should your button link to?"
+msgstr ""
+
+#: buddypress/groups/create.php:114
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:201
+msgid "Wide"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-shortcodes/shortcodes.php:253
+msgid "Yellow"
+msgstr ""
+
+#: buddyboss-inc/buddyboss-framework/options-init.php:1122
+#: buddyboss-inc/buddyboss-framework/options-init.php:1131
+#: buddyboss-inc/buddyboss-framework/options-init.php:1139
+msgid "Yes"
+msgstr ""
+
+#: buddypress/forums/index.php:122
+#, php-format
+msgid ""
+"You are not a member of any groups so you don't have any group forums you "
+"can post in. To start posting, first find a group that matches the topic "
+"subject you'd like to start. If this group does not exist, why not <a "
+"href='%s'>create a new group</a>? Once you have joined or created the group "
+"you can post your topic in that group's forum."
+msgstr ""
+
+#: bpge/front/extras_general.php:46
+msgid ""
+"You can reorder here all navigation links in this group. The first item will "
+"become a landing page for this group. Save changes after reordering.<br />"
+"<br />Please do NOT make admin only pages on first place - that will cause "
+"problems."
+msgstr ""
+
+#: buddyboss-inc/cover-photo.php:431 buddyboss-inc/cover-photo.php:548
+msgid "You don't have permission to update cover photo."
+msgstr ""
+
+#: buddypress/members/single/groups/invites.php:44
+msgid "You have no outstanding group invites."
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:48
+msgid "Your balance is:"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:14
+msgid ""
+"Your profile photo will be used on your profile and throughout the site. If "
+"there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your "
+"account email we will use that, or you can upload an image from your "
+"computer."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:70
+msgid ""
+"Your profile photo will be used on your profile and throughout the site. To "
+"change your profile photo, please create an account with <a href=\"http:"
+"//gravatar.com\">Gravatar</a> using the same email address as you used to "
+"register with this site."
+msgstr ""
+
+#: buddyboss-inc/buddyboss-widgets/buddyboss-profile-widget-loader.php:122
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""

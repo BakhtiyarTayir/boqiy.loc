@@ -1,0 +1,4924 @@
+# Copyright (C) 2021 YITH
+# This file is distributed under the same license as the YITH WooCommerce Affiliates Premium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Affiliates\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
+"affiliates-premium\n"
+"POT-Creation-Date: 2021-07-30 16:34+0500\n"
+"PO-Revision-Date: 2021-09-23 12:57+0500\n"
+"Last-Translator: Eson.uz <info@eson.uz>\n"
+"Language-Team: YITH <plugins@yithemes.com>\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+"X-Poedit-SearchPathExcluded-1: plugin-upgrade\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:50
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:209
+#: includes/class.yith-wcaf-admin.php:74
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:184
+#: includes/class.yith-wcaf-commission-handler.php:1909
+#: plugin-options/settings-options.php:287
+#: templates/admin/referral-commissions-metabox-premium.php:71
+#: templates/admin/referral-commissions-metabox.php:70
+#: templates/emails/commissions-table.php:28
+#: templates/emails/plain/commissions-table.php:27
+msgid "Commissions"
+msgstr "Komissiyalar"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:71
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:74
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:160
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:187
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:281
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:140
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:175
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:242
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:199
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:293
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:237
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:347
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:72
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:75
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:154
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:188
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:162
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:178
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:194
+#: includes/class.yith-wcaf-admin-premium.php:386
+#: includes/class.yith-wcaf-admin-premium.php:389
+#: includes/class.yith-wcaf-admin.php:522
+#: includes/class.yith-wcaf-commission-handler-premium.php:843
+#: includes/class.yith-wcaf-payment-handler-premium.php:1665
+#: includes/class.yith-wcaf-privacy.php:757
+#: includes/class.yith-wcaf-privacy.php:820
+#: includes/class.yith-wcaf-shortcode-premium.php:269
+#: templates/admin/affiliate-panel-detail.php:106
+#: templates/admin/payment-panel-detail.php:180
+#: templates/emails/admin-new-affiliate-email.php:34
+#: templates/emails/plain/admin-new-affiliate-email.php:46
+#: templates/shortcodes/dashboard-payments.php:94
+#: templates/shortcodes/dashboard-stat.php:83
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:84
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:169
+msgctxt "Label for payment email for the affiliate (admin view)"
+msgid "Payment"
+msgstr "To'lov"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:171
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:325
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:93
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:107
+msgid "View"
+msgstr "Ko'rish"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:187
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:379
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:574
+msgid "Change status to Rejected"
+msgstr "Statusni Bekor qilindi deb o'zgartirish"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:187
+msgid "Disable"
+msgstr "O'chirish"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:203
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:378
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:579
+msgid "Change status to Active"
+msgstr "Statusni faol holatiga o'zgartirish"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:203
+msgid "Enable"
+msgstr "Yoqish"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:218
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:583
+msgid "Ban affiliate"
+msgstr "Hamkorlik dasturini o'chirib qo'ying"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:218
+msgid "Ban"
+msgstr "Taqiqlamoq"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:232
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:586
+msgid "Unban affiliate"
+msgstr "Hamkorni blokdan chiqarish"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:232
+msgid "Unban"
+msgstr "Blokdan chiqarish"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:243
+msgid "Process dangling commissions"
+msgstr "Osilib turadigan komissiyalarni qayta ishlash"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:258
+msgid "Pay Commissions"
+msgstr "To'lov komissiyalari"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:262
+#, php-format
+msgid "Pay commissions via %s"
+msgstr "Komission to'lovlarni% s orqali to'lash"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:291
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:296
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:393
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:373
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:112
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:231
+#: includes/class.yith-wcaf-affiliate-handler.php:1680
+#: includes/class.yith-wcaf-commission-handler.php:1943
+#: includes/class.yith-wcaf-payment-handler.php:1082
+#: includes/class.yith-wcaf-privacy.php:676
+#: includes/class.yith-wcaf-privacy.php:732
+#: includes/class.yith-wcaf-privacy.php:800
+#: templates/admin/affiliate-panel-detail.php:175
+#: templates/admin/affiliate-panel-detail.php:229
+#: templates/admin/commission-panel-detail.php:63
+#: templates/admin/referral-commissions-metabox-premium.php:42
+#: templates/admin/referral-commissions-metabox.php:41
+#: templates/emails/commissions-table.php:32
+#: templates/shortcodes/dashboard-commissions.php:69
+#: templates/shortcodes/dashboard-payments.php:59
+#: templates/shortcodes/dashboard-summary.php:151
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:292
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:297
+#: includes/class.yith-wcaf-affiliate-handler.php:1681
+#: includes/class.yith-wcaf-affiliate-handler.php:1975
+#: includes/class.yith-wcaf-privacy.php:195
+msgid "Token"
+msgstr "Token"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:293
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:298
+msgid "Approved"
+msgstr "Tasdiqlangan"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:294
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:299
+#: includes/class.yith-wcaf-affiliate-handler.php:1683
+#: includes/class.yith-wcaf-affiliate-handler.php:1933
+#: includes/class.yith-wcaf-payment-handler.php:1083
+#: includes/class.yith-wcaf.php:498 init.php:204
+#: templates/admin/payment-panel-detail.php:55
+#: templates/emails/commissions-table.php:33
+msgid "Affiliate"
+msgstr "Hamkorlar"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:295
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:300
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:402
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:380
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:157
+#: includes/admin-tables/class.yith-wcaf-user-rates-table.php:147
+#: includes/class.yith-wcaf-affiliate-handler.php:1684
+#: includes/class.yith-wcaf-affiliate-handler.php:1982
+#: includes/class.yith-wcaf-commission-handler.php:1952
+#: templates/admin/affiliate-panel-detail.php:179
+#: templates/admin/commission-panel-detail.php:536
+#: templates/admin/referral-commissions-metabox-premium.php:44
+#: templates/admin/referral-commissions-metabox.php:43
+#: templates/emails/commissions-table.php:36
+#: templates/shortcodes/dashboard-commissions.php:81
+msgid "Rate"
+msgstr "Daraja"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:296
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:301
+#: includes/class.yith-wcaf-affiliate-handler.php:1685
+msgid "Earnings"
+msgstr "Daromad"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:297
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:401
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:210
+#: includes/class.yith-wcaf-affiliate-handler.php:1686
+#: includes/class.yith-wcaf-commission-handler.php:1951
+msgid "Refunds"
+msgstr "Pulni qaytarish"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:298
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:302
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:460
+#: includes/class.yith-wcaf-affiliate-handler.php:1687
+#: includes/class.yith-wcaf-commission-handler.php:212
+msgid "Paid"
+msgstr "To'langan"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:299
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:303
+#: includes/class.yith-wcaf-affiliate-handler.php:1688
+#: templates/shortcodes/dashboard-stat.php:72
+msgid "Balance"
+msgstr "Balans"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:300
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:304
+#: includes/class.yith-wcaf-affiliate-handler.php:1689
+msgid "Click"
+msgstr "Kirish"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:301
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:305
+msgid "Number of orders following a click"
+msgstr "Bir marta bosishdan keyin buyurtmalar soni"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:301
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:305
+#: includes/class.yith-wcaf-affiliate-handler.php:1690
+msgid "Conversion"
+msgstr "Konversiya"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:302
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:306
+msgid "Conv. rate"
+msgstr "Konversiya darajasi"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:303
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:406
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:118
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:158
+#: includes/admin-tables/class.yith-wcaf-user-rates-table.php:148
+msgid "Actions"
+msgstr "Amallar"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:320
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:463
+msgid "Export CSV"
+msgstr "CSV-ni eksport qilish"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:121
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:365
+#: includes/class.yith-wcaf-affiliate-handler.php:1960
+msgid "Banned"
+msgstr "Taqiqlangan"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:126
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:362
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:452
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:169
+#: includes/class.yith-wcaf-commission-handler.php:210
+#: includes/class.yith-wcaf-payment-handler.php:56
+msgid "Pending"
+msgstr "Yetkazildi"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:130
+#: includes/class.yith-wcaf-affiliate-handler.php:605
+#: includes/class.yith-wcaf-affiliate-handler.php:1945
+msgid "Rejected"
+msgstr "Rad etildi"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:135
+#: includes/class.yith-wcaf-affiliate-handler.php:1944
+msgid "Accepted"
+msgstr "Qabul qilindi"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:361
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:312
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:448
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:167
+msgid "All"
+msgstr "Hammasi"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:363
+#: includes/class.yith-wcaf-affiliate-handler.php:1940
+msgid "Enabled"
+msgstr "Yoqilgan"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:364
+msgid "Disabled"
+msgstr "O'chirilgan"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:377
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:283
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:142
+#: includes/admin-tables/class.yith-wcaf-user-rates-table.php:132
+msgid "Delete"
+msgstr "O'chirish"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:380
+msgid "Ban Affiliate"
+msgstr "Hamkorlik dasturini o'chirib qo'ying"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:381
+msgid "Unban Affiliate"
+msgstr "Hamkorni blokdan chiqarish"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:105
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:256
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:313
+#: templates/shortcodes/dashboard-clicks.php:86
+msgid "Converted"
+msgstr "Konvertatsiya qilingan"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:105
+#: templates/shortcodes/dashboard-clicks.php:86
+msgid "Not Converted"
+msgstr "Konvertatsiya qilinmagan"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:121
+msgid "Guest IP:"
+msgstr "Mehmon IP-manzili:"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:181
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:65
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:130
+msgid "Billing:"
+msgstr "To'lov:"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:185
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:69
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:134
+msgid "Tel:"
+msgstr "Tel:"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:213
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:97
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:161
+#: templates/admin/commission-panel-detail.php:205
+msgid "Guest"
+msgstr "Mehmon"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:217
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:101
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:165
+#, php-format
+msgctxt "Order number by X"
+msgid "%s by %s"
+msgstr "%s dan %s"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:257
+#: includes/class.yith-wcaf-click-handler-premium.php:233
+#: includes/class.yith-wcaf-coupon-handler.php:292
+msgid "Referrer"
+msgstr "Referal"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:258
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:395
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:375
+#: includes/class.yith-wcaf-click-handler-premium.php:234
+#: includes/class.yith-wcaf-commission-handler.php:1945
+msgid "Order"
+msgstr "Buyurtma"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:259
+#: includes/class.yith-wcaf-click-handler-premium.php:235
+msgid "Followed URL"
+msgstr "Kuzatilgan URL"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:260
+#: includes/class.yith-wcaf-click-handler-premium.php:236
+msgid "Origin URL"
+msgstr "Kelib chiqish URL manzili"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:261
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:405
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:383
+#: includes/class.yith-wcaf-click-handler-premium.php:237
+#: includes/class.yith-wcaf-commission-handler.php:1955
+#: includes/class.yith-wcaf-privacy.php:803
+#: templates/admin/affiliate-panel-detail.php:176
+#: templates/admin/payment-panel-detail.php:350
+#: templates/shortcodes/dashboard-clicks.php:70
+#: templates/shortcodes/dashboard-commissions.php:72
+msgid "Date"
+msgstr "Sana"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:262
+#: includes/class.yith-wcaf-click-handler-premium.php:238
+msgid "Conversion time"
+msgstr "Konversiya vaqti"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:357
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:568
+msgid "Select a user"
+msgstr "Foydalanuvchini tanlang"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:363
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:574
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:339
+#: templates/admin/stat-panel-general-premium.php:28
+#: templates/admin/stat-panel-general.php:28
+#: templates/shortcodes/dashboard-clicks.php:50
+#: templates/shortcodes/dashboard-commissions.php:49
+#: templates/shortcodes/dashboard-payments.php:39
+#: templates/shortcodes/dashboard-withdraw.php:72
+msgid "From:"
+msgstr "Kimdan:"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:364
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:575
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:340
+#: templates/admin/stat-panel-general-premium.php:29
+#: templates/admin/stat-panel-general.php:29
+#: templates/shortcodes/dashboard-clicks.php:51
+#: templates/shortcodes/dashboard-commissions.php:50
+#: templates/shortcodes/dashboard-payments.php:40
+#: templates/shortcodes/dashboard-withdraw.php:77
+msgid "To:"
+msgstr "Kimga:"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:367
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:578
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:343
+#: templates/admin/stat-panel-general-premium.php:41
+#: templates/admin/stat-panel-general.php:30
+#: templates/shortcodes/dashboard-clicks.php:58
+#: templates/shortcodes/dashboard-commissions.php:57
+#: templates/shortcodes/dashboard-payments.php:47
+msgid "Filter"
+msgstr "Filtr"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:373
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:584
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:349
+#: templates/admin/stat-panel-general-premium.php:43
+#: templates/admin/stat-panel-general.php:32
+#: templates/shortcodes/dashboard-clicks.php:60
+#: templates/shortcodes/dashboard-commissions.php:59
+#: templates/shortcodes/dashboard-payments.php:49
+msgid "Reset"
+msgstr "Qayta o'rnatish"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:180
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:86
+#: templates/admin/commission-panel-detail.php:352
+#: templates/admin/commission-panel-detail.php:354
+#: templates/emails/commissions-table.php:103
+msgid "Variation ID:"
+msgstr "ID variatsiyasi:"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:339
+msgid "Mark as paid"
+msgstr "To'langan deb belgilash"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:343
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:424
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:137
+#: includes/class.yith-wcaf-commission-handler-premium.php:616
+#: includes/class.yith-wcaf-payment-handler-premium.php:1677
+#, php-format
+msgid "Pay via %s"
+msgstr "%s orqali to'lash"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:377
+#: includes/class.yith-wcaf-commission-handler-premium.php:633
+#, php-format
+msgid "Change status to %s"
+msgstr "Statusni %s ga o'zgartirish"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:394
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:374
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:111
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:232
+#: includes/class.yith-wcaf-affiliate-handler.php:1682
+#: includes/class.yith-wcaf-click-handler-premium.php:232
+#: includes/class.yith-wcaf-commission-handler.php:1944
+#: includes/class.yith-wcaf-payment-handler.php:1081
+#: includes/class.yith-wcaf-privacy.php:677
+#: includes/class.yith-wcaf-privacy.php:733
+#: templates/admin/affiliate-panel-detail.php:177
+#: templates/admin/affiliate-panel-detail.php:230
+#: templates/admin/commission-panel-detail.php:65
+#: templates/admin/commission-panel-detail.php:223
+#: templates/admin/payment-panel-detail.php:160
+#: templates/admin/referral-commissions-metabox-premium.php:43
+#: templates/admin/referral-commissions-metabox.php:42
+#: templates/shortcodes/dashboard-clicks.php:73
+#: templates/shortcodes/dashboard-commissions.php:75
+#: templates/shortcodes/dashboard-payments.php:62
+#: templates/shortcodes/dashboard-summary.php:154
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:396
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:376
+#: includes/class.yith-wcaf-commission-handler.php:1946
+msgid "User"
+msgstr "Foydalanuvchi"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:397
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:377
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:155
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:208
+#: includes/class.yith-wcaf-commission-handler.php:1947
+#: includes/class.yith-wcaf-privacy.php:679
+#: templates/admin/affiliate-panel-detail.php:178
+#: templates/emails/commissions-table.php:34
+#: templates/shortcodes/dashboard-commissions.php:78
+msgid "Product"
+msgstr "Mahsulot"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:398
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:378
+#: includes/class.yith-wcaf-commission-handler.php:1948
+msgid "Category"
+msgstr "Toifa"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:399
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:379
+#: includes/class.yith-wcaf-commission-handler.php:1949
+#: templates/emails/commissions-table.php:35
+msgid "Total"
+msgstr "Jami"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:400
+#: includes/class.yith-wcaf-commission-handler.php:1950
+msgid "Discounts"
+msgstr "Chegirmalar"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:403
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:381
+#: templates/admin/commission-panel-detail.php:542
+#: templates/admin/payment-panel-detail.php:349
+#: templates/emails/admin-pending-commission-email.php:28
+#: templates/emails/commissions-table.php:37
+msgid "Commission"
+msgstr "Komissiya"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:404
+msgctxt "Column label for payments related to a single commission"
+msgid "Payment"
+msgstr "To'lov"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:432
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:490
+msgid "Create a payment manually"
+msgstr "To'lovni qo'lda yaratish"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:433
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:491
+msgid "Change status to pending"
+msgstr "Statusni Yetkazildi holatiga o'zgartirish"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:434
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:492
+msgid "Change status to not confirmed"
+msgstr "Statusni Yangi buyurtma deb o'zgartiring"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:435
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:493
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:282
+msgid "Change status to cancelled"
+msgstr "Statustni Bekor qilindi deb o'zgartirish"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:436
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:494
+msgid "Change status to refunded"
+msgstr "Statusni Qayta ishlash deb o'zgartirish"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:440
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:498
+msgid "Restore"
+msgstr "Qayta tiklash"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:441
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:499
+msgid "Delete Permanently"
+msgstr "Doimiy Ravishda O'chirish"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:445
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:501
+msgid "Move to Trash"
+msgstr "Korzinaga ko'chirish"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:382
+#: includes/class.yith-wcaf-commission-handler.php:1954
+#: includes/class.yith-wcaf-payment-handler-premium.php:176
+msgid "Payment"
+msgstr "To'lov"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:456
+#: includes/class.yith-wcaf-commission-handler.php:211
+msgid "Pending Payment"
+msgstr "To'lov kutilmoqda"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:464
+msgid "Not Confirmed"
+msgstr "Tasdiqlanmadi"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:468
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:171
+#: includes/class.yith-wcaf-commission-handler.php:214
+#: includes/class.yith-wcaf-payment-handler.php:58
+msgid "Cancelled"
+msgstr "Bekor qilindi"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:472
+#: includes/class.yith-wcaf-commission-handler.php:215
+msgid "Refunded"
+msgstr "Qaytarildi"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:476
+msgid "Trash"
+msgstr "Korzina"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:559
+msgid "Select a product"
+msgstr "Mahsulot tanlash"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:113
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:233
+msgid "Affiliate "
+msgstr "Hamkor "
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:114
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:234
+#: includes/class.yith-wcaf-affiliate-handler.php:1989
+#: includes/class.yith-wcaf-payment-handler.php:1084
+#: includes/class.yith-wcaf-privacy.php:734
+#: templates/admin/payment-panel-detail.php:220
+#: templates/shortcodes/dashboard-settings-premium.php:84
+#: templates/shortcodes/dashboard-settings.php:60
+#: templates/shortcodes/dashboard-withdraw.php:116
+msgid "Payment email"
+msgstr "To'lov uchun elektron pochta"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:115
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:235
+#: includes/class.yith-wcaf-commission-handler.php:1953
+#: includes/class.yith-wcaf-payment-handler.php:1085
+#: includes/class.yith-wcaf-privacy.php:681
+#: includes/class.yith-wcaf-privacy.php:737
+#: templates/admin/affiliate-panel-detail.php:180
+#: templates/admin/affiliate-panel-detail.php:231
+#: templates/admin/commission-panel-detail.php:68
+#: templates/admin/referral-commissions-metabox-premium.php:45
+#: templates/admin/referral-commissions-metabox.php:44
+#: templates/shortcodes/dashboard-commissions.php:84
+#: templates/shortcodes/dashboard-coupons.php:46
+#: templates/shortcodes/dashboard-payments.php:65
+#: templates/shortcodes/dashboard-summary.php:117
+#: templates/shortcodes/dashboard-summary.php:157
+msgid "Amount"
+msgstr "Miqdor"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:116
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:236
+#: includes/class.yith-wcaf-payment-handler.php:1086
+#: templates/admin/affiliate-panel-detail.php:232
+#: templates/shortcodes/dashboard-payments.php:68
+#: templates/shortcodes/dashboard-summary.php:160
+msgid "Created at"
+msgstr "Yaratildi"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:117
+#: includes/class.yith-wcaf-payment-handler.php:1087
+#: templates/admin/affiliate-panel-detail.php:233
+#: templates/admin/payment-panel-detail.php:170
+#: templates/shortcodes/dashboard-payments.php:71
+#: templates/shortcodes/dashboard-summary.php:163
+msgid "Completed at"
+msgstr "Tugatildi"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:168
+#: includes/class.yith-wcaf-payment-handler.php:59
+msgid "On Hold"
+msgstr "Kutish jarayonida"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:170
+#: includes/class.yith-wcaf-commission-handler.php:206
+#: includes/class.yith-wcaf-payment-handler.php:57
+msgid "Completed"
+msgstr "Yetkazildi"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:280
+msgid "Change status to completed"
+msgstr "Statusni tugallangan deb o'zgartirish"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:281
+msgid "Change status to on hold"
+msgstr "Statusni kutish holatiga o'zgartirish"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:333
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:847
+#: templates/admin/referral-commissions-metabox-premium.php:97
+#: templates/admin/stat-panel-general-premium.php:35
+msgid "Select an affiliate"
+msgstr "Hamkor tanlash"
+
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:140
+#: includes/admin-tables/class.yith-wcaf-user-rates-table.php:130
+#: templates/admin/affiliate-panel-detail.php:52
+#: templates/admin/payment-panel-detail.php:224
+msgid "Update"
+msgstr "Yangilash"
+
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:156
+msgid "Price"
+msgstr "Narx"
+
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:111
+msgid "View commissions"
+msgstr "Komissiyalarni ko'rish"
+
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:207
+msgid "Image"
+msgstr "Rasm"
+
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:211
+#: includes/class.yith-wcaf-admin-premium.php:72
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:185
+#: includes/class.yith-wcaf-click-handler-premium.php:198
+#: includes/class.yith-wcaf.php:459
+msgid "Clicks"
+msgstr "Tashriflar"
+
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:212
+msgid "Number of products sold following a click"
+msgstr "Bir marta bosish orqali sotilgan mahsulotlar soni"
+
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:212
+msgid "Conversions"
+msgstr "Konversiyalar"
+
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:213
+msgid "Conv. time"
+msgstr "Konversiya vaqti"
+
+#: includes/admin-tables/class.yith-wcaf-user-rates-table.php:145
+#: templates/shortcodes/registration-form-premium.php:123
+#: templates/shortcodes/registration-form.php:120
+msgid "Username"
+msgstr "Foydalanuvchi nomi"
+
+#: includes/admin-tables/class.yith-wcaf-user-rates-table.php:146
+#: templates/admin/commission-panel-detail.php:67
+#: templates/admin/commission-panel-detail.php:253
+#: templates/admin/payment-panel-detail.php:203
+#: templates/shortcodes/share.php:37
+msgid "Email"
+msgstr "Elektron pochta"
+
+#: includes/class.yith-wcaf-admin-premium.php:69
+msgid "Rates"
+msgstr "Darajalar"
+
+#: includes/class.yith-wcaf-admin-premium.php:98
+msgid "How to get referrer id"
+msgstr "Yo'naltiruvchi identifikatorini qanday olish mumkin"
+
+#: includes/class.yith-wcaf-admin-premium.php:100
+msgid "Choose how to receive referrer id during purchase"
+msgstr ""
+"Xarid paytida yo'riqnoma identifikatorini qanday qabul qilishni tanlang"
+
+#: includes/class.yith-wcaf-admin-premium.php:102
+msgid "Via query string"
+msgstr "So'rovlar qatori orqali"
+
+#: includes/class.yith-wcaf-admin-premium.php:103
+msgid "Let users enter it in checkout page"
+msgstr "Foydalanuvchilarga uni to'lov sahifasiga kiritishlariga ruxsat bering"
+
+#: includes/class.yith-wcaf-admin-premium.php:164
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+"Amal bajarilmadi. Iltimos, sahifani yangilang va qaytadan urinib ko'ring."
+
+#: includes/class.yith-wcaf-admin-premium.php:168
+msgid "You don&#8217;t have permission to do this."
+msgstr "Buning uchun sizning ruxsatingiz yo'q."
+
+#: includes/class.yith-wcaf-admin-premium.php:236
+msgid "Could not write to template file."
+msgstr "Shablon fayliga yozib bo'lmadi."
+
+#: includes/class.yith-wcaf-admin-premium.php:272
+msgid "Template file copied to theme."
+msgstr "Shablon fayli mavzuga ko'chirildi."
+
+#: includes/class.yith-wcaf-admin-premium.php:302
+msgid "Template file deleted from theme."
+msgstr "Shablon fayli mavzudan o'chirildi."
+
+#: includes/class.yith-wcaf-admin-premium.php:318
+#: includes/class.yith-wcaf-admin.php:457
+msgid "Global stats"
+msgstr "Global statistika"
+
+#: includes/class.yith-wcaf-admin-premium.php:338
+#: includes/class.yith-wcaf-admin.php:476
+msgid "Ever"
+msgstr "Har doim"
+
+#: includes/class.yith-wcaf-admin-premium.php:338
+#: includes/class.yith-wcaf-admin.php:476
+msgid "Today"
+msgstr "Bugun"
+
+#: includes/class.yith-wcaf-admin-premium.php:359
+#, php-format
+msgid "Stats for affiliate \"%s\""
+msgstr "\"%s\" Hamkor  uchun statistika"
+
+#: includes/class.yith-wcaf-admin.php:75 includes/class.yith-wcaf-admin.php:136
+#: includes/class.yith-wcaf-admin.php:137
+#: includes/class.yith-wcaf-affiliate-handler.php:1646
+#: includes/class.yith-wcaf-coupon-handler.php:271
+#: templates/admin/affiliate-panel.php:48
+msgid "Affiliates"
+msgstr "Hamkor"
+
+#: includes/class.yith-wcaf-admin.php:76
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:186
+#: includes/class.yith-wcaf-payment-handler.php:1047
+#: templates/shortcodes/dashboard-summary.php:76
+msgid "Payments"
+msgstr "To'lovlar"
+
+#: includes/class.yith-wcaf-admin.php:77
+#: templates/shortcodes/dashboard-stat.php:52
+msgid "Stats"
+msgstr "Statistikalar"
+
+#: includes/class.yith-wcaf-admin.php:78
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:189
+msgid "Settings"
+msgstr "Sozlamalar"
+
+#: includes/class.yith-wcaf-admin.php:79
+msgid "Premium"
+msgstr "Premium"
+
+#: includes/class.yith-wcaf-admin.php:166
+msgid "YIT Plugins"
+msgstr "YIT plaginlari"
+
+#: includes/class.yith-wcaf-admin.php:188
+msgid "No items found."
+msgstr "Hech narsa topilmadi."
+
+#: includes/class.yith-wcaf-admin.php:195
+#: includes/class.yith-wcaf-affiliate-handler.php:1967
+msgid "Ban Message"
+msgstr "Xabarni taqiqlash"
+
+#: includes/class.yith-wcaf-admin.php:196
+msgid "Rejected Message"
+msgstr "Rad etilgan xabar"
+
+#: includes/class.yith-wcaf-admin.php:198
+msgid "View template"
+msgstr "Shablonni ko'rish"
+
+#: includes/class.yith-wcaf-admin.php:199
+msgid "Hide template"
+msgstr "Shablonni yashirish"
+
+#: includes/class.yith-wcaf-admin.php:200
+msgid "Are you sure you want to delete this template file?"
+msgstr "Ushbu shablon faylini o'chirishni xohlaysizmi?"
+
+#: includes/class.yith-wcaf-admin.php:252
+msgid "Payments correctly registered"
+msgstr "To'lovlar to'g'ri ro'yxatdan o'tkazildi"
+
+#: includes/class.yith-wcaf-admin.php:254
+msgid "There was an error while processing payments"
+msgstr "To‘lovlarni amalga oshirishda xatolik yuz berdi"
+
+#: includes/class.yith-wcaf-admin.php:260
+msgid "User was correctly registered as affiliate of your store"
+msgstr ""
+"Foydalanuvchi sizning do'koningizning hamkori sifatida to'g'ri ro'yxatdan "
+"o'tgan"
+
+#: includes/class.yith-wcaf-admin.php:262
+msgid ""
+"There was a problem while registering the affiliate; please, try again later"
+msgstr ""
+"Hamkorni ro'yxatdan o'tkazishda muammo yuzaga keldi; Iltimos keyinroq qayta "
+"urinib ko'ring"
+
+#: includes/class.yith-wcaf-admin.php:269
+msgid "Status changed correctly"
+msgstr "Status to'g'ri o'zgartirildi"
+
+#: includes/class.yith-wcaf-admin.php:271
+msgid "An error occurred with status changing"
+msgstr "Status o'zgarganda xatolik yuz berdi"
+
+#: includes/class.yith-wcaf-admin.php:277
+msgid "Item successfully deleted"
+msgstr "Element muvaffaqiyatli o‘chirildi"
+
+#: includes/class.yith-wcaf-admin.php:279
+msgid "An error occurred while deleting item"
+msgstr "Elementni o'chirish paytida xatolik yuz berdi"
+
+#: includes/class.yith-wcaf-admin.php:287
+#, php-format
+msgid "An error occurred during payment processing: %s"
+msgstr "To'lovni qayta ishlash paytida xatolik yuz berdi:% s"
+
+#: includes/class.yith-wcaf-admin.php:294
+#, php-format
+msgid "Commissions %s correctly paid"
+msgstr "Komissiyalar% s to'g'ri to'langan"
+
+#: includes/class.yith-wcaf-admin.php:301
+#, php-format
+msgid "Commissions %s could not be paid"
+msgstr "Komission to'lovlar% s to'lanmadi"
+
+#: includes/class.yith-wcaf-admin.php:309
+msgid "Orphan commissions successfully processed"
+msgstr "Yetimlarning komissiyalari muvaffaqiyatli ko'rib chiqildi"
+
+#: includes/class.yith-wcaf-admin.php:311
+msgid "An error occurred while processing orphan commissions"
+msgstr "Yetim komissiyalarini ishlash paytida xatolik yuz berdi"
+
+#: includes/class.yith-wcaf-admin.php:324
+#, php-format
+msgid "There was an error while processing payment %1$s: %2$s"
+msgid_plural "There was an error while processing payments %1$s: %2$s"
+msgstr[0] ""
+"To'lovini amalga oshirishda xatolik yuz berdi: %1$s: %2$s\n"
+"To‘lovlarni amalga oshirishda xatolik yuz berdi %1$s: %2$s"
+
+#: includes/class.yith-wcaf-admin.php:337
+#, php-format
+msgid "Payment %s completed successfully"
+msgid_plural "Payments %s completed successfully"
+msgstr[0] "%s  To'lovi muvaffaqiyatli bajarildi"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:67
+msgid "Auto enable affiliates"
+msgstr "Hamkorlarni avtomatik ravishda yoqish"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:69
+msgid "Auto enable affiliates on registration"
+msgstr "Ro'yxatdan o'tishda hamkorlarni avtomatik ravishda yoqish"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:76
+msgid "Show website field"
+msgstr "Veb-sayt maydonini ko'rsatish"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:78
+msgid "Show \"Website\" field on registration form"
+msgstr "Ro'yxatdan o'tish formasida \"Veb-sayt\" maydonini ko'rsatish"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:83
+msgid "Show promotional methods field"
+msgstr "Reklama usullari maydonini ko'rsatish"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:85
+msgid "Show \"How will you promote?\" field on registration form"
+msgstr ""
+"\"Qanday qilib reklama qilasiz?\" ro'yxatdan o'tish formasidagi maydonini "
+"ko'rsatish"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:90
+#: includes/class.yith-wcaf-payment-handler-premium.php:335
+msgid "Show Terms & Conditions field"
+msgstr "Shartlari va sharoitlar maydonini ko'rsatish"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:92
+msgid "Show \"Terms & Condition\" checkbox on registration form"
+msgstr ""
+"Ro'yxatdan o'tish formasida \"Shartlar va sharoitlar\" katagigni ko'rsatish"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:97
+#: includes/class.yith-wcaf-payment-handler-premium.php:343
+msgid "Terms & Conditions label"
+msgstr "Shartlar va sharoitlar yorlig'i"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:99
+#: includes/class.yith-wcaf-payment-handler-premium.php:345
+msgid ""
+"Label for Terms & Condition checkbox; use <code>%TERMS%</code> placeholder "
+"to include a link to Terms & Condition page"
+msgstr ""
+"Shartlar va sharoitlar yorlig'i katagiga belgi qo'ying; Shartlar va "
+"sharoitlar sahifasiga havolani qo'shish uchun <code>% TERMS% </code>  "
+"vositasidan foydalaning"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:101
+#: includes/class.yith-wcaf-payment-handler-premium.php:347
+msgid "Please, read an accept our %TERMS%"
+msgstr "Iltimos, bizning %TERMS% ni o'qing va qabul qiling"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:104
+#: includes/class.yith-wcaf-payment-handler-premium.php:351
+msgid "Terms & Conditions anchor url"
+msgstr "Anchor url-dan foydalanish qoidalari"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:106
+#: includes/class.yith-wcaf-payment-handler-premium.php:353
+msgid ""
+"Url to Terms & Conditions page; will be used to generate anchor inside Terms "
+"& Conditions label"
+msgstr ""
+"Shartlar va sharoitlar sahifasiga url; \"Shartlar va sharoitlar\" yorlig'i "
+"ichida anchor yaratish uchun ishlatiladi"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:111
+#: includes/class.yith-wcaf-payment-handler-premium.php:359
+msgid "Terms & Conditions anchor text"
+msgstr "Shartlar va sharoitlar anchor matni"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:113
+#: includes/class.yith-wcaf-payment-handler-premium.php:361
+msgid "Text used to generate anchor inside Terms & Conditions label"
+msgstr ""
+"Shartlar va  sharoitlar yorlig'i ichida anchor  yaratish uchun "
+"ishlatiladigan matn"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:120
+#: includes/class.yith-wcaf-commission-handler-premium.php:134
+#: includes/class.yith-wcaf-payment-handler-premium.php:374
+msgid "Notify admin"
+msgstr "Administratorga xabar bering"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:122
+msgid "Notify admin of a new affiliate registration; customize email on"
+msgstr ""
+"Hamkorni yangi ro'yxatdan o'tkazish to'g'risida administratorga xabar "
+"berish; elektron pochtani sozlang"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:126
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:137
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:148
+#: includes/class.yith-wcaf-commission-handler-premium.php:140
+#: includes/class.yith-wcaf-coupon-handler.php:245
+#: includes/class.yith-wcaf-payment-handler-premium.php:380
+msgid "WooCommerce Settings Page"
+msgstr "WooCommerce sozlamalari sahifasi"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:131
+msgid "Notify affiliate when account changes status"
+msgstr "Hisob holati o'zgarganda, hamkorga xabar berish"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:133
+msgid ""
+"Notify affiliates of any change in the status of his/her affiliation "
+"request; customize email on"
+msgstr ""
+"Hamkorlarga uning qo'shilish so'rovi maqomining o'zgarishi to'g'risida xabar "
+"berish; elektron pochtani sozlang"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:142
+msgid "Notify affiliate when account gets banned"
+msgstr "Hisob taqiqlanganda hamkorga xabar bering"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:144
+msgid ""
+"Notify affiliates whenever his/her account is banned; customize email on"
+msgstr ""
+"Hisob-kitobi taqiqlangan paytda hamkorlarni xabardor qilish; elektron "
+"pochtani sozlang"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:155
+msgid "Banned/Rejected affiliates"
+msgstr "Taqiqlangan / rad etilgan hamkorlar"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:160
+msgid "Global reject message"
+msgstr "Global rad etish xabari"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:162
+msgid ""
+"Enter a message to show to all rejexted users; you can override this "
+"message, using appropriate option in user's profile"
+msgstr ""
+"Qayta tiklangan barcha foydalanuvchilarga ko'rsatish uchun xabarni kiriting; "
+"foydalanuvchi profilidagi tegishli sozlamalar yordamida ushbu xabarni bekor "
+"qilishingiz mumkin"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:169
+msgid "Global ban message"
+msgstr "Global taqiq haqidagi xabar"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:171
+msgid ""
+"Enter a message to show to all banned users; you can override this message, "
+"using appropriate option in user's profile"
+msgstr ""
+"Barcha taqiqlangan foydalanuvchilarga ko'rsatish uchun xabarni kiriting; "
+"foydalanuvchi profilidagi tegishli sozlamalar yordamida ushbu xabarni bekor "
+"qilishingiz mumkin"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:178
+msgid "Hidden sections"
+msgstr "Yashirin bo'limlar"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:180
+msgid ""
+"Select any Affiliate's Dashboard section that you want to hide to all your "
+"banned affiliates"
+msgstr ""
+"Barcha taqiqlangan hamkorga yashirishni istagan har qanday hamkorning "
+"boshqaruv paneli bo'limini tanlang"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:183
+#: includes/functions.yith-wcaf.php:254
+msgid "Dashboard"
+msgstr "Hamkorlar kabineti"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:187
+#: includes/class.yith-wcaf-payment-handler-premium.php:949
+#: includes/class.yith-wcaf-payment-handler-premium.php:957
+msgid "Withdraw"
+msgstr "To'lov"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:188
+msgid "Generate Link"
+msgstr "Havolani yarating"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:336
+#: includes/class.yith-wcaf-affiliate-handler.php:400
+msgid "An error occurred while trying to create the affiliate; try later."
+msgstr "Hamkorni yaratishda xatolik yuz berdi; keyinroq urinib ko'ring."
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:340
+#: includes/class.yith-wcaf-affiliate-handler.php:404
+msgid "You have already affiliated with us!"
+msgstr "Siz allaqachon biz bilan bog'langan hamkorsiz!"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:366
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:789
+#: templates/shortcodes/dashboard-settings-premium.php:96
+#: templates/shortcodes/registration-form-premium.php:157
+#: templates/shortcodes/registration-form-premium.php:305
+msgid "Website"
+msgstr "Veb-sayt"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:379
+#: templates/shortcodes/dashboard-settings-premium.php:104
+#: templates/shortcodes/registration-form-premium.php:171
+#: templates/shortcodes/registration-form-premium.php:320
+msgid "How will you promote our site?"
+msgstr "Bizning saytni qanday reklama qilasiz?"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:400
+#: templates/shortcodes/dashboard-settings-premium.php:122
+#: templates/shortcodes/registration-form-premium.php:193
+#: templates/shortcodes/registration-form-premium.php:343
+msgid "Specify how will you promote our site"
+msgstr "Bizning saytni qanday reklama  qilishingizni ko'rsating"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:458
+msgid "Please, enter a valid website"
+msgstr "Iltimos, to'g'ri veb-saytni kiriting"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:467
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:478
+msgid "Please, specify how will you promote our site"
+msgstr "Iltimos, saytimizni qanday reklama qilishingizni aniqlang"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:483
+msgid "Please, read and accept our Terms & Conditions"
+msgstr "Iltimos, bizning Shartlar bilan tanishib chiqing va qabul qiling"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:786
+msgid "Affiliate additional information"
+msgstr "Hamkorning qo'shimcha ma'lumotlari"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:792
+msgid "Affiliate website, to double-check affiliate activity"
+msgstr "Hamkorlik veb-sayti, sheriklik faoliyatini ikki marta tekshirish uchun"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:797
+msgid "Promotion method"
+msgstr "Reklamaning usullari"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:813
+msgid "Method affiliate will use to promote this site"
+msgstr "Hamkor ushbu saytni reklama qilishda foydalanadigan usul"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:818
+msgid "Custom promotion method"
+msgstr "Maxsus reklama usuli"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:822
+msgid ""
+"When selects \"other promotion methods\", affiliate can specify which kind "
+"of promotion will he perform"
+msgstr ""
+"\"Boshqa reklama usullari\" ni tanlaganida, hamkor qaysi reklama turini "
+"o'tkazishini belgilashi mumkin"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:826
+msgid "Terms"
+msgstr "Shartlar"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:829
+msgid "Whether affiliate accepted Terms and Conditions"
+msgstr "Hamkor shartlar va sharoitlarni qabul qilganligi"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:834
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:838
+msgid "Associated Affiliate"
+msgstr "Hamkor"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:854
+msgid ""
+"Affiliate that will receive permanent commission from this customer's "
+"purchases"
+msgstr "Ushbu mijozning xaridlaridan doimiy komissiya oladigan sherik"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:1065
+#, php-format
+msgctxt "Withdraw error message"
+msgid ""
+"Please, make sure to complete your billing profile before proceeding: %s "
+"missing"
+msgstr ""
+"Davom etishdan oldin hisob-kitob profilini to'ldirganingizga ishonch hosil "
+"qiling:% s yo'q"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:1068
+#, php-format
+msgctxt "Withdraw error message"
+msgid "Please, make sure to enter a valid value for %s field"
+msgstr "Iltimos,% s maydoniga tegishli qiymatni kiriting"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:345
+#, php-format
+msgid "Commission assigned to affiliate #%d (previously was assigned to #%d)"
+msgstr "#%d  filialiga komissiya tayinlangan (ilgari #%d ga tayinlangan)"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:395
+msgid "Your request has been processed correctly"
+msgstr "Sizning so'rovingiz to'g'ri ko'rib chiqildi"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:474
+msgid "Please, submit a valid email address where we can send PayPal payments"
+msgstr ""
+
+#: includes/class.yith-wcaf-affiliate-handler.php:483
+msgid "Please, enter a valid first name"
+msgstr "Iltimos, yaroqli ismni kiriting"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:492
+msgid "Please, enter a valid last name"
+msgstr "Iltimos, yaroqli familiyani kiriting"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:540
+#: includes/class.yith-wcaf-payment-handler-premium.php:411
+#: templates/shortcodes/dashboard-settings-premium.php:66
+#: templates/shortcodes/dashboard-settings.php:42
+#: templates/shortcodes/registration-form-premium.php:95
+#: templates/shortcodes/registration-form-premium.php:267
+#: templates/shortcodes/registration-form.php:92
+#: templates/shortcodes/registration-form.php:188
+msgid "First name"
+msgstr "Ism"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:553
+#: includes/class.yith-wcaf-payment-handler-premium.php:412
+#: templates/shortcodes/dashboard-settings-premium.php:74
+#: templates/shortcodes/dashboard-settings.php:50
+#: templates/shortcodes/registration-form-premium.php:109
+#: templates/shortcodes/registration-form-premium.php:282
+#: templates/shortcodes/registration-form.php:106
+#: templates/shortcodes/registration-form.php:203
+msgid "Last name"
+msgstr "Familya"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:576
+#: templates/shortcodes/registration-form-premium.php:148
+#: templates/shortcodes/registration-form-premium.php:296
+#: templates/shortcodes/registration-form.php:142
+#: templates/shortcodes/registration-form.php:218
+msgid "Payment email address"
+msgstr "To'lov uchun elektron pochta manzili"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:599
+msgid "New request"
+msgstr "Yangi so'rovlar"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:602
+msgid "Accepted and Enabled"
+msgstr "Qabul qilingan va yoqilgan"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1691
+msgid "Conv. Rate"
+msgstr "Konversiya darajasi"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1692
+#: includes/class.yith-wcaf-commission-handler.php:1956
+#: templates/admin/affiliate-panel-detail.php:40
+#: templates/admin/commission-panel-detail.php:40
+#: templates/admin/payment-panel-detail.php:39
+msgid "Action"
+msgstr "Faoliyat"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1930
+msgid "Affiliate details"
+msgstr "Hamkorlik tafsilotlari"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1936
+msgid "Check if this user is an affiliate"
+msgstr "Ushbu foydalanuvchi sherikligini tekshiring"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1943
+msgid "New"
+msgstr "Yangi"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1947
+msgid "If this user is an affiliate, you can choose to enable or disable it"
+msgstr ""
+"Agar ushbu foydalanuvchi sherik bo'lsa, uni yoqish yoki o'chirishni "
+"tanlashingiz mumkin"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1952
+msgid "Reject Message"
+msgstr "Rad etilgan xabar"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1956
+msgid ""
+"Optionally you can show affiliate a message, explaining why her/his account "
+"was rejected"
+msgstr ""
+"Ixtiyoriy ravishda siz sheriklik xabarini ko'rsatishingiz mumkin, unda nima "
+"uchun uning hisob qaydnomasi rad etilganligini tushuntirishingiz mumkin"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1963
+msgid "If this user is an affiliate, you can choose to ban or unban it"
+msgstr ""
+"Agar ushbu foydalanuvchi hamkor  bo'lsa, uni taqiqlashni yoki bekor qilishni "
+"tanlashingiz mumkin"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1971
+msgid ""
+"Optionally you can show affiliate a message, explaining why her/his account "
+"was banned"
+msgstr ""
+"Ixtiyoriy ravishda siz sherikga uning hisobiga nima uchun taqiq "
+"qo'yilganligi to'g'risida xabarni ko'rsatishingiz mumkin"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1978
+msgid "Token for the user (default to user ID)"
+msgstr "Foydalanuvchi uchun Token(standart foydalanuvchi identifikatori uchun)"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1985
+msgid ""
+"User-specific rate to apply, if any (general rates will be applied if left "
+"empty)"
+msgstr ""
+"Amalga oshiriladigan foydalanuvchi uchun belgilangan stavka (agar mavjud "
+"bo'lsa, umumiy stavkalar qo'llaniladi)"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1993
+msgid "Address email where affiliate wants to receive PayPal payments"
+msgstr ""
+
+#: includes/class.yith-wcaf-affiliate-premium.php:159
+msgid "Referral cookie changes?"
+msgstr "Cookie-larga o'zgartirishlar kiritiladimi?"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:161
+msgid "Make cookie change if another referral link is visited"
+msgstr ""
+"Agar boshqa Referral havolasi tashrif buyurgan bo'lsa, cookie fayllarini "
+"o'zgartiring"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:169
+msgid "Enable history storage"
+msgstr "Tarixni saqlashni yoqish"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:171
+msgid "Enable storage of referral changes"
+msgstr "Referral o'zgarishlarni saqlashni yoqish"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:177
+msgid "Referral history name"
+msgstr "Yo'naltiruvchi tarix nomi"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:179
+msgid ""
+"Select name for cookie that will store referral token history. This name "
+"should be as unique as possible, to avoid collision with other plugins: If "
+"you change this setting, all cookies created before will no longer be "
+"effective"
+msgstr ""
+"Referral ma'lumoti tarixini saqlaydigan cookie faylining nomini tanlang. "
+"Boshqa plaginlar bilan to'qnashuvni oldini olish uchun ushbu nom iloji "
+"boricha noyob bo'lishi kerak: Agar siz ushbu sozlamani o'zgartirsangiz, "
+"avval yaratilgan barcha cookie-fayllar endi ishlamaydi"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:187
+msgid "Make history cookie expire"
+msgstr "Tarix cookie-fayllarining amal qilish muddati tugashini ta'minlash"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:189
+msgid "Check this option if you want to make history cookie expire"
+msgstr ""
+"Tarix cookie-fayllarining amal qilish muddati tugashini xohlasangiz, ushbu "
+"parametrni belgilang"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:195
+msgid "Referral history exp."
+msgstr "Yo'naltiruvchi tarixi tugaydi."
+
+#: includes/class.yith-wcaf-affiliate-premium.php:197
+msgid ""
+"Number of seconds that have to pass before referral history cookie expires"
+msgstr ""
+"Tavsiya qilingan cookie-fayllar muddati tugashidan oldin o'tishi kerak "
+"bo'lgan soniyalar soni"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:210
+msgid "Delete affiliation cookie after checkout"
+msgstr "Hisobdan chiqqandan keyin tegishli cookie faylini o'chirib tashlang"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:212
+msgid ""
+"Whether to delete affiliation cookie after first customer referral checkout "
+"or not"
+msgstr ""
+"Mijozning birinchi tavsiyanomasidan keyin tegishli cookie-fayllarni "
+"o'chirish yoki o'chirmaslik"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:515
+msgid "The affiliate code you provided is not valid; please, double check it!"
+msgstr ""
+"Siz taqdim etgan sheriklik kodi haqiqiy emas; iltimos, yana bir bor "
+"tekshirib ko'ring!"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:517
+msgid "Thanks! We will give this user special thanks!"
+msgstr "Rahmat! Ushbu foydalanuvchiga alohida minnatdorchilik bildiramiz!"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:534
+msgid "Please, enter the affiliate code"
+msgstr "Пожалуйста, введите партнерский код"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:73
+msgid "Click log"
+msgstr "Jurnalni bosing"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:80
+msgid "Enable click registering"
+msgstr "Kliklashni ro'yxatdan o'tkazishni yoqing"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:82
+msgid ""
+"Enable click registering. <small>(Note that visitors IP will be registered "
+"within your db)</small>"
+msgstr ""
+"Kliklashni ro'yxatdan o'tkazishni yoqing. <small> (E'tibor bering, tashrif "
+"buyuruvchilar IP sizning ma'lumotlar bazasida ro'yxatdan o'tkaziladi) </"
+"small>"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:88
+msgid "Hit resolution"
+msgstr "Ta'sir aniqligi"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:90
+msgid ""
+"Number of seconds after which a new visit of the same user with the same "
+"refer id is counted as a new hit"
+msgstr ""
+"Bir necha soniyadan so'ng, xuddi shu identifikator identifikatoriga ega "
+"bo'lgan foydalanuvchining yangi tashrifi yangi murojat deb hisoblanadi"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:102
+msgid "Auto delete click log"
+msgstr "Klik jurnalini avtomatik o'chirish"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:104
+msgid "Select whether to delete automatically click log or not."
+msgstr ""
+"Bosish tarixini avtomatik ravishda o'chirish yoki o'chirmaslikni tanlang."
+
+#: includes/class.yith-wcaf-click-handler-premium.php:110
+msgid "Auto delete older click"
+msgstr "Eski klikni avtomatik o'chirish"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:112
+msgid "Number of days after which a click should be deleted"
+msgstr "Bir marta bosish o'chirilishi kerak bo'lgan kunlar soni"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:104
+msgid "Calculate commissions permanently"
+msgstr "Komissiyalarni doimiy ravishda hisoblang"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:106
+msgid ""
+"Register referral token within customer and credit commissions to the "
+"affiliate for any future customer purchase"
+msgstr ""
+"Iste'molchini kelajakda har qanday sotib olish uchun mijoz va kredit "
+"komissiyalari tarkibidagi hamkorga referral belgisini ro'yxatdan o'tkazing"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:112
+msgid "Prevent referral switch"
+msgstr "Referral almashtirishni oldini olish"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:114
+msgid ""
+"When \"persistent commissions\" is enabled, you can choose to bind the "
+"customer to a specific affiliate, thus preventing the system from "
+"automatically assigning a different affiliate to the customer who visits "
+"other affiliate links"
+msgstr ""
+"\"Doimiy komissiyalar\" yoqilganda, siz mijozni ma'lum bir sherik bilan "
+"bog'lashni tanlashingiz mumkin, shu bilan tizim boshqa sheriklik "
+"havolalariga tashrif buyurgan mijozga avtomatik ravishda boshqa hamkorni "
+"tayinlashiga yo'l qo'ymaydi"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:120
+msgid "Persistent commissions rate"
+msgstr "Doimiy komissiya stavkasi"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:122
+msgid ""
+"Percentage of first commission rate applied for next purchases (please, use "
+"values greater than 100 carefully; no check on final commission amount is "
+"performed)"
+msgstr ""
+"Keyingi xaridlar uchun qo'llaniladigan birinchi komissiya stavkasi ulushi "
+"(iltimos, 100 dan katta qiymatlardan ehtiyotkorlik bilan foydalaning; "
+"yakuniy komissiya miqdori tekshirilmagan)"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:136
+msgid "Notify admin when a commission switches to pending; customize email on"
+msgstr ""
+"Komissiya kutilayotgan holatga o'tganda administratorga xabar bering; "
+"elektron pochtani sozlang"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:147
+msgid "Exclusions"
+msgstr "Istisnolar"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:153
+#: includes/class.yith-wcaf-shortcode-premium.php:319
+msgid "Excluded products"
+msgstr "Chetlatilgan mahsulotlar"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:154
+msgid "A list of products excluded from affiliation plan"
+msgstr "Hamkorlik rejasidan chiqarilgan mahsulotlar ro'yxati"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:165
+msgid "Excluded users"
+msgstr "Chetlatilgan foydalanuvchilar"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:166
+msgid "A list of users excluded from affiliation plan"
+msgstr "Hamkorlik rejasidan chiqarilgan foydalanuvchilar ro'yxati"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:186
+msgid "Enable commission handling for YITH Subscriptions' renews"
+msgstr "YITH Obunalarini yangilash uchun komissiya bilan ishlashni yoqing"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:188
+msgid ""
+"Generate commission for YITH WooCommerce Subscription renews when first "
+"order was registered to an affiliate"
+msgstr ""
+"YITH WooCommerce obunasi uchun komissiya yaratish birinchi buyurtma hamkorga "
+"ro'yxatdan o'tganida yangilanadi"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:192
+#: includes/class.yith-wcaf-commission-handler-premium.php:215
+msgid "Do not handle renews"
+msgstr "Yangilanish bilan shug'ullanmang"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:193
+msgid ""
+"Register only first renew, when subscriptions switches from trial to active"
+msgstr ""
+"Obunalar sinovdan faolga o'tganda faqat birinchi yangilanishni ro'yxatdan "
+"o'tkazing"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:194
+#: includes/class.yith-wcaf-commission-handler-premium.php:216
+msgid "Register all renews"
+msgstr "Barcha yangilanishlarni ro'yxatdan o'tkazing"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:209
+msgid "Enable commission handling for WC Subscriptions' renews"
+msgstr "WC obunalarini yangilash uchun komissiya bilan ishlashni yoqish"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:211
+msgid ""
+"Generate commission for WC Subscription renews when first order was "
+"registered to an affiliate"
+msgstr ""
+"WC obunasi uchun komissiya yaratish birinchi buyurtma hamkorga ro'yxatdan "
+"o'tkazilganda yangilanadi"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:225
+msgid "General rate to apply to affiliates;"
+msgstr "Hamkorlarga murojaat qilish uchun umumiy tarif;"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:228
+msgid "Rate Panel"
+msgstr "Baholash paneli"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:228
+msgid " can be used to specify rates per user/product"
+msgstr ""
+"Foydalanuvchi / mahsulot uchun stavkalarni belgilash uchun ishlatilishi "
+"mumkin"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:873
+msgid "Referral History"
+msgstr "Yo'naltiruvchi tarix"
+
+#: includes/class.yith-wcaf-commission-handler.php:207
+msgid "Will deliver"
+msgstr "Yetkazilmoqda"
+
+#: includes/class.yith-wcaf-commission-handler.php:208
+msgid "Then take"
+msgstr "Keyin oladi"
+
+#: includes/class.yith-wcaf-commission-handler.php:209
+msgid "Archive"
+msgstr "Arxiv"
+
+#: includes/class.yith-wcaf-commission-handler.php:213
+msgid "New order"
+msgstr "Yangi buyurtma"
+
+#: includes/class.yith-wcaf-commission-handler.php:216
+msgid "Trashed"
+msgstr "Chiqarib yuborilgan"
+
+#: includes/class.yith-wcaf-commission-handler.php:598
+#, php-format
+msgid "Refunded %s due to refund #%s creation"
+msgstr "#%s yaratilishi sababli% s qaytarib berildi"
+
+#: includes/class.yith-wcaf-commission-handler.php:636
+#, php-format
+msgid "Restored %s due to refund #%s deletion"
+msgstr "Pulni qaytarish #% s tufayli% s tiklandi"
+
+#: includes/class.yith-wcaf-commission-handler.php:816
+#, php-format
+msgid "%s restored this item; system automatically assigned %s status"
+msgstr ""
+"% s ushbu elementni tikladi; tizim avtomatik ravishda% s holatini tayinlaydi"
+
+#: includes/class.yith-wcaf-commission-handler.php:987
+#: includes/class.yith-wcaf-payment-handler.php:299
+#: templates/admin/commission-panel-detail.php:148
+#: templates/admin/payment-panel-detail.php:99
+#, php-format
+msgid "added on %1$s at %2$s"
+msgstr "%1$s da %2$s da qo'shildi"
+
+#: includes/class.yith-wcaf-commission-handler.php:988
+#: includes/class.yith-wcaf-payment-handler.php:300
+#: templates/admin/commission-panel-detail.php:149
+#: templates/admin/payment-panel-detail.php:100
+msgid "Delete note"
+msgstr "Qaydni o'chirish"
+
+#: includes/class.yith-wcaf-commission-handler.php:2026
+#, php-format
+msgid "Moved to trash by %s"
+msgstr "%s tomonidan korzinaga yuborildi"
+
+#: includes/class.yith-wcaf-commission-handler.php:2078
+msgid "Referral Commissions"
+msgstr "Yo'naltiruvchi komissiyalar"
+
+#: includes/class.yith-wcaf-coupon-handler.php:190
+#, php-format
+msgid ""
+"%s has offered you a nice discount! Coupon has been added to cart; proceed "
+"with purchases to enjoy your discount"
+msgstr ""
+"% s sizga yoqimli chegirma taqdim etdi! Kupon savatga qo'shildi; "
+"chegirmangizdan bahramand bo'lish uchun xaridlarni davom eting"
+
+#: includes/class.yith-wcaf-coupon-handler.php:208
+msgid "Coupon"
+msgstr "Kupon"
+
+#: includes/class.yith-wcaf-coupon-handler.php:215
+msgid "Enable coupon handling"
+msgstr "Kupon bilan ishlashni yoqish"
+
+#: includes/class.yith-wcaf-coupon-handler.php:217
+msgid "Enable coupons handling for affiliates"
+msgstr "Hamkorlar uchun kuponlar bilan ishlashni yoqish"
+
+#: includes/class.yith-wcaf-coupon-handler.php:223
+msgid "Show coupon section"
+msgstr "Kupon bo'limini ko'rsatish"
+
+#: includes/class.yith-wcaf-coupon-handler.php:225
+msgid "Enable coupons section into Affiliate Dashboard"
+msgstr "Hamkorlar Panelida kuponlar bo'limini yoqish"
+
+#: includes/class.yith-wcaf-coupon-handler.php:231
+msgid "Limit coupon section"
+msgstr "Kupon qismini cheklash"
+
+#: includes/class.yith-wcaf-coupon-handler.php:233
+msgid "Enable coupons section for affiliates with coupon only"
+msgstr "Faqatgina kuponli hamkorlar uchun kuponlar bo'limini yoqing"
+
+#: includes/class.yith-wcaf-coupon-handler.php:239
+msgid "Notify affiliate on new coupon"
+msgstr "Yangi kupon haqida hamkorga xabar bering"
+
+#: includes/class.yith-wcaf-coupon-handler.php:241
+msgid ""
+"Notify affiliate when a new coupon is bound to his account; customize email "
+"on"
+msgstr ""
+"Hisobiga yangi kupon ulanganligi to'g'risida hamkorga xabar berish; elektron "
+"pochtani sozlang"
+
+#: includes/class.yith-wcaf-coupon-handler.php:293
+#: templates/admin/click-panel.php:36 templates/admin/rate-panel.php:38
+msgid "Search for an affiliate&hellip;"
+msgstr "Hamkorni qidirish va hellip;"
+
+#: includes/class.yith-wcaf-coupon-handler.php:314
+msgid "User that will be referred when someone purchase with this coupon"
+msgstr "Ushbu kupon bilan kimdir sotib olganida, foydalanuvchi murojaat qiladi"
+
+#: includes/class.yith-wcaf-coupon-handler.php:366
+msgid "Coupons"
+msgstr "Kuponlar"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:165
+msgid "None"
+msgstr "Yo'q"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:183
+msgid "Payment type"
+msgstr "To'lov turi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:185
+msgid "Choose payment mode to pay commissions to your affiliates"
+msgstr ""
+"Sizning hamkorlaringizga komissiya to'lash uchun to'lov rejimini tanlang"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:188
+msgid "Manually"
+msgstr "Qo'l bilan"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:189
+msgid "Automatically when reaching a threshold"
+msgstr "Chegaraga yetganda avtomatik ravishda"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:190
+msgid "Automatically on a specific month date"
+msgstr "Avtomatik ravishda ma'lum bir oy sanasida"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:191
+msgid ""
+"Automatically on a specific month date, if a specific threshold is reached"
+msgstr ""
+"Avtomatik ravishda ma'lum bir oy sanasida, agar ma'lum bir chegaraga "
+"erishilsa"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:192
+msgid "Automatically every day"
+msgstr "Avtomatik ravishda har kuni"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:194
+msgid "Let user request payment"
+msgstr "Foydalanuvchiga to'lovni talab qilishiga ruxsat bering"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:201
+msgid "Default gateway"
+msgstr "Standart shlyuz"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:203
+msgid ""
+"Choose a gateway to execute automatic payments; if you select \"none\" "
+"payments will only be registered but no payment requests will be issued to "
+"the gateway"
+msgstr ""
+"Avtomatik to'lovlarni amalga oshirish uchun shlyuzni tanlang; agar siz \"yo'q"
+"\" ni tanlasangiz, to'lovlar faqat ro'yxatdan o'tkaziladi, ammo shlyuzga "
+"to'lov talablari berilmaydi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:212
+#: templates/admin/payment-panel-detail.php:165
+msgid "Payment date"
+msgstr "To'lov sanasi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:214
+msgid "Choose a day of the month for commission payments"
+msgstr "Komission to'lovlar uchun oyning bir kunini tanlang"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:227
+msgid "Payment threshold"
+msgstr "To'lov chegarasi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:229
+msgid ""
+"Choose a minimum amount that an affiliate must earn before a payment is "
+"issued"
+msgstr ""
+"To'lov berilgunga qadar sherikning ishlashi kerak bo'lgan minimal miqdorni "
+"tanlang"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:241
+msgid "Pay only commissions older than"
+msgstr "Faqat kattaroq komissiyalarni to'lang"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:244
+msgid ""
+"Choose whether to pay automatically only commissions older than a certain "
+"number of days or not"
+msgstr ""
+"Avtomatik ravishda faqat ma'lum kunlardan kattaroq komissiyalarni to'lashni "
+"yoki to'lamaslikni tanlang"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:251
+msgid "Commission age"
+msgstr "Komissiya yoshi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:254
+msgid ""
+"Choose the minimum amount of days that should pass before commissions can be "
+"paid automatically"
+msgstr ""
+"Komission to'lovlarni avtomatik ravishda to'lashdan oldin o'tishi kerak "
+"bo'lgan kunlarning minimal miqdorini tanlang"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:268
+msgid "Amount request mode"
+msgstr "Sorov miqdori rejimi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:270
+msgid "Choose the way user will select the amount to withdraw"
+msgstr "Foydalanuvchi pul mablag'larini tanlash usulini tanlang"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:273
+msgid "User selects an interval of days for commissions to be paid"
+msgstr "Foydalanuvchi komissiyalarni to'lash uchun kunlar oralig'ini tanlaydi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:274
+msgid "User selects an amount to withdraw"
+msgstr "Foydalanuvchi pul olish uchun mablag'ni tanlaydi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:281
+msgid "Require invoice"
+msgstr "Schyot-fakturani talab qilish"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:283
+msgid "Require customer an invoice before allowing payment to be requested"
+msgstr ""
+"To'lovni talab qilishga ruxsat berishdan oldin mijozdan schyot-fakturani "
+"talab qiling"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:290
+msgid "Invoice mode"
+msgstr "Schyot-faktura rejimi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:292
+msgid "Choose how user should submit his invoice"
+msgstr "Foydalanuvchi o'z  schyot-fakturasini qanday topshirishini tanlang"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:295
+msgid "Let user upload his custom invoice"
+msgstr "Foydalanuvchiga o'z  schyot-fakturasini yuklashiga ruxsat bering"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:296
+msgid "Generate invoice from customer data"
+msgstr "Xaridor ma'lumotlaridan schyot-fakturani yarating"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:297
+msgid "Let user choose his preferred method"
+msgstr "Foydalanuvchiga afzal usulini tanlashiga ruxsat bering"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:304
+msgid "Invoice example"
+msgstr "Schyot-fakturaga misol"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:306
+msgid ""
+"Enter url of an example invoice that you want to show to your affiliates"
+msgstr ""
+"Hamkorlaringizga ko'rsatmoqchi bo'lgan schyot-fakturaning url-manzilini "
+"kiriting"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:314
+msgid "Company details"
+msgstr "Kompaniya tafsilotlari"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:316
+msgid "Enter details about your company that you want to show in your invoice"
+msgstr ""
+"Sizning schyot-fakturangizda ko'rsatmoqchi bo'lgan kompaniyangiz haqidagi "
+"ma'lumotlarni kiriting"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:324
+msgid "Invoice fields"
+msgstr "Schyot-faktura maydonlari"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:326
+msgid ""
+"Select fields that you want to require to your affiliates to generate invoice"
+msgstr ""
+"Schyot-fakturani yaratish uchun hamkorlaringizdan talab qilinadigan "
+"maydonlarni tanlang"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:337
+msgid "Show \"Terms & Condition\" checkbox on withdraw form"
+msgstr "Olingan shaklda \"Shartlar va sharoitlar\" katagiga belgi qo'ying"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:367
+msgid "Invoice template"
+msgstr "Schyot-faktura shabloni"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:376
+msgid "Notify admin when a new payment is issued; customize email on"
+msgstr ""
+"Yangi to'lov chiqarilganda administratorga xabar bering; elektron pochtani "
+"sozlang"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:409
+msgid "Invoice number"
+msgstr "Schyot-faktura raqami"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:410
+#: templates/shortcodes/dashboard-coupons.php:43
+msgid "Type"
+msgstr "Turi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:413
+#: includes/class.yith-wcaf-shortcode-premium.php:498
+msgid "Company"
+msgstr "Kompaniya"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:414
+msgid "Billing country"
+msgstr "To'lovchi davlat"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:415
+msgid "Billing state"
+msgstr "Hisob-kitob uchun viloyat / shtat"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:416
+msgid "Billing city"
+msgstr "Hisob-kitob uchun shahar"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:417
+msgid "Billing zip code"
+msgstr "Hisob-kitob uchun pochta indeksi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:418
+msgid "Billing address"
+msgstr "To'lovchi; to'lovni qabul qiladigan manzil"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:419
+msgid "Company VAT"
+msgstr "QQS Kompaniya "
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:420
+#: includes/class.yith-wcaf-shortcode-premium.php:489
+msgid "CIF/SSN"
+msgstr "CIF/SSN:"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:441
+#: includes/class.yith-wcaf-payment-handler.php:659
+msgid "You have to select at least one commission"
+msgstr "Siz kamida bitta komissiyani tanlashingiz kerak"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:542
+#: includes/class.yith-wcaf-payment-handler.php:730
+msgid "Payment correctly registered"
+msgstr "To'lov to'g'ri ro'yxatdan o'tkazildi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:581
+#: includes/class.yith-wcaf-payment-handler-premium.php:612
+msgid "Affiliate needs to have at least one unpaid commission"
+msgstr "Hamkorlikda kamida bitta to'lanmagan komissiya bo'lishi kerak"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:639
+msgid "PayPal"
+msgstr ""
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:647
+msgid "Account Funds"
+msgstr "Hisob mablag'lari"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:655
+msgid "PayPal Payouts"
+msgstr ""
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:687
+msgid ""
+"Payments have been disabled on your installation because system detected url "
+"change"
+msgstr ""
+"O'rnatishda to'lovlar o'chirib qo'yildi, chunki tizim URL manzilining "
+"o'zgarishini aniqladi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:715
+msgid "Payments registered correctly"
+msgstr "To'lovlar to'g'ri ro'yxatdan o'tkazildi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:723
+msgid "No gateway found with the specified ID"
+msgstr "Belgilangan identifikator bilan shlyuz topilmadi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:733
+msgid ""
+"Gateway class doesn't match required structure; missing singleton access "
+"function"
+msgstr ""
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:741
+msgid "Gateway class doesn't match required structure; missing pay() method"
+msgstr ""
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:916
+msgid "You haven't sufficient permission to access this content!"
+msgstr "Sizda ushbu tarkibga kirish uchun etarli ruxsat yo'q!"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:930
+msgid ""
+"There was an error while processing download of your invoice; please, try "
+"again later!"
+msgstr ""
+"Schyot-fakturani yuklab olish jarayonida xatolik yuz berdi; Iltimos keyinroq "
+"qayta urinib ko'ring!"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1092
+#: includes/class.yith-wcaf-payment-handler-premium.php:1093
+#, php-format
+msgctxt "Withdraw invoice description"
+msgid "Affiliate commission withdrawal on %s"
+msgstr "Hamkorlik komissiyasini olib tashlash% s"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1094
+#, php-format
+msgctxt "Withdraw invoice affiliate program name"
+msgid "%s Affiliate Program"
+msgstr "% s hamkorlik dasturi"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1106
+#, php-format
+msgctxt "Invoice template"
+msgid "CIF/SSN: %s"
+msgstr "CIF/SSN:%s"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1114
+#, php-format
+msgctxt "Invoice template"
+msgid "VAT: %s"
+msgstr "QQS:%s"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1227
+msgctxt "Withdraw error message"
+msgid "You must be logged in, in order to request a withdraw"
+msgstr ""
+"Pulni qaytarib olishni talab qilish uchun siz tizimga kirishingiz kerak"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1236
+msgctxt "Withdraw error message"
+msgid ""
+"You already have a pending payment; please, wait until our team process your "
+"previous request, before submitting a new one"
+msgstr ""
+"Sizda allaqachon kutilayotgan to'lov bor; iltimos, yangisini yuborishdan "
+"oldin jamoamiz avvalgi so'rovingizni ko'rib chiqguncha kuting"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1245
+msgctxt "Withdraw error message"
+msgid "Please, enter a valid payment email where we can issue the payment"
+msgstr ""
+"Iltimos, to'lovni amalga oshirishimiz mumkin bo'lgan haqiqiy elektron pochta "
+"xabarini kiriting"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1252
+msgctxt "Withdraw error message"
+msgid "Please, accept our Terms & Conditions"
+msgstr "Iltimos, bizning Shartlar va sharoitlarni qabul qiling"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1276
+msgctxt "Withdraw error message"
+msgid ""
+"There was an error with the invoice file you uploaded; please, try again"
+msgstr ""
+"Siz yuklagan  schyot-fakturada xatolik yuz berdi; Iltimos, yana bir bor "
+"urinib ko'ring"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1283
+#, php-format
+msgctxt "Withdraw error message"
+msgid "There was an error with upload: %s"
+msgstr "Yuklashda xatolik yuz berdi:% s"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1293
+msgctxt "Withdraw error message"
+msgid ""
+"The invoice file you selected has an invalid extension; please, choose "
+"another file"
+msgstr ""
+"Siz tanlagan schyot-faktura fayli noto'g'ri kengaytmaga ega; iltimos, boshqa "
+"faylni tanlang"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1301
+msgctxt "Withdraw error message"
+msgid "The invoice file you selected is too big; please, choose another file"
+msgstr ""
+"Siz tanlagan schyot-kitob fayli juda katta; iltimos, boshqa faylni tanlang"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1326
+msgctxt "Withdraw error message"
+msgid ""
+"You need to enter a valid invoice in order to submit your withdraw request"
+msgstr ""
+"Pulni qaytarib olish to'g'risida so'rov yuborish uchun siz to'g'ri hisob "
+"qaydnomasini kiritishingiz kerak."
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1347
+msgctxt "Withdraw error message"
+msgid "Please, enter a valid \"From\" date"
+msgstr "Iltimos, \"Kimdan\" sanasini yarating"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1353
+msgctxt "Withdraw error message"
+msgid ""
+"You entered a malformed date in \"From\" field; please double check value "
+"you entered and try again"
+msgstr ""
+"\"Kimdan\" maydoniga noto'g'ri tuzilgan sanani kiritdingiz; iltimos, "
+"kiritilgan qiymatni qayta tekshiring va qaytadan urining"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1359
+msgctxt "Withdraw error message"
+msgid "Please, enter a valid \"To\" date"
+msgstr "Iltimos, to'g'ri \"Kimga\" sanasini kiriting"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1365
+msgctxt "Withdraw error message"
+msgid ""
+"You entered a malformed date in \"To\" field; please double check value you "
+"entered and try again"
+msgstr ""
+"Siz \"Kimga\" maydoniga noto'g'ri tuzilgan sanani kiritdingiz; iltimos, "
+"kiritilgan qiymatni qayta tekshiring va qaytadan urining"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1371
+msgctxt "Withdraw error message"
+msgid "Please, make sure to select a valid interval of dates"
+msgstr "Iltimos, haqiqiy sanalar oralig'ini tanlang"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1398
+#: includes/class.yith-wcaf-payment-handler-premium.php:1413
+msgctxt "Withdraw error message"
+msgid ""
+"Payment amount doesn't match requirements; please, select another interval "
+"and try again"
+msgstr ""
+"To'lov miqdori talablarga mos kelmaydi; iltimos, boshqa intervalni tanlang "
+"va qaytadan urining"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1407
+msgctxt "Withdraw error message"
+msgid "Please, enter a valid amount for your withdraw"
+msgstr "Iltimos, pulni qaytarib olish uchun to'g'ri miqdorni kiriting"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1432
+msgctxt "Withdraw error message"
+msgid ""
+"There are no commissions for the specified interval; change dates and try "
+"again"
+msgstr ""
+"Belgilangan interval uchun komissiyalar mavjud emas; sanalarni o'zgartiring "
+"va qaytadan urining"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1459
+msgctxt "Withdraw success message"
+msgid ""
+"Your withdraw was correctly registered. An admin will review it as soon as "
+"possible"
+msgstr ""
+"Sizning chekinishingiz to'g'ri ro'yxatdan o'tkazildi. Administrator buni "
+"imkon qadar tezroq ko'rib chiqadi"
+
+#: includes/class.yith-wcaf-payment-handler.php:747
+msgid "Payment registered; awaiting for IPN confirmation"
+msgstr "To'lov ro'yxatdan o'tkazildi; IPN tasdiqlanishini kutmoqda"
+
+#: includes/class.yith-wcaf-payment-handler.php:750
+msgid "Payment registered"
+msgstr "To'lov ro'yxatdan o'tkazildi"
+
+#: includes/class.yith-wcaf-privacy.php:58
+msgid "While you visit our site, we’ll track:"
+msgstr ""
+"Bizning saytimizga tashrif buyurganingizda, biz quyidagilarni kuzatib "
+"boramiz:"
+
+#: includes/class.yith-wcaf-privacy.php:60
+msgid ""
+"Visits to the store: we’ll use this to generate statistics for affiliates "
+"and administrators."
+msgstr ""
+"Do'konga tashriflar: biz buni hamkorlar va ma'murlar uchun statistik "
+"ma'lumotlarni yaratish uchun ishlatamiz."
+
+#: includes/class.yith-wcaf-privacy.php:61
+msgid ""
+"Location, IP address and browser type: we’ll use this just for statistics, "
+"and to let administrators supervise traffic generated by affiliates."
+msgstr ""
+"Joylashuv, IP-manzil va brauzer turi: biz buni faqat statistika uchun va "
+"ma'murlarga hamkorlar tomonidan yaratilgan trafikni nazorat qilish uchun "
+"foydalanamiz."
+
+#: includes/class.yith-wcaf-privacy.php:62
+msgid ""
+"Affiliate’s name, username, email address: we’ll use this information to "
+"register and keep track of affiliates."
+msgstr ""
+"Hamkorning ismi, foydalanuvchi nomi, elektron pochta manzili: biz ushbu "
+"ma'lumotdan hamkorlarni ro'yxatdan o'tkazish va kuzatib borish uchun "
+"foydalanamiz."
+
+#: includes/class.yith-wcaf-privacy.php:64
+msgid ""
+"We’ll also use cookies to keep track of visit and sales generate by "
+"affiliates."
+msgstr ""
+"Shuningdek, biz hamkorlardan tashrif buyurgan va sotgan mahsulotlarni "
+"kuzatib borish uchun cookie-fayllardan foydalanamiz."
+
+#: includes/class.yith-wcaf-privacy.php:67
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Shop Managers can access:"
+msgstr ""
+"Bizning jamoamiz a'zolari siz bizga taqdim etgan ma'lumotlarga ega. Masalan, "
+"ma'murlar va do'konlar menejerlari quyidagilarga kirishlari mumkin:"
+
+#: includes/class.yith-wcaf-privacy.php:69
+msgid "Affiliate’s personal details;"
+msgstr "Hamkorning shaxsiy ma'lumotlari;"
+
+#: includes/class.yith-wcaf-privacy.php:70
+msgid "System-generated commissions;"
+msgstr "Tizim tomonidan yaratilgan komissiyalar;"
+
+#: includes/class.yith-wcaf-privacy.php:71
+msgid "Payments sent to the affiliates;"
+msgstr "Hamkorlarga yuborilgan to'lovlar;"
+
+#: includes/class.yith-wcaf-privacy.php:72
+msgid "Visits and sales generated through referral links."
+msgstr "Referral havolalar orqali yaratilgan tashriflar va sotuvlar"
+
+#: includes/class.yith-wcaf-privacy.php:74
+msgid ""
+"Our team members have access to this information to correctly manage the "
+"affiliation system, and perform required actions in order to prevent "
+"customers from any inappropriate usage of the affiliate program."
+msgstr ""
+"Bizning jamoa a'zolarimiz ushbu tizimga a'zolik tizimini to'g'ri boshqarish "
+"va xaridorlarni sheriklik dasturidan har qanday noo'rin foydalanishdan "
+"saqlanish uchun kerakli harakatlarni bajarish uchun kirish huquqiga ega."
+
+#: includes/class.yith-wcaf-privacy.php:77
+msgid ""
+"We send payments through PayPal. When processing payments, some of your data "
+"will be passed to PayPal, including information required to process or "
+"support the payment, such as the commission total and payment information."
+msgstr ""
+
+#: includes/class.yith-wcaf-privacy.php:78
+msgid ""
+"Please see the <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-"
+"full\">PayPal Privacy Policy</a> for more details."
+msgstr ""
+
+#: includes/class.yith-wcaf-privacy.php:100
+#: includes/class.yith-wcaf-privacy.php:142
+#: includes/class.yith-wcaf-privacy.php:235
+msgid "Affiliate Data"
+msgstr "Hamkorlik ma'lumotlari"
+
+#: includes/class.yith-wcaf-privacy.php:107
+#: includes/class.yith-wcaf-privacy.php:149
+#: includes/class.yith-wcaf-privacy.php:279
+msgid "Affiliate Commissions"
+msgstr "Hamkorlik komissiyalari"
+
+#: includes/class.yith-wcaf-privacy.php:115
+#: includes/class.yith-wcaf-privacy.php:157
+#: includes/class.yith-wcaf-privacy.php:327
+msgid "Affiliate Payments"
+msgstr "Hamkorlik to'lovlari"
+
+#: includes/class.yith-wcaf-privacy.php:123
+#: includes/class.yith-wcaf-privacy.php:165
+msgid "Affiliate Clicks"
+msgstr "Hamkorni kliklari"
+
+#: includes/class.yith-wcaf-privacy.php:194
+msgid "Referral link"
+msgstr "Yo'naltiruvchi havola"
+
+#: includes/class.yith-wcaf-privacy.php:196
+#: templates/admin/payment-panel-detail.php:212
+msgid "Payment Email"
+msgstr "To'lov uchun elektron pochta"
+
+#: includes/class.yith-wcaf-privacy.php:197
+msgid "Commissions earned"
+msgstr "Komissiylar daromadi"
+
+#: includes/class.yith-wcaf-privacy.php:198
+msgid "Total paid"
+msgstr "Jami to'langan"
+
+#: includes/class.yith-wcaf-privacy.php:375
+msgid "Affiliate Hits"
+msgstr "Hamkorlik xitlari"
+
+#: includes/class.yith-wcaf-privacy.php:445
+#, php-format
+msgid "Anonymized affiliate %s."
+msgstr "Anonim hamkor % s."
+
+#: includes/class.yith-wcaf-privacy.php:507
+#, php-format
+msgid "Anonymized commission %s."
+msgstr "Anonim komissiya% s."
+
+#: includes/class.yith-wcaf-privacy.php:511
+#, php-format
+msgid "Commission %s has been retained."
+msgstr "Komissiya% s saqlanib qoldi."
+
+#: includes/class.yith-wcaf-privacy.php:578
+#, php-format
+msgid "Anonymized payment %s."
+msgstr "Anonim to'lov% s."
+
+#: includes/class.yith-wcaf-privacy.php:582
+#, php-format
+msgid "Payment %s has been retained."
+msgstr "%s   to'lovi saqlanib qoldi."
+
+#: includes/class.yith-wcaf-privacy.php:649
+#, php-format
+msgid "Anonymized hit %s."
+msgstr "Anonim xit% s."
+
+#: includes/class.yith-wcaf-privacy.php:653
+#, php-format
+msgid "Hit %s has been retained."
+msgstr "Hit% s saqlanib qoldi."
+
+#: includes/class.yith-wcaf-privacy.php:678
+msgid "Order id"
+msgstr "ID Buyurtma"
+
+#: includes/class.yith-wcaf-privacy.php:680
+#: includes/class.yith-wcaf-privacy.php:735
+msgid "Created on"
+msgstr "Yaratildi"
+
+#: includes/class.yith-wcaf-privacy.php:736
+msgid "Completed on"
+msgstr "Tugatildi"
+
+#: includes/class.yith-wcaf-privacy.php:738
+msgid "Gateway"
+msgstr "Shlyuz"
+
+#: includes/class.yith-wcaf-privacy.php:801
+#: templates/shortcodes/dashboard-clicks.php:76
+msgid "Link"
+msgstr "Havola"
+
+#: includes/class.yith-wcaf-privacy.php:802
+msgid "Origin"
+msgstr "Manbasi"
+
+#: includes/class.yith-wcaf-privacy.php:804
+msgid "Converted on"
+msgstr "Qayta ishlangan"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:287
+msgid "Free shipping!"
+msgstr "Yetkazib berish bepul!"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:291
+msgid "Minimum to spend"
+msgstr "Minimal xarajatlar"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:295
+msgid "Maximum to spend"
+msgstr "Maksimal xarajatlar"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:299
+msgid "Individual use!"
+msgstr "Shaxsiy foydalanish!"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:303
+msgid "Exclude sale products!"
+msgstr "Savdo mahsulotlarini chiqarib tashlang!"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:311
+msgid "Allowed products"
+msgstr "Ruxsat berilgan mahsulotlar"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:328
+msgid "Allowed product categories"
+msgstr "Ruxsat berilgan mahsulot toifalari"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:337
+msgid "Excluded product categories"
+msgstr "Chetlatilgan mahsulot toifalari"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:341
+msgid "Limit per coupon:"
+msgstr "Bir kupon uchun limit:"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:345
+msgid "Limit per number of items:"
+msgstr "Ob'ektlar soniga cheklov:"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:349
+msgid "Limit per user:"
+msgstr "Har bir foydalanuvchi uchun cheklov:"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:353
+msgctxt "Coupon dashboard info tooltip"
+msgid "No additional info"
+msgstr "Qo'shimcha ma'lumot yo'q"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:427
+msgid "There isn't any affiliate selected for current session"
+msgstr "Joriy sessiya uchun biron bir hamkor tanlanmagan"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:471
+msgid "Invoice Number"
+msgstr "Schyot-faktura raqami"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:480
+msgid "VAT Number"
+msgstr "QQS raqami"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:510
+#: templates/admin/payment-panel-detail.php:256
+msgid "Personal"
+msgstr "Shaxsiy"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:511
+#: templates/admin/payment-panel-detail.php:257
+msgid "Business"
+msgstr "Biznes"
+
+#: includes/class.yith-wcaf-shortcode.php:82
+msgctxt "[gutenberg]: block name"
+msgid "YITH Affiliates Registration Form"
+msgstr "YITH sheriklarini ro'yxatdan o'tkazish shakli"
+
+#: includes/class.yith-wcaf-shortcode.php:83
+msgctxt "[gutenberg]: block description"
+msgid "Show registration form for your affiliates"
+msgstr "Sizning hamkorlaringiz uchun ro'yxatdan o'tish shaklini ko'rsating"
+
+#: includes/class.yith-wcaf-shortcode.php:88
+msgctxt "[gutenberg]: attribute description"
+msgid "Show Login form"
+msgstr "Kirish loginini ko'rsatish"
+
+#: includes/class.yith-wcaf-shortcode.php:90
+msgctxt "[gutenberg]: inspector description"
+msgid "Hide login form"
+msgstr "Kirish loginini yashirish"
+
+#: includes/class.yith-wcaf-shortcode.php:91
+msgctxt "[gutenberg]: inspector description"
+msgid "Show login form"
+msgstr "Kirish loginini ko'rsatish"
+
+#: includes/class.yith-wcaf-shortcode.php:97
+msgctxt "[gutenberg]: attribute description"
+msgid "Show First name field"
+msgstr "Ism maydonini ko'rsatish"
+
+#: includes/class.yith-wcaf-shortcode.php:100
+msgctxt "[gutenberg]: inspector description"
+msgid "Hide first name field"
+msgstr "Ism maydonini yashirish"
+
+#: includes/class.yith-wcaf-shortcode.php:101
+msgctxt "[gutenberg]: inspector description"
+msgid "Show first name field"
+msgstr "Ism maydonini ko'rsatish"
+
+#: includes/class.yith-wcaf-shortcode.php:106
+msgctxt "[gutenberg]: attribute description"
+msgid "Show Last name field"
+msgstr "Familiya maydonini ko'rsatish"
+
+#: includes/class.yith-wcaf-shortcode.php:109
+msgctxt "[gutenberg]: Help text"
+msgid "Hide last name field"
+msgstr "Familiya maydonini yashirish"
+
+#: includes/class.yith-wcaf-shortcode.php:110
+msgctxt "[gutenberg]: Help text"
+msgid "Show last name field"
+msgstr "Familiya maydonini ko'rsatish"
+
+#: includes/class.yith-wcaf-shortcode.php:115
+msgctxt "[gutenberg]: attribute description"
+msgid "Show Additional fields"
+msgstr "Qo'shimcha maydonlarni ko'rsatish"
+
+#: includes/class.yith-wcaf-shortcode.php:118
+msgctxt "[gutenberg]: Help text"
+msgid "Hide additional fields"
+msgstr "Qo'shimcha maydonlarni yashirish"
+
+#: includes/class.yith-wcaf-shortcode.php:119
+msgctxt "[gutenberg]: Help text"
+msgid "Show additional field"
+msgstr "Qo'shimcha maydonlarni ko'rsatish"
+
+#: includes/class.yith-wcaf-shortcode.php:127
+msgctxt "[gutenberg]: block name"
+msgid "YITH Affiliates Dasbharod"
+msgstr "YITH Hamkorlar Paneli"
+
+#: includes/class.yith-wcaf-shortcode.php:128
+msgctxt "[gutenberg]: block description"
+msgid "Show affiliate dashboard to your affiliates"
+msgstr "O'zingizning sheriklaringizga hamkorlar panelini ko'rsatish"
+
+#: includes/class.yith-wcaf-shortcode.php:133
+#: includes/class.yith-wcaf-shortcode.php:151
+msgctxt "[gutenberg]: attribute description"
+msgid "Show navigation menu"
+msgstr "Navigatsiya menyusini ko'rsatish"
+
+#: includes/class.yith-wcaf-shortcode.php:135
+#: includes/class.yith-wcaf-shortcode.php:153
+msgctxt "[gutenberg]: inspector description"
+msgid "Hide menu"
+msgstr "Menyuni yashirish"
+
+#: includes/class.yith-wcaf-shortcode.php:136
+#: includes/class.yith-wcaf-shortcode.php:154
+msgctxt "[gutenberg]: inspector description"
+msgid "Show menu"
+msgstr "Menyuni ko'rsatish"
+
+#: includes/class.yith-wcaf-shortcode.php:145
+msgctxt "[gutenberg]: block name"
+msgid "YITH Affiliates Link Generator"
+msgstr ""
+
+#: includes/class.yith-wcaf-shortcode.php:146
+msgctxt "[gutenberg]: block description"
+msgid "Show referral link generation form for your affiliates"
+msgstr ""
+
+#: includes/class.yith-wcaf-shortcode.php:337
+msgid "Share on:"
+msgstr "Ulashish:"
+
+#: includes/class.yith-wcaf-shortcode.php:630
+#: includes/class.yith-wcaf-shortcode.php:754
+#: includes/class.yith-wcaf-shortcode.php:1411
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+"Salom <strong>%1$s</strong> (%1$s emasmisiz? <a href=\"%2$s\"> Chiqing </a>)."
+
+#: includes/class.yith-wcaf-shortcode.php:635
+#: includes/class.yith-wcaf-shortcode.php:759
+#: includes/class.yith-wcaf-shortcode.php:1416
+#, php-format
+msgid ""
+"From your affiliate dashboard you can view your recent commissions and "
+"visits, consult your affiliate stats and <a href=\"%1$s\">manage settings</"
+"a> for your profile"
+msgstr ""
+"Sizning sheriklar panelida siz so'nggi komissiyalar va tashriflarni "
+"ko'rishingiz, sheriklaringiz statistikasi bilan maslahatlashishingiz va "
+"profilingiz uchun <a href=\"%1$s\"> sozlamalarni boshqarish </a>"
+
+#: includes/class.yith-wcaf-shortcode.php:1297
+msgid "Changes correctly saved!"
+msgstr "O'zgarishlar to'g'ri saqlandi!"
+
+#: includes/class.yith-wcaf.php:144
+msgctxt "enhanced select"
+msgid "One result is available, press enter to select it."
+msgstr "Bitta natija mavjud, uni tanlash uchun kirish tugmasini bosing."
+
+#: includes/class.yith-wcaf.php:145
+msgctxt "enhanced select"
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr ""
+"% qty% natijalar mavjud, navigatsiya qilish uchun yuqoriga va pastga o'q "
+"tugmalaridan foydalaning."
+
+#: includes/class.yith-wcaf.php:146
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "Hech narsa topilmadi"
+
+#: includes/class.yith-wcaf.php:147
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr "Yuklashda xatolik yuz berdi"
+
+#: includes/class.yith-wcaf.php:148
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr "1 yoki undan ortiq belgini kiriting"
+
+#: includes/class.yith-wcaf.php:149
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr "% Qty% yoki undan ortiq belgini kiriting"
+
+#: includes/class.yith-wcaf.php:150
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr "Iltimos, 1 ta belgini o'chirib tashlang"
+
+#: includes/class.yith-wcaf.php:151
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr "Iltimos,% qty% ta belgini o'chirib tashlang"
+
+#: includes/class.yith-wcaf.php:152
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr "Siz faqat 1 ta narsani tanlashingiz mumkin"
+
+#: includes/class.yith-wcaf.php:153
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr "Siz faqat% qty% elementlarni tanlashingiz mumkin"
+
+#: includes/class.yith-wcaf.php:154
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr "Qo'shimcha natijalar yuklanmoqda & hellip;"
+
+#: includes/class.yith-wcaf.php:155
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr "Qidiruv va hellip;"
+
+#: includes/class.yith-wcaf.php:156
+msgctxt "alert message"
+msgid "URL copied"
+msgstr "URL nusxa ko'chirildi"
+
+#: includes/class.yith-wcaf.php:244
+msgid "Once a week"
+msgstr "Haftada bir marta"
+
+#: includes/class.yith-wcaf.php:248
+msgid "Once a month"
+msgstr "Oyda bir marta"
+
+#: includes/class.yith-wcaf.php:435
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:135
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:136
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:151
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:152
+msgid "Affiliate Dashboard"
+msgstr "Hamkorlar Paneli"
+
+#: includes/class.yith-wcaf.php:455
+msgid "Products"
+msgstr "Tovarlar"
+
+#: includes/class.yith-wcaf.php:456
+msgid "Orders"
+msgstr "Buyurtmalar"
+
+#: includes/class.yith-wcaf.php:462
+msgid "Statistics"
+msgstr "Statistikalar"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:39
+msgid "New affiliate"
+msgstr "Yangi hamkor"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:40
+msgid "This email is sent to admins each time a new affiliate is created"
+msgstr ""
+"Ushbu elektron pochta administratorlarga har safar yangi hamkor yaratilganda "
+"yuboriladi"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:42
+msgid "New Affiliate"
+msgstr "Yangi hamkor"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:43
+msgid "[{site_title}] New affiliate"
+msgstr "Yangi hamkor"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:143
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:150
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:153
+msgid "Recipient(s)"
+msgstr "Qabul qiluvchilar (lar)"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:145
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:152
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:155
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Ushbu elektron pochta uchun qabul qiluvchilarni (vergul bilan ajratilgan) "
+"kiriting. Odatiy ravishda <code>% s </code>."
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:150
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:157
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:160
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:215
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:232
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:145
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:217
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:241
+msgid "Subject"
+msgstr "Mavzu"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:152
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:159
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:162
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:217
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:234
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:147
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:219
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:243
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Bu elektron pochta mavzusini boshqaradi. Standart mavzuni ishlatish uchun "
+"bo'sh qoldiring: <code>% s </code>."
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:157
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:164
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:167
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:222
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:239
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:152
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:224
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:248
+msgid "Email Heading"
+msgstr "Elektron pochta sarlavhasi"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:159
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:166
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:169
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:224
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:241
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:154
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:226
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:250
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Bu elektron pochta xabarnomasidagi asosiy sarlavhani boshqaradi. Standart "
+"sarlavhani ishlatish uchun bo'sh qoldiring: <code>% s </code>."
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:164
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:171
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:174
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:243
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:260
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:159
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:231
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:283
+msgid "Email type"
+msgstr "Elektron pochta turi"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:166
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:173
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:176
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:245
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:262
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:161
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:233
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:285
+msgid "Choose which format of email to send."
+msgstr "Elektron pochta xabarini shaklini tanlang yuborish uchun."
+
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:39
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:42
+msgid "Payment Sent"
+msgstr "To'lov yuborildi"
+
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:40
+msgid ""
+"This email is sent to admins each time a payment to an affiliate is issued"
+msgstr ""
+"Ushbu elektron pochta har safar hamkorga to'lov amalga oshirilganda "
+"administratorlarga yuboriladi"
+
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:43
+msgid "[{site_title}] New affiliate payment sent"
+msgstr "Yangi hamkor to'lovi yuborildi"
+
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:39
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:42
+msgid "Pending Commission"
+msgstr "Kutilayotgan komissiya"
+
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:40
+msgid ""
+"This email is sent to admins each time a commission status switches to "
+"\"pending\""
+msgstr ""
+"Ushbu elektron pochta har safar komissiya holati \"kutilayotgan\" holatga "
+"o'tganda administratorlarga yuboriladi."
+
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:43
+msgid "[{site_title}] New confirmed commission"
+msgstr "[{site_title}] Yangi tasdiqlangan komissiya"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:39
+msgid "Affiliate's ban message"
+msgstr "Hamkorni taqiqlash to'g'risidagi xabar"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:40
+msgid ""
+"This email is sent to affiliates whenever their account is banned by an admin"
+msgstr ""
+"Ushbu elektron pochta manzili hamkorlarga ularning administratori tomonidan "
+"akkaunt taqiqlanganda yuboriladi"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:43
+msgid "Your account was disabled"
+msgstr "Sizning hisobingiz o'chirilgan"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:44
+msgid "Your {site_title} affiliate account was disabled"
+msgstr "Your {site_title} hamkorlik hisobi o'chirilgan"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:133
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:144
+msgid "Terms & Conditions"
+msgstr "Shartlar & sharoitlar"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:229
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:246
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:239
+msgid "Content HTML"
+msgstr "Kontent HTML"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:231
+msgid ""
+"Enter the text that you want to send within your email (HTML version). You "
+"can use the following placeholders: <code>{site_title}, {display_name}, "
+"{ban_message}, {tos_link}</code>."
+msgstr ""
+"Elektron pochtangizga yubormoqchi bo'lgan matnni kiriting (HTML versiyasi). "
+"Siz quyidagi to'ldiruvchilardan foydalanishingiz mumkin: <code> "
+"{site_title}, {display_name}, {ban_message}, {tos_link} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:236
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:253
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:246
+msgid "Content text"
+msgstr "Kontent matin"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:238
+msgid ""
+"Enter the text that you want to send within your email (plain text version). "
+"You can use the following placeholders: <code>{site_title}, {display_name}, "
+"{ban_message}, {tos_plain_link}</code>."
+msgstr ""
+"Yubormoqchi bo'lgan matni elektron pochtangizga kiriting (oddiy matn "
+"versiyasi). Siz quyidagi to'ldiruvchilardan foydalanishingiz mumkin: <code> "
+"{site_title}, {display_name}, {ban_message}, {tos_plain_link} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:39
+msgid "Affiliate's new coupon message"
+msgstr "Hamkorlarning yangi kupon xabari"
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:40
+msgid ""
+"This email is sent to affiliates whenever admin creates a coupon for them"
+msgstr ""
+" Ushbu elektron pochta xabari hamkorlarga yuboriladi qachonki admistrator "
+"ular uchun yangi kupon yaratganda"
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:43
+msgid "You have a new coupon"
+msgstr "Sizda yangi kupon bor"
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:44
+msgid "We created a new coupon for you to share!"
+msgstr "Siz baham ko'rishingiz uchun yangi kupon yaratdik!"
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:46
+msgid ""
+"<p>an admin just created a new coupon for you!</p>\n"
+"<p><b>Coupon code:</b> {coupon_code}</p>\n"
+"<p>Share it with your users: you will be granted with commissions each time "
+"a customer purchases using this coupon code</p>\n"
+"<p>Please, have a look at your {affiliate_dashboard_link} for further "
+"information, and don't hesitate to contact us if you have any doubts</p>"
+msgstr ""
+"<p> administrator siz uchun yangi kupon yaratdi! </p>\n"
+"<p> <b> Kupon kodi: </b> {coupon_code} </p>\n"
+"<p> O'zingizning foydalanuvchilaringiz bilan o'rtoqlashing: xaridor ushbu "
+"kupon kodidan foydalangan holda har safar sizga komission to'lovlar beriladi "
+"</p>\n"
+"<p> Iltimos, qo'shimcha ma'lumot olish uchun {affiliate_dashboard_link} ga "
+"qarang va agar shubhangiz bo'lsa, biz bilan bog'laning. </p>"
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:50
+msgid ""
+"an admin created a new coupon for you!\n"
+"Coupon code: {coupon_code}\n"
+"Share it with your users: you will be granted with commissions each time a "
+"customer purchases using this coupon code\n"
+"Please, have a look at your {affiliate_dashboard_link} for further "
+"information, and don't hesitate to contact us if you have any doubts"
+msgstr ""
+"administrator siz uchun yangi kupon yaratdi!\n"
+"Kupon kodi: {coupon_code}\n"
+"O'zingizning foydalanuvchilaringiz bilan o'rtoqlashing: xaridor ushbu kupon "
+"kodidan foydalangan holda har safar sizga komissiyalar beriladi\n"
+"Iltimos, qo'shimcha ma'lumot olish uchun {affiliate_dashboard_link} ga "
+"qarang va agar shubhangiz bo'lsa, biz bilan bog'laning."
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:248
+msgid ""
+"Enter the text that you want to send within your email (HTML version). You "
+"can use the following placeholders: <code>{site_title}, {display_name}, "
+"{coupon_code}, {affiliate_dashboard_link}</code>."
+msgstr ""
+"Elektron pochtangizga yubormoqchi bo'lgan matnni kiriting (HTML versiyasi). "
+"Siz quyidagi to'ldiruvchilardan foydalanishingiz mumkin: <code> "
+"{site_title}, {display_name}, {coupon_code}, {affiliate_dashboard_link} </"
+"code>."
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:255
+msgid ""
+"Enter the text that you want to send within your email (plain text version). "
+"You can use the following placeholders: <code>{site_title}, {display_name}, "
+"{coupon_code}, {affiliate_dashboard_plain_link}</code>."
+msgstr ""
+"Yubormoqchi bo'lgan matni elektron pochtangizga kiriting (oddiy matn "
+"versiyasi). Siz quyidagi to'ldiruvchilardan foydalanishingiz mumkin: <code> "
+"{site_title}, {display_name}, {coupon_code}, "
+"{affiliate_dashboard_plain_link} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:39
+msgid "Affiliate's Payment Sent"
+msgstr "Hamkorning to'lovi yuborildi"
+
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:40
+msgid ""
+"This email is sent to customers each time a payment to an affiliate is issued"
+msgstr ""
+"Ushbu elektron pochta mijozlarga har safarhamkorga to'lov amalga "
+"oshirilganda yuboriladi"
+
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:43
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:44
+msgid "A payment was sent to your account"
+msgstr "Hisobingizga to'lov yuborildi"
+
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:39
+msgid "Affiliate' Pending Commission"
+msgstr "Hamkorni kutayotgan komissiyasi"
+
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:40
+msgid ""
+"This email is sent to customers each time a commission status switches to "
+"\"pending\""
+msgstr ""
+"Ushbu elektron pochta xaridorlarga har safar komissiya holati \"kutish\" "
+"holatiga o'tganda yuboriladi."
+
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:43
+msgid "Your commission is awaiting payment"
+msgstr "Sizning komissiyangiz to'lovni kutmoqda"
+
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:44
+msgid "Your {site_title} commission from {commission_date} is awaiting payment"
+msgstr ""
+"Sizning {Commission_date} dan olgan {site_title} komissiyangiz to'lovni "
+"kutmoqda"
+
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:241
+msgid ""
+"Enter the text that you want to send within your email (HTML version). You "
+"can use the following placeholders: <code>{commission_id}, "
+"{commission_amount}, {commission_amount_html}, {commission_rate}, "
+"{payment_threshold}, {payment_threshold_html}, {payment_day}, "
+"{next_payment_date}</code>."
+msgstr ""
+"Elektron pochtangizga yubormoqchi bo'lgan matnni kiriting (HTML versiyasi). "
+"Siz quyidagi to'ldiruvchilardan foydalanishingiz mumkin: <code> "
+"{komissiya_id}, {komissiya_amount}, {komissiya_amount_html}, {komissiya}, "
+"{to'lov_threshold}, {to'lov_threshold_html}, {to'lov_day}, "
+"{keyingi_payment_date} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:248
+msgid ""
+"Enter the text that you want to send within your email (plain text version). "
+"You can use the following placeholders: <code>{commission_id}, "
+"{commission_amount}, {commission_rate}, {payment_threshold}, {payment_day}, "
+"{next_payment_date}</code>."
+msgstr ""
+"Yubormoqchi bo'lgan matni elektron pochtangizga kiriting (oddiy matn "
+"versiyasi). Siz quyidagi to'ldiruvchilardan foydalanishingiz mumkin: <code> "
+"{komissiya_id}, {komissiya_amount}, {komissiya_davr}, {to'lov_threshold}, "
+"{to'lov_day}, {keyingi_payment_date} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:39
+msgid "Affiliate's status changed"
+msgstr "Hamkorlik statusi o'zgartirildi"
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:40
+msgid "This email is sent to affiliates whenever their status changes"
+msgstr ""
+"Ushbu elektron pochta hamkorlarga yuboriladi qachonki ularning statuslari "
+"o'zgarganda"
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:43
+msgid "Your account was updated"
+msgstr "Sizning hisobingiz yangilandi"
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:44
+msgid "Your {site_title} affiliate account was updated"
+msgstr "Sizning {site_title} hamkorlik hisobingiz yangilandi"
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:255
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:269
+msgid "Accept message HTML"
+msgstr "HTML xabarini qabul qilish"
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:257
+msgid ""
+"Enter the text that you want to send to your affiliate when enabling his/her "
+"account (HTML version). You can use the following placeholders: "
+"<code>{site_title}, {display_name}, {tos_link}, {affiliate_rate}, "
+"{affiliate_dashboard_link}</code>."
+msgstr ""
+"O'zingizning hamkoringizga o'z akkauntini yoqishda yubormoqchi bo'lgan "
+"matnni kiriting (HTML versiyasi). Siz quyidagi to'ldiruvchilardan "
+"foydalanishingiz mumkin: <code> {site_title}, {display_name}, {tos_link}, "
+"{affiliate_rate}, {affiliate_dashboard_link} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:262
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:276
+msgid "Accept message text"
+msgstr "Xabar matnini qabul qilish"
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:264
+msgid ""
+"Enter the text that you want to send to your affiliate when enabling his/her "
+"account (plain text version). You can use the following placeholders: "
+"<code>{site_title}, {display_name}, {tos_plain_link}, {affiliate_rate}, "
+"{affiliate_dashboard_plain_link}</code>."
+msgstr ""
+"Hisobini yoqishda sherigingizga yubormoqchi bo'lgan matnni kiriting (oddiy "
+"matn versiyasi). Siz quyidagi to'ldiruvchilardan foydalanishingiz mumkin: "
+"<code> {site_title}, {display_name}, {tos_plain_link}, {affiliate_rate}, "
+"{affiliate_dashboard_plain_link} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:271
+msgid ""
+"Enter the text that you want to send to your affiliate when rejecting his/"
+"her affiliate request (HTML version). You can use the following "
+"placeholders: <code>{site_title}, {display_name}, {tos_link}, "
+"{reject_message}</code>."
+msgstr ""
+"O'zingizning hamkoringizga yuborishni xohlagan matningizni kiriting qachonki "
+"uning sheriklik so'rovini rad etishda (HTML versiyasi). Siz quyidagi "
+"to'ldiruvchilardan foydalanishingiz mumkin: <code> {site_title}, "
+"{display_name}, {tos_link}, {accept_message} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:278
+msgid ""
+"Enter the text that you want to send to your affiliate when rejecting his/"
+"her affiliate request (plain text version). You can use the following "
+"placeholders: <code>{site_title}, {display_name}, {tos_plain_link}, "
+"{reject_message}</code>."
+msgstr ""
+"O'zingizning hamkoringizga yuborishni xohlagan matningizni kiriting qachonki "
+"uning sheriklik so'rovini rad etishda (Oddiy matn versiyasi). Siz quyidagi "
+"to'ldiruvchilardan foydalanishingiz mumkin: <code> {site_title}, "
+"{display_name}, {tos_plain_link}, {reject_message} </code>."
+
+#: includes/functions.yith-wcaf.php:175
+msgid "yith_wcaf_get_current_affiliate_token() should be called after init"
+msgstr ""
+
+#: includes/functions.yith-wcaf.php:193
+msgid "yith_wcaf_get_current_affiliate() should be called after init"
+msgstr ""
+
+#: includes/functions.yith-wcaf.php:211
+msgid "yith_wcaf_get_current_affiliate_user() should be called after init"
+msgstr ""
+
+#: includes/functions.yith-wcaf.php:356
+msgctxt "Dev warning; do not translate"
+msgid "Should be called after wp hook, in order to know current page"
+msgstr "Joriy sahifani bilish uchun wp hook-dan keyin chaqirilishi kerak"
+
+#: includes/functions.yith-wcaf.php:387
+msgid "Website / Blog"
+msgstr "Veb-sayt / blog"
+
+#: includes/functions.yith-wcaf.php:388
+msgid "Newsletter / Mail Marketing"
+msgstr "Axborot byulleteni / pochta marketingi"
+
+#: includes/functions.yith-wcaf.php:389
+msgid "Social media"
+msgstr "Ijtimoiy tarmoqlar"
+
+#: includes/functions.yith-wcaf.php:390
+msgid "Others"
+msgstr "Boshqalar"
+
+#: includes/gateways/class.yith-wcaf-payouts-gateway.php:65
+msgctxt ""
+"Cannot use PayOuts service, please check the Payout configuration here"
+msgid "Cannot use PayOuts service, please check the Payout configuration"
+msgstr ""
+"PayOuts xizmatidan foydalanib bo'lmayapti, iltimos, to'lov "
+"konfiguratsiyasini tekshiring"
+
+#: includes/gateways/class.yith-wcaf-payouts-gateway.php:67
+msgctxt ""
+"par of :  Cannot use PayOuts service, please check the Payout configuration "
+"here"
+msgid "here"
+msgstr "Bu yerga"
+
+#: includes/gateways/class.yith-wcaf-payouts-gateway.php:111
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:316
+msgid ""
+"No record could be processed for PayPal payment; payment email field is "
+"mandatory"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-payouts-gateway.php:147
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:356
+#: includes/gateways/class.yith-wcaf-yith-ywf-gateway.php:112
+msgid "Payment sent"
+msgstr "To'lov yuborildi"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:158
+msgid "PayPal Payment Gateway"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:165
+msgid "Enable PayPal sandbox"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:167
+msgid ""
+"Payments will be issued to PayPal sandbox server and will only be used for "
+"testing purposes"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:173
+msgid "Enable PayPal log"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:175
+#, php-format
+msgid "PayPal operations will be logged in <code>%s</code>"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:181
+msgid "PayPal API username"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:183
+msgid "PayPal API username, used to access PayPal account via API requests"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:191
+msgid "PayPal API password"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:193
+msgid "PayPal API password, used to access PayPal account via API requests"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:201
+msgid "PayPal API signature"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:203
+msgid "PayPal API signature, used to access PayPal account via API requests"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:211
+msgid "Payment mail subject"
+msgstr "To'lov pochtasi mavzusi"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:213
+msgid ""
+"Subject of the email sent by PayPal to customers when payment request is "
+"registered"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:221
+msgid "PayPal notification URL"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:223
+msgid ""
+"Copy this URL and set it into PayPal admin panel, to receive IPN from their "
+"server"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:260
+msgid "Missing required parameters for PayPal configuration"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:324
+msgid "Request correctly sent"
+msgstr "So'rov to'g'ri yuborildi"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:325
+msgid "Paypal server response correctly received"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:332
+msgid "Payment correctly issued to PayPal"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:396
+msgid "Invalid status"
+msgstr "Noto‘g‘ri status"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:444
+#, php-format
+msgid ""
+"PayPal returned a notification for request #%s, indicating a different "
+"amount."
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:452
+#, php-format
+msgid ""
+"PayPal returned a notification for this payment, indicating a different "
+"amount (expected %.2f -> returned %.2f)"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:458
+#, php-format
+msgid ""
+"PayPal returned a notification for request #%s, indicating a different "
+"currency for the receiver"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:466
+#, php-format
+msgid ""
+"PayPal returned a notification for this payment, indicating a different "
+"currency (expected %s -> returned %s)"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:471
+#, php-format
+msgid "Request #%s was modified due to IPN from PayPal (txn_id: %s)"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:476
+#, php-format
+msgid "IPN response correctly received from PayPal server (txn_id: %s)"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:536
+msgid "empty"
+msgstr "bo'sh"
+
+#: includes/gateways/class.yith-wcaf-yith-ywf-gateway.php:54
+msgid ""
+"There was an issue with gateway installation; please, refer to technical "
+"support"
+msgstr ""
+"Shlyuzni o'rnatishda muammo yuzaga keldi; Iltimos, texnik yordamga murojaat "
+"qiling"
+
+#: includes/gateways/class.yith-wcaf-yith-ywf-gateway.php:90
+#, php-format
+msgid "Funds credited to user as payment for commission %s (Payment #%d)"
+msgid_plural ""
+"Funds credited to user as payment for commissions %s (Payment #%d)"
+msgstr[0] ""
+"Foydalanuvchiga% s komissiyasi uchun to'lov sifatida kiritilgan mablag "
+"'(To'lov #% d)"
+
+#: includes/gateways/class.yith-wcaf-yith-ywf-gateway.php:105
+msgid "Payment correctly credited to user funds"
+msgstr "To'lov foydalanuvchi mablag'lariga to'g'ri kiritilgan"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-affiliate-dashboard.php:40
+msgctxt "Elementor widget name"
+msgid "YITH Affiliate Dashboard"
+msgstr "YITH Hamkor Paneli"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-affiliate-dashboard.php:83
+#: includes/widgets/elementor/class.yith-wcaf-elementor-link-generator.php:83
+msgctxt "Elementor section title"
+msgid "Dashboard details"
+msgstr "Boshqarish paneli tafsilotlari"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-affiliate-dashboard.php:91
+#: includes/widgets/elementor/class.yith-wcaf-elementor-link-generator.php:91
+msgctxt "Elementor control label"
+msgid "Show navigation menu"
+msgstr "Navigatsiya menyusini ko'rsatish"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-affiliate-dashboard.php:94
+#: includes/widgets/elementor/class.yith-wcaf-elementor-link-generator.php:94
+msgid "Show menu"
+msgstr "Menyuni ko'rsatish"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-affiliate-dashboard.php:95
+#: includes/widgets/elementor/class.yith-wcaf-elementor-link-generator.php:95
+msgid "Hide menu"
+msgstr "Menyuni yashirish"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-link-generator.php:40
+msgctxt "Elementor widget name"
+msgid "YITH Affiliates Link Generator"
+msgstr ""
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:40
+msgctxt "Elementor widget name"
+msgid "YITH Affiliates Registration Form"
+msgstr "YITH sheriklarini ro'yxatdan o'tkazish shakli"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:83
+msgctxt "Elementor section title"
+msgid "Form details"
+msgstr "Shakl tafsilotlari"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:91
+msgctxt "Elementor control label"
+msgid "Show Login form"
+msgstr "Kirish loginini ko'rsatish"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:94
+msgid "Show login form"
+msgstr ""
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:95
+msgid "Hide login form"
+msgstr "Kirish loginini yashirish"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:104
+msgctxt "Elementor control label"
+msgid "Show First name field"
+msgstr "Ism maydonini ko'rsatish"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:107
+msgid "Show first name field"
+msgstr "Ism maydonini ko'rsatish"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:108
+msgid "Hide first name field"
+msgstr "Ism maydonini yashirish"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:117
+msgctxt "Elementor control label"
+msgid "Show Last name field"
+msgstr "Familiya maydonini ko'rsatish"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:120
+msgid "Show last name field"
+msgstr "Familiya maydonini ko'rsatish"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:121
+msgid "Hide last name field"
+msgstr "Familiya maydonini yashirish"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:130
+msgctxt "Elementor control label"
+msgid "Show Additional fields"
+msgstr "Qo'shimcha maydonlarni ko'rsatish"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:133
+msgid "Show additional field"
+msgstr "Qo'shimcha maydonlarni ko'rsatish"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:134
+msgid "Hide additional fields"
+msgstr "Qo'shimcha maydonlarni yashirish"
+
+#: init.php:168
+msgid "is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "yoqilgan, ammo samarali emas. Ishlash uchun unga WooCommerce kerak."
+
+#: init.php:178
+msgid "You can't activate the free version of "
+msgstr "Siz bepul versiyasini faollashtira olmaysiz"
+
+#: init.php:178
+msgid " while you are using the premium one."
+msgstr "premiumdan foydalanayotganingizda."
+
+#: plugin-options/settings-options.php:21
+msgid "General"
+msgstr "Umumiy"
+
+#: plugin-options/settings-options.php:28
+msgid "Referral var name"
+msgstr "Referral o'zgaruvchisi nomi"
+
+#: plugin-options/settings-options.php:30
+msgid "Select name of referral var used to store referral token in query var"
+msgstr ""
+"So'rov o'zgaruvchisida tavsiyanomani saqlash uchun foydalaniladigan  "
+"referral o'zgaruvchining nomini tanlang"
+
+#: plugin-options/settings-options.php:46
+msgid "Cookie"
+msgstr "Kuki"
+
+#: plugin-options/settings-options.php:53
+msgid "Referral cookie name"
+msgstr "Yo'naltiruvchi cookie-fayl nomi"
+
+#: plugin-options/settings-options.php:55
+msgid ""
+"Select name for cookie that will store referral token. This name should be "
+"as unique as possible, so to avoid collision with other plugins: If you "
+"change this setting, all cookies created before will no longer be effective"
+msgstr ""
+"Yo'naltiruvchi ma'lumoti saqlanadigan cookie faylining nomini tanlang. Ushbu "
+"nom iloji boricha noyob bo'lishi kerak, shuning uchun boshqa plaginlar bilan "
+"to'qnashuvni oldini olish uchun: Agar siz ushbu sozlamani o'zgartirsangiz, "
+"avval yaratilgan barcha cookies-fayllar endi ishlamaydi"
+
+#: plugin-options/settings-options.php:63
+msgid "Make referral cookie expire"
+msgstr "Referral  cookie-fayllar muddati tugaydi"
+
+#: plugin-options/settings-options.php:65
+msgid "Check this option if you want to make referral cookie expire"
+msgstr ""
+"Agar referral cookie-fayllarni yuborish muddati tugashini xohlasangiz, ushbu "
+"parametrni belgilang"
+
+#: plugin-options/settings-options.php:71
+msgid "Referral cookie exp."
+msgstr "Referral  cookie-fayllar muddati tugaydi"
+
+#: plugin-options/settings-options.php:73
+msgid "Number of seconds before referral cookie expires"
+msgstr "Referral  cookie-fayllar muddati tugashidan bir necha soniya oldin"
+
+#: plugin-options/settings-options.php:88
+msgid "Set cookie via AJAX"
+msgstr "AJAX orqali cookie-fayllarni o'rnating"
+
+#: plugin-options/settings-options.php:90
+msgid ""
+"Check this option if you want to execute an ajax call to set up affiliate "
+"cookies, whenever system finds referral query string in the url"
+msgstr ""
+"Hamkorlik cookie-fayllarini o'rnatish uchun ajax chaqiruvini amalga "
+"oshirishni xohlasangiz, tizim url-da so'rovlar satrini topganida ushbu "
+"parametrni belgilang"
+
+#: plugin-options/settings-options.php:104
+msgid "Affiliate pages"
+msgstr "Hamkorlik sahifalari"
+
+#: plugin-options/settings-options.php:110
+msgid "Affiliate dashboard page"
+msgstr "Hamkorlikning boshqaruv paneli sahifasi"
+
+#: plugin-options/settings-options.php:111
+msgid "Page contents:"
+msgstr "Sahifaning tarkibi:"
+
+#: plugin-options/settings-options.php:130
+msgid "Social Networks & Share"
+msgstr "Ijtimoiy tarmoqlar va ulush"
+
+#: plugin-options/settings-options.php:137
+msgid "Share on Facebook"
+msgstr "Facebook orqali ulashing"
+
+#: plugin-options/settings-options.php:138
+msgid "Show \"Share on Facebook\" button"
+msgstr "\"Facebook orqali ulashish\" tugmachasini ko'rsating"
+
+#: plugin-options/settings-options.php:144
+msgid "Tweet on Twitter"
+msgstr "Twitter-da tvit qiling"
+
+#: plugin-options/settings-options.php:145
+msgid "Show \"Tweet on Twitter\" button"
+msgstr "\"Twitter-da tvit\" tugmachasini ko'rsating"
+
+#: plugin-options/settings-options.php:151
+msgid "Pin on Pinterest"
+msgstr "Pinterest-ga pin qiling"
+
+#: plugin-options/settings-options.php:152
+msgid "Show \"Pin on Pinterest\" button"
+msgstr "\"Pinterestda pin\" tugmachasini ko'rsating"
+
+#: plugin-options/settings-options.php:158
+msgid "Share by Email"
+msgstr "Elektron pochta orqali ulashing"
+
+#: plugin-options/settings-options.php:159
+msgid "Show \"Share by Email\" button"
+msgstr "\"Elektron pochta orqali ulashish\" tugmachasini ko'rsatish"
+
+#: plugin-options/settings-options.php:165
+msgid "Share by WhatsApp"
+msgstr "WhatsApp orqali ulashing"
+
+#: plugin-options/settings-options.php:166
+msgid "Show \"Share by WhatsApp\" button"
+msgstr "\"WhatsApp orqali ulashing\" tugmachasini ko'rsating"
+
+#: plugin-options/settings-options.php:172
+msgid "Social title"
+msgstr "Ijtimoiy nom"
+
+#: plugin-options/settings-options.php:174
+#, php-format
+msgid "My Referral URL on %s"
+msgstr "Mening Referral URL% s"
+
+#: plugin-options/settings-options.php:179
+msgid "Social text"
+msgstr "Ijtimoiy matn"
+
+#: plugin-options/settings-options.php:180
+msgid ""
+"It will be used by Twitter, WhatsApp and Pinterest. Use <strong>%referral_url"
+"%</strong> where you want to show the URL of your Affiliate."
+msgstr ""
+"Undan Twitter, WhatsApp va Pinterest foydalanadi. hamkoringizning URL "
+"manzilini ko'rsatadigan joyda <strong>% referral_url% </strong> dan "
+"foydalaning."
+
+#: plugin-options/settings-options.php:187
+msgid "Social image URL"
+msgstr "Ijtimoiy rasm URL manzili"
+
+#: plugin-options/settings-options.php:188
+msgid "It will be used by Pinterest."
+msgstr "Bu Pinterest tomonidan ishlatiladi."
+
+#: plugin-options/settings-options.php:204
+msgid "Referral registration"
+msgstr "Referral  ro'yxatga olish"
+
+#: plugin-options/settings-options.php:210
+msgid "Registration form"
+msgstr "Ro'yxatdan o'tish shakli"
+
+#: plugin-options/settings-options.php:214
+msgid ""
+"You've selected the default registration form. The affiliate registration "
+"fields selected below will be added to the default form that you are using "
+"to let your users register. If you're using the default WooCommerce "
+"registration form, you'll find it on My Account page. You'll have just one "
+"registration form for both your users and affiliates, in one place."
+msgstr ""
+"Siz standart ro'yxatdan o'tish shaklini tanladingiz. Quyida tanlangan "
+"sheriklikni ro'yxatdan o'tkazish maydonlari sizning foydalanuvchilaringiz "
+"ro'yxatdan o'tishiga ruxsat berish uchun foydalanadigan standart shaklga "
+"qo'shiladi. Agar siz standart WooCommerce ro'yxatdan o'tish shaklidan "
+"foydalanayotgan bo'lsangiz, uni Mening hisobim sahifasida topasiz. Sizning "
+"foydalanuvchilaringiz va hamkorlaringiz uchun bitta joyda bitta ro'yxatdan "
+"o'tish varaqasi bo'ladi."
+
+#: plugin-options/settings-options.php:215
+msgid ""
+"You've selected the affiliate registration form. Your users will only be "
+"able to register as affiliates using this form. It is displayed by default "
+"in Affiliate Dashboard page, but you can print it anywhere you prefer on "
+"your website using the dedicated shortcode"
+msgstr ""
+"Siz sheriklikni ro'yxatdan o'tkazish shaklini tanladingiz. Sizning "
+"foydalanuvchilaringiz faqat ushbu shakl yordamida hamkor sifatida ro'yxatdan "
+"o'tishlari mumkin. U sukut bo'yicha Hamkor Paneli  sahifasida ko'rsatiladi, "
+"lekin siz uni maxsus qisqa kod yordamida veb-saytingizda xohlagan joyingizda "
+"chop etishingiz mumkin"
+
+#: plugin-options/settings-options.php:218
+msgid "Default registration form"
+msgstr "Standart ro'yxatdan o'tish shakli"
+
+#: plugin-options/settings-options.php:219
+msgid "Affiliate dedicated registration form"
+msgstr "Hamkorlikka bag'ishlangan ro'yxatdan o'tish shakli"
+
+#: plugin-options/settings-options.php:227
+msgid "Show Login form"
+msgstr "Kirish loginini ko'rsatish"
+
+#: plugin-options/settings-options.php:229
+msgid "Show Login Form on registration form side"
+msgstr "Ro'yxatdan o'tish formasida Login shaklini ko'rsating"
+
+#: plugin-options/settings-options.php:235
+msgid "Show Name field"
+msgstr "Ism maydonini ko'rsatish"
+
+#: plugin-options/settings-options.php:237
+msgid "Show \"First Name\" field on registration form"
+msgstr "Ro'yxatdan o'tish formasida \"Ism\" maydonini ko'rsating"
+
+#: plugin-options/settings-options.php:243
+msgid "Show Surname field"
+msgstr "Familiya maydonini ko'rsatish"
+
+#: plugin-options/settings-options.php:245
+msgid "Show \"Last Name\" field on registration form"
+msgstr "Ro'yxatdan o'tish formasida \"Familiya\" maydonini ko'rsating"
+
+#: plugin-options/settings-options.php:251
+msgid "Show fields in Settings"
+msgstr "Sozlamalarda maydonlarni ko'rsatish"
+
+#: plugin-options/settings-options.php:253
+msgid "Show additional fields in Affiliate Dashboard's settings page"
+msgstr "Hamkor Paneli sozlamalari sahifasida qo'shimcha maydonlarni ko'rsating"
+
+#: plugin-options/settings-options.php:259
+msgid "Show fields in Become an Affiliate"
+msgstr "\"Hamkor bo'lish\" bo'limidagi maydonlarni ko'rsatish"
+
+#: plugin-options/settings-options.php:261
+msgid "Show additional fields in Become an Affiliate section"
+msgstr "\"Hamkor bo'lish\" bo'limidagi  qo'shimcha maydonni ko'rsatish"
+
+#: plugin-options/settings-options.php:270
+msgid "Associate old commissions"
+msgstr "Eski komissiyalarni birlashtirish"
+
+#: plugin-options/settings-options.php:272
+msgid ""
+"Whenever adding a new affiliate, check if some commission already exists for "
+"his default token, and assign it to him eventually"
+msgstr ""
+"Har doim yangi hamkorni qo'shganda, uning standart belgisi uchun biron bir "
+"komissiya mavjudligini tekshiring va oxir-oqibat unga tayinlang"
+
+#: plugin-options/settings-options.php:294
+msgid "General rate"
+msgstr "Umumiy stavka"
+
+#: plugin-options/settings-options.php:296
+msgid "General rate to apply to affiliates"
+msgstr "Hamkorlarga murojaat qilish uchun umumiy tarif"
+
+#: plugin-options/settings-options.php:308
+msgid "Avoid auto commission"
+msgstr "Avtomatik komissiyadan saqlaning"
+
+#: plugin-options/settings-options.php:310
+msgid "Prevent affiliate from getting commissions from his/her own sales"
+msgstr "Hamkorning o'z sotuvlaridan komissiya olishiga yo'l qo'ymaslik"
+
+#: plugin-options/settings-options.php:316
+msgid "Exclude tax from commissions"
+msgstr "Soliqni komissiyalardan chiqarib tashlang"
+
+#: plugin-options/settings-options.php:318
+msgid "Exclude tax from referral commission calculation"
+msgstr "Referral komissiya hisob-kitobidan soliqni chiqarib tashlang"
+
+#: plugin-options/settings-options.php:324
+msgid "Exclude discount from commissions"
+msgstr "Komission to'lovlardan chegirmani chiqarib tashlang"
+
+#: plugin-options/settings-options.php:326
+msgid "Exclude discounts from referral commission calculation"
+msgstr "Referral komissiyani hisoblashda chegirmalarni chiqarib tashlang"
+
+#: templates/admin/affiliate-panel-detail.php:36
+msgid "Affiliate actions"
+msgstr "Hamkorlik harakatlari"
+
+#: templates/admin/affiliate-panel-detail.php:48
+#: templates/admin/affiliate-panel-detail.php:49
+#: templates/admin/commission-panel-detail.php:48
+#: templates/admin/commission-panel-detail.php:49
+#: templates/admin/payment-panel-detail.php:47
+#: templates/admin/payment-panel-detail.php:48
+msgid "Apply"
+msgstr "Qo'llash"
+
+#: templates/admin/affiliate-panel-detail.php:59
+msgid "Referral link generator"
+msgstr "Referral havola generatori"
+
+#: templates/admin/affiliate-panel-detail.php:63
+#: templates/shortcodes/link-generator.php:67
+msgid "Page URL"
+msgstr "Sahifaning URL manzili"
+
+#: templates/admin/affiliate-panel-detail.php:68
+#: templates/shortcodes/link-generator.php:72
+msgid "Referral URL"
+msgstr "Referral URL"
+
+#: templates/admin/affiliate-panel-detail.php:70
+#: templates/shortcodes/link-generator.php:50
+#: templates/shortcodes/link-generator.php:74
+msgid "(Now"
+msgstr "Hozir"
+
+#: templates/admin/affiliate-panel-detail.php:70
+#: templates/shortcodes/link-generator.php:50
+#: templates/shortcodes/link-generator.php:74
+msgid "copy"
+msgstr "nusxa ko'chirish"
+
+#: templates/admin/affiliate-panel-detail.php:70
+#: templates/shortcodes/link-generator.php:50
+#: templates/shortcodes/link-generator.php:74
+msgid "this referral link and share it anywhere)"
+msgstr "bu referral  havola va istalgan joyda baham ko'ring)"
+
+#: templates/admin/affiliate-panel-detail.php:75
+#: templates/shortcodes/link-generator.php:77
+msgid "Generate"
+msgstr "Yaratish"
+
+#: templates/admin/affiliate-panel-detail.php:94
+#, php-format
+msgid "<b>%s</b> Details"
+msgstr "<b>% s </b> tafsilotlar"
+
+#: templates/admin/affiliate-panel-detail.php:96
+msgid "Back to affiliates table"
+msgstr "Hamkorlar jadvaliga qaytish"
+
+#: templates/admin/affiliate-panel-detail.php:101
+msgid "Referral link:"
+msgstr "Referral havola:"
+
+#: templates/admin/affiliate-panel-detail.php:105
+msgid "Application date:"
+msgstr "Ariza sanasi:"
+
+#: templates/admin/affiliate-panel-detail.php:114
+#: templates/admin/payment-panel-detail.php:71
+msgid "Earnings:"
+msgstr "Daromadlar:"
+
+#: templates/admin/affiliate-panel-detail.php:122
+msgid "Refunds:"
+msgstr "Pulni qaytarish:"
+
+#: templates/admin/affiliate-panel-detail.php:130
+#: templates/admin/payment-panel-detail.php:75
+msgid "Paid:"
+msgstr "To'langan:"
+
+#: templates/admin/affiliate-panel-detail.php:138
+msgid "Active balance:"
+msgstr "Faol balans:"
+
+#: templates/admin/affiliate-panel-detail.php:166
+msgid "Last affiliate commissions"
+msgstr "Oxirgi sheriklik komissiyalari"
+
+#: templates/admin/affiliate-panel-detail.php:167
+msgid "See all commissions"
+msgstr "Barcha komissiyalarni ko'ring"
+
+#: templates/admin/affiliate-panel-detail.php:200
+msgid "No commission registered yet"
+msgstr "Hech qanday komissiya ro'yxatdan o'tkazilmagan"
+
+#: templates/admin/affiliate-panel-detail.php:220
+msgid "Last affiliate payments"
+msgstr "Hamkorlikning so'nggi to'lovlari"
+
+#: templates/admin/affiliate-panel-detail.php:221
+msgid "See all payments"
+msgstr "Barcha to'lovlarni ko'ring"
+
+#: templates/admin/affiliate-panel-detail.php:254
+msgid "No payment registered yet"
+msgstr "Hali to'lov amalga oshirilmagan"
+
+#: templates/admin/affiliate-panel-detail.php:266
+msgid "Affiliate associated users"
+msgstr "Hamkorlik bilan bog'liq foydalanuvchilar"
+
+#: templates/admin/affiliate-panel-detail.php:288
+msgid "No user registered yet"
+msgstr "Hech qanday foydalanuvchi ro'yxatdan o'tmagan"
+
+#: templates/admin/affiliate-panel.php:29
+msgid "Add an affiliate"
+msgstr "Hamkorni qo'shish"
+
+#: templates/admin/affiliate-panel.php:31
+msgid "Add new affiliate"
+msgstr "Yangi hamkorni qo'shish"
+
+#: templates/admin/affiliate-panel.php:36
+msgid "Search for a customer&hellip;"
+msgstr "Mijoz uchun qidiruv&hellip;"
+
+#: templates/admin/affiliate-panel.php:41
+msgid "Add Existing"
+msgstr "Mavjud qo'shish"
+
+#: templates/admin/affiliate-panel.php:42
+msgid "or"
+msgstr "yoki"
+
+#: templates/admin/affiliate-panel.php:43
+msgid "Create New"
+msgstr "Yangisini yaratish"
+
+#: templates/admin/affiliate-panel.php:76
+#: templates/shortcodes/dashboard-settings-premium.php:150
+#: templates/shortcodes/dashboard-settings.php:70
+msgid "Submit"
+msgstr "Yuborish"
+
+#: templates/admin/click-panel.php:30
+msgid "Delete click logs"
+msgstr "Klik jurnallarini o'chirish"
+
+#: templates/admin/click-panel.php:40
+msgid "Delete Logs"
+msgstr "Jurnallarni o'chirish"
+
+#: templates/admin/commission-panel-detail.php:36
+msgid "Commission actions"
+msgstr "Komissiya harakatlari"
+
+#: templates/admin/commission-panel-detail.php:56
+msgid "Commission payments"
+msgstr "Komission to'lovlar"
+
+#: templates/admin/commission-panel-detail.php:98
+msgid "No active payments"
+msgstr "Faol to'lovlar yo'q"
+
+#: templates/admin/commission-panel-detail.php:136
+msgid "Commission notes"
+msgstr "Komissiya eslatmalari"
+
+#: templates/admin/commission-panel-detail.php:154
+#: templates/admin/payment-panel-detail.php:105
+msgid "There are no notes yet."
+msgstr "Hech qanday eslatma yo'q."
+
+#: templates/admin/commission-panel-detail.php:157
+#: templates/admin/payment-panel-detail.php:108
+msgid "Add note"
+msgstr "Izoh qo'shish"
+
+#: templates/admin/commission-panel-detail.php:164
+#: templates/admin/payment-panel-detail.php:115
+msgid "Add"
+msgstr "Qo'shish"
+
+#: templates/admin/commission-panel-detail.php:181
+#, php-format
+msgid "Commission %s Details"
+msgstr "Komissiya% s tafsilotlari"
+
+#: templates/admin/commission-panel-detail.php:182
+msgid "Back to commission table"
+msgstr "Komissiya jadvaliga qaytish"
+
+#: templates/admin/commission-panel-detail.php:212
+#, php-format
+msgctxt "Commission credited to [user]"
+msgid "Credited to %s &#8212; Order: %s &#8212; Order status: %s"
+msgstr ""
+"%s uchun kreditlangan & # 8212; Buyurtma:%s & # 8212; Buyurtma holati: %s"
+
+#: templates/admin/commission-panel-detail.php:219
+#: templates/admin/payment-panel-detail.php:156
+msgid "General details"
+msgstr "Umumiy tafsilotlar"
+
+#: templates/admin/commission-panel-detail.php:228
+msgid "Commission date"
+msgstr "Komissiya sanasi"
+
+#: templates/admin/commission-panel-detail.php:233
+msgid "Last update"
+msgstr "Oxirgi yangilanish"
+
+#: templates/admin/commission-panel-detail.php:236
+#: templates/admin/payment-panel-detail.php:175
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#: templates/admin/commission-panel-detail.php:237
+#: templates/admin/payment-panel-detail.php:176
+#, php-format
+msgid "%s ago"
+msgstr "% s oldin"
+
+#: templates/admin/commission-panel-detail.php:247
+#: templates/admin/payment-panel-detail.php:195
+msgid "User details"
+msgstr "Foydalanuvchi ma'lumotlari"
+
+#: templates/admin/commission-panel-detail.php:256
+#: templates/admin/payment-panel-detail.php:206
+msgid "User deleted"
+msgstr "Foydalanuvchi o'chirildi"
+
+#: templates/admin/commission-panel-detail.php:265
+#: templates/admin/payment-panel-detail.php:281
+msgid "Billing information"
+msgstr "To'lov ma'lumotlari"
+
+#: templates/admin/commission-panel-detail.php:289
+#: templates/admin/payment-panel-detail.php:305
+msgid "Shipping information"
+msgstr "Yetkazib berish haqida ma'lumot"
+
+#: templates/admin/commission-panel-detail.php:325
+#: templates/admin/payment-panel-detail.php:341
+msgid "Item data"
+msgstr "Tovar ma'lumotlari"
+
+#: templates/admin/commission-panel-detail.php:333
+msgid "Item"
+msgstr "Tovar"
+
+#: templates/admin/commission-panel-detail.php:334
+msgid "Qty"
+msgstr "Miqdori"
+
+#: templates/admin/commission-panel-detail.php:335
+#: templates/admin/payment-panel-detail.php:351
+msgid "Cost"
+msgstr "Narxi"
+
+#: templates/admin/commission-panel-detail.php:349
+msgid "Product ID:"
+msgstr "Tovar ID "
+
+#: templates/admin/commission-panel-detail.php:354
+msgid "No longer exists"
+msgstr "Endi mavjud emas"
+
+#: templates/admin/commission-panel-detail.php:358
+msgid "Product SKU:"
+msgstr "Tovar artikuli:"
+
+#: templates/admin/commission-panel-detail.php:471
+msgid "Refund"
+msgstr "Pulni qaytarish"
+
+#: templates/admin/commission-panel-detail.php:505
+msgid "Coupon(s) Used"
+msgstr "Kupon (lar) ishlatilgan"
+
+#: templates/admin/payment-panel-detail.php:35
+msgid "Payment actions"
+msgstr "To'lov bo'yicha harakatlar"
+
+#: templates/admin/payment-panel-detail.php:87
+msgid "Payment notes"
+msgstr "To'lov yozuvlari"
+
+#: templates/admin/payment-panel-detail.php:133
+#, php-format
+msgid "Payment %s Details"
+msgstr "To'lov% s tafsilotlari"
+
+#: templates/admin/payment-panel-detail.php:135
+msgid "Back to payment table"
+msgstr "To'lovlar jadvaliga qaytish"
+
+#: templates/admin/payment-panel-detail.php:145
+#, php-format
+msgctxt "Commission credited to [user]"
+msgid "Paid to %s &#8212; Payment via %s"
+msgstr "%s-ga to'langan & # 8212;%s orqali to'lov"
+
+#: templates/admin/payment-panel-detail.php:148
+#, php-format
+msgctxt "Payment transaction key"
+msgid "(Trans. key: %s)"
+msgstr "(Trans. key: %s)"
+
+#: templates/admin/payment-panel-detail.php:186
+msgid "Customer invoice"
+msgstr "Mijozlarning schyot-fakturasi"
+
+#: templates/admin/payment-panel-detail.php:196
+#: templates/admin/payment-panel-detail.php:230
+msgid "Edit"
+msgstr "Tahrirlash"
+
+#: templates/admin/payment-panel-detail.php:229
+msgid "Current Invoice Profile"
+msgstr "Joriy schyot-faktura profili"
+
+#: templates/admin/payment-panel-detail.php:241
+msgid "From"
+msgstr "Dan"
+
+#: templates/admin/payment-panel-detail.php:245
+msgid "To"
+msgstr "Ga"
+
+#: templates/admin/payment-panel-detail.php:274
+msgid "Regenerate Invoice"
+msgstr "Schyot-fakturani yangilang"
+
+#: templates/admin/payment-panel-detail.php:366
+msgid "Order:"
+msgstr "Buyurtma:"
+
+#: templates/admin/rate-panel.php:30
+msgid "User rates"
+msgstr "Foydalanuvchilar uchun tariflar"
+
+#: templates/admin/rate-panel.php:32
+msgid "Add new user commission"
+msgstr "Yangi foydalanuvchi komissiyasini qo'shing"
+
+#: templates/admin/rate-panel.php:44 templates/admin/rate-panel.php:64
+msgid "Add Commission"
+msgstr "Komissiya qo'shish"
+
+#: templates/admin/rate-panel.php:51
+msgid "Product rates"
+msgstr "Mahsulot stavkalari"
+
+#: templates/admin/rate-panel.php:53
+msgid "Add new product commission"
+msgstr "Yangi mahsulot komissiyasini qo'shing"
+
+#: templates/admin/rate-panel.php:58
+msgid "Search for a product&hellip;"
+msgstr "Mahsulotni qidirish va hellip;"
+
+#: templates/admin/referral-commissions-metabox-premium.php:27
+msgid "Delete Affiliates"
+msgstr "Hamkorlarni o'chirish"
+
+#: templates/admin/referral-commissions-metabox-premium.php:67
+#: templates/admin/referral-commissions-metabox.php:66
+msgid "Order Total:"
+msgstr "Buyurtma jami:"
+
+#: templates/admin/referral-commissions-metabox-premium.php:71
+#: templates/admin/referral-commissions-metabox.php:70
+msgid "This is the total of commissions credited to referral"
+msgstr "Bu referral kreditlarning umumiy miqdori"
+
+#: templates/admin/referral-commissions-metabox-premium.php:75
+#: templates/admin/referral-commissions-metabox.php:74
+msgid "Store Earnings:"
+msgstr "Do'kondan tushadigan daromad:"
+
+#: templates/admin/referral-commissions-metabox-premium.php:87
+msgid "No referral set yet"
+msgstr "Hozircha hech qanday referral  o'rnatilmagan"
+
+#: templates/admin/referral-commissions-metabox-premium.php:100
+msgid "Calculate commissions"
+msgstr "Komissiyalarni hisoblang"
+
+#: templates/admin/stat-panel-general-premium.php:51
+#: templates/admin/stat-panel-general.php:40
+msgid "General stats"
+msgstr "Umumiy statistika"
+
+#: templates/admin/stat-panel-general-premium.php:57
+msgid "Commission Total"
+msgstr "Jami komissiya"
+
+#: templates/admin/stat-panel-general-premium.php:59
+#: templates/admin/stat-panel-general.php:48
+msgid "Sum of all confirmed commissions so far"
+msgstr "Hozirgacha tasdiqlangan barcha komissiyalar yig'indisi"
+
+#: templates/admin/stat-panel-general-premium.php:64
+#: templates/admin/stat-panel-general.php:53
+#: templates/shortcodes/dashboard-stat.php:68
+#: templates/shortcodes/dashboard-summary.php:52
+msgid "Total Paid"
+msgstr "Jami to'langan"
+
+#: templates/admin/stat-panel-general-premium.php:66
+#: templates/admin/stat-panel-general.php:55
+msgid "Sum of all paid commissions so far"
+msgstr "Hozirgacha barcha pullik komissiyalar summasi"
+
+#: templates/admin/stat-panel-general-premium.php:71
+msgid "Total Refunded"
+msgstr "Jami qaytarilgan"
+
+#: templates/admin/stat-panel-general-premium.php:73
+msgid "Sum of all commissions refunded so far"
+msgstr "Hozirgacha qaytarilgan barcha komissiyalar summasi"
+
+#: templates/admin/stat-panel-general-premium.php:78
+msgid "Total Earned"
+msgstr "Jami ishlagan"
+
+#: templates/admin/stat-panel-general-premium.php:80
+msgid "Sum of all earnings generated by affiliate links so far"
+msgstr ""
+"Hozirga qadar sheriklik havolalari tomonidan ishlab chiqarilgan barcha "
+"daromadlar yig'indisi"
+
+#: templates/admin/stat-panel-general-premium.php:85
+#: templates/admin/stat-panel-general.php:60
+msgid "Number of hits"
+msgstr "Xitlar soni"
+
+#: templates/admin/stat-panel-general-premium.php:87
+#: templates/admin/stat-panel-general.php:62
+msgid "Number of clicks"
+msgstr "Kliklar soni"
+
+#: templates/admin/stat-panel-general-premium.php:92
+#: templates/admin/stat-panel-general-premium.php:94
+#: templates/admin/stat-panel-general.php:67
+#: templates/admin/stat-panel-general.php:69
+msgid "Number of conversions"
+msgstr "Konversiyalar soni"
+
+#: templates/admin/stat-panel-general-premium.php:99
+#: templates/admin/stat-panel-general.php:74
+msgid "Average conversion rate"
+msgstr "O'rtacha konversiya qilish darajasi"
+
+#: templates/admin/stat-panel-general-premium.php:101
+#: templates/admin/stat-panel-general.php:76
+msgid "Average percent conversion rate"
+msgstr "O'rtacha foiz konversiya qilish darajasi"
+
+#: templates/admin/stat-panel-general-premium.php:106
+msgid "Average conversion time"
+msgstr "O'rtacha konversiya qilish vaqti"
+
+#: templates/admin/stat-panel-general-premium.php:108
+msgid "Average time from click to sale"
+msgstr "Klikdan sotuvgacha bo'lgan o'rtacha vaqt"
+
+#: templates/admin/stat-panel-general.php:46
+msgid "Total commissions"
+msgstr "Jami komissiyalar"
+
+#: templates/admin/stat-panel-product.php:24
+msgid "Statistics per single product"
+msgstr "Bitta mahsulot uchun statistika"
+
+#: templates/admin/types/invoice-template-field.php:22
+msgid "Delete template file"
+msgstr "Shablon faylini o'chirish"
+
+#: templates/admin/types/invoice-template-field.php:28
+#, php-format
+msgid ""
+"This template has been overridden by your theme and can be found in: %s."
+msgstr ""
+"Ushbu shablon sizning mavzuingiz tomonidan bekor qilingan va uni% s "
+"sahifasida topish mumkin."
+
+#: templates/admin/types/invoice-template-field.php:57
+msgid "Copy file to theme"
+msgstr "Faylni mavzuga nusxalash"
+
+#: templates/admin/types/invoice-template-field.php:63
+#, php-format
+msgid ""
+"To override and edit this template copy %1$s to your theme folder: %2$s."
+msgstr ""
+"Ushbu shablonni bekor qilish va tahrirlash uchun %1$s -ni o'zingizning mavzu "
+"papkangizga nusxa ko'chiring: %2$s."
+
+#: templates/admin/types/invoice-template-field.php:71
+msgid "File was not found."
+msgstr "Fayl topilmadi."
+
+#: templates/emails/admin-new-affiliate-email.php:26
+msgid "New Affiliate registered"
+msgstr "Yangi hamkor ro'yxatdan o'tkazildi"
+
+#: templates/emails/admin-new-affiliate-email.php:28
+#: templates/emails/plain/admin-new-affiliate-email.php:26
+msgid "A new affiliate has been registered for user"
+msgstr "Foydalanuvchi uchun yangi hamkor ro'yxatdan o'tkazildi"
+
+#: templates/emails/admin-new-affiliate-email.php:31
+#: templates/emails/plain/admin-new-affiliate-email.php:32
+msgid "Username:"
+msgstr "Foydalanuvchi nomi:"
+
+#: templates/emails/admin-new-affiliate-email.php:32
+#: templates/emails/plain/admin-new-affiliate-email.php:36
+msgid "User email:"
+msgstr "Foydalanuvchi elektron manzili:"
+
+#: templates/emails/admin-new-affiliate-email.php:33
+#: templates/emails/admin-paid-commission-email.php:34
+#: templates/emails/admin-pending-commission-email.php:32
+#: templates/emails/plain/admin-new-affiliate-email.php:40
+#: templates/emails/plain/admin-paid-commission-email.php:44
+#: templates/emails/plain/admin-pending-commission-email.php:36
+msgid "Affiliate token:"
+msgstr "Hamkorlik token:"
+
+#: templates/emails/admin-new-affiliate-email.php:34
+#: templates/emails/plain/admin-new-affiliate-email.php:45
+msgid "Payment email:"
+msgstr "To'lov uchun elektron pochta:"
+
+#: templates/emails/admin-paid-commission-email.php:26
+msgid "New payments issued to the gateway"
+msgstr "Shlyuzga chiqarilgan yangi to'lovlar"
+
+#: templates/emails/admin-paid-commission-email.php:28
+msgctxt ""
+"Label for payment/payments on customer email (may contain details of more "
+"than one payment)"
+msgid "Payment"
+msgid_plural "Payments"
+msgstr[0] "To'lov"
+
+#: templates/emails/admin-paid-commission-email.php:28
+msgid "was issued to gateway and is awaiting IPN response"
+msgid_plural "were issued to gateway and are awaiting IPN response"
+msgstr[0] ""
+
+#: templates/emails/admin-paid-commission-email.php:33
+#: templates/emails/plain/admin-paid-commission-email.php:38
+msgid "Payment:"
+msgstr "To'lov"
+
+#: templates/emails/admin-paid-commission-email.php:34
+#: templates/emails/admin-pending-commission-email.php:32
+#: templates/emails/plain/admin-paid-commission-email.php:42
+#: templates/emails/plain/admin-pending-commission-email.php:34
+msgid "Affiliate:"
+msgstr "Hamkorlar:"
+
+#: templates/emails/admin-paid-commission-email.php:35
+#: templates/emails/plain/admin-paid-commission-email.php:47
+msgid "Receiver:"
+msgstr "Qabul qiluvchilar:"
+
+#: templates/emails/admin-paid-commission-email.php:36
+#: templates/emails/admin-pending-commission-email.php:34
+#: templates/emails/customer-paid-commission-email.php:30
+#: templates/emails/customer-pending-commission-email.php:35
+#: templates/emails/plain/admin-paid-commission-email.php:51
+#: templates/emails/plain/admin-pending-commission-email.php:43
+#: templates/emails/plain/customer-paid-commission-email.php:30
+#: templates/emails/plain/customer-pending-commission-email.php:40
+#: templates/shortcodes/dashboard-withdraw.php:84
+msgid "Amount:"
+msgstr "Miqdor:"
+
+#: templates/emails/admin-pending-commission-email.php:26
+#: templates/emails/customer-pending-commission-email.php:26
+msgid "New commission confirmed"
+msgstr "Yangi komissiya tasdiqlandi"
+
+#: templates/emails/admin-pending-commission-email.php:28
+msgid "switched to pending status and awaiting payment"
+msgstr "kutilayotgan holatga o'tdi va to'lovni kutmoqda"
+
+#: templates/emails/admin-pending-commission-email.php:31
+#: templates/emails/customer-pending-commission-email.php:33
+#: templates/emails/plain/admin-pending-commission-email.php:30
+#: templates/emails/plain/customer-pending-commission-email.php:32
+msgid "Commission:"
+msgstr "Komissiya:"
+
+#: templates/emails/admin-pending-commission-email.php:33
+#: templates/emails/customer-pending-commission-email.php:34
+#: templates/emails/plain/admin-pending-commission-email.php:39
+#: templates/emails/plain/customer-pending-commission-email.php:36
+msgid "Rate:"
+msgstr "Daraja:"
+
+#: templates/emails/customer-ban.php:26
+msgid "We regretfully inform that your affiliate account has been disabled"
+msgstr "Afsuski, sizning sheriklik hisobingiz o'chirilgan"
+
+#: templates/emails/customer-ban.php:28
+#: templates/emails/customer-new-coupon.php:28
+#: templates/emails/customer-status-change.php:28
+#: templates/emails/plain/customer-ban.php:26
+#: templates/emails/plain/customer-new-coupon.php:26
+#: templates/emails/plain/customer-status-change.php:26
+#, php-format
+msgid "Hi %s,"
+msgstr "Salom %s,"
+
+#: templates/emails/customer-new-coupon.php:26
+msgid "Check out your brand new coupon"
+msgstr "Sizning yangi kuponingizni ko'rib chiqing"
+
+#: templates/emails/customer-paid-commission-email.php:26
+msgid "New payments have been sent to your account"
+msgstr "Hisobingizga yangi to'lovlar yuborildi"
+
+#: templates/emails/customer-paid-commission-email.php:28
+msgctxt "Label for the payment ID on customer email"
+msgid "Payment"
+msgstr "To'lov"
+
+#: templates/emails/customer-paid-commission-email.php:28
+msgid "was sent to your account, at"
+msgstr "sizning hisobingizga yuborildi, da"
+
+#: templates/emails/customer-pending-commission-email.php:28
+msgid "Your commission"
+msgstr "Your commission"
+
+#: templates/emails/customer-pending-commission-email.php:28
+msgid "switched to pending is now ready to be paid by an admin"
+msgstr ""
+"kutish rejimiga o'tkazildi, endi administrator tomonidan to'lashga tayyor"
+
+#: templates/emails/customer-status-change.php:26
+msgid "Your affiliate account was updated"
+msgstr "Sizning sheriklik hisobingiz yangilandi"
+
+#: templates/emails/customer-status-change.php:30
+msgid ""
+"An administrator has just reviewed your affiliate account and its status has "
+"been updated."
+msgstr ""
+"Administrator sizning sheriklik hisobingizni ko'rib chiqdi va uning holati "
+"yangilandi."
+
+#: templates/emails/customer-status-change.php:31
+#: templates/emails/plain/customer-status-change.php:30
+#, php-format
+msgid "Now your affiliate account is: %s."
+msgstr "Endi sizning sheriklik hisobingiz:% s."
+
+#: templates/emails/plain/admin-paid-commission-email.php:26
+#, php-format
+msgid "Payment %s was issued to gateway and is awaiting IPN response\n"
+msgid_plural ""
+"Payments %s were issued to gateway and are awaiting IPN response\n"
+msgstr[0] ""
+
+#: templates/emails/plain/admin-pending-commission-email.php:26
+#, php-format
+msgid "Commission #%s switched to pending status and is awaiting payment\n"
+msgstr "Komissiya #% s kutilayotgan holatga o'tdi va to'lovni kutmoqda\n"
+
+#: templates/emails/plain/commissions-table.php:47
+#, php-format
+msgid "Affiliate: %s"
+msgstr "Hamkorlar:%s"
+
+#: templates/emails/plain/customer-paid-commission-email.php:26
+#, php-format
+msgid ""
+"Payment %s was issued to gateway and is awaiting for your confirmation\n"
+msgstr "%s  to'lovi shlyuzga berildi va sizning tasdiqlanishingizni kutmoqda\n"
+
+#: templates/emails/plain/customer-pending-commission-email.php:26
+#, php-format
+msgid ""
+"Your commission #%s switched to pending and it is ready to be paid by an "
+"admin\n"
+msgstr ""
+"Sizning #% s komissiyangiz kutish muddatiga o'tdi va uni administrator "
+"to'lashga tayyor\n"
+
+#: templates/emails/plain/customer-status-change.php:28
+msgid ""
+"An administrator just reviewed your affiliate account, and updated its status"
+msgstr ""
+"Ma'mur sizning sheriklik hisobingizni ko'rib chiqdi va uning holatini "
+"yangiladi"
+
+#: templates/invoices/affiliate-invoice.php:3
+msgctxt "Invoice template"
+msgid "Invoice {{number}}"
+msgstr "Schyot-faktura raqami{{number}}"
+
+#: templates/invoices/affiliate-invoice.php:8
+msgctxt "Invoice template"
+msgid "Date: {{current_date}}"
+msgstr "Sana {{current_date}}"
+
+#: templates/invoices/affiliate-invoice.php:15
+msgctxt "Invoice template"
+msgid "Affiliate"
+msgstr "Hamkor"
+
+#: templates/invoices/affiliate-invoice.php:27
+msgctxt "Invoice template"
+msgid "Client"
+msgstr "Mijoz"
+
+#: templates/invoices/affiliate-invoice.php:36
+msgctxt "Invoice template"
+msgid "Description: {{description}}"
+msgstr "Tavsif: {{description}}"
+
+#: templates/invoices/affiliate-invoice.php:41
+msgctxt "Invoice template"
+msgid ""
+"In reference to {{affiliate_program}} ({{affiliate_landing}}), \n"
+"                    I ask for a payment of {{withdraw_amount}} for "
+"commissions earned on {{site_url}} from {{start_date}} to {{end_date}}"
+msgstr ""
+"{{Affiliate_program}} ({{affiliate_landing}}) ga murojaat qilib,\n"
+"                    {{Start_date}} - {{end_date}} gacha {{site_url}} da "
+"ishlagan komissiyalar uchun {{Geri_amount}} to'lashni so'rayman."
+
+#: templates/invoices/affiliate-invoice.php:47
+msgctxt "Invoice template"
+msgid ""
+"With the proving documentation of the due payment attachment, the following "
+"document represents a valid invoice for fiscal purposes."
+msgstr ""
+"To'lanadigan to'lov qo'shimchasining tasdiqlovchi hujjatlari bilan quyidagi "
+"hujjat moliya maqsadlari uchun tegishli schyot-fakturani aks ettiradi."
+
+#: templates/invoices/affiliate-invoice.php:55
+msgctxt "Invoice template"
+msgid "Commissions on {{site_url}}"
+msgstr "saytidagi komissiyalar{{Site_url}} "
+
+#: templates/invoices/affiliate-invoice.php:59
+msgctxt "Invoice template"
+msgid "Total"
+msgstr "Jami"
+
+#: templates/shortcodes/dashboard-clicks.php:53
+#: templates/shortcodes/dashboard-commissions.php:52
+#: templates/shortcodes/dashboard-payments.php:42
+msgid "Items per page:"
+msgstr "Har bir sahifadagi ma'lumotlar:"
+
+#: templates/shortcodes/dashboard-clicks.php:93
+msgid "Sorry! There are no registered hits yet"
+msgstr "Kechirasiz! Hali ro'yxatdan o'tgan xitlar yo'q"
+
+#: templates/shortcodes/dashboard-commissions.php:48
+msgid "Product:"
+msgstr "Mahsulot:"
+
+#: templates/shortcodes/dashboard-commissions.php:102
+msgid "Sorry! There are no registered commissions yet"
+msgstr "Kechirasiz! Hali ro'yxatdan o'tgan komissiyalar yo'q"
+
+#: templates/shortcodes/dashboard-coupons.php:40
+msgid "Code"
+msgstr "Kod"
+
+#: templates/shortcodes/dashboard-coupons.php:49
+msgid "Expire"
+msgstr "Muddati tugaydi"
+
+#: templates/shortcodes/dashboard-coupons.php:52
+msgid "Info"
+msgstr "Ma'lumot"
+
+#: templates/shortcodes/dashboard-coupons.php:63
+msgid "Click to copy sharing url!"
+msgstr "Umumiy urlni nusxalash uchun bosing!"
+
+#: templates/shortcodes/dashboard-coupons.php:81
+msgid "Sorry! There are no registered coupons yet"
+msgstr "Kechirasiz! Hali ro'yxatdan o'tgan kuponlar yo'q"
+
+#: templates/shortcodes/dashboard-payments.php:75
+#: templates/shortcodes/dashboard-withdraw.php:125
+msgid "Invoice"
+msgstr "Schyot-faktura"
+
+#: templates/shortcodes/dashboard-payments.php:94
+msgid "Download"
+msgstr "Yuklamoq"
+
+#: templates/shortcodes/dashboard-payments.php:102
+#: templates/shortcodes/dashboard-summary.php:181
+msgid "Sorry! There are no registered payments yet"
+msgstr "Kechirasiz! Hozircha ro'yxatdan o'tgan to'lovlar mavjud emas"
+
+#: templates/shortcodes/dashboard-products.php:141
+msgid "To view more, click the links below"
+msgstr "Ko'proq ko'rish uchun quyidagi havolalarni bosing"
+
+#: templates/shortcodes/dashboard-products.php:144
+msgid "←"
+msgstr "←"
+
+#: templates/shortcodes/dashboard-products.php:145
+msgid "→"
+msgstr "→"
+
+#: templates/shortcodes/dashboard-settings-premium.php:43
+#: templates/shortcodes/dashboard-withdraw.php:96
+msgid "Billing info"
+msgstr "Hisob-kitob ma'lumotlari"
+
+#: templates/shortcodes/dashboard-settings-premium.php:60
+msgid "Personal info"
+msgstr "Shaxsiy ma'lumotlar"
+
+#: templates/shortcodes/dashboard-settings-premium.php:68
+#: templates/shortcodes/dashboard-settings.php:44
+msgid "(First name for your account)"
+msgstr "Akkountingiz uchun ism)"
+
+#: templates/shortcodes/dashboard-settings-premium.php:76
+#: templates/shortcodes/dashboard-settings.php:52
+msgid "(Last name for your account)"
+msgstr "Akkountingiz uchun familiya)"
+
+#: templates/shortcodes/dashboard-settings-premium.php:86
+#: templates/shortcodes/dashboard-settings.php:62
+msgid ""
+"(Email address where you want to receive PayPal payments for commissions)"
+msgstr ""
+
+#: templates/shortcodes/dashboard-settings-premium.php:98
+msgid "(Your main website, or the one where you plan to promote our products)"
+msgstr ""
+"(Sizning asosiy veb-saytingiz yoki bizning mahsulotlarimizni reklama "
+"qilishni rejalashtirgan saytingiz)"
+
+#: templates/shortcodes/dashboard-settings-premium.php:118
+msgid ""
+"(How do you plan to promote our products? Are you going to use your site, or "
+"other means?)"
+msgstr ""
+"(Mahsulotlarimizni qanday targ'ib qilishni rejalashtiryapsiz? O'z "
+"saytingizdan foydalanmoqchimisiz yoki boshqa usullardanmi?)"
+
+#: templates/shortcodes/dashboard-settings-premium.php:124
+msgid ""
+"(Please, specify the method you're going to use to promote our products)"
+msgstr ""
+"(Iltimos, mahsulotlarimizni reklama qilishda qanday usulni ishlatishingizni "
+"ko'rsating)"
+
+#: templates/shortcodes/dashboard-settings-premium.php:133
+msgid "Notify on new commissions"
+msgstr "Yangi komissiyalar to'g'risida xabar bering"
+
+#: templates/shortcodes/dashboard-settings-premium.php:135
+msgid ""
+"(Select this option if you want to be emailed each time a commission status "
+"switches to pending)"
+msgstr ""
+"(Har safar komissiya holati kutilayotgan holatga o'tganda elektron pochta "
+"orqali xabar olishni xohlasangiz, ushbu parametrni tanlang)"
+
+#: templates/shortcodes/dashboard-settings-premium.php:141
+msgid "Notify on commission paid"
+msgstr "To'langan komissiya to'g'risida xabar bering"
+
+#: templates/shortcodes/dashboard-settings-premium.php:143
+msgid ""
+"(Select this option if you want to be emailed each time a commission is paid)"
+msgstr ""
+"(Agar har safar komissiya to'langanda elektron pochta orqali xabar olishni "
+"xohlasangiz, ushbu parametrni tanlang)"
+
+#: templates/shortcodes/dashboard-stat.php:58
+msgid "Affiliate rate"
+msgstr "Hamkorlik darajasi"
+
+#: templates/shortcodes/dashboard-stat.php:63
+#: templates/shortcodes/dashboard-summary.php:70
+msgid "Total Earnings"
+msgstr "Jami daromad"
+
+#: templates/shortcodes/dashboard-stat.php:77
+#: templates/shortcodes/dashboard-summary.php:61
+msgid "Visits"
+msgstr "Tashriflar"
+
+#: templates/shortcodes/dashboard-stat.php:82
+msgid "Conversion rate"
+msgstr "Conversion rate"
+
+#: templates/shortcodes/dashboard-summary.php:83
+msgid "Your Balance"
+msgstr "Sizning balansizgiz"
+
+#: templates/shortcodes/dashboard-summary.php:84
+msgid "Bonuses for sales accrued"
+msgstr "Бонусы за начисленные продажи"
+
+#: templates/shortcodes/dashboard-summary.php:93
+msgid ""
+"You already have an active payment request. Please, wait administator "
+"approval!"
+msgstr ""
+"Sizda allaqachon  to'lov so'rovi mavjud. Iltimos, to'lovingizni "
+"administrator tasdiqlashini kuting!"
+
+#: templates/shortcodes/dashboard-summary.php:105
+msgid "Card number"
+msgstr "Karta raqami"
+
+#: templates/shortcodes/dashboard-summary.php:130
+msgid "Withdraw Bonuses"
+msgstr "Bonuslarni olib qo'ying"
+
+#: templates/shortcodes/dashboard-summary.php:143
+msgid "Balance History"
+msgstr "Balans tarixi"
+
+#: templates/shortcodes/dashboard-withdraw-upload.php:26
+msgid "Please, use this info for your invoice:"
+msgstr "Iltimos, ushbu ma'lumotdan schyot-fakturangiz uchun foydalaning:"
+
+#: templates/shortcodes/dashboard-withdraw-upload.php:37
+#, php-format
+msgid ""
+"Please, refer to the following <a href=\"%s\">example</a> for invoice "
+"creation"
+msgstr ""
+"Iltimos, schyot-fakturani yaratish uchun quyidagi <a href=\"%s\"> misol </a> "
+"ga murojaat qiling"
+
+#: templates/shortcodes/dashboard-withdraw.php:36
+#, php-format
+msgid ""
+"You already have an active payment request; please check payment status in "
+"<a href=\"%s\">Payments' page</a>"
+msgstr ""
+"Sizda allaqachon faol to'lov so'rovi mavjud; iltimos, to'lov holatini <a "
+"href=\"%s\"> To'lovlar sahifasida </a> tekshiring"
+
+#: templates/shortcodes/dashboard-withdraw.php:43
+msgid "Current balance:"
+msgstr "Joriy balans:"
+
+#: templates/shortcodes/dashboard-withdraw.php:49
+msgid "Withdraw Total:"
+msgstr "Chiqib ketish jami:"
+
+#: templates/shortcodes/dashboard-withdraw.php:56
+msgid "Minimum amount to withdraw:"
+msgstr "Chiqish uchun minimal miqdor:"
+
+#: templates/shortcodes/dashboard-withdraw.php:104
+msgid "edit &rsaquo;"
+msgstr "tahrirlash & rsaquo;"
+
+#: templates/shortcodes/dashboard-withdraw.php:108
+#, php-format
+msgid ""
+"Billing info not found. Please, fill the fields in the <a href=\"%s"
+"\">Settings tab</a>"
+msgstr ""
+"Hisob-kitob ma'lumotlari topilmadi. Iltimos, maydonlarni <a href=\"%s\"> "
+"Sozlamalar yorlig'ida </a> to'ldiring"
+
+#: templates/shortcodes/dashboard-withdraw.php:129
+msgid "To process the payment we need you provide us an invoice."
+msgstr ""
+"To'lovni amalga oshirish uchun bizga schyot-fakturani taqdim etishingiz "
+"kerak."
+
+#: templates/shortcodes/dashboard-withdraw.php:133
+msgid ""
+"You can create your own invoice and upload it in PDF or we can generate an "
+"invoice for you."
+msgstr ""
+"Siz o'zingizning schyot-fakturangizni yaratishingiz va uni PDF-ga "
+"yuklashingiz mumkin yoki biz siz uchun hisob-fakturani yaratishimiz mumkin."
+
+#: templates/shortcodes/dashboard-withdraw.php:135
+msgid ""
+"Create it using your own invoicing software and upload it in PDF using "
+"following form."
+msgstr ""
+"Uni o'zingizning schyot-faktura dasturiy ta'minotingiz yordamida yarating va "
+"quyidagi shaklda PDF-ga yuklang."
+
+#: templates/shortcodes/dashboard-withdraw.php:137
+msgid ""
+"We'll automatically generate one for you; just make sure to fill in billing "
+"information."
+msgstr ""
+"Biz avtomatik ravishda siz uchun bitta ishlab chiqaramiz; faqat schyot-kitob "
+"ma'lumotlarini to'ldirganingizga ishonch hosil qiling."
+
+#: templates/shortcodes/dashboard-withdraw.php:148
+msgid "Attach a PDF invoice"
+msgstr ""
+
+#: templates/shortcodes/dashboard-withdraw.php:159
+msgid "Generate an automatic invoice"
+msgstr ""
+
+#: templates/shortcodes/dashboard-withdraw.php:193
+msgid "Request Withdraw"
+msgstr "Kartaga o'tkazish"
+
+#: templates/shortcodes/form-referrer.php:29
+msgid "Did anyone suggest our site to you?"
+msgstr "Kimdir sizga bizning saytimizni taklif qilganmi?"
+
+#: templates/shortcodes/form-referrer.php:29
+msgid "Click here to enter his/her affiliate code"
+msgstr "Uning hamkorlik kodini kiritish uchun buni bosing"
+
+#: templates/shortcodes/form-referrer.php:41
+msgid "Affiliate code"
+msgstr "Hamkor kodi"
+
+#: templates/shortcodes/form-referrer.php:45
+msgid "Set Affiliate"
+msgstr "Hamkor bo'ling"
+
+#: templates/shortcodes/link-generator.php:41
+#, php-format
+msgid "Your affiliate ID is: <strong>%s</strong>"
+msgstr "Hamkorlik kodingiz: <strong>%s</strong>"
+
+#: templates/shortcodes/link-generator.php:48
+#, php-format
+msgid "Your referral URL is: <strong class=\"copy-target\">%s</strong>"
+msgstr "Sizning referal havolangiz: <strong class=\"copy-target\">%s</strong>"
+
+#: templates/shortcodes/link-generator.php:55
+msgid ""
+"Enter any URL from this site into the form below to generate your referral "
+"link to that page"
+msgstr ""
+"Bu saytga havola yaratish uchun ushbu saytdan istalgan URL manzilini kiriting"
+
+#: templates/shortcodes/link-generator.php:61
+msgid "Affiliate login"
+msgstr "Hamkor logini"
+
+#: templates/shortcodes/registration-form-premium.php:41
+#: templates/shortcodes/registration-form-premium.php:61
+#: templates/shortcodes/registration-form.php:41
+#: templates/shortcodes/registration-form.php:60
+msgid "Login"
+msgstr "Saytga kirish"
+
+#: templates/shortcodes/registration-form-premium.php:48
+#: templates/shortcodes/registration-form.php:48
+msgid "Username or email address"
+msgstr "Foydalanuvchi nomi yoki elektron pochta manzili"
+
+#: templates/shortcodes/registration-form-premium.php:53
+#: templates/shortcodes/registration-form-premium.php:139
+#: templates/shortcodes/registration-form.php:52
+#: templates/shortcodes/registration-form.php:134
+msgid "Password"
+msgstr "Parol"
+
+#: templates/shortcodes/registration-form-premium.php:64
+#: templates/shortcodes/registration-form.php:62
+msgid "Remember me"
+msgstr "Meni eslab qol"
+
+#: templates/shortcodes/registration-form-premium.php:68
+#: templates/shortcodes/registration-form.php:66
+msgid "Lost your password?"
+msgstr "Parolni unutdingizmi?"
+
+#: templates/shortcodes/registration-form-premium.php:84
+#: templates/shortcodes/registration-form-premium.php:229
+#: templates/shortcodes/registration-form.php:81
+#: templates/shortcodes/registration-form.php:157
+msgid "Register"
+msgstr "Ro'yxatdan o'tish"
+
+#: templates/shortcodes/registration-form-premium.php:131
+#: templates/shortcodes/registration-form.php:127
+msgid "Email address"
+msgstr "Email manzil"
+
+#: templates/shortcodes/registration-form-premium.php:219
+#: templates/shortcodes/registration-form.php:148
+msgid "Anti-spam"
+msgstr ""
+
+#: templates/shortcodes/registration-form-premium.php:248
+#, php-format
+msgctxt "%s: shop email"
+msgid ""
+"We're sorry, but you don't have sufficient permissions to enter our "
+"affiliation program. Please, contact us at %s to apply for the program"
+msgstr ""
+
+#: templates/shortcodes/registration-form-premium.php:253
+#: templates/shortcodes/registration-form.php:174
+msgid "You're just one step away from becoming an affiliate!"
+msgstr "Hamkor bo'lishga atigi bir qadam qoldi!"
+
+#: templates/shortcodes/registration-form-premium.php:255
+#: templates/shortcodes/registration-form.php:176
+msgid "Become an affiliate"
+msgstr "Hamkor bo'ling"
+
+#: templates/shortcodes/registration-form-premium.php:379
+#: templates/shortcodes/registration-form.php:233
+msgid "You have already affiliated with us. Thank you!"
+msgstr "Siz allaqachon bizning Hamkorsiz. Rahmat!"
+
+#: templates/shortcodes/registration-form-premium.php:385
+#: templates/shortcodes/registration-form.php:239
+msgid ""
+"Your request has been registered and it is awaiting administrators approval!"
+msgstr ""
+"Sizning so'rovingiz ro'yxatga olindi va u administratorning roziligini "
+"kutmoqda!"
+
+#: templates/shortcodes/registration-form-premium.php:396
+msgid ""
+"We regretfully inform you that we can't accept your request as it doesn't "
+"match our requirements."
+msgstr ""
+"Afsuski, biz sizning talabingizni qabul qila olmasligimizni ma'lum qilamiz, "
+"chunki u bizning talablarimizga javob bermaydi."
+
+#: templates/shortcodes/share.php:19
+msgid "Facebook"
+msgstr "Facebook"
+
+#: templates/shortcodes/share.php:25
+msgid "Twitter"
+msgstr "Twitter"
+
+#: templates/shortcodes/share.php:31
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: templates/shortcodes/share.php:43 templates/shortcodes/share.php:49
+msgid "My Referral URL on "
+msgstr "Mening Referal havolam"
+
+#: templates/shortcodes/share.php:43
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: templates/shortcodes/woogridimage.php:48
+msgid "Sale!"
+msgstr "Chegirma!"
+
+#: templates/shortcodes/woogridimage.php:80
+msgid "Copy"
+msgstr "Nusxa olish"
+
+#: templates/shortcodes/woogridimage.php:82
+msgid "Create Referral URL"
+msgstr "Oqim yaratish"
+
+#~ msgid "Not confirmed"
+#~ msgstr "Tasdiqlanmadi"

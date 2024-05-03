@@ -1,0 +1,987 @@
+/* === DASHBOARD SUMMARY === */
+
+.yith-wcaf-navigation-menu li {
+    list-style: none!important;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.yith-wcaf-navigation-menu .dashboard-links li.active a {
+    padding: 0.5rem 1rem;
+    background: #7000f4;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 1.5;
+}
+
+.hidden,
+.woo_gridloop_btn .woo_loop_btn.hidden {
+    display: none;
+}
+
+.width-1 {
+    width: 100%
+}
+
+.uap-subnote {
+    font-size: 12px;
+    letter-spacing: .1px;
+    margin-bottom: 3rem;
+}
+
+.not-hidden.hidden {
+    display: block;
+}
+
+.navigation-menu,
+.partner-content {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.yith-wcaf:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.uap-row {
+    margin: 10px -15px!important;
+}
+
+.uap-row:after,
+.uap-row:before {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.uapcol-md-3 {
+    width: 33%;
+    min-width: 130px;
+}
+
+.uap-row>[class*=uapcol-] {
+    padding: 0 11px;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.yith-wcaf.yith-wcaf-dashboard-summary .dashboard-content:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.yith-wcaf.yith-wcaf-dashboard-summary .dashboard-title {
+    margin-bottom: 35px;
+}
+
+.uap-account-no-box-inside .uap-count {
+    font-weight: 600;
+    margin: 1px 0 5px 0;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, San Francisco, Roboto, Segoe UI, Helvetica Neue, sans-serif!important;
+}
+
+.uap-account-no-box-inside {
+    min-height: 90px;
+    height: auto;
+    color: inherit;
+    padding: 15px;
+    overflow: hidden;
+    position: relative;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: .05em;
+}
+
+.uap-account-no-box {
+    background-color: #4f585f;
+    color: #fff;
+    padding: 0 0 1px 20px;
+    border-radius: 10px;
+    min-height: 120px;
+}
+
+.uap-account-box-green {
+    background-color: #75c37d;
+}
+
+.uap-no-padding {
+    padding: 0;
+}
+
+.uapcol-md-2 {
+    width: 50%;
+    min-width: 130px;
+}
+
+.uap-account-no-box {
+    background-color: #4f585f;
+    color: #fff;
+    padding: 0 0 1px 20px;
+    border-radius: 10px;
+    min-height: 120px;
+}
+
+.uap-account-box-blue {
+    background-color: #607d8b;
+}
+
+.uap-account-no-box-inside {
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: .05em;
+    min-height: 90px;
+    height: auto;
+    color: inherit;
+    padding: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.uap-profile-box-wrapper {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.uap-profile-box-title {
+    height: 30px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.uap-profile-box-title span {
+    position: relative;
+    bottom: -10px;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 0 10px;
+    margin-left: 25px;
+    color: #2b425b;
+}
+
+.uap-profile-box-content {
+    padding: 15px 0;
+    color: #758697;
+}
+
+.uap-col-xs-12 {
+    width: 100%;
+}
+
+.yith-wcaf.yith-wcaf-dashboard-summary .dashboard-title h2,
+.yith-wcaf.yith-wcaf-dashboard-summary .dashboard-title span.view-all {
+    display: inline-block;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+.yith-wcaf.yith-wcaf-dashboard-summary .dashboard-title span.view-all {
+    margin-left: 5px;
+}
+
+.yith-wcaf table {
+    font-size: .85em;
+}
+
+.yith-wcaf table th {
+    padding: 4px 8px;
+    vertical-align: middle;
+}
+
+.yith-wcaf table td.empty-set {
+    text-align: center;
+}
+
+.yith-wcaf.yith-wcaf-dashboard-summary ul.dashboard-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.yith-wcaf .left-column,
+.yith-wcaf .right-column {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.yith-wcaf .left-column:not(.full-width) {
+    width: 70%;
+    float: left;
+}
+
+.yith-wcaf .right-column:not(.full-width) {
+    width: 30%;
+    float: left;
+}
+
+
+/* === DASHBOARD COMMISSIONS / CLICKS / PAYMENTS === */
+
+.yith-wcaf.yith-wcaf-commissions .filters,
+.yith-wcaf.yith-wcaf-clicks .filters,
+.yith-wcaf.yith-wcaf-payments .filters {
+    margin-bottom: 15px;
+}
+
+.yith-wcaf.yith-wcaf-commissions .filters .filters-row,
+.yith-wcaf.yith-wcaf-clicks .filters .filters-row,
+.yith-wcaf.yith-wcaf-payments .filters .filters-row {
+    margin-bottom: 15px;
+}
+
+.yith-wcaf.yith-wcaf-commissions .filters .filters-row .per-page,
+.yith-wcaf.yith-wcaf-clicks .filters .filters-row .per-page,
+.yith-wcaf.yith-wcaf-payments .filters .filters-row .per-page {
+    float: right;
+}
+
+.yith-wcaf.yith-wcaf-commissions .filters .filters-row .per-page input,
+.yith-wcaf.yith-wcaf-clicks .filters .filters-row .per-page input,
+.yith-wcaf.yith-wcaf-payments .filters .filters-row .per-page input {
+    max-width: 70px;
+}
+
+.yith-wcaf.yith-wcaf-commissions .filters .button-row a,
+.yith-wcaf.yith-wcaf-clicks .filters .button-row a {
+    margin-left: 10px;
+}
+
+.yith-wcaf.yith-wcaf-commissions .filters .button-row input,
+.yith-wcaf.yith-wcaf-commissions .filters .button-row a,
+.yith-wcaf.yith-wcaf-clicks .filters .button-row input,
+.yith-wcaf.yith-wcaf-clicks .filters .button-row a,
+.yith-wcaf.yith-wcaf-payments .filters .button-row input,
+.yith-wcaf.yith-wcaf-payments .filters .button-row a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yith-wcaf.yith-wcaf-commissions .product-search {
+    min-width: 50%;
+}
+
+.yith-wcaf.yith-wcaf-commissions .product-search a.select2-choice {
+    border-radius: 0;
+    border-color: #eaeaea;
+}
+
+.yith-wcaf.yith-wcaf-commissions .product-search a.select2-choice:hover {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.yith-wcaf.yith-wcaf-commissions .product-search a.select2-choice .select2-chosen {
+    color: #707070;
+}
+
+.yith-wcaf.yith-wcaf-commissions input.datepicker,
+.yith-wcaf.yith-wcaf-clicks input.datepicker,
+.yith-wcaf.yith-wcaf-payments input.datepicker {
+    max-width: 24%;
+    box-sizing: border-box;
+}
+
+.yith-wcaf.yith-wcaf-commissions .product-search,
+.yith-wcaf.yith-wcaf-commissions input.datepicker,
+.yith-wcaf.yith-wcaf-clicks input.datepicker,
+.yith-wcaf.yith-wcaf-payments input.datepicker {
+    width: auto;
+    display: inline-block !important;
+    color: #707070;
+}
+
+
+/* === DASHBOARD WITHDRAW === */
+
+.yith-wcaf.yith-wcaf-withdraw .first-step,
+.yith-wcaf.yith-wcaf-withdraw .second-step,
+.yith-wcaf.yith-wcaf-withdraw .third-step {
+    border-bottom: 1px solid #bbb;
+    padding: 30px 0;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .first-step .withdraw-dates-container:after,
+.yith-wcaf.yith-wcaf-withdraw .first-step .withdraw-amount-container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .first-step .withdraw-amount {
+    display: block;
+    white-space: nowrap;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .first-step .withdraw-amount .currency-symbol {
+    width: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .first-step .withdraw-amount .amount {
+    width: calc(100% - 40px);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .second-step p.form-row {
+    margin-bottom: 0;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .third-step {
+    border-bottom: none;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .third-step .invoice-modes {
+    list-style: none;
+    padding-left: 0;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .third-step .invoice-modes>li {
+    margin-bottom: 35px;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .third-step .invoice-modes .invoice-mode {
+    margin-left: 33px;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .third-step .invoice-modes .invoice-mode p.form-row:first-child {
+    margin-top: 0;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .third-step .invoice-modes .invoice-mode p.form-row:last-child {
+    margin-bottom: 0;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .information-panel {
+    margin-top: 15px;
+    border: 1px solid #bbb;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .information-panel p {
+    margin-bottom: 5px;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .information-panel .total {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .information-panel .max-withdraw,
+.yith-wcaf.yith-wcaf-withdraw .information-panel .min-withdraw {
+    font-size: .9em;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .invoice-mode-separator {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .invoice-mode-separator:before,
+.yith-wcaf.yith-wcaf-withdraw .invoice-mode-separator:after {
+    content: '';
+    display: block;
+    width: 100%;
+    border-top: 1px solid #bbb;
+    position: absolute;
+    top: 50%;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .invoice-mode-separator:before {
+    left: -60%
+}
+
+.yith-wcaf.yith-wcaf-withdraw .invoice-mode-separator:after {
+    right: -60%
+}
+
+.yith-wcaf.yith-wcaf-withdraw .formatted-address,
+.yith-wcaf.yith-wcaf-withdraw .formatted-address {
+    display: block;
+    border: 1px solid #cdcdcd;
+    background: #fafafa;
+    padding: 15px 20px;
+}
+
+.yith-wcaf.yith-wcaf-withdraw p.form-row.yith-field-required input {
+    border: 1px solid #f19999;
+}
+
+.yith-wcaf.yith-wcaf-withdraw .radio-checkout label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+/* === SETTINGS === */
+
+.yith-wcaf.yith-wcaf-settings .form-row-wide.radio-checkout label,
+.yith-wcaf.yith-wcaf-settings .form-row-wide.radio-checkout span {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.yith-wcaf.yith-wcaf-settings p.form-row.yith-field-required input {
+    border: 1px solid #f19999;
+}
+
+
+/* === GENERATE LINK === */
+
+.yith-wcaf-link-generator small {
+    display: block;
+}
+
+
+/* === COUPON === */
+
+.yith-wcaf.yith-wcaf-coupons .coupon-code .copy-target {
+    position: absolute;
+    left: -9999px;
+}
+
+.copy-trigger {
+    display: inline-block;
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+
+
+/* === CURRENT AFFILIATE === */
+
+.yith-wcaf-current-affiliate p.no-affiliate-message {
+    font-style: italic;
+}
+
+.yith-wcaf-current-affiliate .affiliate-gravatar {
+    float: left;
+}
+
+.yith-wcaf-current-affiliate .affiliate-gravatar img {
+    border-radius: 50%;
+    border: 4px solid #cdcdcd
+}
+
+.yith-wcaf-current-affiliate.with-gravatar .affiliate-info {
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.yith-wcaf-current-affiliate .affiliate-info .affiliate-name {
+    font-weight: 700;
+}
+
+.yith-wcaf-current-affiliate .affiliate-info .affiliate-real-name {
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+/* === SET REFERRER FORM === */
+
+.yith-wcaf.yith-wcaf-set-referrer form.referrer-form {
+    border: 1px solid #d3ced2;
+    padding: 20px;
+    margin: 2em 0;
+    text-align: left;
+    border-radius: 5px;
+}
+
+
+/* === DATEPICKER === */
+
+.yith-wcaf-datepicker.ui-datepicker {
+    background-color: #fff;
+    max-width: 300px;
+    font-size: 0.85em;
+    padding: 10px;
+    border: 1px solid #cdcdcd;
+    margin-top: 5px;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-header {
+    margin-bottom: 10px;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-header a.ui-datepicker-prev {
+    float: left;
+    cursor: pointer;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-header a.ui-datepicker-next {
+    float: right;
+    cursor: pointer;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-header .ui-datepicker-title {
+    text-align: center;
+    font-weight: 700;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table {
+    border: none;
+    border-spacing: 5px;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table td,
+.yith-wcaf-datepicker.ui-datepicker table th {
+    border: none;
+    text-align: right;
+    margin-bottom: 10px !important;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table th {
+    padding: 0 5px;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table td {
+    padding: 0;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table td:not(.ui-datepicker-other-month) {
+    background-color: #f7f7f7;
+    border: 1px solid transparent;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table td:hover,
+.yith-wcaf-datepicker.ui-datepicker table td.ui-datepicker-current-day {
+    border-color: #707070;
+    background-color: #fff;
+}
+
+.yith-wcaf-datepicker.ui-datepicker table td a {
+    padding: 0 5px;
+    display: block;
+    color: #707070;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-buttonpane {
+    padding-top: 10px;
+    border-top: 1px solid #cdcdcd;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-buttonpane:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-buttonpane button {
+    font-size: 0.85em;
+    padding: 10px 15px;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-buttonpane button:first-child {
+    float: left;
+}
+
+.yith-wcaf-datepicker.ui-datepicker .ui-datepicker-buttonpane button:last-child {
+    float: right;
+}
+
+
+/* === TOOLTIP === */
+
+.help_tip {
+    position: relative;
+}
+
+.help_tip .yith_wcaf_tooltip {
+    position: absolute;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    box-sizing: border-box;
+    opacity: 0;
+    width: 200px;
+    margin-left: -50px;
+    z-index: 99;
+    left: calc(50% - 50px);
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    pointer-events: none;
+}
+
+.help_tip .yith_wcaf_tooltip span:after {
+    content: '';
+    border: 5px solid transparent;
+    border-bottom-color: #434343;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+}
+
+.help_tip .yith_wcaf_tooltip.top {
+    bottom: 100%;
+    padding-bottom: 10px;
+}
+
+.help_tip .yith_wcaf_tooltip.top span:after {
+    bottom: -10px;
+}
+
+.help_tip .yith_wcaf_tooltip.bottom {
+    top: 100%;
+    padding-top: 10px;
+}
+
+.help_tip .yith_wcaf_tooltip.bottom span:after {
+    top: -10px;
+}
+
+.help_tip:hover .yith_wcaf_tooltip {
+    opacity: 1;
+}
+
+.help_tip .yith_wcaf_tooltip>span {
+    display: inline-block;
+    position: relative;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    border-radius: 3px;
+    padding: 10px 15px;
+    background-color: #434343;
+    color: #ffffff;
+}
+
+
+/* === SHARE BUTTONS === */
+
+.yith-wcaf-share {
+    margin-bottom: 25px;
+    margin-top: 10px;
+    padding: 10px 0px 10px 10px;
+}
+
+.yith-wcaf-share h4.yith-wcaf-share-title {
+    margin-left: 5px;
+}
+
+.yith-wcaf-share ul {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.yith-wcaf-share ul,
+.yith-wcaf-share li {
+    height: 21px;
+}
+
+.yith-wcaf-share li,
+.entry-content .yith-wcaf-share li {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.yith-wcaf-share li a {
+    background-position: left top;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border: none;
+    box-shadow: none;
+}
+
+.col_wrap_fourth {
+    margin: 0 -1% 15px;
+}
+
+.rh-flex-eq-height {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.col_wrap_fourth .col_item {
+    width: 23%;
+    margin: 0 1% 25px;
+    float: left;
+}
+
+.woocommerce .products.rh-flex-eq-height {
+    margin-top: 1em;
+    padding: 0;
+    clear: both;
+}
+
+.woocommerce div.product {
+    position: relative;
+}
+
+.col_wrap_fourth .col_item:nth-child(4n+1) {
+    clear: both;
+}
+
+.woocommerce .products.woogridrev .product.prodonsale:not(.woo_digi_grid),
+.woodealgrid {
+    padding: 0 0 40px 0;
+}
+
+.flowvisible {
+    overflow: visible !important;
+}
+
+.rh-cartbox {
+    box-shadow: rgb(0 0 0 / 15%) 0px 1px 2px;
+    overflow: hidden;
+    background: white;
+    padding: 20px;
+    position: relative;
+    transition: all .35s cubic-bezier(0.39, 0.58, 0.57, 1);
+    border-top: 1px solid #efefef;
+}
+
+.rh-shadow4 {
+    box-shadow: 0 5px 23px rgb(188 207 219 / 35%);
+    border-top: 1px solid #f8f8f8;
+}
+
+.pb30 {
+    padding-bottom: 30px !important;
+}
+
+.pt30 {
+    padding-top: 30px !important;
+}
+
+.pl20 {
+    padding-left: 20px !important;
+}
+
+.pr20 {
+    padding-right: 20px !important;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.woocommerce .products .product figure {
+    margin: 0 0 15px 0;
+    position: relative;
+    text-align: center;
+}
+
+.mb0 {
+    margin-bottom: 0px !important;
+}
+
+.woocommerce .products .product a {
+    text-decoration: none;
+}
+
+.rh-flex-justify-center {
+    justify-content: center;
+}
+
+.img-centered-flex>img {
+    max-height: 100%;
+    border-radius: 4px;
+    object-fit: scale-down;
+    flex: 0 0 auto;
+}
+
+.woocommerce .products .product figure img {
+    max-width: 100%;
+    display: inline-block;
+    transition: all ease-in-out .2s;
+}
+
+.offer_grid figure img,
+figure.eq_figure img {
+    height: 150px;
+}
+
+.pb10 {
+    padding-bottom: 10px !important;
+}
+
+.pl15 {
+    padding-left: 15px !important;
+}
+
+.pr15 {
+    padding-right: 15px !important;
+}
+
+body .font105 {
+    font-size: 105%;
+}
+
+.text-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.text-clamp-3 {
+    -webkit-line-clamp: 3;
+}
+
+.mt0 {
+    margin-top: 0px !important;
+}
+
+.mb15 {
+    margin-bottom: 15px !important;
+}
+
+.lineheight20 {
+    line-height: 20px;
+}
+
+.minheight60 {
+    min-height: 60px;
+}
+
+.clearbox {
+    clear: both;
+}
+
+.abposbot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.rh-flex-center-align {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.rh-flex-right-align {
+    margin-left: auto;
+}
+
+.woocommerce .products .product .price {
+    display: block;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.woo_gridloop_btn .woo_loop_btn {
+    display: block;
+}
+
+.woocommerce a.woo_loop_btn,
+.wcv-grid a.button {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    position: relative;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 8px 14px;
+    text-decoration: none;
+    text-shadow: none !important;
+}
+
+.woocommerce a.woo_loop_btn {
+    background: none #324192 !important;
+    color: #ffffff !important;
+    fill: #ffffff !important;
+    border: none !important;
+    text-decoration: none !important;
+    outline: 0;
+    box-shadow: -1px 6px 19px rgb(50 65 146 / 20%) !important;
+    border-radius: 4px !important;
+}
+
+.woocommerce a.woo_loop_btn:hover {
+    background: none #5d68a8 !important;
+    color: #ffffff !important;
+    box-shadow: -1px 6px 13px rgb(93 104 168 / 40%) !important;
+    border-color: transparent;
+}
+
+.rh-cartbox:hover {
+    box-shadow: rgb(0 0 0 / 12%) 0px 3px 4px;
+    backface-visibility: hidden;
+}
+
+.pt10 {
+    padding-top: 10px !important;
+}
+
+.pl10 {
+    padding-left: 10px !important;
+}
+
+.pr10 {
+    padding-right: 10px !important;
+}
+
+.position-static {
+    position: static !important;
+}
+
+.products .button_action {
+    z-index: 2;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: auto;
+    background: rgba(255, 255, 255, 0.78);
+    border-radius: 100px;
+    padding: 0 5px;
+}
+
+.redbrightcolor {
+    color: #f04057;
+}
+
+.empty_image {
+    width: 150px;
+    height: 150px;
+    background: #e0e0e0;
+    border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+    .col_wrap_two,
+    .col_wrap_three,
+    .col_wrap_fourth,
+    .col_wrap_fifth,
+    .col_wrap_six {
+        margin: 0 0 20px 0;
+    }
+    .col_wrap_three .col_item:nth-child(2n+1),
+    .col_wrap_fourth .col_item:nth-child(2n+1),
+    .col_wrap_fifth .col_item:nth-child(2n+1),
+    .col_wrap_six .col_item:nth-child(2n+1) {
+        clear: both;
+    }
+}
+
+@media (max-width: 479px) {
+    .col_item.two_column_mobile {
+        width: 48% !important;
+        margin: 0 1% 25px 1% !important;
+    }
+}

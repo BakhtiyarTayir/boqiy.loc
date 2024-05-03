@@ -1,0 +1,43 @@
+version: "3.8"
+
+services:
+  nginx:
+    image: "nginx:stable"
+    ports:
+      - "80:80"
+    volumes:
+      - ./_docker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./:/var/www/html
+    depends_on:
+      - db
+      - php
+  php:
+    build:
+      context: _docker/app
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/var/www/html
+      - ./_docker/app/php.ini:/usr/local/etc/php/conf.d/php.ini
+  db:
+    image: mysql:5.7
+    ports:
+      - "3326:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ./tmp/db_data:/var/lib/mysql
+  phpmyadmin:
+    image: phpmyadmin:5.2
+    restart: always
+    ports:
+      - "8088:80"
+    depends_on:
+      - db
+    environment:
+      PMA_ARBITRARY: 1
+      PMA_HOSTS: db
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      UPLOAD_LIMIT: 250M

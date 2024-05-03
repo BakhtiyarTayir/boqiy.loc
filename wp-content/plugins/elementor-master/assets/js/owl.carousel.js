@@ -1,0 +1,1 @@
+/home/bakhtiyar/Work/minbazar/host/wp-content/plugins/elementor-master/assets/js/owl.carousel.js

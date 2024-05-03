@@ -1,0 +1,4901 @@
+# Copyright (C) 2021 YITH
+# This file is distributed under the same license as the YITH WooCommerce Affiliates Premium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Affiliates\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
+"affiliates-premium\n"
+"POT-Creation-Date: 2021-06-07 23:36+0500\n"
+"PO-Revision-Date: 2021-10-27 12:27+0500\n"
+"Last-Translator: Eson.uz <info@eson.uz>\n"
+"Language-Team: YITH <plugins@yithemes.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+"X-Poedit-SearchPathExcluded-1: plugin-upgrade\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:50
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:209
+#: includes/class.yith-wcaf-admin.php:74
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:184
+#: includes/class.yith-wcaf-commission-handler.php:1903
+#: plugin-options/settings-options.php:287
+#: templates/admin/referral-commissions-metabox-premium.php:71
+#: templates/admin/referral-commissions-metabox.php:70
+#: templates/emails/commissions-table.php:28
+#: templates/emails/plain/commissions-table.php:27
+msgid "Commissions"
+msgstr "Комиссии"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:71
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:74
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:160
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:187
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:281
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:140
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:175
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:242
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:199
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:293
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:237
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:347
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:72
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:75
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:154
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:188
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:162
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:178
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:194
+#: includes/class.yith-wcaf-admin-premium.php:386
+#: includes/class.yith-wcaf-admin-premium.php:389
+#: includes/class.yith-wcaf-admin.php:522
+#: includes/class.yith-wcaf-commission-handler-premium.php:843
+#: includes/class.yith-wcaf-payment-handler-premium.php:1665
+#: includes/class.yith-wcaf-privacy.php:757
+#: includes/class.yith-wcaf-privacy.php:820
+#: includes/class.yith-wcaf-shortcode-premium.php:269
+#: templates/admin/affiliate-panel-detail.php:106
+#: templates/admin/payment-panel-detail.php:180
+#: templates/emails/admin-new-affiliate-email.php:34
+#: templates/emails/plain/admin-new-affiliate-email.php:46
+#: templates/shortcodes/dashboard-payments.php:94
+#: templates/shortcodes/dashboard-stat.php:83
+msgid "N/A"
+msgstr "Н/И"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:84
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:169
+msgctxt "Label for payment email for the affiliate (admin view)"
+msgid "Payment"
+msgstr "Оплата"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:171
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:325
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:93
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:107
+msgid "View"
+msgstr "Посмотреть"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:187
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:379
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:574
+msgid "Change status to Rejected"
+msgstr "Изменить статус на \"Отклонено\"."
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:187
+msgid "Disable"
+msgstr "Отключить"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:203
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:378
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:579
+msgid "Change status to Active"
+msgstr "Изменить статус на Активный"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:203
+msgid "Enable"
+msgstr "Включить"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:218
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:583
+msgid "Ban affiliate"
+msgstr "Запретить партнерку"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:218
+msgid "Ban"
+msgstr "Запретить"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:232
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:586
+msgid "Unban affiliate"
+msgstr "Разблокировать партнера"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:232
+msgid "Unban"
+msgstr "Разблокировать"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:243
+msgid "Process dangling commissions"
+msgstr "Висячие комиссии процесса"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:258
+msgid "Pay Commissions"
+msgstr "Оплата комиссий"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:262
+#, php-format
+msgid "Pay commissions via %s"
+msgstr "Оплачивайте комиссию через% s"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:291
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:296
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:393
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:373
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:112
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:231
+#: includes/class.yith-wcaf-affiliate-handler.php:1680
+#: includes/class.yith-wcaf-commission-handler.php:1937
+#: includes/class.yith-wcaf-payment-handler.php:1082
+#: includes/class.yith-wcaf-privacy.php:676
+#: includes/class.yith-wcaf-privacy.php:732
+#: includes/class.yith-wcaf-privacy.php:800
+#: templates/admin/affiliate-panel-detail.php:175
+#: templates/admin/affiliate-panel-detail.php:229
+#: templates/admin/commission-panel-detail.php:63
+#: templates/admin/referral-commissions-metabox-premium.php:42
+#: templates/admin/referral-commissions-metabox.php:41
+#: templates/emails/commissions-table.php:32
+#: templates/shortcodes/dashboard-commissions.php:69
+#: templates/shortcodes/dashboard-payments.php:59
+#: templates/shortcodes/dashboard-summary.php:151
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:292
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:297
+#: includes/class.yith-wcaf-affiliate-handler.php:1681
+#: includes/class.yith-wcaf-affiliate-handler.php:1975
+#: includes/class.yith-wcaf-privacy.php:195
+msgid "Token"
+msgstr "Токен"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:293
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:298
+msgid "Approved"
+msgstr "Одобренный"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:294
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:299
+#: includes/class.yith-wcaf-affiliate-handler.php:1683
+#: includes/class.yith-wcaf-affiliate-handler.php:1933
+#: includes/class.yith-wcaf-payment-handler.php:1083
+#: includes/class.yith-wcaf.php:498 init.php:204
+#: templates/admin/payment-panel-detail.php:55
+#: templates/emails/commissions-table.php:33
+msgid "Affiliate"
+msgstr "Партнер"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:295
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:300
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:402
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:380
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:157
+#: includes/admin-tables/class.yith-wcaf-user-rates-table.php:147
+#: includes/class.yith-wcaf-affiliate-handler.php:1684
+#: includes/class.yith-wcaf-affiliate-handler.php:1982
+#: includes/class.yith-wcaf-commission-handler.php:1946
+#: templates/admin/affiliate-panel-detail.php:179
+#: templates/admin/commission-panel-detail.php:536
+#: templates/admin/referral-commissions-metabox-premium.php:44
+#: templates/admin/referral-commissions-metabox.php:43
+#: templates/emails/commissions-table.php:36
+#: templates/shortcodes/dashboard-commissions.php:81
+msgid "Rate"
+msgstr "Ставка"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:296
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:301
+#: includes/class.yith-wcaf-affiliate-handler.php:1685
+msgid "Earnings"
+msgstr "Заработки"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:297
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:401
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:210
+#: includes/class.yith-wcaf-affiliate-handler.php:1686
+#: includes/class.yith-wcaf-commission-handler.php:1945
+msgid "Refunds"
+msgstr "Возвраты"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:298
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:302
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:460
+#: includes/class.yith-wcaf-affiliate-handler.php:1687
+#: includes/class.yith-wcaf-commission-handler.php:206
+msgid "Paid"
+msgstr "Оплачено"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:299
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:303
+#: includes/class.yith-wcaf-affiliate-handler.php:1688
+#: templates/shortcodes/dashboard-stat.php:72
+msgid "Balance"
+msgstr "Баланс"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:300
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:304
+#: includes/class.yith-wcaf-affiliate-handler.php:1689
+msgid "Click"
+msgstr "Визит"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:301
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:305
+msgid "Number of orders following a click"
+msgstr "Количество заказов после клика"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:301
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:305
+#: includes/class.yith-wcaf-affiliate-handler.php:1690
+msgid "Conversion"
+msgstr "Конверсия"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:302
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:306
+msgid "Conv. rate"
+msgstr "Коэффициент конверсии"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:303
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:406
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:118
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:158
+#: includes/admin-tables/class.yith-wcaf-user-rates-table.php:148
+msgid "Actions"
+msgstr "Действия"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table-premium.php:320
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:463
+msgid "Export CSV"
+msgstr "Экспорт CSV"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:121
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:365
+#: includes/class.yith-wcaf-affiliate-handler.php:1960
+msgid "Banned"
+msgstr "Запрещено"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:126
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:362
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:452
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:169
+#: includes/class.yith-wcaf-commission-handler.php:204
+#: includes/class.yith-wcaf-payment-handler.php:56
+msgid "Pending"
+msgstr "В ожидании"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:130
+#: includes/class.yith-wcaf-affiliate-handler.php:605
+#: includes/class.yith-wcaf-affiliate-handler.php:1945
+msgid "Rejected"
+msgstr "Отклонено"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:135
+#: includes/class.yith-wcaf-affiliate-handler.php:1944
+msgid "Accepted"
+msgstr "Принято"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:361
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:312
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:448
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:167
+msgid "All"
+msgstr "Всё"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:363
+#: includes/class.yith-wcaf-affiliate-handler.php:1940
+msgid "Enabled"
+msgstr "Включено"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:364
+msgid "Disabled"
+msgstr "Отключено"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:377
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:283
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:142
+#: includes/admin-tables/class.yith-wcaf-user-rates-table.php:132
+msgid "Delete"
+msgstr "Удалять"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:380
+msgid "Ban Affiliate"
+msgstr "Запретить партнерку"
+
+#: includes/admin-tables/class.yith-wcaf-affiliates-table.php:381
+msgid "Unban Affiliate"
+msgstr "Разблокировать партнера"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:105
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:256
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:313
+#: templates/shortcodes/dashboard-clicks.php:86
+msgid "Converted"
+msgstr "Конвертирован"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:105
+#: templates/shortcodes/dashboard-clicks.php:86
+msgid "Not Converted"
+msgstr "Неконвертирован"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:121
+msgid "Guest IP:"
+msgstr "Гостевой IP:"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:181
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:65
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:130
+msgid "Billing:"
+msgstr "Биллинг:"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:185
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:69
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:134
+msgid "Tel:"
+msgstr "Тел:"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:213
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:97
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:161
+#: templates/admin/commission-panel-detail.php:205
+msgid "Guest"
+msgstr "Гость"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:217
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:101
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:165
+#, fuzzy, php-format
+msgctxt "Order number by X"
+msgid "%s by %s"
+msgstr "%1$s (%2$s)"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:257
+#: includes/class.yith-wcaf-click-handler-premium.php:233
+#: includes/class.yith-wcaf-coupon-handler.php:292
+msgid "Referrer"
+msgstr ""
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:258
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:395
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:375
+#: includes/class.yith-wcaf-click-handler-premium.php:234
+#: includes/class.yith-wcaf-commission-handler.php:1939
+msgid "Order"
+msgstr "Заказ"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:259
+#: includes/class.yith-wcaf-click-handler-premium.php:235
+msgid "Followed URL"
+msgstr "Последовательный URL"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:260
+#: includes/class.yith-wcaf-click-handler-premium.php:236
+msgid "Origin URL"
+msgstr "Исходный URL"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:261
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:405
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:383
+#: includes/class.yith-wcaf-click-handler-premium.php:237
+#: includes/class.yith-wcaf-commission-handler.php:1949
+#: includes/class.yith-wcaf-privacy.php:803
+#: templates/admin/affiliate-panel-detail.php:176
+#: templates/admin/payment-panel-detail.php:350
+#: templates/shortcodes/dashboard-clicks.php:70
+#: templates/shortcodes/dashboard-commissions.php:72
+msgid "Date"
+msgstr "Дата"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:262
+#: includes/class.yith-wcaf-click-handler-premium.php:238
+msgid "Conversion time"
+msgstr "Время конверсии"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:357
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:568
+msgid "Select a user"
+msgstr "Выбрать Пользователя"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:363
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:574
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:339
+#: templates/admin/stat-panel-general-premium.php:28
+#: templates/admin/stat-panel-general.php:28
+#: templates/shortcodes/dashboard-clicks.php:50
+#: templates/shortcodes/dashboard-commissions.php:49
+#: templates/shortcodes/dashboard-payments.php:39
+#: templates/shortcodes/dashboard-withdraw.php:72
+msgid "From:"
+msgstr "От:"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:364
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:575
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:340
+#: templates/admin/stat-panel-general-premium.php:29
+#: templates/admin/stat-panel-general.php:29
+#: templates/shortcodes/dashboard-clicks.php:51
+#: templates/shortcodes/dashboard-commissions.php:50
+#: templates/shortcodes/dashboard-payments.php:40
+#: templates/shortcodes/dashboard-withdraw.php:77
+msgid "To:"
+msgstr "Кому:"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:367
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:578
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:343
+#: templates/admin/stat-panel-general-premium.php:41
+#: templates/admin/stat-panel-general.php:30
+#: templates/shortcodes/dashboard-clicks.php:58
+#: templates/shortcodes/dashboard-commissions.php:57
+#: templates/shortcodes/dashboard-payments.php:47
+msgid "Filter"
+msgstr "Фильтр"
+
+#: includes/admin-tables/class.yith-wcaf-clicks-table.php:373
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:584
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:349
+#: templates/admin/stat-panel-general-premium.php:43
+#: templates/admin/stat-panel-general.php:32
+#: templates/shortcodes/dashboard-clicks.php:60
+#: templates/shortcodes/dashboard-commissions.php:59
+#: templates/shortcodes/dashboard-payments.php:49
+msgid "Reset"
+msgstr "Сброс"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:180
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:86
+#: templates/admin/commission-panel-detail.php:352
+#: templates/admin/commission-panel-detail.php:354
+#: templates/emails/commissions-table.php:103
+msgid "Variation ID:"
+msgstr "Идентификатор вариации:"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:339
+msgid "Mark as paid"
+msgstr "Отметить как оплаченное"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:343
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:424
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:137
+#: includes/class.yith-wcaf-commission-handler-premium.php:616
+#: includes/class.yith-wcaf-payment-handler-premium.php:1677
+#, php-format
+msgid "Pay via %s"
+msgstr "Оплатить через% s"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:377
+#: includes/class.yith-wcaf-commission-handler-premium.php:633
+#, php-format
+msgid "Change status to %s"
+msgstr "Изменить статус на% s"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:394
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:374
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:111
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:232
+#: includes/class.yith-wcaf-affiliate-handler.php:1682
+#: includes/class.yith-wcaf-click-handler-premium.php:232
+#: includes/class.yith-wcaf-commission-handler.php:1938
+#: includes/class.yith-wcaf-payment-handler.php:1081
+#: includes/class.yith-wcaf-privacy.php:677
+#: includes/class.yith-wcaf-privacy.php:733
+#: templates/admin/affiliate-panel-detail.php:177
+#: templates/admin/affiliate-panel-detail.php:230
+#: templates/admin/commission-panel-detail.php:65
+#: templates/admin/commission-panel-detail.php:223
+#: templates/admin/payment-panel-detail.php:160
+#: templates/admin/referral-commissions-metabox-premium.php:43
+#: templates/admin/referral-commissions-metabox.php:42
+#: templates/shortcodes/dashboard-clicks.php:73
+#: templates/shortcodes/dashboard-commissions.php:75
+#: templates/shortcodes/dashboard-payments.php:62
+#: templates/shortcodes/dashboard-summary.php:154
+msgid "Status"
+msgstr "Статус"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:396
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:376
+#: includes/class.yith-wcaf-commission-handler.php:1940
+msgid "User"
+msgstr "Пользователь"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:397
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:377
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:155
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:208
+#: includes/class.yith-wcaf-commission-handler.php:1941
+#: includes/class.yith-wcaf-privacy.php:679
+#: templates/admin/affiliate-panel-detail.php:178
+#: templates/emails/commissions-table.php:34
+#: templates/shortcodes/dashboard-commissions.php:78
+msgid "Product"
+msgstr "Товар"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:398
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:378
+#: includes/class.yith-wcaf-commission-handler.php:1942
+msgid "Category"
+msgstr "Категория"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:399
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:379
+#: includes/class.yith-wcaf-commission-handler.php:1943
+#: templates/emails/commissions-table.php:35
+msgid "Total"
+msgstr "Итого"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:400
+#: includes/class.yith-wcaf-commission-handler.php:1944
+msgid "Discounts"
+msgstr "Скидки"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:403
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:381
+#: templates/admin/commission-panel-detail.php:542
+#: templates/admin/payment-panel-detail.php:349
+#: templates/emails/admin-pending-commission-email.php:28
+#: templates/emails/commissions-table.php:37
+msgid "Commission"
+msgstr "Комиссия"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:404
+msgctxt "Column label for payments related to a single commission"
+msgid "Payment"
+msgstr "Оплата"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:432
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:490
+msgid "Create a payment manually"
+msgstr "Создать платеж вручную"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:433
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:491
+msgid "Change status to pending"
+msgstr "Изменить статус на ожидающий"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:434
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:492
+msgid "Change status to not confirmed"
+msgstr "Изменить статус на не подтверждено"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:435
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:493
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:282
+msgid "Change status to cancelled"
+msgstr "Изменить статус на отменен"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:436
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:494
+msgid "Change status to refunded"
+msgstr "Изменить статус на возвращенный"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:440
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:498
+msgid "Restore"
+msgstr "Восстановить"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:441
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:499
+msgid "Delete Permanently"
+msgstr "Удалить навсегда"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table-premium.php:445
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:501
+msgid "Move to Trash"
+msgstr "Переместить в корзину"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:382
+#: includes/class.yith-wcaf-commission-handler.php:1948
+#: includes/class.yith-wcaf-payment-handler-premium.php:176
+msgid "Payment"
+msgstr "Оплата"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:456
+#: includes/class.yith-wcaf-commission-handler.php:205
+msgid "Pending Payment"
+msgstr "Ожидающий платеж"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:464
+msgid "Not Confirmed"
+msgstr "Не подтверждено"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:468
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:171
+#: includes/class.yith-wcaf-commission-handler.php:208
+#: includes/class.yith-wcaf-payment-handler.php:58
+msgid "Cancelled"
+msgstr "Отменено"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:472
+#: includes/class.yith-wcaf-commission-handler.php:209
+msgid "Refunded"
+msgstr "Возвращено"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:476
+msgid "Trash"
+msgstr "Корзина"
+
+#: includes/admin-tables/class.yith-wcaf-commissions-table.php:559
+msgid "Select a product"
+msgstr "Выберите товар"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:113
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:233
+msgid "Affiliate "
+msgstr "Партнер "
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:114
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:234
+#: includes/class.yith-wcaf-affiliate-handler.php:1989
+#: includes/class.yith-wcaf-payment-handler.php:1084
+#: includes/class.yith-wcaf-privacy.php:734
+#: templates/admin/payment-panel-detail.php:220
+#: templates/shortcodes/dashboard-settings-premium.php:84
+#: templates/shortcodes/dashboard-settings.php:60
+#: templates/shortcodes/dashboard-withdraw.php:116
+msgid "Payment email"
+msgstr "Электронная почта платежа"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:115
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:235
+#: includes/class.yith-wcaf-commission-handler.php:1947
+#: includes/class.yith-wcaf-payment-handler.php:1085
+#: includes/class.yith-wcaf-privacy.php:681
+#: includes/class.yith-wcaf-privacy.php:737
+#: templates/admin/affiliate-panel-detail.php:180
+#: templates/admin/affiliate-panel-detail.php:231
+#: templates/admin/commission-panel-detail.php:68
+#: templates/admin/referral-commissions-metabox-premium.php:45
+#: templates/admin/referral-commissions-metabox.php:44
+#: templates/shortcodes/dashboard-commissions.php:84
+#: templates/shortcodes/dashboard-coupons.php:46
+#: templates/shortcodes/dashboard-payments.php:65
+#: templates/shortcodes/dashboard-summary.php:117
+#: templates/shortcodes/dashboard-summary.php:157
+msgid "Amount"
+msgstr "Сумма"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:116
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:236
+#: includes/class.yith-wcaf-payment-handler.php:1086
+#: templates/admin/affiliate-panel-detail.php:232
+#: templates/shortcodes/dashboard-payments.php:68
+#: templates/shortcodes/dashboard-summary.php:160
+msgid "Created at"
+msgstr "Создано"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:117
+#: includes/class.yith-wcaf-payment-handler.php:1087
+#: templates/admin/affiliate-panel-detail.php:233
+#: templates/admin/payment-panel-detail.php:170
+#: templates/shortcodes/dashboard-payments.php:71
+#: templates/shortcodes/dashboard-summary.php:163
+msgid "Completed at"
+msgstr "Завершено"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:168
+#: includes/class.yith-wcaf-payment-handler.php:59
+msgid "On Hold"
+msgstr "В ожидании"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table-premium.php:170
+#: includes/class.yith-wcaf-payment-handler.php:57
+msgid "Completed"
+msgstr "Завершенный"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:280
+msgid "Change status to completed"
+msgstr "Изменить статус на завершенный"
+
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:281
+msgid "Change status to on hold"
+msgstr "Изменить статус на \"В ожидании\"."
+
+#: includes/admin-tables/class.yith-wcaf-payments-table.php:333
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:847
+#: templates/admin/referral-commissions-metabox-premium.php:97
+#: templates/admin/stat-panel-general-premium.php:35
+msgid "Select an affiliate"
+msgstr "Выбрать партнера"
+
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:140
+#: includes/admin-tables/class.yith-wcaf-user-rates-table.php:130
+#: templates/admin/affiliate-panel-detail.php:52
+#: templates/admin/payment-panel-detail.php:224
+msgid "Update"
+msgstr "Обновить"
+
+#: includes/admin-tables/class.yith-wcaf-product-rates-table.php:156
+msgid "Price"
+msgstr "Цена"
+
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:111
+msgid "View commissions"
+msgstr "Посмотреть комиссии"
+
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:207
+msgid "Image"
+msgstr "Изображение"
+
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:211
+#: includes/class.yith-wcaf-admin-premium.php:72
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:185
+#: includes/class.yith-wcaf-click-handler-premium.php:198
+#: includes/class.yith-wcaf.php:459
+msgid "Clicks"
+msgstr "Визиты"
+
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:212
+msgid "Number of products sold following a click"
+msgstr ""
+
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:212
+msgid "Conversions"
+msgstr "Конверсии"
+
+#: includes/admin-tables/class.yith-wcaf-product-stat-table.php:213
+msgid "Conv. time"
+msgstr "Время конверсии"
+
+#: includes/admin-tables/class.yith-wcaf-user-rates-table.php:145
+#: templates/shortcodes/registration-form-premium.php:123
+#: templates/shortcodes/registration-form.php:120
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: includes/admin-tables/class.yith-wcaf-user-rates-table.php:146
+#: templates/admin/commission-panel-detail.php:67
+#: templates/admin/commission-panel-detail.php:253
+#: templates/admin/payment-panel-detail.php:203
+#: templates/shortcodes/share.php:37
+msgid "Email"
+msgstr "Эл. адрес"
+
+#: includes/class.yith-wcaf-admin-premium.php:69
+msgid "Rates"
+msgstr "Ставки"
+
+#: includes/class.yith-wcaf-admin-premium.php:98
+msgid "How to get referrer id"
+msgstr "Как получить идентификатор реферера"
+
+#: includes/class.yith-wcaf-admin-premium.php:100
+msgid "Choose how to receive referrer id during purchase"
+msgstr "Выберите способ получения идентификатора реферера при покупке"
+
+#: includes/class.yith-wcaf-admin-premium.php:102
+msgid "Via query string"
+msgstr "Через строку запроса"
+
+#: includes/class.yith-wcaf-admin-premium.php:103
+msgid "Let users enter it in checkout page"
+msgstr "Разрешить пользователям вводить его на странице оформления заказа"
+
+#: includes/class.yith-wcaf-admin-premium.php:164
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Действие не выполнено. Обновите страницу и повторите попытку."
+
+#: includes/class.yith-wcaf-admin-premium.php:168
+msgid "You don&#8217;t have permission to do this."
+msgstr "У вас нет на это разрешения."
+
+#: includes/class.yith-wcaf-admin-premium.php:236
+msgid "Could not write to template file."
+msgstr "Не удалось записать в файл шаблона."
+
+#: includes/class.yith-wcaf-admin-premium.php:272
+msgid "Template file copied to theme."
+msgstr "Файл шаблона скопирован в тему."
+
+#: includes/class.yith-wcaf-admin-premium.php:302
+msgid "Template file deleted from theme."
+msgstr "Файл шаблона удалён из темы."
+
+#: includes/class.yith-wcaf-admin-premium.php:318
+#: includes/class.yith-wcaf-admin.php:457
+msgid "Global stats"
+msgstr "Глобальная статистика"
+
+#: includes/class.yith-wcaf-admin-premium.php:338
+#: includes/class.yith-wcaf-admin.php:476
+msgid "Ever"
+msgstr "Всегда"
+
+#: includes/class.yith-wcaf-admin-premium.php:338
+#: includes/class.yith-wcaf-admin.php:476
+msgid "Today"
+msgstr "Сегодня"
+
+#: includes/class.yith-wcaf-admin-premium.php:359
+#, php-format
+msgid "Stats for affiliate \"%s\""
+msgstr "Статистика для партнера \"% s\""
+
+#: includes/class.yith-wcaf-admin.php:75 includes/class.yith-wcaf-admin.php:136
+#: includes/class.yith-wcaf-admin.php:137
+#: includes/class.yith-wcaf-affiliate-handler.php:1646
+#: includes/class.yith-wcaf-coupon-handler.php:271
+#: templates/admin/affiliate-panel.php:48
+msgid "Affiliates"
+msgstr "Партнер"
+
+#: includes/class.yith-wcaf-admin.php:76
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:186
+#: includes/class.yith-wcaf-payment-handler.php:1047
+#: templates/shortcodes/dashboard-summary.php:76
+msgid "Payments"
+msgstr "Платежи"
+
+#: includes/class.yith-wcaf-admin.php:77
+#: templates/shortcodes/dashboard-stat.php:52
+msgid "Stats"
+msgstr "Статистика"
+
+#: includes/class.yith-wcaf-admin.php:78
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:189
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class.yith-wcaf-admin.php:79
+msgid "Premium"
+msgstr "Премиум Версия"
+
+#: includes/class.yith-wcaf-admin.php:166
+msgid "YIT Plugins"
+msgstr "Плагины YIT"
+
+#: includes/class.yith-wcaf-admin.php:188
+msgid "No items found."
+msgstr "Ничего не найдено."
+
+#: includes/class.yith-wcaf-admin.php:195
+#: includes/class.yith-wcaf-affiliate-handler.php:1967
+msgid "Ban Message"
+msgstr "Запрет сообщения"
+
+#: includes/class.yith-wcaf-admin.php:196
+msgid "Rejected Message"
+msgstr "Отклоненное сообщение"
+
+#: includes/class.yith-wcaf-admin.php:198
+msgid "View template"
+msgstr "Посмотреть шаблон"
+
+#: includes/class.yith-wcaf-admin.php:199
+msgid "Hide template"
+msgstr "Скрыть шаблон"
+
+#: includes/class.yith-wcaf-admin.php:200
+msgid "Are you sure you want to delete this template file?"
+msgstr "Вы уверены, что хотите удалить этот файл шаблона?"
+
+#: includes/class.yith-wcaf-admin.php:252
+msgid "Payments correctly registered"
+msgstr "Платежи правильно зарегистрированы"
+
+#: includes/class.yith-wcaf-admin.php:254
+msgid "There was an error while processing payments"
+msgstr "При обработке платежей произошла ошибка"
+
+#: includes/class.yith-wcaf-admin.php:260
+msgid "User was correctly registered as affiliate of your store"
+msgstr "Пользователь правильно зарегистрирован как партнер  вашего магазина"
+
+#: includes/class.yith-wcaf-admin.php:262
+msgid ""
+"There was a problem while registering the affiliate; please, try again later"
+msgstr ""
+"Возникла проблема при регистрации партнер; пожалуйста, повторите попытку "
+"позже"
+
+#: includes/class.yith-wcaf-admin.php:269
+msgid "Status changed correctly"
+msgstr "Статус изменен правильно"
+
+#: includes/class.yith-wcaf-admin.php:271
+msgid "An error occurred with status changing"
+msgstr "Произошла ошибка при изменении статуса"
+
+#: includes/class.yith-wcaf-admin.php:277
+msgid "Item successfully deleted"
+msgstr "Элемент успешно удален"
+
+#: includes/class.yith-wcaf-admin.php:279
+msgid "An error occurred while deleting item"
+msgstr "Произошла ошибка при удалении объекта"
+
+#: includes/class.yith-wcaf-admin.php:287
+#, php-format
+msgid "An error occurred during payment processing: %s"
+msgstr "Произошла ошибка при обработке платежа:% s"
+
+#: includes/class.yith-wcaf-admin.php:294
+#, php-format
+msgid "Commissions %s correctly paid"
+msgstr "Правильно выплачены комиссии% s"
+
+#: includes/class.yith-wcaf-admin.php:301
+#, php-format
+msgid "Commissions %s could not be paid"
+msgstr "Комиссионные% s не могут быть оплачены"
+
+#: includes/class.yith-wcaf-admin.php:309
+msgid "Orphan commissions successfully processed"
+msgstr "Сиротские комиссии успешно обработаны"
+
+#: includes/class.yith-wcaf-admin.php:311
+msgid "An error occurred while processing orphan commissions"
+msgstr "Произошла ошибка при обработке сиротских комиссий"
+
+#: includes/class.yith-wcaf-admin.php:324
+#, php-format
+msgid "There was an error while processing payment %1$s: %2$s"
+msgid_plural "There was an error while processing payments %1$s: %2$s"
+msgstr[0] "Произошла ошибка при обработке платежа %1$s: %2$s"
+msgstr[1] "Произошла ошибка при обработке платежа %1$s: %2$s"
+msgstr[2] "Произошла ошибка при обработке платежа %1$s: %2$s"
+
+#: includes/class.yith-wcaf-admin.php:337
+#, php-format
+msgid "Payment %s completed successfully"
+msgid_plural "Payments %s completed successfully"
+msgstr[0] "Платеж% s успешно завершен"
+msgstr[1] "Платеж% s успешно завершен"
+msgstr[2] "Платеж% s успешно завершен"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:67
+msgid "Auto enable affiliates"
+msgstr "Автоматическое включение партнеров"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:69
+msgid "Auto enable affiliates on registration"
+msgstr "Автоматическое включение партнеров при регистрации"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:76
+msgid "Show website field"
+msgstr "Показать поле веб-сайта"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:78
+msgid "Show \"Website\" field on registration form"
+msgstr "Показать поле \"Веб-сайт\" в регистрационной форме"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:83
+msgid "Show promotional methods field"
+msgstr "Показать поле рекламных методов"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:85
+msgid "Show \"How will you promote?\" field on registration form"
+msgstr "Показать поле \"Как вы будете продвигать?\" в регистрационной форме"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:90
+#: includes/class.yith-wcaf-payment-handler-premium.php:335
+msgid "Show Terms & Conditions field"
+msgstr "Показать поле \"Условия и положения\""
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:92
+msgid "Show \"Terms & Condition\" checkbox on registration form"
+msgstr "Показывать флажок \"Условия и положения\" в регистрационной форме"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:97
+#: includes/class.yith-wcaf-payment-handler-premium.php:343
+msgid "Terms & Conditions label"
+msgstr "Ярлык условий и положений"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:99
+#: includes/class.yith-wcaf-payment-handler-premium.php:345
+msgid ""
+"Label for Terms & Condition checkbox; use <code>%TERMS%</code> placeholder "
+"to include a link to Terms & Condition page"
+msgstr ""
+"Ярлык для флажка \"Условия и положения\"; используйте заполнитель <code>% "
+"TERMS% </code>, чтобы добавить ссылку на страницу условий и положений."
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:101
+#: includes/class.yith-wcaf-payment-handler-premium.php:347
+msgid "Please, read an accept our %TERMS%"
+msgstr "Пожалуйста, прочтите и примите наши% TERMS%"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:104
+#: includes/class.yith-wcaf-payment-handler-premium.php:351
+msgid "Terms & Conditions anchor url"
+msgstr "Условия использования якорь url"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:106
+#: includes/class.yith-wcaf-payment-handler-premium.php:353
+msgid ""
+"Url to Terms & Conditions page; will be used to generate anchor inside Terms "
+"& Conditions label"
+msgstr ""
+"URL-адрес страницы \"Общие положения и условия\"; будет использоваться для "
+"создания привязки внутри ярлыка \"Положения и условия\""
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:111
+#: includes/class.yith-wcaf-payment-handler-premium.php:359
+msgid "Terms & Conditions anchor text"
+msgstr "Якорный текст Положений и условий"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:113
+#: includes/class.yith-wcaf-payment-handler-premium.php:361
+msgid "Text used to generate anchor inside Terms & Conditions label"
+msgstr ""
+"Текст, используемый для создания привязки внутри ярлыка \"Положения и условия"
+"\""
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:120
+#: includes/class.yith-wcaf-commission-handler-premium.php:134
+#: includes/class.yith-wcaf-payment-handler-premium.php:374
+msgid "Notify admin"
+msgstr "Уведомить администратора"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:122
+msgid "Notify admin of a new affiliate registration; customize email on"
+msgstr ""
+"Уведомить администратора о регистрации нового партнера; настроить "
+"электронную почту на"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:126
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:137
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:148
+#: includes/class.yith-wcaf-commission-handler-premium.php:140
+#: includes/class.yith-wcaf-coupon-handler.php:245
+#: includes/class.yith-wcaf-payment-handler-premium.php:380
+msgid "WooCommerce Settings Page"
+msgstr "Страница настроек WooCommerce"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:131
+msgid "Notify affiliate when account changes status"
+msgstr "Уведомлять партнера об изменении статуса аккаунта"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:133
+msgid ""
+"Notify affiliates of any change in the status of his/her affiliation "
+"request; customize email on"
+msgstr ""
+"Уведомлять партнера о любых изменениях статуса его / ее запроса на "
+"присоединение; настроить электронную почту на"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:142
+msgid "Notify affiliate when account gets banned"
+msgstr "Уведомлять партнера о блокировке аккаунта"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:144
+msgid ""
+"Notify affiliates whenever his/her account is banned; customize email on"
+msgstr ""
+"Уведомлять партнера всякий раз, когда его / ее учетная запись заблокирована; "
+"настроить электронную почту на"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:155
+msgid "Banned/Rejected affiliates"
+msgstr "Запрещенные / отклоненные партнера"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:160
+msgid "Global reject message"
+msgstr "Глобальное сообщение об отклонении"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:162
+msgid ""
+"Enter a message to show to all rejexted users; you can override this "
+"message, using appropriate option in user's profile"
+msgstr ""
+"Введите сообщение, которое будет показано всем отклоненным пользователям; вы "
+"можете переопределить это сообщение, используя соответствующую опцию в "
+"профиле пользователя"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:169
+msgid "Global ban message"
+msgstr "Сообщение о глобальном запрете"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:171
+msgid ""
+"Enter a message to show to all banned users; you can override this message, "
+"using appropriate option in user's profile"
+msgstr ""
+"Введите сообщение, которое будет показано всем заблокированным "
+"пользователям; вы можете переопределить это сообщение, используя "
+"соответствующую опцию в профиле пользователя"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:178
+msgid "Hidden sections"
+msgstr "Скрытые разделы"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:180
+msgid ""
+"Select any Affiliate's Dashboard section that you want to hide to all your "
+"banned affiliates"
+msgstr ""
+"Выберите раздел панели управления любого партнера, который вы хотите скрыть "
+"от всех заблокированных  партнера ."
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:183
+#: includes/functions.yith-wcaf.php:254
+msgid "Dashboard"
+msgstr "Партнерский кабинет"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:187
+#: includes/class.yith-wcaf-payment-handler-premium.php:949
+#: includes/class.yith-wcaf-payment-handler-premium.php:957
+msgid "Withdraw"
+msgstr "Отзывать"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:188
+msgid "Generate Link"
+msgstr "Создать ссылку"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:336
+#: includes/class.yith-wcaf-affiliate-handler.php:400
+msgid "An error occurred while trying to create the affiliate; try later."
+msgstr "Произошла ошибка при попытке создать партнера; попробуй позже."
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:340
+#: includes/class.yith-wcaf-affiliate-handler.php:404
+msgid "You have already affiliated with us!"
+msgstr "Вы уже присоединились к нам!"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:366
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:789
+#: templates/shortcodes/dashboard-settings-premium.php:96
+#: templates/shortcodes/registration-form-premium.php:157
+#: templates/shortcodes/registration-form-premium.php:305
+msgid "Website"
+msgstr "Сайт"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:379
+#: templates/shortcodes/dashboard-settings-premium.php:104
+#: templates/shortcodes/registration-form-premium.php:171
+#: templates/shortcodes/registration-form-premium.php:320
+msgid "How will you promote our site?"
+msgstr "Как вы будете продвигать наш сайт?"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:400
+#: templates/shortcodes/dashboard-settings-premium.php:122
+#: templates/shortcodes/registration-form-premium.php:193
+#: templates/shortcodes/registration-form-premium.php:343
+msgid "Specify how will you promote our site"
+msgstr "Укажите, как вы будете продвигать наш сайт"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:458
+msgid "Please, enter a valid website"
+msgstr "Пожалуйста, введите действующий сайт"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:467
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:478
+msgid "Please, specify how will you promote our site"
+msgstr "Уточните, пожалуйста, как вы будете продвигать наш сайт"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:483
+msgid "Please, read and accept our Terms & Conditions"
+msgstr "Пожалуйста, прочтите и примите наши Условия использования."
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:786
+msgid "Affiliate additional information"
+msgstr "Партнерская дополнительная информация"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:792
+msgid "Affiliate website, to double-check affiliate activity"
+msgstr "Партнерский веб-сайт, чтобы перепроверить партнерскую активность"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:797
+msgid "Promotion method"
+msgstr "Способ продвижения"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:813
+msgid "Method affiliate will use to promote this site"
+msgstr "Партнер будет использовать метод для продвижения этого сайта"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:818
+msgid "Custom promotion method"
+msgstr "Индивидуальный метод продвижения"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:822
+msgid ""
+"When selects \"other promotion methods\", affiliate can specify which kind "
+"of promotion will he perform"
+msgstr ""
+"При выборе «других методов продвижения» партнер может указать, какой вид "
+"продвижения он будет проводить."
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:826
+msgid "Terms"
+msgstr "Условия"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:829
+msgid "Whether affiliate accepted Terms and Conditions"
+msgstr "Принял ли партнер Условия и положения"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:834
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:838
+#, fuzzy
+msgid "Associated Affiliate"
+msgstr "Внешний/партнерский"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:854
+msgid ""
+"Affiliate that will receive permanent commission from this customer's "
+"purchases"
+msgstr ""
+"Партнер, который будет получать постоянную комиссию с покупок этого клиента"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:1065
+#, php-format
+msgctxt "Withdraw error message"
+msgid ""
+"Please, make sure to complete your billing profile before proceeding: %s "
+"missing"
+msgstr ""
+"Пожалуйста, не забудьте заполнить свой платежный профиль, прежде чем "
+"продолжить: %s отсутствует"
+
+#: includes/class.yith-wcaf-affiliate-handler-premium.php:1068
+#, php-format
+msgctxt "Withdraw error message"
+msgid "Please, make sure to enter a valid value for %s field"
+msgstr "Пожалуйста, убедитесь, что вы ввели правильное значение в поле% s"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:345
+#, php-format
+msgid "Commission assigned to affiliate #%d (previously was assigned to #%d)"
+msgstr "Комиссия назначена партнеру #% d (ранее была назначена #% d)"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:395
+msgid "Your request has been processed correctly"
+msgstr "Ваш запрос был обработан правильно"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:474
+msgid "Please, submit a valid email address where we can send PayPal payments"
+msgstr ""
+
+#: includes/class.yith-wcaf-affiliate-handler.php:483
+msgid "Please, enter a valid first name"
+msgstr "Пожалуйста, введите корректное Имя"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:492
+msgid "Please, enter a valid last name"
+msgstr "Пожалуйста, введите действительную фамилию"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:540
+#: includes/class.yith-wcaf-payment-handler-premium.php:411
+#: templates/shortcodes/dashboard-settings-premium.php:66
+#: templates/shortcodes/dashboard-settings.php:42
+#: templates/shortcodes/registration-form-premium.php:95
+#: templates/shortcodes/registration-form-premium.php:267
+#: templates/shortcodes/registration-form.php:92
+#: templates/shortcodes/registration-form.php:188
+msgid "First name"
+msgstr "Bмя"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:553
+#: includes/class.yith-wcaf-payment-handler-premium.php:412
+#: templates/shortcodes/dashboard-settings-premium.php:74
+#: templates/shortcodes/dashboard-settings.php:50
+#: templates/shortcodes/registration-form-premium.php:109
+#: templates/shortcodes/registration-form-premium.php:282
+#: templates/shortcodes/registration-form.php:106
+#: templates/shortcodes/registration-form.php:203
+msgid "Last name"
+msgstr "Фамилия"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:576
+#: templates/shortcodes/registration-form-premium.php:148
+#: templates/shortcodes/registration-form-premium.php:296
+#: templates/shortcodes/registration-form.php:142
+#: templates/shortcodes/registration-form.php:218
+msgid "Payment email address"
+msgstr "Электронный адрес платежа"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:599
+msgid "New request"
+msgstr "Новый запрос"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:602
+msgid "Accepted and Enabled"
+msgstr "Принято и включено"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1691
+msgid "Conv. Rate"
+msgstr "Коэффициент конверсии"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1692
+#: includes/class.yith-wcaf-commission-handler.php:1950
+#: templates/admin/affiliate-panel-detail.php:40
+#: templates/admin/commission-panel-detail.php:40
+#: templates/admin/payment-panel-detail.php:39
+msgid "Action"
+msgstr "Действие"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1930
+msgid "Affiliate details"
+msgstr "Партнерские реквизиты"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1936
+msgid "Check if this user is an affiliate"
+msgstr "Проверьте, является ли этот пользователь партнера"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1943
+msgid "New"
+msgstr "Новый"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1947
+msgid "If this user is an affiliate, you can choose to enable or disable it"
+msgstr ""
+"Если этот пользователь является партнера , вы можете включить или отключить "
+"его"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1952
+msgid "Reject Message"
+msgstr "Отклоненное сообщение"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1956
+msgid ""
+"Optionally you can show affiliate a message, explaining why her/his account "
+"was rejected"
+msgstr ""
+"При желании вы можете показать партнеру сообщение, объясняющее, почему его / "
+"его аккаунт был отклонен"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1963
+msgid "If this user is an affiliate, you can choose to ban or unban it"
+msgstr ""
+"Если этот пользователь является партнера, вы можете заблокировать или "
+"разблокировать его"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1971
+msgid ""
+"Optionally you can show affiliate a message, explaining why her/his account "
+"was banned"
+msgstr ""
+"При желании вы можете показать партнеру сообщение с объяснением, почему "
+"его / его аккаунт был забанен"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1978
+msgid "Token for the user (default to user ID)"
+msgstr "Токен для пользователя (по умолчанию - идентификатор пользователя)"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1985
+msgid ""
+"User-specific rate to apply, if any (general rates will be applied if left "
+"empty)"
+msgstr ""
+"Применяется ставка для конкретного пользователя, если таковая имеется (если "
+"оставить поле пустым, будут применяться общие ставки)"
+
+#: includes/class.yith-wcaf-affiliate-handler.php:1993
+msgid "Address email where affiliate wants to receive PayPal payments"
+msgstr ""
+
+#: includes/class.yith-wcaf-affiliate-premium.php:159
+msgid "Referral cookie changes?"
+msgstr "Реферальные файлы cookie меняются?"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:161
+msgid "Make cookie change if another referral link is visited"
+msgstr "Внесите изменения в cookie, если посещается другая реферальная ссылка"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:169
+msgid "Enable history storage"
+msgstr "Включить хранилище истории"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:171
+msgid "Enable storage of referral changes"
+msgstr "Включить хранение изменений рефералов"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:177
+msgid "Referral history name"
+msgstr "Название истории переходов"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:179
+msgid ""
+"Select name for cookie that will store referral token history. This name "
+"should be as unique as possible, to avoid collision with other plugins: If "
+"you change this setting, all cookies created before will no longer be "
+"effective"
+msgstr ""
+"Выберите имя для файла cookie, в котором будет храниться история токенов "
+"перехода. Это имя должно быть как можно более уникальным, чтобы избежать "
+"конфликтов с другими плагинами: если вы измените эту настройку, все файлы "
+"cookie, созданные ранее, перестанут действовать"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:187
+msgid "Make history cookie expire"
+msgstr "Сделать исторический файл cookie истекшим"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:189
+msgid "Check this option if you want to make history cookie expire"
+msgstr ""
+"Установите этот флажок, если хотите, чтобы срок действия cookie истории "
+"истекал"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:195
+msgid "Referral history exp."
+msgstr "Истек срок действия реферальной истории."
+
+#: includes/class.yith-wcaf-affiliate-premium.php:197
+msgid ""
+"Number of seconds that have to pass before referral history cookie expires"
+msgstr ""
+"Количество секунд, которое должно пройти до истечения срока действия cookie "
+"истории переходов"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:210
+msgid "Delete affiliation cookie after checkout"
+msgstr "Удалить партнерский cookie после оформления заказа"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:212
+msgid ""
+"Whether to delete affiliation cookie after first customer referral checkout "
+"or not"
+msgstr ""
+"Следует ли удалять партнерский cookie-файл после первого обращения к клиенту "
+"или нет"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:515
+msgid "The affiliate code you provided is not valid; please, double check it!"
+msgstr ""
+"Указанный вами партнерский код недействителен; пожалуйста, проверьте это еще "
+"раз!"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:517
+msgid "Thanks! We will give this user special thanks!"
+msgstr "Спасибо! Мы особо благодарим этого пользователя!"
+
+#: includes/class.yith-wcaf-affiliate-premium.php:534
+msgid "Please, enter the affiliate code"
+msgstr "Пожалуйста, введите партнерский код"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:73
+msgid "Click log"
+msgstr "Журнал визита"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:80
+msgid "Enable click registering"
+msgstr "Включить регистрацию кликов"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:82
+msgid ""
+"Enable click registering. <small>(Note that visitors IP will be registered "
+"within your db)</small>"
+msgstr ""
+"Включите регистрацию кликов. <small> (обратите внимание, что IP-адрес "
+"посетителей будет зарегистрирован в вашей базе данных) </small>"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:88
+msgid "Hit resolution"
+msgstr "Разрешение удара"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:90
+msgid ""
+"Number of seconds after which a new visit of the same user with the same "
+"refer id is counted as a new hit"
+msgstr ""
+"Количество секунд, по истечении которых новое посещение того же пользователя "
+"с тем же идентификатором реферала считается новым обращением."
+
+#: includes/class.yith-wcaf-click-handler-premium.php:102
+msgid "Auto delete click log"
+msgstr "Автоудаление журнала кликов"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:104
+msgid "Select whether to delete automatically click log or not."
+msgstr "Выберите, следует ли автоматически удалять журнал щелчков или нет."
+
+#: includes/class.yith-wcaf-click-handler-premium.php:110
+msgid "Auto delete older click"
+msgstr "Автоудаление старых кликов"
+
+#: includes/class.yith-wcaf-click-handler-premium.php:112
+msgid "Number of days after which a click should be deleted"
+msgstr "Количество дней, по истечении которых клик должен быть удален"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:104
+msgid "Calculate commissions permanently"
+msgstr "Расчет комиссий на постоянной основе"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:106
+msgid ""
+"Register referral token within customer and credit commissions to the "
+"affiliate for any future customer purchase"
+msgstr ""
+"Зарегистрируйте реферальный токен в составе клиента и начисляйте "
+"вознаграждение партнеру для любой будущей покупки клиента"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:112
+msgid "Prevent referral switch"
+msgstr "Предотвратить смену направления"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:114
+msgid ""
+"When \"persistent commissions\" is enabled, you can choose to bind the "
+"customer to a specific affiliate, thus preventing the system from "
+"automatically assigning a different affiliate to the customer who visits "
+"other affiliate links"
+msgstr ""
+"Когда включены «постоянные комиссии», вы можете привязать клиента к "
+"конкретному партнеру, что предотвращает автоматическое назначение системой "
+"другого партнера клиенту, который посещает другие партнерские ссылки"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:120
+msgid "Persistent commissions rate"
+msgstr "Постоянная ставка комиссионных"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:122
+msgid ""
+"Percentage of first commission rate applied for next purchases (please, use "
+"values greater than 100 carefully; no check on final commission amount is "
+"performed)"
+msgstr ""
+"Процент первой комиссии, применяемой для следующих покупок (пожалуйста, "
+"используйте значения больше 100 осторожно; проверка окончательной суммы "
+"комиссии не производится)"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:136
+msgid "Notify admin when a commission switches to pending; customize email on"
+msgstr ""
+"Уведомлять администратора, когда комиссия переходит в режим ожидания; "
+"настроить электронную почту на"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:147
+msgid "Exclusions"
+msgstr "Исключения"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:153
+#: includes/class.yith-wcaf-shortcode-premium.php:319
+msgid "Excluded products"
+msgstr "Исключенные продукты"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:154
+msgid "A list of products excluded from affiliation plan"
+msgstr "Список продуктов, исключенных из партнерского плана"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:165
+msgid "Excluded users"
+msgstr "Исключенные пользователи"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:166
+msgid "A list of users excluded from affiliation plan"
+msgstr "Список пользователей, исключенных из  партнерского плана"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:186
+msgid "Enable commission handling for YITH Subscriptions' renews"
+msgstr "Включить обработку комиссии за продление подписок YITH"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:188
+msgid ""
+"Generate commission for YITH WooCommerce Subscription renews when first "
+"order was registered to an affiliate"
+msgstr ""
+"Сгенерировать комиссию за подписку YITH WooCommerce, возобновляемую, когда "
+"первый заказ был зарегистрирован у партнера"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:192
+#: includes/class.yith-wcaf-commission-handler-premium.php:215
+msgid "Do not handle renews"
+msgstr "Не обрабатывать обновления"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:193
+msgid ""
+"Register only first renew, when subscriptions switches from trial to active"
+msgstr ""
+"Регистрируйтесь только при первом продлении, когда подписка переключается с "
+"пробной на активную"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:194
+#: includes/class.yith-wcaf-commission-handler-premium.php:216
+msgid "Register all renews"
+msgstr "Зарегистрируйте все обновления"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:209
+msgid "Enable commission handling for WC Subscriptions' renews"
+msgstr "Включить обработку комиссии за продление подписок на WC"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:211
+msgid ""
+"Generate commission for WC Subscription renews when first order was "
+"registered to an affiliate"
+msgstr ""
+"Сгенерировать комиссию за продление подписки WC, когда первый заказ был "
+"зарегистрирован на аффилированного лица"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:225
+msgid "General rate to apply to affiliates;"
+msgstr "Общая ставка для партнеров;"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:228
+msgid "Rate Panel"
+msgstr "Панель оценки"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:228
+msgid " can be used to specify rates per user/product"
+msgstr "Можно использовать для указания ставок на пользователя / продукт"
+
+#: includes/class.yith-wcaf-commission-handler-premium.php:873
+msgid "Referral History"
+msgstr "История переходов"
+
+#: includes/class.yith-wcaf-commission-handler.php:207
+msgid "Not confirmed"
+msgstr "Не подтверждено"
+
+#: includes/class.yith-wcaf-commission-handler.php:210
+msgid "Trashed"
+msgstr "Выброшен"
+
+#: includes/class.yith-wcaf-commission-handler.php:592
+#, php-format
+msgid "Refunded %s due to refund #%s creation"
+msgstr "Возвращено% s из-за возмещения #% s создания"
+
+#: includes/class.yith-wcaf-commission-handler.php:630
+#, php-format
+msgid "Restored %s due to refund #%s deletion"
+msgstr "Восстановлен% s из-за возврата #% s удаления"
+
+#: includes/class.yith-wcaf-commission-handler.php:810
+#, php-format
+msgid "%s restored this item; system automatically assigned %s status"
+msgstr ""
+"% s восстановил этот элемент; система автоматически присвоила статус% s"
+
+#: includes/class.yith-wcaf-commission-handler.php:981
+#: includes/class.yith-wcaf-payment-handler.php:299
+#: templates/admin/commission-panel-detail.php:148
+#: templates/admin/payment-panel-detail.php:99
+#, php-format
+msgid "added on %1$s at %2$s"
+msgstr "добавлен на %1$s  в %2$s"
+
+#: includes/class.yith-wcaf-commission-handler.php:982
+#: includes/class.yith-wcaf-payment-handler.php:300
+#: templates/admin/commission-panel-detail.php:149
+#: templates/admin/payment-panel-detail.php:100
+msgid "Delete note"
+msgstr "Удалить заметку"
+
+#: includes/class.yith-wcaf-commission-handler.php:2020
+#, php-format
+msgid "Moved to trash by %s"
+msgstr "Перемещено в корзину% s"
+
+#: includes/class.yith-wcaf-commission-handler.php:2072
+msgid "Referral Commissions"
+msgstr "Реферальные комиссии"
+
+#: includes/class.yith-wcaf-coupon-handler.php:190
+#, php-format
+msgid ""
+"%s has offered you a nice discount! Coupon has been added to cart; proceed "
+"with purchases to enjoy your discount"
+msgstr ""
+"% s предложил вам приятную скидку! Купон добавлен в корзину; продолжайте "
+"покупки, чтобы получить скидку"
+
+#: includes/class.yith-wcaf-coupon-handler.php:208
+msgid "Coupon"
+msgstr "Купон"
+
+#: includes/class.yith-wcaf-coupon-handler.php:215
+msgid "Enable coupon handling"
+msgstr "Включить обработку купонов"
+
+#: includes/class.yith-wcaf-coupon-handler.php:217
+msgid "Enable coupons handling for affiliates"
+msgstr "Включить обработку купонов для партнеры"
+
+#: includes/class.yith-wcaf-coupon-handler.php:223
+msgid "Show coupon section"
+msgstr "Показать раздел купонов"
+
+#: includes/class.yith-wcaf-coupon-handler.php:225
+msgid "Enable coupons section into Affiliate Dashboard"
+msgstr "Включить раздел купонов в партнерской панели"
+
+#: includes/class.yith-wcaf-coupon-handler.php:231
+msgid "Limit coupon section"
+msgstr "Раздел лимитных купонов"
+
+#: includes/class.yith-wcaf-coupon-handler.php:233
+msgid "Enable coupons section for affiliates with coupon only"
+msgstr "Включить раздел купонов только для партнеры с купоном"
+
+#: includes/class.yith-wcaf-coupon-handler.php:239
+msgid "Notify affiliate on new coupon"
+msgstr "Уведомить партнера о новом купоне"
+
+#: includes/class.yith-wcaf-coupon-handler.php:241
+msgid ""
+"Notify affiliate when a new coupon is bound to his account; customize email "
+"on"
+msgstr ""
+"Уведомлять партнера, когда к его аккаунту привязан новый купон; настроить "
+"электронную почту на"
+
+#: includes/class.yith-wcaf-coupon-handler.php:293
+#: templates/admin/click-panel.php:36 templates/admin/rate-panel.php:38
+msgid "Search for an affiliate&hellip;"
+msgstr "Найдите партнера & hellip;"
+
+#: includes/class.yith-wcaf-coupon-handler.php:314
+msgid "User that will be referred when someone purchase with this coupon"
+msgstr ""
+"Пользователь, который будет направлен, когда кто-то совершит покупку с этим "
+"купоном"
+
+#: includes/class.yith-wcaf-coupon-handler.php:366
+msgid "Coupons"
+msgstr "Купоны"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:165
+msgid "None"
+msgstr "Ничего"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:183
+msgid "Payment type"
+msgstr "Вид платежа"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:185
+msgid "Choose payment mode to pay commissions to your affiliates"
+msgstr "Выберите способ оплаты для выплаты комиссионных вашим партнерам"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:188
+msgid "Manually"
+msgstr "Вручную"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:189
+msgid "Automatically when reaching a threshold"
+msgstr "Автоматически при достижении порога"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:190
+msgid "Automatically on a specific month date"
+msgstr "Автоматически в указанную дату месяца"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:191
+msgid ""
+"Automatically on a specific month date, if a specific threshold is reached"
+msgstr ""
+"Автоматически в указанную дату месяца при достижении определенного порога"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:192
+msgid "Automatically every day"
+msgstr "Автоматически каждый день"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:194
+msgid "Let user request payment"
+msgstr "Разрешить пользователю запрашивать оплату"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:201
+msgid "Default gateway"
+msgstr "Шлюз по умолчанию"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:203
+msgid ""
+"Choose a gateway to execute automatic payments; if you select \"none\" "
+"payments will only be registered but no payment requests will be issued to "
+"the gateway"
+msgstr ""
+"Выберите шлюз для выполнения автоматических платежей; если вы выберете "
+"«нет», платежи будут только регистрироваться, но на шлюз не будут "
+"отправляться платежные запросы"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:212
+#: templates/admin/payment-panel-detail.php:165
+msgid "Payment date"
+msgstr "Дата платежа"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:214
+msgid "Choose a day of the month for commission payments"
+msgstr "Выберите день месяца для комиссионных выплат"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:227
+msgid "Payment threshold"
+msgstr "Порог оплаты"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:229
+msgid ""
+"Choose a minimum amount that an affiliate must earn before a payment is "
+"issued"
+msgstr ""
+"Выберите минимальную сумму, которую партнер должен заработать до совершения "
+"платежа"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:241
+msgid "Pay only commissions older than"
+msgstr "Платите только комиссии старше"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:244
+msgid ""
+"Choose whether to pay automatically only commissions older than a certain "
+"number of days or not"
+msgstr ""
+"Выберите, следует ли автоматически платить только комиссии старше "
+"определенного количества дней или нет"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:251
+msgid "Commission age"
+msgstr "Возраст комиссии"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:254
+msgid ""
+"Choose the minimum amount of days that should pass before commissions can be "
+"paid automatically"
+msgstr ""
+"Выберите минимальное количество дней, которое должно пройти, прежде чем "
+"комиссии смогут выплачиваться автоматически"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:268
+msgid "Amount request mode"
+msgstr "Режим запроса суммы"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:270
+msgid "Choose the way user will select the amount to withdraw"
+msgstr "Выберите способ, которым пользователь выберет сумму для вывода"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:273
+msgid "User selects an interval of days for commissions to be paid"
+msgstr "Пользователь выбирает интервал в днях для выплаты комиссионных"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:274
+msgid "User selects an amount to withdraw"
+msgstr "Пользователь выбирает сумму для вывода"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:281
+msgid "Require invoice"
+msgstr "Требовать счет-фактуру"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:283
+msgid "Require customer an invoice before allowing payment to be requested"
+msgstr "Требовать от клиента счет-фактуру, прежде чем разрешить запрос платежа"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:290
+msgid "Invoice mode"
+msgstr "Режим выставления счетов"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:292
+msgid "Choose how user should submit his invoice"
+msgstr "Выберите, как пользователь должен отправлять свой счет"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:295
+msgid "Let user upload his custom invoice"
+msgstr "Разрешить пользователю загружать свой собственный счет"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:296
+msgid "Generate invoice from customer data"
+msgstr "Создавать счет на основе данных клиента"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:297
+msgid "Let user choose his preferred method"
+msgstr "Позвольте пользователю выбрать предпочтительный метод"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:304
+msgid "Invoice example"
+msgstr "Пример счета"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:306
+msgid ""
+"Enter url of an example invoice that you want to show to your affiliates"
+msgstr ""
+"Введите URL-адрес примера счета-фактуры, который вы хотите показать своим "
+"аффилированным лицам."
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:314
+msgid "Company details"
+msgstr "Сведения о компании"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:316
+msgid "Enter details about your company that you want to show in your invoice"
+msgstr ""
+"Введите данные о своей компании, которые вы хотите показать в счете-фактуре"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:324
+msgid "Invoice fields"
+msgstr "Поля Инвойс"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:326
+msgid ""
+"Select fields that you want to require to your affiliates to generate invoice"
+msgstr ""
+"Выберите поля, которые вы хотите запросить у своих партнеров для создания "
+"счета"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:337
+msgid "Show \"Terms & Condition\" checkbox on withdraw form"
+msgstr "Показывать флажок \"Условия и положения\" в форме вывода средств"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:367
+msgid "Invoice template"
+msgstr "Шаблон счета-фактуры"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:376
+msgid "Notify admin when a new payment is issued; customize email on"
+msgstr ""
+"Уведомить администратора о новом платеже; настроить электронную почту на"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:409
+msgid "Invoice number"
+msgstr "Номер счета"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:410
+#: templates/shortcodes/dashboard-coupons.php:43
+msgid "Type"
+msgstr "Тип"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:413
+#: includes/class.yith-wcaf-shortcode-premium.php:498
+msgid "Company"
+msgstr "Компания"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:414
+msgid "Billing country"
+msgstr "Страной плательщика"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:415
+msgid "Billing state"
+msgstr "Область/штат для выставления счета"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:416
+msgid "Billing city"
+msgstr "Город для выставления счета"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:417
+msgid "Billing zip code"
+msgstr "Почтовый индекс для выставления счетов"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:418
+msgid "Billing address"
+msgstr "Платёжный адрес"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:419
+msgid "Company VAT"
+msgstr "НДС компании"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:420
+#: includes/class.yith-wcaf-shortcode-premium.php:489
+msgid "CIF/SSN"
+msgstr "CIF/SSN:"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:441
+#: includes/class.yith-wcaf-payment-handler.php:659
+msgid "You have to select at least one commission"
+msgstr "Вы должны выбрать хотя бы одну комиссию"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:542
+#: includes/class.yith-wcaf-payment-handler.php:730
+msgid "Payment correctly registered"
+msgstr "Платеж правильно зарегистрирован"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:581
+#: includes/class.yith-wcaf-payment-handler-premium.php:612
+msgid "Affiliate needs to have at least one unpaid commission"
+msgstr "Партнер должен иметь хотя бы одну неоплаченную комиссию"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:639
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:647
+msgid "Account Funds"
+msgstr "Средства на счете"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:655
+msgid "PayPal Payouts"
+msgstr "Возвращение выплат"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:687
+msgid ""
+"Payments have been disabled on your installation because system detected url "
+"change"
+msgstr ""
+"Платежи были отключены при вашей установке, поскольку система обнаружила "
+"изменение URL-адреса"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:715
+msgid "Payments registered correctly"
+msgstr "Платежи зарегистрированы правильно"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:723
+msgid "No gateway found with the specified ID"
+msgstr "Шлюз с указанным идентификатором не найден"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:733
+msgid ""
+"Gateway class doesn't match required structure; missing singleton access "
+"function"
+msgstr ""
+"Класс шлюза не соответствует требуемой структуре; отсутствует функция "
+"одноэлементного доступа"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:741
+msgid "Gateway class doesn't match required structure; missing pay() method"
+msgstr ""
+"Класс шлюза не соответствует требуемой структуре; отсутствует метод pay ()"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:916
+msgid "You haven't sufficient permission to access this content!"
+msgstr "У вас недостаточно прав для доступа к этому контенту!"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:930
+msgid ""
+"There was an error while processing download of your invoice; please, try "
+"again later!"
+msgstr ""
+"При загрузке вашего счета произошла ошибка; Пожалуйста, повторите попытку "
+"позже!"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1092
+#: includes/class.yith-wcaf-payment-handler-premium.php:1093
+#, php-format
+msgctxt "Withdraw invoice description"
+msgid "Affiliate commission withdrawal on %s"
+msgstr "Вывод партнерской комиссии на% s"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1094
+#, php-format
+msgctxt "Withdraw invoice affiliate program name"
+msgid "%s Affiliate Program"
+msgstr "%s Партнерская программа"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1106
+#, php-format
+msgctxt "Invoice template"
+msgid "CIF/SSN: %s"
+msgstr "CIF/SSN: %s"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1114
+#, php-format
+msgctxt "Invoice template"
+msgid "VAT: %s"
+msgstr "НДС: %s"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1227
+msgctxt "Withdraw error message"
+msgid "You must be logged in, in order to request a withdraw"
+msgstr "Вы должны войти в систему, чтобы запросить вывод"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1236
+msgctxt "Withdraw error message"
+msgid ""
+"You already have a pending payment; please, wait until our team process your "
+"previous request, before submitting a new one"
+msgstr ""
+"У вас уже есть ожидающий платеж; пожалуйста, подождите, пока наша команда "
+"обработает ваш предыдущий запрос, прежде чем отправлять новый"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1245
+msgctxt "Withdraw error message"
+msgid "Please, enter a valid payment email where we can issue the payment"
+msgstr ""
+"Пожалуйста, введите действующий платежный адрес электронной почты, по "
+"которому мы сможем оформить платеж"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1252
+msgctxt "Withdraw error message"
+msgid "Please, accept our Terms & Conditions"
+msgstr "Пожалуйста, примите наши Условия использования"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1276
+msgctxt "Withdraw error message"
+msgid ""
+"There was an error with the invoice file you uploaded; please, try again"
+msgstr ""
+"При загрузке файла счета-фактуры произошла ошибка. пожалуйста, попробуйте "
+"снова"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1283
+#, php-format
+msgctxt "Withdraw error message"
+msgid "There was an error with upload: %s"
+msgstr "Произошла ошибка при загрузке:% s"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1293
+msgctxt "Withdraw error message"
+msgid ""
+"The invoice file you selected has an invalid extension; please, choose "
+"another file"
+msgstr ""
+"Выбранный вами файл счета-фактуры имеет недопустимое расширение; пожалуйста, "
+"выберите другой файл"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1301
+msgctxt "Withdraw error message"
+msgid "The invoice file you selected is too big; please, choose another file"
+msgstr ""
+"Выбранный вами файл счета-фактуры слишком велик; пожалуйста, выберите другой "
+"файл"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1326
+msgctxt "Withdraw error message"
+msgid ""
+"You need to enter a valid invoice in order to submit your withdraw request"
+msgstr ""
+"Вам необходимо ввести действующий счет, чтобы отправить запрос на снятие "
+"средств"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1347
+msgctxt "Withdraw error message"
+msgid "Please, enter a valid \"From\" date"
+msgstr "Пожалуйста, введите действительную дату \"От\"."
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1353
+msgctxt "Withdraw error message"
+msgid ""
+"You entered a malformed date in \"From\" field; please double check value "
+"you entered and try again"
+msgstr ""
+"Вы ввели неверную дату в поле «От»; пожалуйста, дважды проверьте значение, "
+"которое вы ввели, и попробуйте еще раз"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1359
+msgctxt "Withdraw error message"
+msgid "Please, enter a valid \"To\" date"
+msgstr "Пожалуйста, введите действительную дату «Кому»."
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1365
+msgctxt "Withdraw error message"
+msgid ""
+"You entered a malformed date in \"To\" field; please double check value you "
+"entered and try again"
+msgstr ""
+"Вы ввели неверную дату в поле «Кому»; пожалуйста, дважды проверьте значение, "
+"которое вы ввели, и попробуйте еще раз"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1371
+msgctxt "Withdraw error message"
+msgid "Please, make sure to select a valid interval of dates"
+msgstr "Пожалуйста, убедитесь, что вы выбрали допустимый интервал даты"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1398
+#: includes/class.yith-wcaf-payment-handler-premium.php:1413
+msgctxt "Withdraw error message"
+msgid ""
+"Payment amount doesn't match requirements; please, select another interval "
+"and try again"
+msgstr ""
+"Сумма платежа не соответствует требованиям; пожалуйста, выберите другой "
+"интервал и попробуйте еще раз"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1407
+msgctxt "Withdraw error message"
+msgid "Please, enter a valid amount for your withdraw"
+msgstr "Пожалуйста, введите действительную сумму для вывода"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1432
+msgctxt "Withdraw error message"
+msgid ""
+"There are no commissions for the specified interval; change dates and try "
+"again"
+msgstr ""
+"Комиссия за указанный интервал не взимается; измените даты и попробуйте еще "
+"раз"
+
+#: includes/class.yith-wcaf-payment-handler-premium.php:1459
+msgctxt "Withdraw success message"
+msgid ""
+"Your withdraw was correctly registered. An admin will review it as soon as "
+"possible"
+msgstr ""
+"Ваш вывод был правильно зарегистрирован. Администратор рассмотрит его как "
+"можно скорее"
+
+#: includes/class.yith-wcaf-payment-handler.php:747
+msgid "Payment registered; awaiting for IPN confirmation"
+msgstr "Платеж зарегистрирован; ожидает подтверждения IPN"
+
+#: includes/class.yith-wcaf-payment-handler.php:750
+msgid "Payment registered"
+msgstr "Платеж зарегистрирован"
+
+#: includes/class.yith-wcaf-privacy.php:58
+msgid "While you visit our site, we’ll track:"
+msgstr "Пока вы посещаете наш сайт, мы будем отслеживать:"
+
+#: includes/class.yith-wcaf-privacy.php:60
+msgid ""
+"Visits to the store: we’ll use this to generate statistics for affiliates "
+"and administrators."
+msgstr ""
+"Посещения магазина: мы будем использовать это для создания статистики для "
+"партнеры и администраторов."
+
+#: includes/class.yith-wcaf-privacy.php:61
+msgid ""
+"Location, IP address and browser type: we’ll use this just for statistics, "
+"and to let administrators supervise traffic generated by affiliates."
+msgstr ""
+"Местоположение, IP-адрес и тип браузера: мы будем использовать это только "
+"для статистики и позволить администраторам контролировать трафик, "
+"генерируемый аффилированными лицами."
+
+#: includes/class.yith-wcaf-privacy.php:62
+msgid ""
+"Affiliate’s name, username, email address: we’ll use this information to "
+"register and keep track of affiliates."
+msgstr ""
+"Имя партнера, имя пользователя, адрес электронной почты: мы будем "
+"использовать эту информацию для регистрации и отслеживания аффилированных "
+"лиц."
+
+#: includes/class.yith-wcaf-privacy.php:64
+msgid ""
+"We’ll also use cookies to keep track of visit and sales generate by "
+"affiliates."
+msgstr ""
+"Мы также будем использовать файлы cookie, чтобы отслеживать посещения и "
+"продажи аффилированных лиц."
+
+#: includes/class.yith-wcaf-privacy.php:67
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Shop Managers can access:"
+msgstr ""
+"Члены нашей команды имеют доступ к информации, которую вы нам "
+"предоставляете. Например, и администраторы, и менеджеры магазинов могут "
+"получить доступ:"
+
+#: includes/class.yith-wcaf-privacy.php:69
+msgid "Affiliate’s personal details;"
+msgstr "Личные данные партнера;"
+
+#: includes/class.yith-wcaf-privacy.php:70
+msgid "System-generated commissions;"
+msgstr "Системные комиссии;"
+
+#: includes/class.yith-wcaf-privacy.php:71
+msgid "Payments sent to the affiliates;"
+msgstr "Платежи отправлены партнерам:"
+
+#: includes/class.yith-wcaf-privacy.php:72
+msgid "Visits and sales generated through referral links."
+msgstr "Посещения и продажи через реферальные ссылки."
+
+#: includes/class.yith-wcaf-privacy.php:74
+msgid ""
+"Our team members have access to this information to correctly manage the "
+"affiliation system, and perform required actions in order to prevent "
+"customers from any inappropriate usage of the affiliate program."
+msgstr ""
+"Члены нашей команды имеют доступ к этой информации для правильного "
+"управления системой аффилированных лиц и выполнения необходимых действий для "
+"предотвращения неправомерного использования клиентами партнерской программы."
+
+#: includes/class.yith-wcaf-privacy.php:77
+#, fuzzy
+msgid ""
+"We send payments through PayPal. When processing payments, some of your data "
+"will be passed to PayPal, including information required to process or "
+"support the payment, such as the commission total and payment information."
+msgstr ""
+"Мы принимаем платежи через PayPal. При обработке платежей, некоторые Ваши "
+"данные будут переданы  PayPal, включая информацию, необходимую для обработки "
+"или поддержки оплаты, такие как сумма покупки и информация о счете."
+
+#: includes/class.yith-wcaf-privacy.php:78
+#, fuzzy
+msgid ""
+"Please see the <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-"
+"full\">PayPal Privacy Policy</a> for more details."
+msgstr ""
+"Дополнительную информацию смотрите в <a href=\"https://www.paypal.com/us/"
+"webapps/mpp/ua/privacy-full\"> Политике конфиденциальности PayPal </a>."
+
+#: includes/class.yith-wcaf-privacy.php:100
+#: includes/class.yith-wcaf-privacy.php:142
+#: includes/class.yith-wcaf-privacy.php:235
+msgid "Affiliate Data"
+msgstr "Партнерские данные"
+
+#: includes/class.yith-wcaf-privacy.php:107
+#: includes/class.yith-wcaf-privacy.php:149
+#: includes/class.yith-wcaf-privacy.php:279
+msgid "Affiliate Commissions"
+msgstr "Партнерские комиссии"
+
+#: includes/class.yith-wcaf-privacy.php:115
+#: includes/class.yith-wcaf-privacy.php:157
+#: includes/class.yith-wcaf-privacy.php:327
+msgid "Affiliate Payments"
+msgstr "Партнерские платежи"
+
+#: includes/class.yith-wcaf-privacy.php:123
+#: includes/class.yith-wcaf-privacy.php:165
+msgid "Affiliate Clicks"
+msgstr "Партнерские клики"
+
+#: includes/class.yith-wcaf-privacy.php:194
+msgid "Referral link"
+msgstr "Реферальная ссылка"
+
+#: includes/class.yith-wcaf-privacy.php:196
+#: templates/admin/payment-panel-detail.php:212
+msgid "Payment Email"
+msgstr "Электронная почта платежа"
+
+#: includes/class.yith-wcaf-privacy.php:197
+msgid "Commissions earned"
+msgstr "Заработанные комиссии"
+
+#: includes/class.yith-wcaf-privacy.php:198
+msgid "Total paid"
+msgstr "Общая сумма"
+
+#: includes/class.yith-wcaf-privacy.php:375
+msgid "Affiliate Hits"
+msgstr "Партнерские хиты"
+
+#: includes/class.yith-wcaf-privacy.php:445
+#, php-format
+msgid "Anonymized affiliate %s."
+msgstr "Анонимный партнер% s."
+
+#: includes/class.yith-wcaf-privacy.php:507
+#, php-format
+msgid "Anonymized commission %s."
+msgstr "Анонимная комиссия% s"
+
+#: includes/class.yith-wcaf-privacy.php:511
+#, php-format
+msgid "Commission %s has been retained."
+msgstr "Комиссия% s удержана."
+
+#: includes/class.yith-wcaf-privacy.php:578
+#, php-format
+msgid "Anonymized payment %s."
+msgstr "Анонимный платеж% s."
+
+#: includes/class.yith-wcaf-privacy.php:582
+#, php-format
+msgid "Payment %s has been retained."
+msgstr "Платеж% s удержан."
+
+#: includes/class.yith-wcaf-privacy.php:649
+#, php-format
+msgid "Anonymized hit %s."
+msgstr "Анонимное обращение% s."
+
+#: includes/class.yith-wcaf-privacy.php:653
+#, php-format
+msgid "Hit %s has been retained."
+msgstr "Хит% s сохранен."
+
+#: includes/class.yith-wcaf-privacy.php:678
+msgid "Order id"
+msgstr "ID Заказ"
+
+#: includes/class.yith-wcaf-privacy.php:680
+#: includes/class.yith-wcaf-privacy.php:735
+msgid "Created on"
+msgstr "Создано"
+
+#: includes/class.yith-wcaf-privacy.php:736
+msgid "Completed on"
+msgstr "Завершенный"
+
+#: includes/class.yith-wcaf-privacy.php:738
+msgid "Gateway"
+msgstr "Шлюз"
+
+#: includes/class.yith-wcaf-privacy.php:801
+#: templates/shortcodes/dashboard-clicks.php:76
+msgid "Link"
+msgstr "Ссылка"
+
+#: includes/class.yith-wcaf-privacy.php:802
+msgid "Origin"
+msgstr "Источник"
+
+#: includes/class.yith-wcaf-privacy.php:804
+msgid "Converted on"
+msgstr "Преобразовано на"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:287
+msgid "Free shipping!"
+msgstr "Бесплатная доставка!"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:291
+msgid "Minimum to spend"
+msgstr "Минимум потратить"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:295
+msgid "Maximum to spend"
+msgstr "Максимум потратить"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:299
+msgid "Individual use!"
+msgstr "Только для индивидуального использования!"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:303
+msgid "Exclude sale products!"
+msgstr "Исключить распродажу товаров!"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:311
+msgid "Allowed products"
+msgstr "Разрешенные товары"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:328
+msgid "Allowed product categories"
+msgstr "Разрешенные категории товаров"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:337
+msgid "Excluded product categories"
+msgstr "Исключенные категории товаров"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:341
+msgid "Limit per coupon:"
+msgstr "Лимит на купон:"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:345
+msgid "Limit per number of items:"
+msgstr "Лимит на количество предметов:"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:349
+msgid "Limit per user:"
+msgstr "Лимит на пользователя:"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:353
+msgctxt "Coupon dashboard info tooltip"
+msgid "No additional info"
+msgstr "Никакой дополнительной информации"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:427
+msgid "There isn't any affiliate selected for current session"
+msgstr "Для текущего сеанса не выбран ни один партнер"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:471
+msgid "Invoice Number"
+msgstr "Номер инвойса"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:480
+msgid "VAT Number"
+msgstr "НДС"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:510
+#: templates/admin/payment-panel-detail.php:256
+msgid "Personal"
+msgstr "Личное"
+
+#: includes/class.yith-wcaf-shortcode-premium.php:511
+#: templates/admin/payment-panel-detail.php:257
+msgid "Business"
+msgstr "Бизнес"
+
+#: includes/class.yith-wcaf-shortcode.php:82
+msgctxt "[gutenberg]: block name"
+msgid "YITH Affiliates Registration Form"
+msgstr "Форма регистрации партнеры YITH"
+
+#: includes/class.yith-wcaf-shortcode.php:83
+msgctxt "[gutenberg]: block description"
+msgid "Show registration form for your affiliates"
+msgstr "Покажите регистрационную форму для ваших партнеров"
+
+#: includes/class.yith-wcaf-shortcode.php:88
+msgctxt "[gutenberg]: attribute description"
+msgid "Show Login form"
+msgstr ""
+
+#: includes/class.yith-wcaf-shortcode.php:90
+#, fuzzy
+msgctxt "[gutenberg]: inspector description"
+msgid "Hide login form"
+msgstr "Настройте, что скрывать в форме регистрации."
+
+#: includes/class.yith-wcaf-shortcode.php:91
+#, fuzzy
+msgctxt "[gutenberg]: inspector description"
+msgid "Show login form"
+msgstr "Показать форму фильтра геолокации"
+
+#: includes/class.yith-wcaf-shortcode.php:97
+msgctxt "[gutenberg]: attribute description"
+msgid "Show First name field"
+msgstr "Показать поле имени"
+
+#: includes/class.yith-wcaf-shortcode.php:100
+msgctxt "[gutenberg]: inspector description"
+msgid "Hide first name field"
+msgstr "Скрыть поле имени"
+
+#: includes/class.yith-wcaf-shortcode.php:101
+msgctxt "[gutenberg]: inspector description"
+msgid "Show first name field"
+msgstr "Показать поле имени"
+
+#: includes/class.yith-wcaf-shortcode.php:106
+msgctxt "[gutenberg]: attribute description"
+msgid "Show Last name field"
+msgstr "Показать поле фамилии"
+
+#: includes/class.yith-wcaf-shortcode.php:109
+msgctxt "[gutenberg]: Help text"
+msgid "Hide last name field"
+msgstr "Скрыть поле фамилии"
+
+#: includes/class.yith-wcaf-shortcode.php:110
+msgctxt "[gutenberg]: Help text"
+msgid "Show last name field"
+msgstr "Показать поле имени"
+
+#: includes/class.yith-wcaf-shortcode.php:115
+msgctxt "[gutenberg]: attribute description"
+msgid "Show Additional fields"
+msgstr "Показать дополнительные поля"
+
+#: includes/class.yith-wcaf-shortcode.php:118
+msgctxt "[gutenberg]: Help text"
+msgid "Hide additional fields"
+msgstr "Скрыть дополнительные поля"
+
+#: includes/class.yith-wcaf-shortcode.php:119
+msgctxt "[gutenberg]: Help text"
+msgid "Show additional field"
+msgstr "Показать дополнительные поля"
+
+#: includes/class.yith-wcaf-shortcode.php:127
+msgctxt "[gutenberg]: block name"
+msgid "YITH Affiliates Dasbharod"
+msgstr ""
+
+#: includes/class.yith-wcaf-shortcode.php:128
+msgctxt "[gutenberg]: block description"
+msgid "Show affiliate dashboard to your affiliates"
+msgstr ""
+
+#: includes/class.yith-wcaf-shortcode.php:133
+#: includes/class.yith-wcaf-shortcode.php:151
+msgctxt "[gutenberg]: attribute description"
+msgid "Show navigation menu"
+msgstr "Показать меню навигации"
+
+#: includes/class.yith-wcaf-shortcode.php:135
+#: includes/class.yith-wcaf-shortcode.php:153
+msgctxt "[gutenberg]: inspector description"
+msgid "Hide menu"
+msgstr "Скрыть меню"
+
+#: includes/class.yith-wcaf-shortcode.php:136
+#: includes/class.yith-wcaf-shortcode.php:154
+msgctxt "[gutenberg]: inspector description"
+msgid "Show menu"
+msgstr "Показать меню"
+
+#: includes/class.yith-wcaf-shortcode.php:145
+msgctxt "[gutenberg]: block name"
+msgid "YITH Affiliates Link Generator"
+msgstr ""
+
+#: includes/class.yith-wcaf-shortcode.php:146
+msgctxt "[gutenberg]: block description"
+msgid "Show referral link generation form for your affiliates"
+msgstr ""
+
+#: includes/class.yith-wcaf-shortcode.php:337
+msgid "Share on:"
+msgstr "Поделиться в:"
+
+#: includes/class.yith-wcaf-shortcode.php:630
+#: includes/class.yith-wcaf-shortcode.php:754
+#: includes/class.yith-wcaf-shortcode.php:1411
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+"Здравствуйте, <strong>%1$s</strong> (не %1$s? <a href=\"%2$s\"> Выйти </a>)."
+
+#: includes/class.yith-wcaf-shortcode.php:635
+#: includes/class.yith-wcaf-shortcode.php:759
+#: includes/class.yith-wcaf-shortcode.php:1416
+#, php-format
+msgid ""
+"From your affiliate dashboard you can view your recent commissions and "
+"visits, consult your affiliate stats and <a href=\"%1$s\">manage settings</"
+"a> for your profile"
+msgstr ""
+"На панели управления партнерской программы вы можете просматривать свои "
+"недавние комиссии и посещения, просматривать статистику партнерской "
+"программы и <a href=\"%1$s\"> управлять настройками </a> своего профиля."
+
+#: includes/class.yith-wcaf-shortcode.php:1297
+msgid "Changes correctly saved!"
+msgstr "Изменения правильно сохранены!"
+
+#: includes/class.yith-wcaf.php:144
+msgctxt "enhanced select"
+msgid "One result is available, press enter to select it."
+msgstr "Доступен один результат, нажмите клавишу ВВОД, чтобы выбрать его."
+
+#: includes/class.yith-wcaf.php:145
+msgctxt "enhanced select"
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr ""
+"% qty% результатов доступны, используйте клавиши со стрелками вверх и вниз "
+"для навигации."
+
+#: includes/class.yith-wcaf.php:146
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "Совпадений не найдено"
+
+#: includes/class.yith-wcaf.php:147
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr "Ошибка загрузки"
+
+#: includes/class.yith-wcaf.php:148
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr "Пожалуйста, введите 1 или более символов"
+
+#: includes/class.yith-wcaf.php:149
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr "Пожалуйста, введите% qty% или более символов"
+
+#: includes/class.yith-wcaf.php:150
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr "Пожалуйста, удалите 1 символ"
+
+#: includes/class.yith-wcaf.php:151
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr "Пожалуйста, удалите %qty% символы"
+
+#: includes/class.yith-wcaf.php:152
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr "Вы можете выбрать только 1 элемент"
+
+#: includes/class.yith-wcaf.php:153
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr "Вы можете выбрать только% qty% элементов"
+
+#: includes/class.yith-wcaf.php:154
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr "Загрузка большего количества результатов&hellip;"
+
+#: includes/class.yith-wcaf.php:155
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr "Поиск &hellip;"
+
+#: includes/class.yith-wcaf.php:156
+msgctxt "alert message"
+msgid "URL copied"
+msgstr "URL cкопировано"
+
+#: includes/class.yith-wcaf.php:244
+msgid "Once a week"
+msgstr "Раз в неделю"
+
+#: includes/class.yith-wcaf.php:248
+msgid "Once a month"
+msgstr "Один раз в месяц"
+
+#: includes/class.yith-wcaf.php:435
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:135
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:136
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:151
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:152
+msgid "Affiliate Dashboard"
+msgstr "Партнерский Кабинет"
+
+#: includes/class.yith-wcaf.php:455
+msgid "Products"
+msgstr "Товары"
+
+#: includes/class.yith-wcaf.php:456
+msgid "Orders"
+msgstr "Заказы"
+
+#: includes/class.yith-wcaf.php:462
+msgid "Statistics"
+msgstr "Статистика"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:39
+msgid "New affiliate"
+msgstr "Новый партнер"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:40
+msgid "This email is sent to admins each time a new affiliate is created"
+msgstr ""
+"Это письмо отправляется администраторам каждый раз при создании нового "
+"партнера."
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:42
+msgid "New Affiliate"
+msgstr "Новый партнер"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:43
+msgid "[{site_title}] New affiliate"
+msgstr "Новый партнер"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:143
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:150
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:153
+msgid "Recipient(s)"
+msgstr "Получатель (и)"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:145
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:152
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:155
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Введите получателей (через запятую) этого письма. По умолчанию <code>% s </"
+"code>."
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:150
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:157
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:160
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:215
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:232
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:145
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:217
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:241
+msgid "Subject"
+msgstr "Предмет"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:152
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:159
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:162
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:217
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:234
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:147
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:219
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:243
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Это контролирует строку темы электронного письма. Оставьте поле пустым, "
+"чтобы использовать тему по умолчанию: <code>% s </code>."
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:157
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:164
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:167
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:222
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:239
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:152
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:224
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:248
+msgid "Email Heading"
+msgstr "Заголовок электронного письма"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:159
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:166
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:169
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:224
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:241
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:154
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:226
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:250
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Это контролирует основной заголовок, содержащийся в уведомлении по "
+"электронной почте. Оставьте поле пустым, чтобы использовать заголовок по "
+"умолчанию: <code>% s </code>."
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:164
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:171
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:174
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:243
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:260
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:159
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:231
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:283
+msgid "Email type"
+msgstr "Тип электронной почты"
+
+#: includes/emails/class.yith-wcaf-admin-new-affiliate-email.php:166
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:173
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:176
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:245
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:262
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:161
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:233
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:285
+msgid "Choose which format of email to send."
+msgstr "Выберите формат электронной почты для отправки."
+
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:39
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:42
+msgid "Payment Sent"
+msgstr "Платеж отправлен"
+
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:40
+msgid ""
+"This email is sent to admins each time a payment to an affiliate is issued"
+msgstr ""
+"Это электронное письмо отправляется администраторам каждый раз при отправке "
+"платежа партнеру."
+
+#: includes/emails/class.yith-wcaf-admin-paid-commission-email.php:43
+msgid "[{site_title}] New affiliate payment sent"
+msgstr "Отправлен новый партнерский платеж"
+
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:39
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:42
+msgid "Pending Commission"
+msgstr "Ожидающая комиссия"
+
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:40
+msgid ""
+"This email is sent to admins each time a commission status switches to "
+"\"pending\""
+msgstr ""
+"Это письмо отправляется администраторам каждый раз, когда статус комиссии "
+"переключается на «ожидает рассмотрения»."
+
+#: includes/emails/class.yith-wcaf-admin-pending-commission-email.php:43
+msgid "[{site_title}] New confirmed commission"
+msgstr "[{site_title}]: Новая подтвержденная комиссия"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:39
+msgid "Affiliate's ban message"
+msgstr "Сообщение о бане партнера"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:40
+msgid ""
+"This email is sent to affiliates whenever their account is banned by an admin"
+msgstr ""
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:43
+msgid "Your account was disabled"
+msgstr "Ваша учетная запись была отключена"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:44
+msgid "Your {site_title} affiliate account was disabled"
+msgstr "Your {site_title} партнерская учетная запись была отключена"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:133
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:144
+msgid "Terms & Conditions"
+msgstr "Условия и положения"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:229
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:246
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:239
+msgid "Content HTML"
+msgstr "Content HTML"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:231
+msgid ""
+"Enter the text that you want to send within your email (HTML version). You "
+"can use the following placeholders: <code>{site_title}, {display_name}, "
+"{ban_message}, {tos_link}</code>."
+msgstr ""
+"Введите текст, который вы хотите отправить в своем электронном письме "
+"(версия HTML). Вы можете использовать следующие заполнители: <code> "
+"{site_title}, {display_name}, {ban_message}, {tos_link} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:236
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:253
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:246
+msgid "Content text"
+msgstr "Content text"
+
+#: includes/emails/class.yith-wcaf-customer-ban-email.php:238
+msgid ""
+"Enter the text that you want to send within your email (plain text version). "
+"You can use the following placeholders: <code>{site_title}, {display_name}, "
+"{ban_message}, {tos_plain_link}</code>."
+msgstr ""
+"Введите текст, который вы хотите отправить в своем электронном письме "
+"(версия в виде обычного текста). Вы можете использовать следующие "
+"заполнители: <code> {site_title}, {display_name}, {ban_message}, "
+"{tos_plain_link} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:39
+msgid "Affiliate's new coupon message"
+msgstr "Сообщение партнера о новом купоне"
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:40
+msgid ""
+"This email is sent to affiliates whenever admin creates a coupon for them"
+msgstr ""
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:43
+msgid "You have a new coupon"
+msgstr "У вас есть новый купон"
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:44
+msgid "We created a new coupon for you to share!"
+msgstr "Мы создали новый купон, которым вы можете поделиться!"
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:46
+msgid ""
+"<p>an admin just created a new coupon for you!</p>\n"
+"<p><b>Coupon code:</b> {coupon_code}</p>\n"
+"<p>Share it with your users: you will be granted with commissions each time "
+"a customer purchases using this coupon code</p>\n"
+"<p>Please, have a look at your {affiliate_dashboard_link} for further "
+"information, and don't hesitate to contact us if you have any doubts</p>"
+msgstr ""
+"<p> администратор только что создал для вас новый купон! </p>\n"
+"<p> <b> Код купона: </b> {coupon_code} </p>\n"
+"<p> Поделитесь им со своими пользователями: вам будут начисляться "
+"комиссионные каждый раз, когда покупатель совершает покупку с использованием "
+"этого кода купона </p>\n"
+"<p> Пожалуйста, загляните на свою {affiliate_dashboard_link} дополнительную "
+"информацию и не стесняйтесь обращаться к нам, если у вас есть какие-либо "
+"сомнения </p>"
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:50
+msgid ""
+"an admin created a new coupon for you!\n"
+"Coupon code: {coupon_code}\n"
+"Share it with your users: you will be granted with commissions each time a "
+"customer purchases using this coupon code\n"
+"Please, have a look at your {affiliate_dashboard_link} for further "
+"information, and don't hesitate to contact us if you have any doubts"
+msgstr ""
+"админ создал для вас новый купон!\n"
+"Код купона: {coupon_code}\n"
+"Поделитесь им со своими пользователями: вам будут начисляться комиссионные "
+"каждый раз, когда покупатель совершает покупку с использованием этого кода "
+"купона.\n"
+"Пожалуйста, загляните на свою {affiliate_dashboard_link} информацию для "
+"получения дополнительной информации и не стесняйтесь обращаться к нам, если "
+"у вас есть какие-либо сомнения."
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:248
+msgid ""
+"Enter the text that you want to send within your email (HTML version). You "
+"can use the following placeholders: <code>{site_title}, {display_name}, "
+"{coupon_code}, {affiliate_dashboard_link}</code>."
+msgstr ""
+"Введите текст, который вы хотите отправить в своем электронном письме "
+"(версия HTML). Вы можете использовать следующие заполнители: <code> "
+"{site_title}, {display_name}, {coupon_code}, {affiliate_dashboard_link} </"
+"code>."
+
+#: includes/emails/class.yith-wcaf-customer-new-coupon-email.php:255
+msgid ""
+"Enter the text that you want to send within your email (plain text version). "
+"You can use the following placeholders: <code>{site_title}, {display_name}, "
+"{coupon_code}, {affiliate_dashboard_plain_link}</code>."
+msgstr ""
+"Введите текст, который вы хотите отправить в своем электронном письме "
+"(версия в виде обычного текста). Вы можете использовать следующие "
+"заполнители: <code> {site_title}, {display_name}, {coupon_code}, "
+"{affiliate_dashboard_plain_link} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:39
+msgid "Affiliate's Payment Sent"
+msgstr "Партнерский платеж отправлен"
+
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:40
+msgid ""
+"This email is sent to customers each time a payment to an affiliate is issued"
+msgstr ""
+"Это электронное письмо отправляется клиентам каждый раз, когда производится "
+"платеж партнеру."
+
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:43
+#: includes/emails/class.yith-wcaf-customer-paid-commission-email.php:44
+msgid "A payment was sent to your account"
+msgstr "Платеж отправлен на ваш счет"
+
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:39
+msgid "Affiliate' Pending Commission"
+msgstr "Ожидающая комиссия партнера"
+
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:40
+msgid ""
+"This email is sent to customers each time a commission status switches to "
+"\"pending\""
+msgstr ""
+"Это электронное письмо отправляется клиентам каждый раз, когда статус "
+"комиссии переключается на «ожидает рассмотрения»."
+
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:43
+msgid "Your commission is awaiting payment"
+msgstr "Ваша комиссия ожидает оплаты"
+
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:44
+msgid "Your {site_title} commission from {commission_date} is awaiting payment"
+msgstr "Ваша комиссия за {site_title} от {Commission_date} ожидает оплаты"
+
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:241
+msgid ""
+"Enter the text that you want to send within your email (HTML version). You "
+"can use the following placeholders: <code>{commission_id}, "
+"{commission_amount}, {commission_amount_html}, {commission_rate}, "
+"{payment_threshold}, {payment_threshold_html}, {payment_day}, "
+"{next_payment_date}</code>."
+msgstr ""
+"Введите текст, который вы хотите отправить в своем электронном письме "
+"(версия HTML). Вы можете использовать следующие заполнители: <code> "
+"{Commission_id}, {Commission_amount}, {Commission_amount_html}, "
+"{Commission_rate}, {payment_threshold}, {payment_threshold_html}, "
+"{payment_day}, {next_payment_date} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-pending-commission-email.php:248
+msgid ""
+"Enter the text that you want to send within your email (plain text version). "
+"You can use the following placeholders: <code>{commission_id}, "
+"{commission_amount}, {commission_rate}, {payment_threshold}, {payment_day}, "
+"{next_payment_date}</code>."
+msgstr ""
+"Введите текст, который вы хотите отправить в своем электронном письме "
+"(версия в виде обычного текста). Вы можете использовать следующие "
+"заполнители: <code> {Commission_id}, {Commission_amount}, {Commission_rate}, "
+"{payment_threshold}, {payment_day}, {next_payment_date} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:39
+msgid "Affiliate's status changed"
+msgstr "Статус партнера изменен"
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:40
+msgid "This email is sent to affiliates whenever their status changes"
+msgstr ""
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:43
+msgid "Your account was updated"
+msgstr "Ваша учетная запись была обновлена"
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:44
+msgid "Your {site_title} affiliate account was updated"
+msgstr "Ваш партнерский аккаунт {site_title} обновлен"
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:255
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:269
+msgid "Accept message HTML"
+msgstr "Принять сообщение HTML"
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:257
+msgid ""
+"Enter the text that you want to send to your affiliate when enabling his/her "
+"account (HTML version). You can use the following placeholders: "
+"<code>{site_title}, {display_name}, {tos_link}, {affiliate_rate}, "
+"{affiliate_dashboard_link}</code>."
+msgstr ""
+"Введите текст, который вы хотите отправить своему партнеру при активации "
+"его / ее учетной записи (версия HTML). Вы можете использовать следующие "
+"заполнители: <code> {site_title}, {display_name}, {tos_link}, "
+"{affiliate_rate}, {affiliate_dashboard_link} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:262
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:276
+msgid "Accept message text"
+msgstr "Принять текст сообщения"
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:264
+msgid ""
+"Enter the text that you want to send to your affiliate when enabling his/her "
+"account (plain text version). You can use the following placeholders: "
+"<code>{site_title}, {display_name}, {tos_plain_link}, {affiliate_rate}, "
+"{affiliate_dashboard_plain_link}</code>."
+msgstr ""
+"Введите текст, который вы хотите отправить своему партнеру при активации "
+"его / ее учетной записи (текстовая версия). Вы можете использовать следующие "
+"заполнители: <code> {site_title}, {display_name}, {tos_plain_link}, "
+"{affiliate_rate}, {affiliate_dashboard_plain_link} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:271
+msgid ""
+"Enter the text that you want to send to your affiliate when rejecting his/"
+"her affiliate request (HTML version). You can use the following "
+"placeholders: <code>{site_title}, {display_name}, {tos_link}, "
+"{reject_message}</code>."
+msgstr ""
+"Введите текст, который вы хотите отправить своему партнеру при отклонении "
+"его / ее партнерского запроса (версия HTML). Вы можете использовать "
+"следующие заполнители: <code> {site_title}, {display_name}, {tos_link}, "
+"{reject_message} </code>."
+
+#: includes/emails/class.yith-wcaf-customer-status-change-email.php:278
+msgid ""
+"Enter the text that you want to send to your affiliate when rejecting his/"
+"her affiliate request (plain text version). You can use the following "
+"placeholders: <code>{site_title}, {display_name}, {tos_plain_link}, "
+"{reject_message}</code>."
+msgstr ""
+
+#: includes/functions.yith-wcaf.php:175
+msgid "yith_wcaf_get_current_affiliate_token() should be called after init"
+msgstr ""
+
+#: includes/functions.yith-wcaf.php:193
+msgid "yith_wcaf_get_current_affiliate() should be called after init"
+msgstr ""
+
+#: includes/functions.yith-wcaf.php:211
+msgid "yith_wcaf_get_current_affiliate_user() should be called after init"
+msgstr ""
+
+#: includes/functions.yith-wcaf.php:356
+msgctxt "Dev warning; do not translate"
+msgid "Should be called after wp hook, in order to know current page"
+msgstr "Должен вызываться после хука wp, чтобы узнать текущую страницу"
+
+#: includes/functions.yith-wcaf.php:387
+msgid "Website / Blog"
+msgstr "Сайт / Блог"
+
+#: includes/functions.yith-wcaf.php:388
+msgid "Newsletter / Mail Marketing"
+msgstr "Информационный бюллетень / Почтовый маркетинг"
+
+#: includes/functions.yith-wcaf.php:389
+msgid "Social media"
+msgstr "Social media"
+
+#: includes/functions.yith-wcaf.php:390
+msgid "Others"
+msgstr "Другие"
+
+#: includes/gateways/class.yith-wcaf-payouts-gateway.php:65
+msgctxt ""
+"Cannot use PayOuts service, please check the Payout configuration here"
+msgid "Cannot use PayOuts service, please check the Payout configuration"
+msgstr "Невозможно использовать сервис PayOuts, проверьте конфигурацию выплат"
+
+#: includes/gateways/class.yith-wcaf-payouts-gateway.php:67
+msgctxt ""
+"par of :  Cannot use PayOuts service, please check the Payout configuration "
+"here"
+msgid "here"
+msgstr "здесь"
+
+#: includes/gateways/class.yith-wcaf-payouts-gateway.php:111
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:316
+msgid ""
+"No record could be processed for PayPal payment; payment email field is "
+"mandatory"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-payouts-gateway.php:147
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:356
+#: includes/gateways/class.yith-wcaf-yith-ywf-gateway.php:112
+msgid "Payment sent"
+msgstr "Платеж отправлен"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:158
+#, fuzzy
+msgid "PayPal Payment Gateway"
+msgstr "Шлюз оформления заказа WooCommerce PayPal"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:165
+#, fuzzy
+msgid "Enable PayPal sandbox"
+msgstr "Включить песочницу PayPal"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:167
+msgid ""
+"Payments will be issued to PayPal sandbox server and will only be used for "
+"testing purposes"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:173
+#, fuzzy
+msgid "Enable PayPal log"
+msgstr "Включить песочницу PayPal"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:175
+#, fuzzy, php-format
+msgid "PayPal operations will be logged in <code>%s</code>"
+msgstr "Адаптивная ошибка Paypal: %s , Код ошибки : %d"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:181
+#, fuzzy
+msgid "PayPal API username"
+msgstr "Sandbox API username"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:183
+msgid "PayPal API username, used to access PayPal account via API requests"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:191
+#, fuzzy
+msgid "PayPal API password"
+msgstr "Sandbox API password"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:193
+msgid "PayPal API password, used to access PayPal account via API requests"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:201
+#, fuzzy
+msgid "PayPal API signature"
+msgstr "Подпись API"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:203
+msgid "PayPal API signature, used to access PayPal account via API requests"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:211
+msgid "Payment mail subject"
+msgstr "Тема письма о платеже"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:213
+msgid ""
+"Subject of the email sent by PayPal to customers when payment request is "
+"registered"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:221
+#, fuzzy
+msgid "PayPal notification URL"
+msgstr "Оповещения"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:223
+msgid ""
+"Copy this URL and set it into PayPal admin panel, to receive IPN from their "
+"server"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:260
+msgid "Missing required parameters for PayPal configuration"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:324
+msgid "Request correctly sent"
+msgstr "Запрос отправлен правильно"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:325
+msgid "Paypal server response correctly received"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:332
+#, fuzzy
+msgid "Payment correctly issued to PayPal"
+msgstr "Поздравляем! Правильно оплатили."
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:396
+msgid "Invalid status"
+msgstr "Неверный статус"
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:444
+#, php-format
+msgid ""
+"PayPal returned a notification for request #%s, indicating a different "
+"amount."
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:452
+#, php-format
+msgid ""
+"PayPal returned a notification for this payment, indicating a different "
+"amount (expected %.2f -> returned %.2f)"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:458
+#, php-format
+msgid ""
+"PayPal returned a notification for request #%s, indicating a different "
+"currency for the receiver"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:466
+#, php-format
+msgid ""
+"PayPal returned a notification for this payment, indicating a different "
+"currency (expected %s -> returned %s)"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:471
+#, php-format
+msgid "Request #%s was modified due to IPN from PayPal (txn_id: %s)"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:476
+#, php-format
+msgid "IPN response correctly received from PayPal server (txn_id: %s)"
+msgstr ""
+
+#: includes/gateways/class.yith-wcaf-paypal-gateway.php:536
+msgid "empty"
+msgstr "пустой"
+
+#: includes/gateways/class.yith-wcaf-yith-ywf-gateway.php:54
+msgid ""
+"There was an issue with gateway installation; please, refer to technical "
+"support"
+msgstr "Возникла проблема с установкой шлюза; обратитесь в техподдержку"
+
+#: includes/gateways/class.yith-wcaf-yith-ywf-gateway.php:90
+#, php-format
+msgid "Funds credited to user as payment for commission %s (Payment #%d)"
+msgid_plural ""
+"Funds credited to user as payment for commissions %s (Payment #%d)"
+msgstr[0] ""
+"Средства, зачисленные пользователю в качестве оплаты комиссии% s (Платеж №"
+"% d)"
+msgstr[1] ""
+"Средства, зачисленные пользователю в качестве оплаты комиссии% s (Платеж №"
+"% d)"
+msgstr[2] ""
+"Средства, зачисленные пользователю в качестве оплаты комиссии% s (Платеж №"
+"% d)"
+
+#: includes/gateways/class.yith-wcaf-yith-ywf-gateway.php:105
+msgid "Payment correctly credited to user funds"
+msgstr "Платеж правильно зачислен на средства пользователя"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-affiliate-dashboard.php:40
+msgctxt "Elementor widget name"
+msgid "YITH Affiliate Dashboard"
+msgstr "Партнерский кабиинет"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-affiliate-dashboard.php:83
+#: includes/widgets/elementor/class.yith-wcaf-elementor-link-generator.php:83
+msgctxt "Elementor section title"
+msgid "Dashboard details"
+msgstr "Детали партнерского кабинета"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-affiliate-dashboard.php:91
+#: includes/widgets/elementor/class.yith-wcaf-elementor-link-generator.php:91
+msgctxt "Elementor control label"
+msgid "Show navigation menu"
+msgstr "Показать меню навигации"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-affiliate-dashboard.php:94
+#: includes/widgets/elementor/class.yith-wcaf-elementor-link-generator.php:94
+msgid "Show menu"
+msgstr "Показать меню"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-affiliate-dashboard.php:95
+#: includes/widgets/elementor/class.yith-wcaf-elementor-link-generator.php:95
+msgid "Hide menu"
+msgstr "Скрыть меню"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-link-generator.php:40
+msgctxt "Elementor widget name"
+msgid "YITH Affiliates Link Generator"
+msgstr ""
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:40
+msgctxt "Elementor widget name"
+msgid "YITH Affiliates Registration Form"
+msgstr "Форма регистрации партнеры YITH"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:83
+msgctxt "Elementor section title"
+msgid "Form details"
+msgstr "Детали формы"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:91
+#, fuzzy
+msgctxt "Elementor control label"
+msgid "Show Login form"
+msgstr "Показать форму фильтра геолокации"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:94
+#, fuzzy
+msgid "Show login form"
+msgstr "Показать форму фильтра геолокации"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:95
+#, fuzzy
+msgid "Hide login form"
+msgstr "Настройте, что скрывать в форме регистрации."
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:104
+msgctxt "Elementor control label"
+msgid "Show First name field"
+msgstr "Показать поле имени"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:107
+msgid "Show first name field"
+msgstr "Показать поле имени"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:108
+msgid "Hide first name field"
+msgstr "Скрыть поле имени"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:117
+msgctxt "Elementor control label"
+msgid "Show Last name field"
+msgstr "Показать поле фамилии"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:120
+msgid "Show last name field"
+msgstr "Показать поле фамилии"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:121
+msgid "Hide last name field"
+msgstr "Скрыть поле фамилии"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:130
+msgctxt "Elementor control label"
+msgid "Show Additional fields"
+msgstr "Показать дополнительные поля"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:133
+msgid "Show additional field"
+msgstr "Показать дополнительные поля"
+
+#: includes/widgets/elementor/class.yith-wcaf-elementor-registration-form.php:134
+msgid "Hide additional fields"
+msgstr "Скрыть дополнительные поля"
+
+#: init.php:168
+msgid "is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "включен, но не действует. Для работы требуется WooCommerce."
+
+#: init.php:178
+msgid "You can't activate the free version of "
+msgstr "Вы не можете активировать бесплатную версию"
+
+#: init.php:178
+msgid " while you are using the premium one."
+msgstr "пока вы используете премиум."
+
+#: plugin-options/settings-options.php:21
+msgid "General"
+msgstr "Общие"
+
+#: plugin-options/settings-options.php:28
+msgid "Referral var name"
+msgstr "Имя реферальной переменной"
+
+#: plugin-options/settings-options.php:30
+msgid "Select name of referral var used to store referral token in query var"
+msgstr ""
+"Выберите имя реферальной переменной, используемой для хранения реферального "
+"токена в переменной запроса"
+
+#: plugin-options/settings-options.php:46
+msgid "Cookie"
+msgstr "Куки"
+
+#: plugin-options/settings-options.php:53
+msgid "Referral cookie name"
+msgstr "Имя реферального файла cookie"
+
+#: plugin-options/settings-options.php:55
+msgid ""
+"Select name for cookie that will store referral token. This name should be "
+"as unique as possible, so to avoid collision with other plugins: If you "
+"change this setting, all cookies created before will no longer be effective"
+msgstr ""
+"Выберите имя для файла cookie, в котором будет храниться токен реферала. Это "
+"имя должно быть как можно более уникальным, чтобы избежать конфликтов с "
+"другими плагинами: если вы измените этот параметр, все файлы cookie, "
+"созданные ранее, больше не будут эффективными."
+
+#: plugin-options/settings-options.php:63
+msgid "Make referral cookie expire"
+msgstr "Срок действия реферального файла cookie истекает"
+
+#: plugin-options/settings-options.php:65
+msgid "Check this option if you want to make referral cookie expire"
+msgstr ""
+"Установите этот флажок, если хотите, чтобы срок действия реферального файла "
+"cookie истек."
+
+#: plugin-options/settings-options.php:71
+msgid "Referral cookie exp."
+msgstr "Срок действия реферального файла cookie истекает"
+
+#: plugin-options/settings-options.php:73
+msgid "Number of seconds before referral cookie expires"
+msgstr ""
+"Количество секунд до истечения срока действия реферального файла cookie"
+
+#: plugin-options/settings-options.php:88
+msgid "Set cookie via AJAX"
+msgstr "Установить cookie через AJAX"
+
+#: plugin-options/settings-options.php:90
+msgid ""
+"Check this option if you want to execute an ajax call to set up affiliate "
+"cookies, whenever system finds referral query string in the url"
+msgstr ""
+"Установите этот флажок, если вы хотите выполнить вызов ajax для настройки "
+"партнерских файлов cookie всякий раз, когда система находит строку "
+"реферального запроса в URL-адресе."
+
+#: plugin-options/settings-options.php:104
+msgid "Affiliate pages"
+msgstr "Партнерские страницы"
+
+#: plugin-options/settings-options.php:110
+msgid "Affiliate dashboard page"
+msgstr "Страница партнерской панели"
+
+#: plugin-options/settings-options.php:111
+msgid "Page contents:"
+msgstr "Содержание страницы:"
+
+#: plugin-options/settings-options.php:130
+msgid "Social Networks & Share"
+msgstr "Социальные сети и Поделиться"
+
+#: plugin-options/settings-options.php:137
+msgid "Share on Facebook"
+msgstr "Поделиться через  Facebook"
+
+#: plugin-options/settings-options.php:138
+msgid "Show \"Share on Facebook\" button"
+msgstr "Показать кнопку \"Поделиться в Facebook\""
+
+#: plugin-options/settings-options.php:144
+msgid "Tweet on Twitter"
+msgstr "Твитнуть в Твиттере"
+
+#: plugin-options/settings-options.php:145
+msgid "Show \"Tweet on Twitter\" button"
+msgstr "Показать кнопку \"Твитнуть в Твиттере\""
+
+#: plugin-options/settings-options.php:151
+msgid "Pin on Pinterest"
+msgstr "Закрепить на Pinterest"
+
+#: plugin-options/settings-options.php:152
+msgid "Show \"Pin on Pinterest\" button"
+msgstr "Показать кнопку \"Закрепить на Pinterest\""
+
+#: plugin-options/settings-options.php:158
+msgid "Share by Email"
+msgstr "Поделиться по электронной почте"
+
+#: plugin-options/settings-options.php:159
+msgid "Show \"Share by Email\" button"
+msgstr "Показать кнопку \"Отправить по электронной почте\""
+
+#: plugin-options/settings-options.php:165
+msgid "Share by WhatsApp"
+msgstr "Поделиться через WhatsApp"
+
+#: plugin-options/settings-options.php:166
+msgid "Show \"Share by WhatsApp\" button"
+msgstr "Показать кнопку \"Поделиться через WhatsApp\""
+
+#: plugin-options/settings-options.php:172
+msgid "Social title"
+msgstr "Социальное название"
+
+#: plugin-options/settings-options.php:174
+#, php-format
+msgid "My Referral URL on %s"
+msgstr "Мой реферальный URL на% s"
+
+#: plugin-options/settings-options.php:179
+msgid "Social text"
+msgstr "Социальный текст"
+
+#: plugin-options/settings-options.php:180
+msgid ""
+"It will be used by Twitter, WhatsApp and Pinterest. Use <strong>%referral_url"
+"%</strong> where you want to show the URL of your Affiliate."
+msgstr ""
+
+#: plugin-options/settings-options.php:187
+msgid "Social image URL"
+msgstr "URL изображения в соцсетях"
+
+#: plugin-options/settings-options.php:188
+msgid "It will be used by Pinterest."
+msgstr "Он будет использоваться Pinterest."
+
+#: plugin-options/settings-options.php:204
+msgid "Referral registration"
+msgstr "Реферальная регистрация"
+
+#: plugin-options/settings-options.php:210
+msgid "Registration form"
+msgstr "Форма регистрации"
+
+#: plugin-options/settings-options.php:214
+msgid ""
+"You've selected the default registration form. The affiliate registration "
+"fields selected below will be added to the default form that you are using "
+"to let your users register. If you're using the default WooCommerce "
+"registration form, you'll find it on My Account page. You'll have just one "
+"registration form for both your users and affiliates, in one place."
+msgstr ""
+"Вы выбрали форму регистрации по умолчанию. Поля партнерской регистрации, "
+"выбранные ниже, будут добавлены в форму по умолчанию, которую вы "
+"используете, чтобы позволить своим пользователям регистрироваться. Если вы "
+"используете форму регистрации WooCommerce по умолчанию, вы найдете ее на "
+"странице «Моя учетная запись». У вас будет только одна регистрационная форма "
+"для ваших пользователей и партнеров в одном месте."
+
+#: plugin-options/settings-options.php:215
+msgid ""
+"You've selected the affiliate registration form. Your users will only be "
+"able to register as affiliates using this form. It is displayed by default "
+"in Affiliate Dashboard page, but you can print it anywhere you prefer on "
+"your website using the dedicated shortcode"
+msgstr ""
+
+#: plugin-options/settings-options.php:218
+msgid "Default registration form"
+msgstr "Форма регистрации по умолчанию"
+
+#: plugin-options/settings-options.php:219
+msgid "Affiliate dedicated registration form"
+msgstr "Партнерская специальная регистрационная форма"
+
+#: plugin-options/settings-options.php:227
+#, fuzzy
+msgid "Show Login form"
+msgstr "Показать форму фильтра геолокации"
+
+#: plugin-options/settings-options.php:229
+msgid "Show Login Form on registration form side"
+msgstr ""
+
+#: plugin-options/settings-options.php:235
+msgid "Show Name field"
+msgstr "Показать поле имени"
+
+#: plugin-options/settings-options.php:237
+msgid "Show \"First Name\" field on registration form"
+msgstr "Показывать поле \"Имя\" в регистрационной форме"
+
+#: plugin-options/settings-options.php:243
+msgid "Show Surname field"
+msgstr "Показать поле фамилии"
+
+#: plugin-options/settings-options.php:245
+msgid "Show \"Last Name\" field on registration form"
+msgstr "Показывать поле \"Фамилия\" в регистрационной форме"
+
+#: plugin-options/settings-options.php:251
+msgid "Show fields in Settings"
+msgstr "Показать поля в настройках"
+
+#: plugin-options/settings-options.php:253
+msgid "Show additional fields in Affiliate Dashboard's settings page"
+msgstr "Показать дополнительные поля на странице настроек партнерской панели"
+
+#: plugin-options/settings-options.php:259
+msgid "Show fields in Become an Affiliate"
+msgstr "Показать поля в разделе \"Стать партнером\""
+
+#: plugin-options/settings-options.php:261
+msgid "Show additional fields in Become an Affiliate section"
+msgstr "Показать дополнительные поля в разделе \"Стать партнером\""
+
+#: plugin-options/settings-options.php:270
+msgid "Associate old commissions"
+msgstr "Связать старые комиссии"
+
+#: plugin-options/settings-options.php:272
+msgid ""
+"Whenever adding a new affiliate, check if some commission already exists for "
+"his default token, and assign it to him eventually"
+msgstr ""
+"Каждый раз при добавлении нового партнера проверяйте, существует ли уже "
+"какая-то комиссия для его токена по умолчанию, и в конечном итоге назначьте "
+"его ему."
+
+#: plugin-options/settings-options.php:294
+msgid "General rate"
+msgstr "Общая ставка"
+
+#: plugin-options/settings-options.php:296
+msgid "General rate to apply to affiliates"
+msgstr ""
+
+#: plugin-options/settings-options.php:308
+msgid "Avoid auto commission"
+msgstr "Избегайте автоматической комиссии"
+
+#: plugin-options/settings-options.php:310
+msgid "Prevent affiliate from getting commissions from his/her own sales"
+msgstr "Запретить партнеру получать комиссию от собственных продаж"
+
+#: plugin-options/settings-options.php:316
+msgid "Exclude tax from commissions"
+msgstr "Исключить налог из комиссий"
+
+#: plugin-options/settings-options.php:318
+msgid "Exclude tax from referral commission calculation"
+msgstr "Исключить налог из расчета реферальной комиссии"
+
+#: plugin-options/settings-options.php:324
+msgid "Exclude discount from commissions"
+msgstr "Исключить скидку из комиссий"
+
+#: plugin-options/settings-options.php:326
+msgid "Exclude discounts from referral commission calculation"
+msgstr "Исключить скидки из расчета реферальной комиссии"
+
+#: templates/admin/affiliate-panel-detail.php:36
+msgid "Affiliate actions"
+msgstr "Партнерские действия"
+
+#: templates/admin/affiliate-panel-detail.php:48
+#: templates/admin/affiliate-panel-detail.php:49
+#: templates/admin/commission-panel-detail.php:48
+#: templates/admin/commission-panel-detail.php:49
+#: templates/admin/payment-panel-detail.php:47
+#: templates/admin/payment-panel-detail.php:48
+msgid "Apply"
+msgstr "Применять"
+
+#: templates/admin/affiliate-panel-detail.php:59
+msgid "Referral link generator"
+msgstr "Генератор реферальных ссылок"
+
+#: templates/admin/affiliate-panel-detail.php:63
+#: templates/shortcodes/link-generator.php:67
+msgid "Page URL"
+msgstr "URL страницы"
+
+#: templates/admin/affiliate-panel-detail.php:68
+#: templates/shortcodes/link-generator.php:72
+msgid "Referral URL"
+msgstr "Реферальная ссылка"
+
+#: templates/admin/affiliate-panel-detail.php:70
+#: templates/shortcodes/link-generator.php:50
+#: templates/shortcodes/link-generator.php:74
+msgid "(Now"
+msgstr "(Сейчас"
+
+#: templates/admin/affiliate-panel-detail.php:70
+#: templates/shortcodes/link-generator.php:50
+#: templates/shortcodes/link-generator.php:74
+msgid "copy"
+msgstr "копировать"
+
+#: templates/admin/affiliate-panel-detail.php:70
+#: templates/shortcodes/link-generator.php:50
+#: templates/shortcodes/link-generator.php:74
+msgid "this referral link and share it anywhere)"
+msgstr "эту реферальную ссылку и поделитесь ею где угодно)"
+
+#: templates/admin/affiliate-panel-detail.php:75
+#: templates/shortcodes/link-generator.php:77
+msgid "Generate"
+msgstr "Генерировать"
+
+#: templates/admin/affiliate-panel-detail.php:94
+#, php-format
+msgid "<b>%s</b> Details"
+msgstr "<b>% s </b> Подробности"
+
+#: templates/admin/affiliate-panel-detail.php:96
+msgid "Back to affiliates table"
+msgstr "Вернуться к таблице партнеров"
+
+#: templates/admin/affiliate-panel-detail.php:101
+msgid "Referral link:"
+msgstr "Реферальная ссылка:"
+
+#: templates/admin/affiliate-panel-detail.php:105
+msgid "Application date:"
+msgstr "Дата подачи заявки:"
+
+#: templates/admin/affiliate-panel-detail.php:114
+#: templates/admin/payment-panel-detail.php:71
+msgid "Earnings:"
+msgstr "Доход:"
+
+#: templates/admin/affiliate-panel-detail.php:122
+msgid "Refunds:"
+msgstr "Возврат:"
+
+#: templates/admin/affiliate-panel-detail.php:130
+#: templates/admin/payment-panel-detail.php:75
+msgid "Paid:"
+msgstr "Оплачено:"
+
+#: templates/admin/affiliate-panel-detail.php:138
+msgid "Active balance:"
+msgstr "Активный баланс:"
+
+#: templates/admin/affiliate-panel-detail.php:166
+msgid "Last affiliate commissions"
+msgstr "Последние партнерские комиссии"
+
+#: templates/admin/affiliate-panel-detail.php:167
+msgid "See all commissions"
+msgstr "Посмотреть все комиссии"
+
+#: templates/admin/affiliate-panel-detail.php:200
+msgid "No commission registered yet"
+msgstr "Комиссия еще не зарегистрирована"
+
+#: templates/admin/affiliate-panel-detail.php:220
+msgid "Last affiliate payments"
+msgstr "Последние партнерские выплаты"
+
+#: templates/admin/affiliate-panel-detail.php:221
+msgid "See all payments"
+msgstr "Посмотреть все платежи"
+
+#: templates/admin/affiliate-panel-detail.php:254
+msgid "No payment registered yet"
+msgstr "Платежи еще не зарегистрированы"
+
+#: templates/admin/affiliate-panel-detail.php:266
+msgid "Affiliate associated users"
+msgstr "Пользователи партнеры"
+
+#: templates/admin/affiliate-panel-detail.php:288
+msgid "No user registered yet"
+msgstr "Пользователь еще не зарегистрирован"
+
+#: templates/admin/affiliate-panel.php:29
+msgid "Add an affiliate"
+msgstr "Добавить партнера"
+
+#: templates/admin/affiliate-panel.php:31
+msgid "Add new affiliate"
+msgstr "Добавить нового партнера"
+
+#: templates/admin/affiliate-panel.php:36
+msgid "Search for a customer&hellip;"
+msgstr "Поиск для клиента&hellip;"
+
+#: templates/admin/affiliate-panel.php:41
+msgid "Add Existing"
+msgstr "Добавить существующего"
+
+#: templates/admin/affiliate-panel.php:42
+msgid "or"
+msgstr "или"
+
+#: templates/admin/affiliate-panel.php:43
+msgid "Create New"
+msgstr "Создать новое"
+
+#: templates/admin/affiliate-panel.php:76
+#: templates/shortcodes/dashboard-settings-premium.php:150
+#: templates/shortcodes/dashboard-settings.php:70
+msgid "Submit"
+msgstr "Отправить"
+
+#: templates/admin/click-panel.php:30
+msgid "Delete click logs"
+msgstr "Удалить журналы кликов"
+
+#: templates/admin/click-panel.php:40
+msgid "Delete Logs"
+msgstr "Удалить журналы"
+
+#: templates/admin/commission-panel-detail.php:36
+msgid "Commission actions"
+msgstr "Действия комиссии"
+
+#: templates/admin/commission-panel-detail.php:56
+msgid "Commission payments"
+msgstr "Комиссионные выплаты"
+
+#: templates/admin/commission-panel-detail.php:98
+msgid "No active payments"
+msgstr "Нет активных платежей"
+
+#: templates/admin/commission-panel-detail.php:136
+msgid "Commission notes"
+msgstr "Примечания комиссии"
+
+#: templates/admin/commission-panel-detail.php:154
+#: templates/admin/payment-panel-detail.php:105
+msgid "There are no notes yet."
+msgstr "Заметок пока нет."
+
+#: templates/admin/commission-panel-detail.php:157
+#: templates/admin/payment-panel-detail.php:108
+msgid "Add note"
+msgstr "Добавить заметку"
+
+#: templates/admin/commission-panel-detail.php:164
+#: templates/admin/payment-panel-detail.php:115
+msgid "Add"
+msgstr "Добавить"
+
+#: templates/admin/commission-panel-detail.php:181
+#, php-format
+msgid "Commission %s Details"
+msgstr "Комиссия% s Подробнее"
+
+#: templates/admin/commission-panel-detail.php:182
+msgid "Back to commission table"
+msgstr "Вернуться к таблице комиссионных"
+
+#: templates/admin/commission-panel-detail.php:212
+#, php-format
+msgctxt "Commission credited to [user]"
+msgid "Credited to %s &#8212; Order: %s &#8212; Order status: %s"
+msgstr "Начислено% s & # 8212; Заказ:% s & # 8212; Статус заказа:% s"
+
+#: templates/admin/commission-panel-detail.php:219
+#: templates/admin/payment-panel-detail.php:156
+msgid "General details"
+msgstr "Общая информация"
+
+#: templates/admin/commission-panel-detail.php:228
+msgid "Commission date"
+msgstr "Дата комиссии"
+
+#: templates/admin/commission-panel-detail.php:233
+msgid "Last update"
+msgstr "Последнее обновление"
+
+#: templates/admin/commission-panel-detail.php:236
+#: templates/admin/payment-panel-detail.php:175
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#: templates/admin/commission-panel-detail.php:237
+#: templates/admin/payment-panel-detail.php:176
+#, php-format
+msgid "%s ago"
+msgstr "%s назад"
+
+#: templates/admin/commission-panel-detail.php:247
+#: templates/admin/payment-panel-detail.php:195
+msgid "User details"
+msgstr "Детали пользователя"
+
+#: templates/admin/commission-panel-detail.php:256
+#: templates/admin/payment-panel-detail.php:206
+msgid "User deleted"
+msgstr "Пользователь удален"
+
+#: templates/admin/commission-panel-detail.php:265
+#: templates/admin/payment-panel-detail.php:281
+msgid "Billing information"
+msgstr "Информация об оплате"
+
+#: templates/admin/commission-panel-detail.php:289
+#: templates/admin/payment-panel-detail.php:305
+msgid "Shipping information"
+msgstr "Информация о доставке"
+
+#: templates/admin/commission-panel-detail.php:325
+#: templates/admin/payment-panel-detail.php:341
+msgid "Item data"
+msgstr "Данные товара"
+
+#: templates/admin/commission-panel-detail.php:333
+msgid "Item"
+msgstr "Товар"
+
+#: templates/admin/commission-panel-detail.php:334
+msgid "Qty"
+msgstr "Количество"
+
+#: templates/admin/commission-panel-detail.php:335
+#: templates/admin/payment-panel-detail.php:351
+msgid "Cost"
+msgstr "Стоимость"
+
+#: templates/admin/commission-panel-detail.php:349
+msgid "Product ID:"
+msgstr "ID товара:"
+
+#: templates/admin/commission-panel-detail.php:354
+msgid "No longer exists"
+msgstr "Более не существует"
+
+#: templates/admin/commission-panel-detail.php:358
+msgid "Product SKU:"
+msgstr "Артикул продукта:"
+
+#: templates/admin/commission-panel-detail.php:471
+msgid "Refund"
+msgstr "Возврат"
+
+#: templates/admin/commission-panel-detail.php:505
+msgid "Coupon(s) Used"
+msgstr "Купоны Использованы"
+
+#: templates/admin/payment-panel-detail.php:35
+msgid "Payment actions"
+msgstr "Платежные действия"
+
+#: templates/admin/payment-panel-detail.php:87
+msgid "Payment notes"
+msgstr "Примечание для вывода средств"
+
+#: templates/admin/payment-panel-detail.php:133
+#, php-format
+msgid "Payment %s Details"
+msgstr "Информация о платеже% s"
+
+#: templates/admin/payment-panel-detail.php:135
+msgid "Back to payment table"
+msgstr "Вернуться к таблице выплат"
+
+#: templates/admin/payment-panel-detail.php:145
+#, php-format
+msgctxt "Commission credited to [user]"
+msgid "Paid to %s &#8212; Payment via %s"
+msgstr "Оплачено %s &#8212; оплата с %s"
+
+#: templates/admin/payment-panel-detail.php:148
+#, php-format
+msgctxt "Payment transaction key"
+msgid "(Trans. key: %s)"
+msgstr "(Trans. key: %s)"
+
+#: templates/admin/payment-panel-detail.php:186
+msgid "Customer invoice"
+msgstr "Счет клиента"
+
+#: templates/admin/payment-panel-detail.php:196
+#: templates/admin/payment-panel-detail.php:230
+msgid "Edit"
+msgstr "Изменить"
+
+#: templates/admin/payment-panel-detail.php:229
+msgid "Current Invoice Profile"
+msgstr "Текущий профиль инвойса"
+
+#: templates/admin/payment-panel-detail.php:241
+msgid "From"
+msgstr "От"
+
+#: templates/admin/payment-panel-detail.php:245
+msgid "To"
+msgstr ""
+
+#: templates/admin/payment-panel-detail.php:274
+msgid "Regenerate Invoice"
+msgstr "Восстановить счет"
+
+#: templates/admin/payment-panel-detail.php:366
+msgid "Order:"
+msgstr "Заказ:"
+
+#: templates/admin/rate-panel.php:30
+msgid "User rates"
+msgstr "Ставки пользователя"
+
+#: templates/admin/rate-panel.php:32
+msgid "Add new user commission"
+msgstr "Добавить комиссию нового пользователя"
+
+#: templates/admin/rate-panel.php:44 templates/admin/rate-panel.php:64
+msgid "Add Commission"
+msgstr "Добавить комиссию"
+
+#: templates/admin/rate-panel.php:51
+msgid "Product rates"
+msgstr "Ставки на продукцию"
+
+#: templates/admin/rate-panel.php:53
+msgid "Add new product commission"
+msgstr "Добавить комиссию за новый продукт"
+
+#: templates/admin/rate-panel.php:58
+msgid "Search for a product&hellip;"
+msgstr "Поиск товара & hellip;"
+
+#: templates/admin/referral-commissions-metabox-premium.php:27
+msgid "Delete Affiliates"
+msgstr "Удалить партнеров"
+
+#: templates/admin/referral-commissions-metabox-premium.php:67
+#: templates/admin/referral-commissions-metabox.php:66
+msgid "Order Total:"
+msgstr "Весь заказ:"
+
+#: templates/admin/referral-commissions-metabox-premium.php:71
+#: templates/admin/referral-commissions-metabox.php:70
+msgid "This is the total of commissions credited to referral"
+msgstr "Это сумма комиссий, начисленных рефералу."
+
+#: templates/admin/referral-commissions-metabox-premium.php:75
+#: templates/admin/referral-commissions-metabox.php:74
+msgid "Store Earnings:"
+msgstr "Заработок магазина:"
+
+#: templates/admin/referral-commissions-metabox-premium.php:87
+msgid "No referral set yet"
+msgstr "Рефералов еще нет"
+
+#: templates/admin/referral-commissions-metabox-premium.php:100
+msgid "Calculate commissions"
+msgstr "Рассчитать комиссию"
+
+#: templates/admin/stat-panel-general-premium.php:51
+#: templates/admin/stat-panel-general.php:40
+msgid "General stats"
+msgstr "Общая статистика"
+
+#: templates/admin/stat-panel-general-premium.php:57
+msgid "Commission Total"
+msgstr "Общая комиссия"
+
+#: templates/admin/stat-panel-general-premium.php:59
+#: templates/admin/stat-panel-general.php:48
+msgid "Sum of all confirmed commissions so far"
+msgstr "Сумма всех подтвержденных комиссий на данный момент"
+
+#: templates/admin/stat-panel-general-premium.php:64
+#: templates/admin/stat-panel-general.php:53
+#: templates/shortcodes/dashboard-stat.php:68
+#: templates/shortcodes/dashboard-summary.php:52
+msgid "Total Paid"
+msgstr "Итого оплачено"
+
+#: templates/admin/stat-panel-general-premium.php:66
+#: templates/admin/stat-panel-general.php:55
+msgid "Sum of all paid commissions so far"
+msgstr "Сумма всех уплаченных комиссий на данный момент"
+
+#: templates/admin/stat-panel-general-premium.php:71
+msgid "Total Refunded"
+msgstr "Всего возвращено"
+
+#: templates/admin/stat-panel-general-premium.php:73
+msgid "Sum of all commissions refunded so far"
+msgstr "Сумма всех возмещенных на данный момент комиссий"
+
+#: templates/admin/stat-panel-general-premium.php:78
+msgid "Total Earned"
+msgstr "Всего заработано"
+
+#: templates/admin/stat-panel-general-premium.php:80
+msgid "Sum of all earnings generated by affiliate links so far"
+msgstr "Сумма всех доходов, полученных на данный момент по партнерским ссылкам"
+
+#: templates/admin/stat-panel-general-premium.php:85
+#: templates/admin/stat-panel-general.php:60
+msgid "Number of hits"
+msgstr "Количество просмотров"
+
+#: templates/admin/stat-panel-general-premium.php:87
+#: templates/admin/stat-panel-general.php:62
+msgid "Number of clicks"
+msgstr "Количество кликов"
+
+#: templates/admin/stat-panel-general-premium.php:92
+#: templates/admin/stat-panel-general-premium.php:94
+#: templates/admin/stat-panel-general.php:67
+#: templates/admin/stat-panel-general.php:69
+msgid "Number of conversions"
+msgstr "Количество конверсий"
+
+#: templates/admin/stat-panel-general-premium.php:99
+#: templates/admin/stat-panel-general.php:74
+msgid "Average conversion rate"
+msgstr "Средная ставка конверсии"
+
+#: templates/admin/stat-panel-general-premium.php:101
+#: templates/admin/stat-panel-general.php:76
+msgid "Average percent conversion rate"
+msgstr "Средний процент конверсии"
+
+#: templates/admin/stat-panel-general-premium.php:106
+msgid "Average conversion time"
+msgstr "Среднее время конверсии"
+
+#: templates/admin/stat-panel-general-premium.php:108
+msgid "Average time from click to sale"
+msgstr "Среднее время от клика до продажи"
+
+#: templates/admin/stat-panel-general.php:46
+msgid "Total commissions"
+msgstr "Итого комиссии"
+
+#: templates/admin/stat-panel-product.php:24
+msgid "Statistics per single product"
+msgstr "Статистика по одному продукту"
+
+#: templates/admin/types/invoice-template-field.php:22
+msgid "Delete template file"
+msgstr "Удалить файл шаблона"
+
+#: templates/admin/types/invoice-template-field.php:28
+#, php-format
+msgid ""
+"This template has been overridden by your theme and can be found in: %s."
+msgstr ""
+"Этот шаблон был переопределен вашей темой и может быть найден здесь: %s."
+
+#: templates/admin/types/invoice-template-field.php:57
+msgid "Copy file to theme"
+msgstr "Скопировать файл в тему"
+
+#: templates/admin/types/invoice-template-field.php:63
+#, php-format
+msgid ""
+"To override and edit this template copy %1$s to your theme folder: %2$s."
+msgstr ""
+"Чтобы переопределить и отредактировать этот шаблон письма, скопируйте %1$s в "
+"папку темы: %2$s."
+
+#: templates/admin/types/invoice-template-field.php:71
+msgid "File was not found."
+msgstr "Файл не найден."
+
+#: templates/emails/admin-new-affiliate-email.php:26
+msgid "New Affiliate registered"
+msgstr "Зарегистрирован новый партнер"
+
+#: templates/emails/admin-new-affiliate-email.php:28
+#: templates/emails/plain/admin-new-affiliate-email.php:26
+msgid "A new affiliate has been registered for user"
+msgstr "Для пользователя зарегистрирован новый партнер"
+
+#: templates/emails/admin-new-affiliate-email.php:31
+#: templates/emails/plain/admin-new-affiliate-email.php:32
+msgid "Username:"
+msgstr "Пользователь:"
+
+#: templates/emails/admin-new-affiliate-email.php:32
+#: templates/emails/plain/admin-new-affiliate-email.php:36
+msgid "User email:"
+msgstr "Электронная почта пользователя:"
+
+#: templates/emails/admin-new-affiliate-email.php:33
+#: templates/emails/admin-paid-commission-email.php:34
+#: templates/emails/admin-pending-commission-email.php:32
+#: templates/emails/plain/admin-new-affiliate-email.php:40
+#: templates/emails/plain/admin-paid-commission-email.php:44
+#: templates/emails/plain/admin-pending-commission-email.php:36
+msgid "Affiliate token:"
+msgstr "Партнерский токен:"
+
+#: templates/emails/admin-new-affiliate-email.php:34
+#: templates/emails/plain/admin-new-affiliate-email.php:45
+msgid "Payment email:"
+msgstr "Электронная почта для оплаты:"
+
+#: templates/emails/admin-paid-commission-email.php:26
+msgid "New payments issued to the gateway"
+msgstr "Новые платежи, отправленные на шлюз"
+
+#: templates/emails/admin-paid-commission-email.php:28
+msgctxt ""
+"Label for payment/payments on customer email (may contain details of more "
+"than one payment)"
+msgid "Payment"
+msgid_plural "Payments"
+msgstr[0] "Оплата"
+msgstr[1] "Платежи"
+msgstr[2] ""
+
+#: templates/emails/admin-paid-commission-email.php:28
+msgid "was issued to gateway and is awaiting IPN response"
+msgid_plural "were issued to gateway and are awaiting IPN response"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: templates/emails/admin-paid-commission-email.php:33
+#: templates/emails/plain/admin-paid-commission-email.php:38
+msgid "Payment:"
+msgstr "Оплата:"
+
+#: templates/emails/admin-paid-commission-email.php:34
+#: templates/emails/admin-pending-commission-email.php:32
+#: templates/emails/plain/admin-paid-commission-email.php:42
+#: templates/emails/plain/admin-pending-commission-email.php:34
+msgid "Affiliate:"
+msgstr "Партнер:"
+
+#: templates/emails/admin-paid-commission-email.php:35
+#: templates/emails/plain/admin-paid-commission-email.php:47
+msgid "Receiver:"
+msgstr "Получатель:"
+
+#: templates/emails/admin-paid-commission-email.php:36
+#: templates/emails/admin-pending-commission-email.php:34
+#: templates/emails/customer-paid-commission-email.php:30
+#: templates/emails/customer-pending-commission-email.php:35
+#: templates/emails/plain/admin-paid-commission-email.php:51
+#: templates/emails/plain/admin-pending-commission-email.php:43
+#: templates/emails/plain/customer-paid-commission-email.php:30
+#: templates/emails/plain/customer-pending-commission-email.php:40
+#: templates/shortcodes/dashboard-withdraw.php:84
+msgid "Amount:"
+msgstr "Количество:"
+
+#: templates/emails/admin-pending-commission-email.php:26
+#: templates/emails/customer-pending-commission-email.php:26
+msgid "New commission confirmed"
+msgstr "Подтверждена новая комиссия"
+
+#: templates/emails/admin-pending-commission-email.php:28
+msgid "switched to pending status and awaiting payment"
+msgstr "переведен в статус ожидания и ожидает оплаты"
+
+#: templates/emails/admin-pending-commission-email.php:31
+#: templates/emails/customer-pending-commission-email.php:33
+#: templates/emails/plain/admin-pending-commission-email.php:30
+#: templates/emails/plain/customer-pending-commission-email.php:32
+msgid "Commission:"
+msgstr "Комиссия:"
+
+#: templates/emails/admin-pending-commission-email.php:33
+#: templates/emails/customer-pending-commission-email.php:34
+#: templates/emails/plain/admin-pending-commission-email.php:39
+#: templates/emails/plain/customer-pending-commission-email.php:36
+msgid "Rate:"
+msgstr "Ставка:"
+
+#: templates/emails/customer-ban.php:26
+msgid "We regretfully inform that your affiliate account has been disabled"
+msgstr "С сожалением сообщаем, что ваш партнерский аккаунт отключен"
+
+#: templates/emails/customer-ban.php:28
+#: templates/emails/customer-new-coupon.php:28
+#: templates/emails/customer-status-change.php:28
+#: templates/emails/plain/customer-ban.php:26
+#: templates/emails/plain/customer-new-coupon.php:26
+#: templates/emails/plain/customer-status-change.php:26
+#, php-format
+msgid "Hi %s,"
+msgstr "Привет %s,"
+
+#: templates/emails/customer-new-coupon.php:26
+msgid "Check out your brand new coupon"
+msgstr "Проверьте свой новый купон"
+
+#: templates/emails/customer-paid-commission-email.php:26
+msgid "New payments have been sent to your account"
+msgstr "На ваш счет были отправлены новые платежи"
+
+#: templates/emails/customer-paid-commission-email.php:28
+msgctxt "Label for the payment ID on customer email"
+msgid "Payment"
+msgstr "Оплата"
+
+#: templates/emails/customer-paid-commission-email.php:28
+msgid "was sent to your account, at"
+msgstr "был отправлен на ваш аккаунт, на"
+
+#: templates/emails/customer-pending-commission-email.php:28
+msgid "Your commission"
+msgstr "Ваша комиссия"
+
+#: templates/emails/customer-pending-commission-email.php:28
+msgid "switched to pending is now ready to be paid by an admin"
+msgstr "переведен в режим ожидания теперь готов к оплате администратором"
+
+#: templates/emails/customer-status-change.php:26
+msgid "Your affiliate account was updated"
+msgstr "Ваш партнерский аккаунт обновлен"
+
+#: templates/emails/customer-status-change.php:30
+msgid ""
+"An administrator has just reviewed your affiliate account and its status has "
+"been updated."
+msgstr ""
+"Администратор только что проверил вашу партнерскую учетную запись, и ее "
+"статус был обновлен."
+
+#: templates/emails/customer-status-change.php:31
+#: templates/emails/plain/customer-status-change.php:30
+#, php-format
+msgid "Now your affiliate account is: %s."
+msgstr "Теперь ваша партнерская учетная запись: %s."
+
+#: templates/emails/plain/admin-paid-commission-email.php:26
+#, php-format
+msgid "Payment %s was issued to gateway and is awaiting IPN response\n"
+msgid_plural ""
+"Payments %s were issued to gateway and are awaiting IPN response\n"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: templates/emails/plain/admin-pending-commission-email.php:26
+#, php-format
+msgid "Commission #%s switched to pending status and is awaiting payment\n"
+msgstr "Комиссия №% s переведена в статус ожидания и ожидает оплаты\n"
+
+#: templates/emails/plain/commissions-table.php:47
+#, php-format
+msgid "Affiliate: %s"
+msgstr "Партнер: %s"
+
+#: templates/emails/plain/customer-paid-commission-email.php:26
+#, php-format
+msgid ""
+"Payment %s was issued to gateway and is awaiting for your confirmation\n"
+msgstr "Платеж% s был отправлен на шлюз и ожидает вашего подтверждения\n"
+
+#: templates/emails/plain/customer-pending-commission-email.php:26
+#, php-format
+msgid ""
+"Your commission #%s switched to pending and it is ready to be paid by an "
+"admin\n"
+msgstr ""
+"Ваша комиссия #% s переведена в режим ожидания и готова к выплате "
+"администратором.\n"
+
+#: templates/emails/plain/customer-status-change.php:28
+msgid ""
+"An administrator just reviewed your affiliate account, and updated its status"
+msgstr ""
+"Администратор только что проверил вашу партнерскую учетную запись и обновил "
+"ее статус"
+
+#: templates/invoices/affiliate-invoice.php:3
+msgctxt "Invoice template"
+msgid "Invoice {{number}}"
+msgstr "Счет на оплаты {{number}}"
+
+#: templates/invoices/affiliate-invoice.php:8
+msgctxt "Invoice template"
+msgid "Date: {{current_date}}"
+msgstr "Дата: {{current_date}}"
+
+#: templates/invoices/affiliate-invoice.php:15
+msgctxt "Invoice template"
+msgid "Affiliate"
+msgstr "Партнер"
+
+#: templates/invoices/affiliate-invoice.php:27
+msgctxt "Invoice template"
+msgid "Client"
+msgstr "Клиент"
+
+#: templates/invoices/affiliate-invoice.php:36
+msgctxt "Invoice template"
+msgid "Description: {{description}}"
+msgstr "Описание: {{description}}"
+
+#: templates/invoices/affiliate-invoice.php:41
+msgctxt "Invoice template"
+msgid ""
+"In reference to {{affiliate_program}} ({{affiliate_landing}}), \n"
+"                    I ask for a payment of {{withdraw_amount}} for "
+"commissions earned on {{site_url}} from {{start_date}} to {{end_date}}"
+msgstr ""
+"Что касается {{affiliate_program}} ({{affiliate_landing}}),\n"
+"                    Я прошу внести {{remove_amount}} за комиссионные, "
+"заработанные на {{site_url}} с {{start_date}} по {{end_date}}"
+
+#: templates/invoices/affiliate-invoice.php:47
+msgctxt "Invoice template"
+msgid ""
+"With the proving documentation of the due payment attachment, the following "
+"document represents a valid invoice for fiscal purposes."
+msgstr ""
+"Вместе с подтверждающей документацией о причитающейся оплате следующий "
+"документ представляет собой действительный счет для финансовых целей."
+
+#: templates/invoices/affiliate-invoice.php:55
+msgctxt "Invoice template"
+msgid "Commissions on {{site_url}}"
+msgstr "Комиссии на {{site_url}}"
+
+#: templates/invoices/affiliate-invoice.php:59
+msgctxt "Invoice template"
+msgid "Total"
+msgstr "Итого"
+
+#: templates/shortcodes/dashboard-clicks.php:53
+#: templates/shortcodes/dashboard-commissions.php:52
+#: templates/shortcodes/dashboard-payments.php:42
+msgid "Items per page:"
+msgstr "Пункты на странице:"
+
+#: templates/shortcodes/dashboard-clicks.php:93
+msgid "Sorry! There are no registered hits yet"
+msgstr "Простите! Посещений пока нет"
+
+#: templates/shortcodes/dashboard-commissions.php:48
+msgid "Product:"
+msgstr "Товар:"
+
+#: templates/shortcodes/dashboard-commissions.php:102
+msgid "Sorry! There are no registered commissions yet"
+msgstr "Простите! Комиссий пока нет"
+
+#: templates/shortcodes/dashboard-coupons.php:40
+msgid "Code"
+msgstr "Код"
+
+#: templates/shortcodes/dashboard-coupons.php:49
+msgid "Expire"
+msgstr "Срок действия"
+
+#: templates/shortcodes/dashboard-coupons.php:52
+msgid "Info"
+msgstr "Инфо"
+
+#: templates/shortcodes/dashboard-coupons.php:63
+msgid "Click to copy sharing url!"
+msgstr "Нажмите, чтобы скопировать общий URL!"
+
+#: templates/shortcodes/dashboard-coupons.php:81
+msgid "Sorry! There are no registered coupons yet"
+msgstr "Простите! Еще нет зарегистрированных купонов"
+
+#: templates/shortcodes/dashboard-payments.php:75
+#: templates/shortcodes/dashboard-withdraw.php:125
+msgid "Invoice"
+msgstr "Счёт на оплату"
+
+#: templates/shortcodes/dashboard-payments.php:94
+msgid "Download"
+msgstr "Скачать"
+
+#: templates/shortcodes/dashboard-payments.php:102
+#: templates/shortcodes/dashboard-summary.php:181
+msgid "Sorry! There are no registered payments yet"
+msgstr "Простите! Платежей пока нет"
+
+#: templates/shortcodes/dashboard-products.php:141
+msgid "To view more, click the links below"
+msgstr "Чтобы просмотреть больше, нажмите на ссылки ниже"
+
+#: templates/shortcodes/dashboard-products.php:144
+msgid "←"
+msgstr "←"
+
+#: templates/shortcodes/dashboard-products.php:145
+msgid "→"
+msgstr "→"
+
+#: templates/shortcodes/dashboard-settings-premium.php:43
+#: templates/shortcodes/dashboard-withdraw.php:96
+msgid "Billing info"
+msgstr "Платежная информация"
+
+#: templates/shortcodes/dashboard-settings-premium.php:60
+msgid "Personal info"
+msgstr "Личная информация"
+
+#: templates/shortcodes/dashboard-settings-premium.php:68
+#: templates/shortcodes/dashboard-settings.php:44
+msgid "(First name for your account)"
+msgstr "(Имя для вашей учетной записи)"
+
+#: templates/shortcodes/dashboard-settings-premium.php:76
+#: templates/shortcodes/dashboard-settings.php:52
+msgid "(Last name for your account)"
+msgstr "(Фамилия для вашей учетной записи)"
+
+#: templates/shortcodes/dashboard-settings-premium.php:86
+#: templates/shortcodes/dashboard-settings.php:62
+msgid ""
+"(Email address where you want to receive PayPal payments for commissions)"
+msgstr ""
+
+#: templates/shortcodes/dashboard-settings-premium.php:98
+msgid "(Your main website, or the one where you plan to promote our products)"
+msgstr ""
+"(Ваш основной веб-сайт или тот, на котором вы планируете продвигать нашу "
+"продукцию)"
+
+#: templates/shortcodes/dashboard-settings-premium.php:118
+msgid ""
+"(How do you plan to promote our products? Are you going to use your site, or "
+"other means?)"
+msgstr ""
+"(Как вы планируете продвигать нашу продукцию? Собираетесь ли вы использовать "
+"свой сайт или другие средства?)"
+
+#: templates/shortcodes/dashboard-settings-premium.php:124
+msgid ""
+"(Please, specify the method you're going to use to promote our products)"
+msgstr ""
+"(Укажите, пожалуйста, метод, которым вы собираетесь продвигать нашу "
+"продукцию)"
+
+#: templates/shortcodes/dashboard-settings-premium.php:133
+msgid "Notify on new commissions"
+msgstr "Уведомлять о новых комиссиях"
+
+#: templates/shortcodes/dashboard-settings-premium.php:135
+msgid ""
+"(Select this option if you want to be emailed each time a commission status "
+"switches to pending)"
+msgstr ""
+"(Выберите этот вариант, если вы хотите, чтобы вам приходили по электронной "
+"почте каждый раз, когда статус комиссии переключается на ожидающий)"
+
+#: templates/shortcodes/dashboard-settings-premium.php:141
+msgid "Notify on commission paid"
+msgstr "Уведомить об уплаченной комиссии"
+
+#: templates/shortcodes/dashboard-settings-premium.php:143
+msgid ""
+"(Select this option if you want to be emailed each time a commission is paid)"
+msgstr ""
+"(Выберите этот вариант, если вы хотите, чтобы вам приходили уведомления по "
+"электронной почте каждый раз, когда выплачивается комиссия)"
+
+#: templates/shortcodes/dashboard-stat.php:58
+msgid "Affiliate rate"
+msgstr "Партнерский процент"
+
+#: templates/shortcodes/dashboard-stat.php:63
+#: templates/shortcodes/dashboard-summary.php:70
+msgid "Total Earnings"
+msgstr "Общий доход"
+
+#: templates/shortcodes/dashboard-stat.php:77
+#: templates/shortcodes/dashboard-summary.php:61
+msgid "Visits"
+msgstr "Посещения"
+
+#: templates/shortcodes/dashboard-stat.php:82
+msgid "Conversion rate"
+msgstr "Коэффициент конверсии"
+
+#: templates/shortcodes/dashboard-summary.php:83
+msgid "Your Balance"
+msgstr "Ваш баланс"
+
+#: templates/shortcodes/dashboard-summary.php:84
+msgid "Bonuses for sales accrued"
+msgstr "Бонусы начислены за продажи"
+
+#: templates/shortcodes/dashboard-summary.php:93
+msgid ""
+"You already have an active payment request. Please, wait administator "
+"approval!"
+msgstr ""
+"У вас уже есть активный запрос на оплату. Пожалуйста, подождите "
+"подтверждения администратора!"
+
+#: templates/shortcodes/dashboard-summary.php:105
+msgid "Card number"
+msgstr "Номер карты"
+
+#: templates/shortcodes/dashboard-summary.php:130
+msgid "Withdraw Bonuses"
+msgstr "Начисления бонусов"
+
+#: templates/shortcodes/dashboard-summary.php:143
+msgid "Balance History"
+msgstr "История Баланса"
+
+#: templates/shortcodes/dashboard-withdraw-upload.php:26
+msgid "Please, use this info for your invoice:"
+msgstr "Пожалуйста, используйте эту информацию для своего счета:"
+
+#: templates/shortcodes/dashboard-withdraw-upload.php:37
+#, php-format
+msgid ""
+"Please, refer to the following <a href=\"%s\">example</a> for invoice "
+"creation"
+msgstr "См. Следующий <a href=\"%s\"> пример </a> для создания счета"
+
+#: templates/shortcodes/dashboard-withdraw.php:36
+#, php-format
+msgid ""
+"You already have an active payment request; please check payment status in "
+"<a href=\"%s\">Payments' page</a>"
+msgstr ""
+"У вас уже есть активный запрос на оплату; пожалуйста, проверьте статус "
+"платежа на странице <a href=\"%s\"> Платежи </a>"
+
+#: templates/shortcodes/dashboard-withdraw.php:43
+msgid "Current balance:"
+msgstr "Текущий баланс:"
+
+#: templates/shortcodes/dashboard-withdraw.php:49
+msgid "Withdraw Total:"
+msgstr "Итого на вывод:"
+
+#: templates/shortcodes/dashboard-withdraw.php:56
+msgid "Minimum amount to withdraw:"
+msgstr "Минимальная сумма вывода:"
+
+#: templates/shortcodes/dashboard-withdraw.php:104
+msgid "edit &rsaquo;"
+msgstr "редактировать &rsaquo;"
+
+#: templates/shortcodes/dashboard-withdraw.php:108
+#, php-format
+msgid ""
+"Billing info not found. Please, fill the fields in the <a href=\"%s"
+"\">Settings tab</a>"
+msgstr ""
+"Платежная информация не найдена. Пожалуйста, заполните поля на вкладке <a "
+"href=\"%s\"> Настройки </a>"
+
+#: templates/shortcodes/dashboard-withdraw.php:129
+msgid "To process the payment we need you provide us an invoice."
+msgstr "Для обработки платежа вы должны предоставить нам счет."
+
+#: templates/shortcodes/dashboard-withdraw.php:133
+msgid ""
+"You can create your own invoice and upload it in PDF or we can generate an "
+"invoice for you."
+msgstr ""
+"Вы можете создать свой собственный счет-фактуру и загрузить его в формате "
+"PDF, или мы можем сгенерировать счет-фактуру для вас."
+
+#: templates/shortcodes/dashboard-withdraw.php:135
+msgid ""
+"Create it using your own invoicing software and upload it in PDF using "
+"following form."
+msgstr ""
+"Создайте его, используя собственное программное обеспечение для выставления "
+"счетов, и загрузите его в формате PDF, используя следующую форму."
+
+#: templates/shortcodes/dashboard-withdraw.php:137
+msgid ""
+"We'll automatically generate one for you; just make sure to fill in billing "
+"information."
+msgstr ""
+"Мы автоматически сгенерируем его для вас; просто не забудьте заполнить "
+"платежную информацию."
+
+#: templates/shortcodes/dashboard-withdraw.php:148
+msgid "Attach a PDF invoice"
+msgstr "Прикрепите счет в формате PDF"
+
+#: templates/shortcodes/dashboard-withdraw.php:159
+msgid "Generate an automatic invoice"
+msgstr "Создавать автоматический счет-фактуру"
+
+#: templates/shortcodes/dashboard-withdraw.php:193
+msgid "Request Withdraw"
+msgstr "Запрос на вывод"
+
+#: templates/shortcodes/form-referrer.php:29
+msgid "Did anyone suggest our site to you?"
+msgstr "Кто-нибудь предлагал вам наш сайт?"
+
+#: templates/shortcodes/form-referrer.php:29
+msgid "Click here to enter his/her affiliate code"
+msgstr "Нажмите здесь, чтобы ввести его / ее партнерский код"
+
+#: templates/shortcodes/form-referrer.php:41
+msgid "Affiliate code"
+msgstr "Партнерский код"
+
+#: templates/shortcodes/form-referrer.php:45
+msgid "Set Affiliate"
+msgstr "Установить партнера"
+
+#: templates/shortcodes/link-generator.php:41
+#, php-format
+msgid "Your affiliate ID is: <strong>%s</strong>"
+msgstr "Ваш партнерский код: <strong>%s</strong>"
+
+#: templates/shortcodes/link-generator.php:48
+#, php-format
+msgid "Your referral URL is: <strong class=\"copy-target\">%s</strong>"
+msgstr "Ваш реферальная ссылка: <strong class=\"copy-target\">%s</strong>"
+
+#: templates/shortcodes/link-generator.php:55
+msgid ""
+"Enter any URL from this site into the form below to generate your referral "
+"link to that page"
+msgstr ""
+"Введите любой URL-адрес с этого сайта в форму ниже, чтобы сгенерировать "
+"реферальную ссылку на эту страницу."
+
+#: templates/shortcodes/link-generator.php:61
+msgid "Affiliate login"
+msgstr "Вход на сайт партнера"
+
+#: templates/shortcodes/registration-form-premium.php:41
+#: templates/shortcodes/registration-form-premium.php:61
+#: templates/shortcodes/registration-form.php:41
+#: templates/shortcodes/registration-form.php:60
+msgid "Login"
+msgstr "Вход на сайт"
+
+#: templates/shortcodes/registration-form-premium.php:48
+#: templates/shortcodes/registration-form.php:48
+msgid "Username or email address"
+msgstr "Имя пользователя или email"
+
+#: templates/shortcodes/registration-form-premium.php:53
+#: templates/shortcodes/registration-form-premium.php:139
+#: templates/shortcodes/registration-form.php:52
+#: templates/shortcodes/registration-form.php:134
+msgid "Password"
+msgstr "Пароль"
+
+#: templates/shortcodes/registration-form-premium.php:64
+#: templates/shortcodes/registration-form.php:62
+msgid "Remember me"
+msgstr "Запомнить меня"
+
+#: templates/shortcodes/registration-form-premium.php:68
+#: templates/shortcodes/registration-form.php:66
+msgid "Lost your password?"
+msgstr "Забыли пароль?"
+
+#: templates/shortcodes/registration-form-premium.php:84
+#: templates/shortcodes/registration-form-premium.php:229
+#: templates/shortcodes/registration-form.php:81
+#: templates/shortcodes/registration-form.php:157
+msgid "Register"
+msgstr "Регистрация"
+
+#: templates/shortcodes/registration-form-premium.php:131
+#: templates/shortcodes/registration-form.php:127
+msgid "Email address"
+msgstr "Эл. почта"
+
+#: templates/shortcodes/registration-form-premium.php:219
+#: templates/shortcodes/registration-form.php:148
+msgid "Anti-spam"
+msgstr "Анти-спам"
+
+#: templates/shortcodes/registration-form-premium.php:248
+#, php-format
+msgctxt "%s: shop email"
+msgid ""
+"We're sorry, but you don't have sufficient permissions to enter our "
+"affiliation program. Please, contact us at %s to apply for the program"
+msgstr ""
+
+#: templates/shortcodes/registration-form-premium.php:253
+#: templates/shortcodes/registration-form.php:174
+msgid "You're just one step away from becoming an affiliate!"
+msgstr "Вы всего в одном шаге от того, чтобы стать партнером!"
+
+#: templates/shortcodes/registration-form-premium.php:255
+#: templates/shortcodes/registration-form.php:176
+msgid "Become an affiliate"
+msgstr "Станьте партнером"
+
+#: templates/shortcodes/registration-form-premium.php:379
+#: templates/shortcodes/registration-form.php:233
+msgid "You have already affiliated with us. Thank you!"
+msgstr "Вы уже присоединились к нам. Спасибо!"
+
+#: templates/shortcodes/registration-form-premium.php:385
+#: templates/shortcodes/registration-form.php:239
+msgid ""
+"Your request has been registered and it is awaiting administrators approval!"
+msgstr "Ваш запрос зарегистрирован и ожидает одобрения администраторов!"
+
+#: templates/shortcodes/registration-form-premium.php:396
+msgid ""
+"We regretfully inform you that we can't accept your request as it doesn't "
+"match our requirements."
+msgstr ""
+"С сожалением сообщаем вам, что мы не можем принять ваш запрос, поскольку он "
+"не соответствует нашим требованиям."
+
+#: templates/shortcodes/share.php:19
+msgid "Facebook"
+msgstr "Facebook"
+
+#: templates/shortcodes/share.php:25
+msgid "Twitter"
+msgstr "Twitter"
+
+#: templates/shortcodes/share.php:31
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: templates/shortcodes/share.php:43 templates/shortcodes/share.php:49
+msgid "My Referral URL on "
+msgstr "Мой реферальный URL на "
+
+#: templates/shortcodes/share.php:43
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: templates/shortcodes/woogridimage.php:48
+msgid "Sale!"
+msgstr "Распродажа!"
+
+#: templates/shortcodes/woogridimage.php:80
+msgid "Copy"
+msgstr "Копировать"
+
+#: templates/shortcodes/woogridimage.php:82
+msgid "Create Referral URL"
+msgstr "Создать реферальный URL"
