@@ -23,7 +23,16 @@ $name_class = '';
 
 		<?php
 		if ( is_user_logged_in() ) {
-
+				$user_id = get_current_user_id();
+				$like_points_balance = mycred_get_users_balance($user_id, 'like_points');
+				?>
+				<div class="user-like-balance">
+					<div> 
+						<span>👍 </span>
+						<span><?php echo $like_points_balance; ?></span>
+					</div>
+				</div>
+			<?php 
             if ( function_exists( "messages_get_unread_count" ) ) {
 				$name_class = 'has_updates';
 				$unread_message_count = messages_get_unread_count();

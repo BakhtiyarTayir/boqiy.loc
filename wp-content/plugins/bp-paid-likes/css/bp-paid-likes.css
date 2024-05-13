@@ -1,0 +1,74 @@
+.like-container {
+    position: relative;
+    display: inline-block;
+}
+
+.like-options {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.like-container:hover .like-options {
+    display: flex;
+}
+
+.like-options {
+    position: absolute;
+    bottom: 39px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 8px 10px;
+}
+.like-container .like-options:hover {
+    display: flex;
+}
+
+.like-options .like-item:hover {
+    background-color: #eee;
+    transition: background-color 0.3s ease;
+}
+.like-item {
+    cursor: pointer;
+}
+
+.covered {
+    position: relative;
+}
+
+.covered::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    z-index: 10;
+}
+
+.covered-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10; /* Убедитесь, что z-index выше, чем у других элементов внутри activity-content */
+}
+.user-like-balance {
+    color: #fff;
+    margin: 10px;
+    font-size: 16px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.user-like-balance> div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-like-balance > div span:first-child {
+    margin-right: 7px;
+} 

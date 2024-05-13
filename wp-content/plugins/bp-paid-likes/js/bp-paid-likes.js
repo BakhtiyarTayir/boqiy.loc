@@ -1,50 +1,65 @@
-<?php
-/*
-Plugin Name: Платная кнопка Нравится для BuddyPress
-Description: Добавляет платную функциональность кнопки "Нравится" в BuddyPress, используя баланс myCRED.
-Version: 1.0
-Author: Ваше имя
-*/
+jQuery(document).ready(function($) {
+    console.log('document ready');
 
-// Подключение стилей и скриптов
-function bp_paid_likes_scripts() {
-    wp_enqueue_script('bp-paid-likes-js', plugin_dir_url(__FILE__) . 'js/bp-paid-likes.js', array('jquery'), '1.0', true);
-    wp_localize_script('bp-paid-likes-js', 'bpPaidLikes', array(
-        'ajaxurl' => admin_url('admin-ajax.php'),
-        'nonce' => wp_create_nonce('bp-paid-likes-nonce')
-    ));
-}
-add_action('wp_enqueue_scripts', 'bp_paid_likes_scripts');
+    $('.bp-like-button').on('click', function() {
+        console.log('click'); 
+        var button = $(this);
+        var post_id = button.data('post-id');
 
-// AJAX обработчик для кнопки "Нравится"
-function bp_paid_likes_handler() {
-    check_ajax_referer('bp-paid-likes-nonce', 'security');
+        $.ajax({
+            url: bpPaidLikes.ajaxurl,
+            type: 'POST',
+            data: {
+                action: 'bp_paid_likes',
+                post_id: post_id,
+                security: bpPaidLikes.nonce
+            },
+            success: function(response) {
+                console.log('response: ' + response.data.message);
+                alert(response.data.message);
+            },
+            error: function(xhr, status, error) {
+                console.log("Ошибка: " + error);
+            }
+        });
 
-    $user_id = get_current_user_id();
-    $post_id = intval($_POST['post_id']);
-    $cost = 10; // Стоимость одного лайка
+    });
 
-    if (!is_user_logged_in()) {
-        wp_send_json_error(array('message' => 'Вы должны войти в систему, чтобы ставить лайки.'));
-    }
+    $('.like-item').click(function() {
+        var imageUrl = $(this).find('img').attr('src'); // Получаем URL изображения
+        var postId = $(this).data('post-id')
+        var postBlock = $(this).parent('.like-options').parent('.like-container').parent('.activity-meta').parent('.activity-content'); 
+        var productId = $(this).data('product-id');
+        
+        var activityContent = $(this).closest('.activity-content'); // Получаем блок activity-content
+        var imageCover = $('<div class="covered-image"></div>').css('background-image', 'url(' + imageUrl + ')').css('background-size', 'cover');
+        console.log(imageCover); 
+        
 
-    // Проверка и списание баллов
-    if (!mycred_deduct('bp_like', $user_id, $cost, 'Стоимость лайка')) {
-        wp_send_json_error(array('message' => 'Недостаточно средств для лайка.'));
-    }
+        $.ajax({
+            url: bpPaidLikes.ajaxurl,
+            type: 'POST',
+            data: {
+                action: 'bp_paid_likes',
+                post_id: postId,
+                product_id: productId, // Отправляем product_id
+                security: bpPaidLikes.nonce
+            },
+            success: function(response) {
+                if (response.success) {
+                    alert(response.data.message);
+                    activityContent.append(imageCover);
+                } else {
+                    alert(response.data.message);
+                }
+            },
+            error: function(xhr, status, error) {
+                alert("Произошла ошибка: " + error);
+            }
+        });
+    });
 
-    // Логика добавления лайка
-    $likes = get_post_meta($post_id, 'bp_likes', true);
-    $likes = empty($likes) ? 1 : ++$likes;
-    update_post_meta($post_id, 'bp_likes', $likes);
 
-    wp_send_json_success(array('likes' => $likes));
-}
-add_action('wp_ajax_bp_paid_likes', 'bp_paid_likes_handler');
+});
 
-// Добавление кнопки "Нравится" в шаблоны BuddyPress
-function bp_add_like_button() {
-    $post_id = bp_get_activity_id();
-    echo '<button class="bp-like-button" data-post-id="' . esc_attr($post_id) . '">Нравится</button>';
-}
-add_action('bp_activity_entry_meta', 'bp_add_like_button');
+
