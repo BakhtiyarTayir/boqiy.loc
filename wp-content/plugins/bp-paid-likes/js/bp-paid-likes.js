@@ -1,40 +1,16 @@
 jQuery(document).ready(function($) {
-    console.log('document ready');
 
-    $('.bp-like-button').on('click', function() {
-        console.log('click'); 
-        var button = $(this);
-        var post_id = button.data('post-id');
 
-        $.ajax({
-            url: bpPaidLikes.ajaxurl,
-            type: 'POST',
-            data: {
-                action: 'bp_paid_likes',
-                post_id: post_id,
-                security: bpPaidLikes.nonce
-            },
-            success: function(response) {
-                console.log('response: ' + response.data.message);
-                alert(response.data.message);
-            },
-            error: function(xhr, status, error) {
-                console.log("Ошибка: " + error);
-            }
-        });
-
-    });
-
+    // Обработка клика по кнопке лайка
     $('.like-item').click(function() {
         var imageUrl = $(this).find('img').attr('src'); // Получаем URL изображения
-        var postId = $(this).data('post-id')
-        var postBlock = $(this).parent('.like-options').parent('.like-container').parent('.activity-meta').parent('.activity-content'); 
-        var productId = $(this).data('product-id');
+        var postId = $(this).data('post-id');
+        var likeId = $(this).data('like-id');
         
-        var activityContent = $(this).closest('.activity-content'); // Получаем блок activity-content
+        var activityContent = $(this).closest('.activity-content');
         var imageCover = $('<div class="covered-image"></div>').css('background-image', 'url(' + imageUrl + ')').css('background-size', 'cover');
-        console.log(imageCover); 
-        
+
+    
 
         $.ajax({
             url: bpPaidLikes.ajaxurl,
@@ -42,23 +18,58 @@ jQuery(document).ready(function($) {
             data: {
                 action: 'bp_paid_likes',
                 post_id: postId,
-                product_id: productId, // Отправляем product_id
+                like_id: likeId, // Отправляем product_id
                 security: bpPaidLikes.nonce
             },
             success: function(response) {
+                var modal = $('#likeModal');
+                var modalMessage = $('#modalMessage');
+                var rechargeLink = $('#rechargeLink');
+
                 if (response.success) {
-                    alert(response.data.message);
+                    modalMessage.text(response.data.message);
                     activityContent.append(imageCover);
+                    // Обновляем количество лайков
+                    var likesCount = response.data.likes_count;
+                    activityContent.find('.likes-count').text('Лайков: ' + likesCount);
                 } else {
-                    alert(response.data.message);
+                    $('#modalMessage').text(response.data.message);
+                    $('#likeModal').modal('show');
                 }
+
+                modal.show();
             },
             error: function(xhr, status, error) {
-                alert("Произошла ошибка: " + error);
+                var modal = $('#likeModal');
+                var modalMessage = $('#modalMessage');
+                var rechargeLink = $('#rechargeLink');
+
+                modalMessage.text("Произошла ошибка: " + error);
+                rechargeLink.show();
+                modal.show();
             }
         });
     });
 
+    // Добавление сохраненных лайков при загрузке страницы
+    $('.like-container').each(function() {
+        var activityContent = $(this).closest('.activity-content');
+        console.log(activityContent);   
+        $(this).find('.covered-image').each(function() {
+            activityContent.append($(this).clone());
+        });
+    });
+     // Закрытие модального окна при клике на "x"
+     $('.close').click(function() {
+        $('#likeModal').hide();
+    });
+
+    // Закрытие модального окна при клике вне его
+    $(window).click(function(event) {
+        if ($(event.target).is('#likeModal')) {
+            $('#likeModal').hide();
+        }
+    });
 
 });
 

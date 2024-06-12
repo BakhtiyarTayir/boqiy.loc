@@ -35,6 +35,8 @@
 	<?php do_action( 'bp_footer' ) ?>
 
 </footer><!-- #colophon -->
+
+
 </div><!-- #right-panel-inner -->
 </div><!-- #right-panel -->
 
@@ -42,10 +44,13 @@
 
 <?php wp_footer(); ?>
 <script>
+/*
 window.replainSettings = { id: 'e3fc9812-2dc4-4631-aa66-9c4703937e45' };
 (function(u){var s=document.createElement('script');s.async=true;s.src=u;
 var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
 })('https://widget.replain.cc/dist/client.js');
+
+*/
 </script>
 </body>
 </html>

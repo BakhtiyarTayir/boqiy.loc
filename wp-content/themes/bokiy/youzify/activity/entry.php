@@ -64,7 +64,7 @@ do_action( 'bp_before_activity_entry' ); ?>
 					echo youzify_get_post_like_button();
 				}
 
-				if ( bp_activity_can_comment() ) : ?><a href="<?php echo bp_get_activity_comment_link(); ?>" class="button acomment-reply bp-primary-action" role="button" id="acomment-comment-<?php bp_activity_id(); ?>"><?php _e( 'Comment', 'youzify' ); ?></a><?php
+				if ( bp_activity_can_comment() ) : ?><a href="<?php echo bp_get_activity_comment_link(); ?>" class=" button acomment-reply bp-primary-action" role="button" id="acomment-comment-<?php bp_activity_id(); ?>"><?php _e( 'Comment', 'youzify' ); ?></a><?php
 
 				endif;
 

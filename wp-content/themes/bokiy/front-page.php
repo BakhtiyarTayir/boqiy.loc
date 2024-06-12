@@ -16,6 +16,7 @@ get_header();
 
 <?php if ( is_active_sidebar( 'home-right' ) ) : ?>
 	<div class="page-right-sidebar">
+		<h1><?php the_title(); ?> </h1>
 	<?php else : ?>
 		<div class="page-full-width">
 		<?php endif; ?>
@@ -39,5 +40,5 @@ get_header();
 		
 
 	</div><!-- .page-left-sidebar -->
-
+		
 	<?php get_footer(); ?>

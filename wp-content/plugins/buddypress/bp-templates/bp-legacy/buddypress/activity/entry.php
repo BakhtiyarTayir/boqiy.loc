@@ -82,7 +82,7 @@ do_action( 'bp_before_activity_entry' ); ?>
 
 					<?php else : ?>
 
-						<a href="<?php bp_activity_unfavorite_link(); ?>" class="button unfav bp-secondary-action"><?php _e( 'Remove Favorite', 'buddypress' ); ?></a>
+						<a href="<?php bp_activity_unfavorite_link(); ?>" class="button unfav bp-secondary-action"> <?php _e( 'Remove Favorite', 'buddypress' ); ?></a>
 
 					<?php endif; ?>
 

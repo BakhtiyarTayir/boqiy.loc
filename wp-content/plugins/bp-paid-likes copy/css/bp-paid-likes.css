@@ -45,7 +45,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
     z-index: 10;
 }
 
@@ -54,16 +54,15 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; 
-    z-index: 10; 
+    height: 100%;
+    z-index: 10; /* Убедитесь, что z-index выше, чем у других элементов внутри activity-content */
 }
 .user-like-balance {
     color: #fff;
+    margin: 10px;
     font-size: 16px;
-    display: flex;
-    width: 100%;
-    align-items: center; 
-    justify-content: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 .user-like-balance> div{
     display: flex;
@@ -74,26 +73,14 @@
     margin-right: 7px;
 } 
 
-.user-like-balance img {
-    width: 26px;
-    margin-right: 10px;
-}
-.sponsor-product-category img {
-    width: 34px;
-}
-.user-like-balance span {
-    color: #333;
-    font-size: 14px;
-    font-weight: 600;
-}
 
 /* Стили для контейнера кнопки "Нравится" */
 .like-container {
     display: inline-block;
-    margin-right: 10px; 
+    margin-right: 10px; /* Отступ справа для других кнопок */
 }
 
-
+/* Стили для кнопки "Нравится" */
 .bp-like-button {
     background-color: #0073aa;
     color: #fff;
@@ -112,19 +99,14 @@
 /* Дополнительные стили для списка лайков */
 .like-options {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 10px;
-    max-width: 250px;
-    min-width: 161px;
 }
 
 .like-item {
     margin-right: 10px;
 }
-.like-item p {
-    font-size: 13px;
-    font-weight: 600;
-    margin-top: 8px;
-}
+
 .youzify .activity-meta {
     display: flex!important;
     align-items: center;
@@ -211,45 +193,3 @@ a.button.share-activity.bp-primary-action {
 }
 
 
-/* modal */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.youzify .activity-comments li {
-    display: none;
-}
-.youzify .activity-comments li.show-all {
-    display: block;
-}

@@ -18,39 +18,27 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
-
-
 global $product;
-
-if ( ! is_a( $product, 'WC_Product' ) ) {
-    $product = wc_get_product( get_the_ID() );
-}
-
-if ( has_term( 'homiylik', 'product_cat', $product->get_id() ) ) {
-    wc_get_template_part( 'single-product', 'homiylik' );
-    return;
-}
 
 
 get_header( 'shop' );
-function get_instock_products_count($product_id){
+// function get_instock_products_count($product_id){
 
 
-    $product = wc_get_product( $product_id );
-	$stock_quantity = $product->get_stock_quantity();
+//     $product = wc_get_product( $product_id );
+// 	$stock_quantity = $product->get_stock_quantity();
     
-    return $stock_quantity; 
-}
-
+//     return $stock_quantity;
+// }
 
 
 ?>
 	<div class="page-content header-clear-medium">
 		<div class="container">
-	 		
+                
 				<?php while ( have_posts() ) : ?>
 					<?php the_post(); ?>
-				
+                    <?php global $product; ?>
 
 					<div class="row">
 						<section class="more__about mt-3">
@@ -66,7 +54,7 @@ function get_instock_products_count($product_id){
 													<div class="swiper-wrapper" >
 													<?php 
 														$attachment_ids = $product->get_gallery_image_ids();
-														
+														?> <pre> <?php // var_dump($product); ?> </pre> <?php
 														if(!empty($attachment_ids)) {
 															foreach( $attachment_ids as $attachment_id ) 
 															{
@@ -210,7 +198,6 @@ function get_instock_products_count($product_id){
 											
 										</div>
 										<div class="right_summary_content">
-								
 											<?php if ( $product->is_type( 'variable' ) ) {
 												if($product->price <= 0 && !is_user_logged_in()){
 
@@ -229,10 +216,10 @@ function get_instock_products_count($product_id){
 												
 												
 											
-											?>  
+											?> 
 											<form class="cart" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $product->get_permalink() ) ); ?>" method="post" enctype='multipart/form-data'>
 												<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
-												<div class="Product_Quantity__quantity__1bkyi">
+												<div class="Product_Quantity__quantity__1bkyi" style="display:none">
 													<div class="Product_Quantity__title__1bkyi">
 														<span class="ali-kit_Base__base__104pa1 ali-kit_Base__default__104pa1 ali-kit_Label__label__1n9sab ali-kit_Label__size-xs__1n9sab"><?php echo __('Amount', 'boss')?>:</span>
 													</div>
@@ -250,64 +237,10 @@ function get_instock_products_count($product_id){
 														do_action( 'woocommerce_after_add_to_cart_quantity' );
 														?>
 													</div>
-												</div>
-												<div class="Product_Actions__wrapper__1j0pn">
-												
-													<div class="ali-kit_Tooltip__wrapper__sht7gl">
-														<?php														
-														$checkout_url = wc_get_checkout_url();													
-														
-														echo '<a href="'.$checkout_url.'?add-to-cart='.$current_product_id.'" class="buy-now button">'.__('Buy now', 'boss').'</a>';
-														?>
-													</div>
-													
-													<div class="ali-kit_Tooltip__wrapper__sht7gl">
-
-														<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->add_to_cart_text() ); ?></button>
-
-														<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
-													</div>
-												</div>
+												</div> 
 											</form>
 											<?php } }?>  
 										</div> 
-										<div class="homiylik-ads-block">
-											<?php
-												// Получение данных из мета-полей продукта
-												$title = get_post_meta($product->get_id(), 'title', true);
-												$phone = get_post_meta($product->get_id(), 'phone', true);
-												$social_links = get_post_meta($product->get_id(), 'social_links', true);
-												$image_url = get_post_meta($product->get_id(), 'image', true);
-												$ad_price = get_post_meta($product->get_id(), 'ad_price', true);
-
-												// Проверка наличия данных и их отображение
-												if ($title || $phone || $social_links || $image_id || $ad_price) {
-													echo '<div class="ad-data">';
-													
-													if ($title) {
-														echo '<h2>' . esc_html($title) . '</h2>';
-													}
-													
-													if ($phone) {
-														echo '<p>' . esc_html__('Phone: ', 'your-textdomain') . esc_html($phone) . '</p>';
-													}
-													
-													if ($social_links) {
-														echo '<p>' . esc_html__('Social Links: ', 'your-textdomain') . esc_html($social_links) . '</p>';
-													}
-													
-													if ($image_url) {
-														echo '<img src="' . esc_url($image_url) . '" alt="' . esc_attr($title) . '" />';
-													}
-													
-													if ($ad_price) {
-														echo '<p>' . esc_html__('Price: ', 'your-textdomain') . esc_html($ad_price) . '</p>';
-													}
-													
-													echo '</div>';
-												}
-											?>
-										</div>
 										<div class="col-span-4 col-span-12">
 											<div class="grid grid-flow-row gap-y-4 auto-rows-min">
 												<div data-v-e4edce26="" class="grid grid-cols-1 gap-y-2 items-baseline">

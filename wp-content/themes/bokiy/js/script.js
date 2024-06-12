@@ -129,15 +129,20 @@ for(let i = 0; i < categoryList.length; i++){
     })
 }
 }
-(function ($) {
-    $(document).on('click','.acomment-reply',function(e){
+jQuery(document).ready(function($) {
+    $('.acomment-reply').on('click', function(e){
+        e.preventDefault();
         var url = $(this).attr('href');
         var hash = url.substring(url.indexOf("#")+1);  
         $('html, body').stop(); 
         $('#'+hash).show();   
-        e.preventDefault();
+        // e.preventDefault();
         return false;
     })
+});
+
+(function ($) { 
+
 
 
     $(".category-left > a").hover(function () {
@@ -154,6 +159,22 @@ for(let i = 0; i < categoryList.length; i++){
             $("#" + "dropDown" + link_url).removeClass('active');
         }
     });
-$("#shipping_method_0_per_product").attr('checked', true);
+    $("#shipping_method_0_per_product").attr('checked', true);
+
+
+
+    $(window).scroll(function () {
+        console.log('scrolling');
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop > 50) {
+            $('.header-bar').removeClass('header-bar-detached');
+            $('.footer-bar').removeClass('footer-bar-detached');
+        } else {
+            $('.header-bar').addClass('header-bar-detached');
+            $('.footer-bar').addClass('footer-bar-detached');
+        }
+    });
+
+
 })(jQuery, window, document);
 

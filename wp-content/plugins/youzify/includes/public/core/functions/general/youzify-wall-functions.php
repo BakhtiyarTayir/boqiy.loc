@@ -115,7 +115,7 @@ function youzify_get_post_like_button() {
 		$unlike_link = bp_get_activity_unfavorite_link();
 
 		// Filter.
-		$button = apply_filters( 'youzify_filter_post_unlike_button', '<a href="'. $unlike_link .'" class="button unfav bp-secondary-action">' . __( 'Unlike', 'youzify' ) . '</a>', $unlike_link, $activity_id );
+		$button = apply_filters( 'youzify_filter_post_unlike_button', '<a href="'. $unlike_link .'" title="' . __( 'Unlike', 'youzify' ) . '" class="button unfav bp-secondary-action">' . __( 'Unlike', 'youzify' ) . '</a>', $unlike_link, $activity_id );
 
 	}
 

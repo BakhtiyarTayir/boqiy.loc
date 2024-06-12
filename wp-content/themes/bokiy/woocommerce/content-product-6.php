@@ -25,6 +25,9 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 }
 $current_product_id = get_the_ID();
 $product = wc_get_product( $current_product_id );
+
+$image_url = get_post_meta( $current_product_id, 'image', true );
+
 if('onbackorder' === $product->get_meta( '_stock_status' )){
 	$stock_text = __('Pre-order', 'boss');
 	$stock_class = "#34D374";
@@ -70,6 +73,9 @@ if($product->is_on_sale()){
 		  	<a href="<?php echo get_post_permalink(); ?>">
 				<img alt="<?php echo get_the_title();?>" class="w-100 img-responsive" src="<?php the_post_thumbnail_url();?>">
 			</a>
+			<?php if ( $image_url ) : ?>
+				<img alt="<?php echo get_the_title(); ?>" class="w-100 img-responsive homiylik-image" src="<?php echo esc_url( $image_url ); ?>">
+			<?php endif; ?>
 	   </div>
 	   <h4>
 			<a class="masterTooltip masterTooltip" href="<?php echo get_post_permalink(); ?>" title="<?php echo get_the_title();?>">
@@ -78,11 +84,14 @@ if($product->is_on_sale()){
 		</h4>
 	
 	   <div class="row buttons-row">
-		  <div class="col-sm-12">		  		 
-			
+		  <div class="col-sm-12">	 
+
 		  <?php 
+		  	$training_fee = $product->get_price() * 0.16;
+		  	
 				if ($product->is_type( 'simple' )) {
 				if ($product->is_on_sale()) {
+					
 					?>
 					<p class="mb-0">
 							<b class="price-old ml-0"><?php echo wc_price($product->get_regular_price()) ?></b>
@@ -91,7 +100,8 @@ if($product->is_on_sale()){
 						<p class="price price-new"><?php echo wc_price($product->get_sale_price()); 
 				  } else {
 					?>
-					<p class="stock" style="color:<?php echo $stock_class; ?>"><?php echo $stock_text; ?></p>	 
+					<p class="stock" style="color:<?php echo $stock_class; ?>"><?php echo $stock_text; ?></p>
+					<p><?php echo number_format( $training_fee, 0, '.', ' ' ) . ' ' . __( 'sum', 'boss' ); echo ' ' . __('ta\'lim uchun', 'boss') ?></p>	 
 					<p class="price price-new">
 					<?php echo number_format($product->get_regular_price(), 0, '.', ' ').' '.__('sum', 'boss');
 				
@@ -117,17 +127,25 @@ if($product->is_on_sale()){
 		  </div>
 		  <div class="col-sm-12 ">
 			 <div class="button-group">
-			     <?php 
-				 echo apply_filters( 'woocommerce_loop_add_to_cart_link',
-				 sprintf( '<a href="%s" data-quantity="%s" class="woo_loop_btn %s"%s %s>%s</a>',
-					 esc_url( $product->add_to_cart_url() ),
-					 esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),		
-					 esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),
-					 $product->get_type() =='external' ? ' target="_blank" rel="nofollow sponsored"' : '',
-					 isset( $args['attributes'] ) ? wc_implode_html_attributes( $args['attributes'] ) : '',
-					 esc_html( $product->add_to_cart_text() )
-				 ),
-			 $product, $args );
+			     <?php
+
+				// Get product categories
+				$product_categories = wp_get_post_terms( $current_product_id, 'product_cat', array( 'fields' => 'slugs' ) );
+				$excluded_categories = array( 'homiylik', 'tovary-dlya-ballov' );
+
+				if ( ! array_intersect( $excluded_categories, $product_categories ) ) {
+					echo apply_filters( 'woocommerce_loop_add_to_cart_link',
+						sprintf(
+							'<a href="%s" data-quantity="%s" class="woo_loop_btn %s"%s %s>%s</a>',
+							esc_url( $product->add_to_cart_url() ),
+							esc_attr( isset( $args['quantity'] ) ? $args['quantity'] : 1 ),
+							esc_attr( isset( $args['class'] ) ? $args['class'] : 'button' ),
+							$product->get_type() == 'external' ? ' target="_blank" rel="nofollow sponsored"' : '',
+							isset( $args['attributes'] ) ? wc_implode_html_attributes( $args['attributes'] ) : '',
+							esc_html( $product->add_to_cart_text() )
+						),
+					$product, $args );
+				}
 				 ?>
 			 </div>
 		  </div>

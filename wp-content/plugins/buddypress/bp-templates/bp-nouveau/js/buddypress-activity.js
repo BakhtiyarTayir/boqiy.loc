@@ -709,7 +709,7 @@ window.bp = window.bp || {};
 				$( target ).closest( '.ac-form' ).slideUp( 200 );
 
 				// Change the aria state back to false on comment cancel
-				$( '.acomment-reply').attr( 'aria-expanded', 'false' );
+				// $( '.acomment-reply').attr( 'aria-expanded', 'false' );
 
 				// Stop event propagation
 				event.preventDefault();
@@ -750,7 +750,7 @@ window.bp = window.bp || {};
 				parent.ajax( comment_data, 'activity' ).done( function( response ) {
 					target.removeClass( 'loading' );
 					comment_content.removeClass( 'loading' );
-					$( '.acomment-reply' ).attr( 'aria-expanded', 'false' );
+					// $( '.acomment-reply' ).attr( 'aria-expanded', 'false' );
 
 					if ( false === response.success ) {
 						form.append( $( response.data.feedback ).hide().fadeIn( 200 ) );

@@ -1,8 +1,8 @@
 {
-    "remotePath": "./",
+    "remotePath": "./public_html/",
     "host": "boqiyu6t.beget.tech",
-    "username": "boqiyu6t_ftp",
-    "password": "Cx*gHu&4",
+    "username": "boqiyu6t_dev2",
+    "password": "uC6w&Y8o", 
     "port": 21,
     "secure": false,
     "protocol": "ftp",

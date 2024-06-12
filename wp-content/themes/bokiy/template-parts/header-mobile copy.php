@@ -6,7 +6,10 @@
 
 		<div class="mobile-header-inner table">
 
-
+			<!-- Custom menu trigger button -->
+			<div id="custom-nav-wrap" class="btn-wrap">
+				<a href="#" id="custom-nav" class="sidebar-btn"><i class="fa fa-bars"></i></a>
+			</div>
 
 			<?php
 			if ( boss_get_option( 'boss_search_instead' ) && is_user_logged_in() ) {

@@ -209,9 +209,8 @@ function buddyboss_scripts_styles() {
 		wp_enqueue_style('owl', get_template_directory_uri() . '/css/owl.carousel.min.css');
 		wp_enqueue_style('font-awesome', get_template_directory_uri() . '/fonts/font-awesome/font-awesome.min.css', [], $boss_version);
 		wp_enqueue_style('fonts', get_template_directory_uri() . '/css/fonts.css', [], $boss_version);
-		
 		if(!(get_post_type()=='product') && !is_page_template( 'template-shop.php' )){
-			wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.css');
+			wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.css'); 
 			wp_enqueue_style( 'boss-main-global', get_template_directory_uri(). '/css/main-global.css', [], $boss_version, 'all');
 		
 			wp_enqueue_style('custom', get_template_directory_uri() . '/css/custom.css', [], $boss_version);
@@ -5001,3 +5000,54 @@ function minbazar_template_loop_product_thumbnail() {
 
 // cart page
 add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
+
+
+add_filter('manage_edit-shop_order_columns', 'add_custom_order_meta_columns');
+function add_custom_order_meta_columns($columns) {
+    $columns['custom_ad_data'] = __('Доп. данные');
+    return $columns;
+}
+
+
+add_action('manage_shop_order_posts_custom_column', 'display_custom_order_meta_columns');
+function display_custom_order_meta_columns($column) {
+    global $post, $the_order;
+    if (empty($the_order) || $the_order->get_id() != $post->ID) {
+        $the_order = wc_get_order($post->ID);
+    }
+
+    if ('custom_ad_data' === $column) {
+        foreach ($the_order->get_items() as $item_id => $item) {
+            $product_id = $item->get_product_id();
+            $ad_data = get_post_meta($product_id, 'ad_data', true); // предполагаем, что 'ad_data' ключ мета-поля
+            
+            if (!empty($ad_data)) {
+                echo '<ul>';
+                foreach ($ad_data as $key => $value) {
+                    echo '<li><strong>' . esc_html($key) . ':</strong> ' . esc_html($value) . '</li>';
+                }
+                echo '</ul>';
+            }
+        }
+    }
+}
+
+add_action('woocommerce_admin_order_data_after_order_details', 'display_custom_meta_fields_in_order');
+function display_custom_meta_fields_in_order($order) {
+    foreach ($order->get_items() as $item_id => $item) {
+        $product_id = $item->get_product_id();
+        $ad_data = get_post_meta($product_id, 'ad_data', true); // предполагаем, что 'ad_data' ключ мета-поля
+
+        if (!empty($ad_data)) {
+            echo '<h3>' . __('Дополнительные данные для товара') . ' ' . $item->get_name() . '</h3>';
+            echo '<table class="wp-list-table widefat fixed striped">';
+            foreach ($ad_data as $key => $value) {
+                echo '<tr>';
+                echo '<th>' . esc_html($key) . '</th>';
+                echo '<td>' . esc_html($value) . '</td>';
+                echo '</tr>';
+            }
+            echo '</table>';
+        }
+    }
+}
