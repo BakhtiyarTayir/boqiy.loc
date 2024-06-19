@@ -178,3 +178,32 @@ jQuery(document).ready(function($) {
 
 })(jQuery, window, document);
 
+
+if (window.innerWidth < 600) {
+    document.querySelectorAll('a.button.fav.bp-secondary-action').forEach(function(elem) {
+        elem.childNodes.forEach(function(child) {
+            if (child.nodeType === Node.TEXT_NODE) {
+                child.remove();
+            }
+        });
+    });
+
+    
+    document.querySelectorAll('.button.acomment-reply.bp-primary-action').forEach(function(elem) {
+        elem.childNodes.forEach(function(child) {
+            if (child.nodeType === Node.TEXT_NODE) {
+                child.remove();
+            }
+        });
+    });
+
+    document.querySelectorAll('.button.bp-secondary-action.unfav').forEach(function(elem) {
+        elem.childNodes.forEach(function(child) {
+            if (child.nodeType === Node.TEXT_NODE) {
+                child.remove();
+            }
+        });
+    });
+
+}
+  

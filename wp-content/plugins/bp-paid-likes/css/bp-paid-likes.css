@@ -3,25 +3,25 @@
     display: inline-block;
 }
 
-.like-options {
+.like-container .like-options {
     display: none;
     position: absolute;
     background-color: #fff;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
+    bottom: 25px;
+    overflow-x: auto;
+    padding: 8px 10px;
+    margin-top: 10px;
+    max-width: 250px;
+    min-width: 161px;
+    flex-wrap: nowrap; 
+    overflow-x: auto;
 }
-
 .like-container:hover .like-options {
     display: flex;
 }
 
-.like-options {
-    position: absolute;
-    bottom: 39px;
-    border-radius: 10px;
-    overflow: hidden;
-    padding: 8px 10px;
-}
 .like-container .like-options:hover {
     display: flex;
 }
@@ -110,16 +110,13 @@
 }
 
 /* Дополнительные стили для списка лайков */
-.like-options {
-    display: flex;
-    margin-top: 10px;
-    max-width: 250px;
-    min-width: 161px;
-}
+
 
 .like-item {
     margin-right: 10px;
+    flex: 0 0 auto; 
 }
+
 .like-item p {
     font-size: 13px;
     font-weight: 600;
@@ -128,8 +125,11 @@
 .youzify .activity-meta {
     display: flex!important;
     align-items: center;
+    z-index: 999;
 }
-
+.youzify .activity-comments {
+    z-index: 999;
+}
 .like-container {
     order: -1;
 }

@@ -18,39 +18,22 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
-
-
 global $product;
-
-if ( ! is_a( $product, 'WC_Product' ) ) {
-    $product = wc_get_product( get_the_ID() );
-}
-
-if ( has_term( 'homiylik', 'product_cat', $product->get_id() ) ) {
-    wc_get_template_part( 'single-product', 'homiylik' );
-    return;
-}
-
-if ( $product->is_virtual() && $product->get_id() ) {
-    wc_get_template_part( 'single-product', 'recharge' );
-    return;
-}
 
 
 get_header( 'shop' );
-function get_instock_products_count($product_id){
+// function get_instock_products_count($product_id){
 
 
-    $product = wc_get_product( $product_id );
-	$stock_quantity = $product->get_stock_quantity();
+//     $product = wc_get_product( $product_id );
+// 	$stock_quantity = $product->get_stock_quantity();
     
-    return $stock_quantity; 
-}
-
+//     return $stock_quantity;
+// }
 
 
 ?>
-	<div class="page-content header-clear-medium">
+		<div class="page-content header-clear-medium">
 		<div class="container">
 	 		
 				<?php while ( have_posts() ) : ?>
@@ -238,38 +221,18 @@ function get_instock_products_count($product_id){
 											<form class="cart" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $product->get_permalink() ) ); ?>" method="post" enctype='multipart/form-data'>
 												<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
 												<div class="Product_Quantity__quantity__1bkyi">
-													<div class="Product_Quantity__title__1bkyi">
-														<span class="ali-kit_Base__base__104pa1 ali-kit_Base__default__104pa1 ali-kit_Label__label__1n9sab ali-kit_Label__size-xs__1n9sab"><?php echo __('Amount', 'boss')?>:</span>
-													</div>
+
 													<div class="Product_Quantity__picker__1bkyi">
 														<?php
 														do_action( 'woocommerce_before_add_to_cart_quantity' );
 
-														woocommerce_quantity_input(
-															array(
-																'min_value'   => apply_filters( 'woocommerce_quantity_input_min', $product->get_min_purchase_quantity(), $product ),
-																'max_value'   => apply_filters( 'woocommerce_quantity_input_max', $product->get_max_purchase_quantity(), $product ),
-																'input_value' => isset( $_POST['quantity'] ) ? wc_stock_amount( wp_unslash( $_POST['quantity'] ) ) : $product->get_min_purchase_quantity(), // WPCS: CSRF ok, input var ok.
-															)
-														);
+														
 														do_action( 'woocommerce_after_add_to_cart_quantity' );
 														?>
 													</div>
 												</div>
 												<div class="Product_Actions__wrapper__1j0pn">
-												
 													<div class="ali-kit_Tooltip__wrapper__sht7gl">
-														<?php														
-														$checkout_url = wc_get_checkout_url();													
-														
-														echo '<a href="'.$checkout_url.'?add-to-cart='.$current_product_id.'" class="buy-now button">'.__('Buy now', 'boss').'</a>';
-														?>
-													</div>
-													
-													<div class="ali-kit_Tooltip__wrapper__sht7gl">
-
-														<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->add_to_cart_text() ); ?></button>
-
 														<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 													</div>
 												</div>

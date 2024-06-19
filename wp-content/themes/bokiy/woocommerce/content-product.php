@@ -92,6 +92,9 @@ if($product->is_on_sale()){
 					?>
 					<p class="stock" style="color:<?php echo $stock_class; ?>"><?php echo $stock_text; ?></p>	 
 					<p class="price price-new">
+					<?php $training_fee = $product->get_price() * 0.16; ?>
+			  		<p><?php echo number_format( $training_fee, 0, '.', ' ' ) . ' ' . __( 'sum', 'boss' ); echo ' ' . __('ta\'lim uchun', 'boss') ?></p>	
+					
 					<?php echo number_format($product->get_regular_price(), 0, '.', ' ').' '.__('sum', 'boss');
 				
 				  }

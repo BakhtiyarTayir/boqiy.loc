@@ -128,7 +128,7 @@ function bp_paid_likes_handler() {
     $user_balance = mycred_get_users_balance($user_id, 'like_points');
 
     if ($user_balance < $like_price) {
-        wp_send_json_error(array('message' => 'У вас недостаточно средств для покупки этого лайка.'));
+        wp_send_json_error(array('message' => "У вас недостаточно средств для покупки этого лайка. \n Ваш баланс: " . $user_balance . ' сум. Цена лайка: ' . $like_price . ' сум.'));
         wp_die();
     }
 
@@ -182,15 +182,15 @@ function handle_balance_recharge() {
         exit;
     }
 }
-add_action('init', 'handle_balance_recharge');
+// add_action('init', 'handle_balance_recharge');
 
 
-function show_balance_recharge_success_message() {
-    if (isset($_GET['balance_recharge_success']) && $_GET['balance_recharge_success'] == '1') {
-        echo '<p>Баланс успешно пополнен!</p>';
-    }
-}
-add_action('wp_footer', 'show_balance_recharge_success_message');
+// function show_balance_recharge_success_message() {
+//     if (isset($_GET['balance_recharge_success']) && $_GET['balance_recharge_success'] == '1') {
+//         echo '<p>Баланс успешно пополнен!</p>';
+//     }
+// }
+// add_action('wp_footer', 'show_balance_recharge_success_message');
 
 
 
@@ -199,7 +199,7 @@ function bp_add_like_button() {
     $like_ids = get_post_meta($post_id, 'like_ids', true);
 
     echo '<div class="like-container">';
-    echo '<button class="bp-like-button" data-post-id="' . esc_attr($post_id) . '">👍 Нравится</button>';
+    echo '<button class="bp-like-button" data-post-id="' . esc_attr($post_id) . '">👍</button>';
     echo '<div class="like-options">';
 
     $args = array(
@@ -270,3 +270,30 @@ function bp_add_likes_to_activity_content($content, $activity) {
 
 // Добавляем наш фильтр к контенту активности
 add_filter('bp_get_activity_content_body', 'bp_add_likes_to_activity_content', 10, 2);
+
+
+
+function modal_window() {
+    $balance_product_id = 32087; // Замените 123 на ID вашего товара
+    $balance_product_url = get_permalink($balance_product_id);
+    ?>
+    <!-- Modal -->
+    <div class="modal fade"  id="likeModal"  data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="modalMessage"></p>
+                <a id="rechargeLink" href="<?php echo esc_url($balance_product_url); ?>">Пополнить баланс</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <?php
+}
+
+add_action('wp_footer', 'modal_window');

@@ -88,7 +88,7 @@ if($product->is_on_sale()){
 
 		  <?php 
 		  	$training_fee = $product->get_price() * 0.16;
-		  	
+
 				if ($product->is_type( 'simple' )) {
 				if ($product->is_on_sale()) {
 					

@@ -1,11 +1,10 @@
 <?php
 /*
-Plugin Name: MyCRED Balance Recharge via WooCommerce
+Plugin Name: Boqiy.uz MyCRED Balance Recharge via WooCommerce
 Description: Пополнение баланса myCRED через WooCommerce.
 Version: 1.0
-Author: Your Name
+Author: Boqiy.uz
 */
-
 
 
 
@@ -97,5 +96,58 @@ function mycred_recharge_like_points_on_order_complete($order_id) {
             // Пополняем баланс like_points
             mycred_add('balance_recharge', $user_id, $recharge_amount, 'Пополнение баланса через WooCommerce', $order_id, array(), 'like_points');
         }
+    }
+}
+
+
+// Добавление кнопки "Купить сейчас" на страницу товара
+add_action('woocommerce_after_add_to_cart_button', 'add_buy_now_button');
+
+function add_buy_now_button() {
+    global $product;
+    if ($product->is_type('simple') && $product->is_virtual()) {
+        echo '<button type="button" class="buy-now-button button alt" data-product-id="' . $product->get_id() . '">'. __('Buy now', 'boss')     . '</button>';
+    }
+}
+
+// Добавление скрипта для обработки кнопки "Купить сейчас"
+add_action('wp_enqueue_scripts', 'enqueue_buy_now_script');
+
+function enqueue_buy_now_script() {
+    if (is_product()) {
+        wp_enqueue_script('buy-now-script', plugin_dir_url(__FILE__) . 'js/buy-now.js', array('jquery'), '1.0', true);
+        wp_localize_script('buy-now-script', 'buyNow', array(
+            'ajax_url' => admin_url('admin-ajax.php')
+        ));
+    }
+}
+
+// Обработка AJAX-запроса на сервере
+add_action('wp_ajax_buy_now', 'handle_buy_now');
+add_action('wp_ajax_nopriv_buy_now', 'handle_buy_now');
+
+function handle_buy_now() {
+    $product_id = intval($_POST['product_id']);
+    $recharge_amount = floatval($_POST['recharge_amount']);
+
+    // Добавляем товар в корзину
+    $cart_item_data = array(
+        'recharge_amount' => $recharge_amount,
+        'unique_key' => md5(microtime().rand())
+    );
+
+    $result = WC()->cart->add_to_cart($product_id, 1, 0, array(), $cart_item_data);
+
+    if ($result) {
+        wp_send_json_success();
+    } else {
+        wp_send_json_error();
+    }
+}
+// Добавление мета-данных в данные заказа
+add_action('woocommerce_checkout_create_order_line_item', 'add_recharge_amount_to_order_items', 10, 4);
+function add_recharge_amount_to_order_items($item, $cart_item_key, $values, $order) {
+    if (isset($values['recharge_amount'])) {
+        $item->add_meta_data('recharge_amount', $values['recharge_amount']);
     }
 }

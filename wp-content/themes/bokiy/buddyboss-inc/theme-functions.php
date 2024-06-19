@@ -90,6 +90,7 @@ function buddyboss_setup() {
 		
 		'header-my-account'	 => __( 'My Profile', 'boss' ),
 		'header_menu'           => __('Header Menu', 'boss'),
+		'header_mobile_menu'           => __('Header Mobile Menu', 'boss'),
 		'header_features_menu'  => __('Header Features Menu', 'boss'),
 		'side_menu'             => __('Side Menu', 'boss'),
 		'footer_menu'           => __( 'Footer', 'boss' )
@@ -5022,7 +5023,7 @@ function display_custom_order_meta_columns($column) {
             $ad_data = get_post_meta($product_id, 'ad_data', true); // предполагаем, что 'ad_data' ключ мета-поля
             
             if (!empty($ad_data)) {
-                echo '<ul>';
+                echo '<ul class="table-custom-ad-dataa">';
                 foreach ($ad_data as $key => $value) {
                     echo '<li><strong>' . esc_html($key) . ':</strong> ' . esc_html($value) . '</li>';
                 }
@@ -5051,3 +5052,168 @@ function display_custom_meta_fields_in_order($order) {
         }
     }
 }
+
+function custom_login_generator_script() {
+    ?>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            var nameField = document.getElementById('field_523');
+            var phoneField = document.getElementById('field_522');
+            var loginField = document.getElementById('field_1');
+            var hiddenUsernameField = document.getElementById('signup_username');
+            var hiddenEmailField = document.getElementById('signup_email');
+
+            function transliterate(text) {
+                var cyrillicToLatinMap = {
+                    'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e', 'ё': 'yo', 'ж': 'zh', 'з': 'z', 'и': 'i', 
+                    'й': 'y', 'к': 'k', 'л': 'l', 'м': 'm', 'н': 'n', 'о': 'o', 'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 
+                    'у': 'u', 'ф': 'f', 'х': 'kh', 'ц': 'ts', 'ч': 'ch', 'ш': 'sh', 'щ': 'shch', 'ы': 'y', 'э': 'e', 
+                    'ю': 'yu', 'я': 'ya', 'ь': '', 'ъ': '', 'А': 'A', 'Б': 'B', 'В': 'V', 'Г': 'G', 'Д': 'D', 'Е': 'E', 
+                    'Ё': 'Yo', 'Ж': 'Zh', 'З': 'Z', 'И': 'I', 'Й': 'Y', 'К': 'K', 'Л': 'L', 'М': 'M', 'Н': 'N', 'О': 'O', 
+                    'П': 'P', 'Р': 'R', 'С': 'S', 'Т': 'T', 'У': 'U', 'Ф': 'F', 'Х': 'Kh', 'Ц': 'Ts', 'Ч': 'Ch', 'Ш': 'Sh', 
+                    'Щ': 'Shch', 'Ы': 'Y', 'Э': 'E', 'Ю': 'Yu', 'Я': 'Ya', 'Ь': '', 'Ъ': ''
+                };
+
+                return text.split('').map(function(char) {
+                    return cyrillicToLatinMap[char] || char;
+                }).join('');
+            }
+
+            function generateLogin() {
+                var name = nameField.value.trim();
+                var phone = phoneField.value.trim();
+                var transliteratedName = transliterate(name.toLowerCase().replace(/\s+/g, ''));
+                var suggestedLogin = transliteratedName + phone.slice(-4); // Use the last 4 digits of the phone number
+
+                // AJAX call to check if the suggested login is unique
+                jQuery.ajax({
+                    url: '<?php echo admin_url('admin-ajax.php'); ?>',
+                    method: 'POST',
+                    data: {
+                        action: 'check_unique_login',
+                        suggested_login: suggestedLogin
+                    },
+                    success: function(response) {
+                        if (response.unique) {
+                            loginField.value = suggestedLogin;
+                            hiddenUsernameField.value = suggestedLogin;
+                            hiddenEmailField.value = suggestedLogin + '@boqiy.uz';
+                        } else {
+                            // If not unique, append a random number
+                            var uniqueLogin = suggestedLogin + Math.floor(Math.random() * 100);
+                            loginField.value = uniqueLogin;
+                            hiddenUsernameField.value = uniqueLogin;
+                            hiddenEmailField.value = uniqueLogin + '@boqiy.uz';
+                        }
+                    }
+                });
+            }
+
+            nameField.addEventListener('input', generateLogin);
+            phoneField.addEventListener('input', generateLogin);
+        });
+    </script>
+    <?php
+}
+add_action('wp_footer', 'custom_login_generator_script');
+
+
+
+
+function check_unique_login() {
+    global $wpdb;
+
+    $suggested_login = sanitize_text_field($_POST['suggested_login']);
+    $user = get_user_by('login', $suggested_login);
+
+    if ($user) {
+        wp_send_json_success(['unique' => false]);
+    } else {
+        wp_send_json_success(['unique' => true]);
+    }
+
+    wp_die();
+}
+add_action('wp_ajax_check_unique_login', 'check_unique_login');
+add_action('wp_ajax_nopriv_check_unique_login', 'check_unique_login');
+
+
+
+function custom_registration_validation_script() {
+    ?>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            var form = document.getElementById('youzify_membership_signup_form');
+
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                var phoneField = document.getElementById('field_522');
+                var phone_number = phoneField.value.trim();
+
+                // AJAX call to check phone number limit
+                jQuery.ajax({
+                    url: '<?php echo admin_url('admin-ajax.php'); ?>',
+                    method: 'POST',
+                    data: {
+                        action: 'check_phone_number_limit',
+                        billing_phone: phone_number
+                    },
+                    success: function(response) {
+                        if (response.success) {
+                            // Create a hidden input field to store the success state
+                            var hiddenInput = document.createElement('input');
+                            hiddenInput.type = 'hidden';
+                            hiddenInput.name = 'phone_validation_passed';
+                            hiddenInput.value = '1';
+                            form.appendChild(hiddenInput);
+
+                            // Submit the form
+                            form.submit();
+                        } else {
+                            alert(response.data.message);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+    <?php
+}
+// add_action('wp_footer', 'custom_registration_validation_script');
+
+function check_phone_number_limit() {
+    if (isset($_POST['billing_phone'])) {
+        global $wpdb;
+        $phone_number = sanitize_text_field($_POST['billing_phone']);
+
+        // Count the number of users with the same phone number
+        $users = get_users(array(
+            'meta_key' => 'billing_phone',
+            'meta_value' => $phone_number,
+            'number' => -1,
+            'count_total' => true
+        ));
+
+        if (count($users) >= 2) {
+            wp_send_json_error(array('message' => 'На этот номер телефона '. $phone_number  .' можно зарегистрировать не более двух аккаунтов.'));
+        } else {
+            wp_send_json_success();
+        }
+    } else {
+        wp_send_json_error(array('message' => 'Не указан номер телефона.'));
+    }
+
+    wp_die();
+}
+add_action('wp_ajax_check_phone_number_limit', 'check_phone_number_limit');
+add_action('wp_ajax_nopriv_check_phone_number_limit', 'check_phone_number_limit');
+
+
+function save_custom_user_meta($user_id) {
+    if (isset($_POST['billing_phone'])) {
+        update_user_meta($user_id, 'billing_phone', sanitize_text_field($_POST['billing_phone']));
+    }
+}
+add_action('user_register', 'save_custom_user_meta');
+

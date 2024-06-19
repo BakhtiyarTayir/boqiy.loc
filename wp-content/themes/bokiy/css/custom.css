@@ -456,3 +456,71 @@ input#shipping_method_0_per_product.styled+label {left: 0 !important;}
 p.stock.in-stock {
     display: none !important;
 }
+
+ul.header-mobile-menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.header-activity {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+ul.header-mobile-menu li {
+    color: #fff;
+    margin-right: 10px;
+}
+ul.header-mobile-menu li a {
+    color: #fff;
+
+
+}
+
+.row.buttons-row p:nth-child(2) {
+    font-size: 12px;
+}
+
+
+#youzify .activity-meta .social-share-button {
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#youzify .activity-meta a:before, #youzify .activity-meta i {
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    button.bp-like-button {
+        background: transparent;
+        padding: 0;
+    }
+    #youzify .activity-meta {
+        display: flex;
+        padding: 16px 10px!important;
+    }
+    #youzify .activity-meta a:before {
+        margin-bottom: 0!important;
+    }
+
+    #youzify .activity-meta a {
+        padding: 0!important;
+    }
+    #youzify .activity-meta a.button:first-child:nth-last-of-type(3), #youzify .activity-meta a.button:first-child:nth-last-of-type(3)~a.button {
+        width: 25%!important;
+    }
+}
+
+div#__replain_widget {
+    display: none!important;
+}
